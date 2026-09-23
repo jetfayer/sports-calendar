@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T17:04:32.818771Z",
+  "updated_at": "2026-09-23T18:36:57.912197Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -5642,6 +5642,38 @@
       "source": "FA Cup"
     },
     {
+      "id": "2609854",
+      "name": "Bedford Town vs Wingate and Finchley",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T14:00:00Z",
+      "home": "Bedford Town",
+      "away": "Wingate and Finchley",
+      "venue": "The New Eyrie",
+      "country": "England",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
       "id": "2608550",
       "name": "Brackley Town vs Chelmsford City",
       "sport": "Soccer",
@@ -5654,6 +5686,38 @@
       "venue": "St James Park Brackley",
       "country": "England",
       "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
+      "id": "2609851",
+      "name": "Brentwood Town vs Dagenham and Redbridge",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T14:00:00Z",
+      "home": "Brentwood Town",
+      "away": "Dagenham and Redbridge",
+      "venue": "The Brentwood Centre Arena",
+      "country": "England",
+      "status": "",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -5834,6 +5898,102 @@
       "source": "FA Cup"
     },
     {
+      "id": "2609855",
+      "name": "Cray Wanderers vs Chippenham Town",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T14:00:00Z",
+      "home": "Cray Wanderers",
+      "away": "Chippenham Town",
+      "venue": "Flamingo Park Chislehurst",
+      "country": "England",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
+      "id": "2609857",
+      "name": "Crowborough Athletic vs Wimborne Town",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T14:00:00Z",
+      "home": "Crowborough Athletic",
+      "away": "Wimborne Town",
+      "venue": "Crowborough Community Stadium",
+      "country": "England",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
+      "id": "2609856",
+      "name": "Dorking Wanderers vs Chatham Town",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T14:00:00Z",
+      "home": "Dorking Wanderers",
+      "away": "Chatham Town",
+      "venue": "Meadowbank Stadium Dorking",
+      "country": "England",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
       "id": "2608547",
       "name": "Ebbsfleet United vs Sholing",
       "sport": "Soccer",
@@ -5846,6 +6006,38 @@
       "venue": "Kuflink Stadium",
       "country": "England",
       "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
+      "id": "2609849",
+      "name": "Gainsborough Trinity vs Anstey Nomads",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T14:00:00Z",
+      "home": "Gainsborough Trinity",
+      "away": "Anstey Nomads",
+      "venue": "The Northolme",
+      "country": "England",
+      "status": "",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -6506,6 +6698,70 @@
       "source": "FA Cup"
     },
     {
+      "id": "2609850",
+      "name": "Truro City vs Cirencester",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T14:00:00Z",
+      "home": "Truro City",
+      "away": "Cirencester",
+      "venue": "Truro City Stadium",
+      "country": "England",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
+      "id": "2609852",
+      "name": "Uxbridge vs Hungerford Town",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T14:00:00Z",
+      "home": "Uxbridge",
+      "away": "Hungerford Town",
+      "venue": "Honeycroft",
+      "country": "England",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
       "id": "2608565",
       "name": "Weymouth vs South East Dons",
       "sport": "Soccer",
@@ -6518,6 +6774,38 @@
       "venue": "Bob Lucas Stadium",
       "country": "England",
       "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
+      "id": "2609853",
+      "name": "Worksop Town vs FC United of Manchester",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T14:00:00Z",
+      "home": "Worksop Town",
+      "away": "FC United of Manchester",
+      "venue": "Sandy Lane",
+      "country": "England",
+      "status": "",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -79719,6 +80007,338 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2594924",
+      "name": "Ferencváros vs Juventus",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "Ferencváros",
+      "away": "Juventus",
+      "venue": "Groupama Aréna",
+      "country": "Hungary",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Group",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "UEFA Europa League",
+        "Juventus · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "UEFA Europa League"
+    },
+    {
+      "id": "2594857",
+      "name": "Jagiellonia Białystok vs Lyon",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "Jagiellonia Białystok",
+      "away": "Lyon",
+      "venue": "Chorten Arena",
+      "country": "Poland",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "UEFA Europa League",
+        "Lyon · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "UEFA Europa League"
+    },
+    {
+      "id": "2594865",
+      "name": "NEC Nijmegen vs Benfica",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "NEC Nijmegen",
+      "away": "Benfica",
+      "venue": "Goffertstadion",
+      "country": "The Netherlands",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "UEFA Europa League",
+        "Benfica · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "UEFA Europa League"
+    },
+    {
+      "id": "2594882",
+      "name": "Real Sociedad vs Viktoria Plzeň",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "Real Sociedad",
+      "away": "Viktoria Plzeň",
+      "venue": "Reale Arena",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "UEFA Europa League",
+        "Real Sociedad · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "UEFA Europa League"
+    },
+    {
+      "id": "2594852",
+      "name": "Lillestrøm vs Bournemouth",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "Lillestrøm",
+      "away": "Bournemouth",
+      "venue": "Åråsen Stadion",
+      "country": "Norway",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "UEFA Europa League",
+        "AFC Bournemouth · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "UEFA Europa League"
+    },
+    {
+      "id": "2594888",
+      "name": "Olympiacos vs Hoffenheim",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "Olympiacos",
+      "away": "Hoffenheim",
+      "venue": "Karaiskakis Stadium",
+      "country": "Greece",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "UEFA Europa League",
+        "Olympiacos · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "UEFA Europa League"
+    },
+    {
+      "id": "2594947",
+      "name": "Ararat-Armenia vs Celje",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "Ararat-Armenia",
+      "away": "Celje",
+      "venue": "Yerevan Football Academy",
+      "country": "Armenia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "UEFA Europa League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "UEFA Europa League"
+    },
+    {
+      "id": "2594887",
+      "name": "Beşiktaş vs Union Saint-Gilloise",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "Beşiktaş",
+      "away": "Union Saint-Gilloise",
+      "venue": "Tüpraş Stadyumu",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "UEFA Europa League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "UEFA Europa League"
+    },
+    {
+      "id": "2594918",
+      "name": "Sturm Graz vs OFI",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "Sturm Graz",
+      "away": "OFI",
+      "venue": "Merkur Arena Graz",
+      "country": "Austria",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "UEFA Europa League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "UEFA Europa League"
+    },
+    {
+      "id": "2565676",
+      "name": "Fenerbahçe Basketbol vs Besiktas Basketbol",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-01-21T17:45:00Z",
+      "home": "Fenerbahçe Basketbol",
+      "away": "Besiktas Basketbol",
+      "venue": "Ülker Sports Arena",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -79807,8 +80427,8 @@
       "seasons_tried": [
         "2026-2027"
       ],
-      "received": 269,
-      "upcoming": 30,
+      "received": 278,
+      "upcoming": 39,
       "status": "OK",
       "error": ""
     },
@@ -79914,7 +80534,7 @@
         "2026-2027"
       ],
       "received": 224,
-      "upcoming": 90,
+      "upcoming": 99,
       "status": "OK",
       "error": ""
     },
@@ -80242,7 +80862,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 231,
+      "upcoming": 232,
       "status": "OK",
       "error": ""
     },
