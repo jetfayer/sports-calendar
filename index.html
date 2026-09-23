@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sports Calendar</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">SPORTS PLANNER</p>
+        <h1>Upcoming sports events</h1>
+        <p id="updated" class="muted">Loading…</p>
+      </div>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search team, league, event…" />
+        <select id="sportFilter">
+          <option value="">All sports</option>
+        </select>
+        <select id="leagueFilter">
+          <option value="">All leagues</option>
+        </select>
+      </div>
+    </header>
+
+    <section class="summary">
+      <div><strong id="eventCount">0</strong><span>events</span></div>
+      <div><strong id="dateRange">—</strong><span>date range</span></div>
+    </section>
+
+    <section id="calendar" class="calendar"></section>
+    <div id="empty" class="empty" hidden>No matching upcoming events.</div>
+
+    <footer>
+      Data source: TheSportsDB. Times are displayed in your browser timezone.
+    </footer>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

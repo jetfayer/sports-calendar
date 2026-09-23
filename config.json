@@ -1,0 +1,19 @@
+{
+  "days_ahead": 60,
+  "leagues": [
+    {
+      "name": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "sport": "Basketball",
+      "enabled": true
+    },
+    {
+      "name": "English Premier League",
+      "league_id": "4328",
+      "season": "2026-2027",
+      "sport": "Soccer",
+      "enabled": true
+    }
+  ]
+}
