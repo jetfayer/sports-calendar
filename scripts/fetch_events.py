@@ -117,10 +117,10 @@ def aliases_match(value,aliases):
     n=norm(value)
     return any(n==norm(a) for a in aliases)
 
-def canonical_team(value,definitions):
-    for row in definitions:
+def club_definition(value):
+    for row in CONFIG.get("football_clubs",[]):
         if aliases_match(value,row.get("aliases",[row["name"]])):
-            return row["name"]
+            return row
     return None
 
 def exact_pair(home,away,pair):
@@ -182,6 +182,7 @@ def score_event(e,source):
     score=competition_score_for(source,e)+stage_score(stage)
     reasons=[];tags=[];hot_triggers=[]
     has_top=False
+    auto_interesting=False
 
     if competition_score_for(source,e)>0:
         add_reason(reasons,tags,first(e,"strLeague","league",default=source["name"]),"Major competition")
@@ -193,30 +194,41 @@ def score_event(e,source):
     home=first(e,"strHomeTeam","home")
     away=first(e,"strAwayTeam","away")
 
-    # Football: exactly one matchup layer — 1 top club / 2 top clubs / rivalry.
+    # Football club relevance: enduring brands + established challengers + recent momentum clubs.
+    # The club layer is additive by participant, but rivalries replace it rather than stacking on top.
     if sport=="Soccer":
-        defs=CONFIG.get("top_football_clubs",[])
-        ch=canonical_team(home,defs)
-        ca=canonical_team(away,defs)
-        top_count=sum(bool(x) for x in (ch,ca))
-        has_top=top_count>0
+        home_def=club_definition(home)
+        away_def=club_definition(away)
+        home_name=home_def["name"] if home_def else None
+        away_name=away_def["name"] if away_def else None
+        has_top=bool(home_def or away_def)
+        auto_interesting=bool(
+            (home_def and home_def.get("auto_interesting")) or
+            (away_def and away_def.get("auto_interesting"))
+        )
 
         rivalry=None
-        if ch and ca:
+        if home_name and away_name:
             for row in CONFIG.get("football_rivalries",[]):
-                if exact_pair(ch,ca,row.get("teams",[])):
-                    rivalry=row;break
+                if exact_pair(home_name,away_name,row.get("teams",[])):
+                    rivalry=row
+                    break
 
         if rivalry:
+            # One exact matchup layer only: rivalry replaces club points.
             score+=40
             add_reason(reasons,tags,rivalry.get("label","Marquee rivalry"),"Rivalry")
             if rivalry.get("hot"): hot_triggers.append("Marquee rivalry")
-        elif top_count>=2:
-            score+=25
-            add_reason(reasons,tags,"Two priority clubs","Top matchup")
-        elif top_count==1:
-            score+=10
-            add_reason(reasons,tags,"Priority club","Top participant")
+        else:
+            participant_score=0
+            for club in (home_def,away_def):
+                if not club:
+                    continue
+                participant_score+=int(club.get("score",0))
+                tier=club.get("tier","")
+                tag={"A":"Marquee club","B":"Major club","C":"Momentum club"}.get(tier,"Relevant club")
+                add_reason(reasons,tags,f'{club["name"]} · Tier {tier}',tag)
+            score+=participant_score
 
         # DRC national team: competitive fixtures are always strong local events.
         source_name=source.get("name","")
@@ -226,6 +238,7 @@ def score_event(e,source):
             score+=60 if competitive else 35
             add_reason(reasons,tags,"DR Congo competitive match" if competitive else "DR Congo friendly","DRC")
             if competitive: hot_triggers.append("DRC competitive match")
+            auto_interesting=True
 
         # DRC clubs: continental matches are more relevant than normal domestic fixtures.
         is_drc_club=source_name in ("TP Mazembe","AS Vita Club") or "tp mazembe" in low or "vita club" in low
@@ -235,6 +248,7 @@ def score_event(e,source):
             score+=bonus
             add_reason(reasons,tags,"DRC club — continental" if group=="Continental" else "DRC club","DRC")
             has_top=True
+            auto_interesting=True
 
         league_name=first(e,"strLeague","league",default=source["name"])
         major_final=stage=="Final" and any(norm(x)==norm(league_name) for x in CONFIG.get("major_football_finals",[]))
@@ -242,8 +256,9 @@ def score_event(e,source):
             hot_triggers.append("Major football final")
             add_reason(reasons,tags,"Major football final","Final")
 
-        if stage in ("SF","Final") and top_count>=2:
-            hot_triggers.append("Top-vs-top late stage")
+        # Late-stage high-profile matchup can be HOT even if it is not a classic derby.
+        if stage in ("SF","Final") and home_def and away_def and (home_def.get("tier") in ("A","B")) and (away_def.get("tier") in ("A","B")):
+            hot_triggers.append("High-profile late-stage matchup")
 
     elif sport=="Basketball":
         defs=CONFIG.get("top_nba_teams",[])
@@ -317,7 +332,7 @@ def score_event(e,source):
 
     drc_focus=bool(source.get("drc_focus")) or "DRC" in tags
     score=min(score,100)
-    level="hot" if hot_triggers else "interesting" if score>=int(CONFIG.get("interesting_threshold",40)) else "normal"
+    level="hot" if hot_triggers else "interesting" if (auto_interesting or score>=int(CONFIG.get("interesting_threshold",20))) else "normal"
     return {
         "score":score,"level":level,"reasons":reasons,"tags":tags,"hot_triggers":list(dict.fromkeys(hot_triggers)),
         "drc_focus":drc_focus,"has_top_participant":has_top,"stage":stage

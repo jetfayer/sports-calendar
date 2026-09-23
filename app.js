@@ -1,5 +1,5 @@
 const state={
-  data:[],meta:{},search:"",sport:"",group:"",region:"",league:"",stage:"",reason:"",
+  data:[],meta:{},search:"",sport:"",group:"",region:"",league:"",stage:"",reason:"",minScore:0,
   drcOnly:false,topOnly:false,mode:"interesting",from:null,to:null
 };
 
@@ -33,6 +33,7 @@ function inBaseFilters(e){
   if(state.league&&e.league!==state.league)return false;
   if(state.stage&&e.stage!==state.stage)return false;
   if(state.reason&&!(e.priority_tags||[]).includes(state.reason))return false;
+  if(Number(e.importance||0)<Number(state.minScore||0))return false;
   if(state.drcOnly&&!e.drc_focus)return false;
   if(state.topOnly&&!e.has_top_participant)return false;
   if(q){
@@ -163,6 +164,7 @@ $("#regionFilter").addEventListener("change",e=>{state.region=e.target.value;ren
 $("#leagueFilter").addEventListener("change",e=>{state.league=e.target.value;render()});
 $("#stageFilter").addEventListener("change",e=>{state.stage=e.target.value;render()});
 $("#reasonFilter").addEventListener("change",e=>{state.reason=e.target.value;render()});
+$("#scoreFilter").addEventListener("change",e=>{state.minScore=Number(e.target.value||0);render()});
 $("#drcOnly").addEventListener("change",e=>{state.drcOnly=e.target.checked;render()});
 $("#topOnly").addEventListener("change",e=>{state.topOnly=e.target.checked;render()});
 $("#dateFrom").addEventListener("change",e=>{state.from=startOfDay(e.target.value);$$("[data-days]").forEach(b=>b.classList.remove("active"));render()});

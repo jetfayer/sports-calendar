@@ -1,4 +1,4 @@
-# Sports Calendar v4
+# Sports Calendar v4.2
 
 V4 finalizes the importance logic and adds the requested filters.
 
@@ -77,3 +77,25 @@ Keep the existing `.github/workflows/update.yml`.
 
 Then run:
 Actions → Update sports calendar → Run workflow.
+
+
+## v4.2 — broader football relevance
+
+Football club relevance is now split into three tiers:
+
+- **Tier A / Marquee (15 pts)** — enduring global/high-attention clubs. Bad recent league form does not remove a club from this tier; e.g. Tottenham and Manchester United remain relevant.
+- **Tier B / Major (10 pts)** — established challengers and recurrent European clubs, including Newcastle, Aston Villa, Dortmund-level peers outside the very biggest brands, Leverkusen, Atalanta, Lens, Benfica, Ajax, etc.
+- **Tier C / Momentum (6 pts)** — recent overperformers / strong recent story clubs such as Nottingham Forest, Bournemouth, Crystal Palace, Sunderland, Stuttgart, Freiburg, Mainz, Bologna, Brest and Strasbourg.
+
+Any Tier A/B/C football club is enough to make the fixture `Interesting`; the score still distinguishes how strong the signal is.
+
+### Matchup scoring
+- Normal club match: sum the two participants' club scores.
+- Exact rivalry: **40 pts instead of participant points** — no double counting.
+- Competition and stage scores remain separate.
+- HOT still requires a strong explicit trigger.
+
+### Score filter
+The UI now has `All scores / 5+ / 10+ / 15+ / 20+ / 30+ / 40+ / 50+`.
+
+Club relevance list timestamp: 2026-09-23.
