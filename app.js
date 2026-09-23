@@ -1,6 +1,6 @@
 const state={
   data:[],meta:{},search:"",sport:"",group:"",region:"",league:"",stage:"",reason:"",minScore:0,
-  drcOnly:false,topOnly:false,mode:"interesting",from:null,to:null
+  drcOnly:false,topOnly:false,mode:"watchplus",from:null,to:null
 };
 
 const $=s=>document.querySelector(s);
@@ -55,15 +55,16 @@ function dateRows(){
 function baseRows(){return dateRows().filter(inBaseFilters).sort((a,b)=>a._date-b._date||(b.importance||0)-(a.importance||0))}
 function filteredRows(){
   return baseRows().filter(e=>
-    state.mode==="all"||
-    state.mode==="interesting"&&e.importance_level!=="normal"||
-    state.mode==="hot"&&e.importance_level==="hot"
+    state.mode==="all" ||
+    state.mode==="watchplus" && ["watch","interesting","hot"].includes(e.importance_level) ||
+    state.mode==="interesting" && ["interesting","hot"].includes(e.importance_level) ||
+    state.mode==="hot" && e.importance_level==="hot"
   );
 }
 
 function eventCard(e){
   const lvl=e.importance_level||"normal";
-  const badge=lvl==="hot"?"🔥 HOT":lvl==="interesting"?"⭐ Interesting":"";
+  const badge=lvl==="hot"?"🔥 HOT":lvl==="interesting"?"⭐ Interesting":lvl==="watch"?"👀 Watch":"";
   const reasons=(e.importance_reasons||[]).slice(0,4).join(" · ");
   return `<article class="card ${lvl} ${e.drc_focus?"drc":""}">
     <div><div class="time">${esc(fmtTime(e._date))}</div><div class="sport">${esc(e.sport||"")}</div></div>
@@ -116,7 +117,8 @@ function renderHealth(){
 function render(){
   const base=baseRows(),rows=filteredRows();
   $("#eventCount").textContent=base.length;
-  $("#interestingCount").textContent=base.filter(x=>x.importance_level!=="normal").length;
+  $("#watchCount").textContent=base.filter(x=>x.importance_level==="watch").length;
+  $("#interestingCount").textContent=base.filter(x=>x.importance_level==="interesting").length;
   $("#hotCount").textContent=base.filter(x=>x.importance_level==="hot").length;
   $("#empty").hidden=rows.length!==0;
   renderDrc();

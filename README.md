@@ -1,70 +1,110 @@
-# Sports Calendar v4.2
+# Sports Calendar v5
 
-V4 finalizes the importance logic and adds the requested filters.
+V5 introduces a four-level importance ladder and fixes the basketball regression from v4.2.
 
-## Importance model
+## Importance ladder
 
-### Football matchup layer
-Only one matchup rule is applied:
-- one priority club: +10
-- two priority clubs: +25 total
-- exact marquee rivalry: +40 instead of +25
+- **Normal** — curated coverage, but no special signal.
+- **👀 Watch** — worth noticing; one relevant participant or a moderately relevant event.
+- **⭐ Interesting** — stronger promo candidate: strong matchup, stronger stage, or score >= 25.
+- **🔥 Hot** — requires an explicit strong trigger. Small bonuses cannot accidentally create HOT.
 
-This prevents double-counting. For example, `Inter Milan vs Shakhtar Donetsk` is not a Milan derby because rivalries are checked by the exact home/away pair.
+Default site view is **Watch+**, which shows Watch + Interesting + Hot.
 
-### Stage layer
-- QF: +10
-- SF: +20
-- Final: +30
-- Playoffs: +10
+## Football clubs
 
-### HOT
-HOT is not produced by accumulating many small bonuses. It requires an explicit strong trigger:
-- selected exact marquee rivalry
-- DRC competitive national-team match
-- major football final
-- top-vs-top SF/Final
-- NBA Finals / selected major basketball final
-- UFC/boxing title fight
-- Grand Slam final, selected top tennis late-stage match
-- manual feature
+The broader v4.2 club list remains:
+- Tier A / marquee: 15 pts
+- Tier B / major: 10 pts
+- Tier C / momentum: 6 pts
 
-### Tennis
-The ATP/WTA source is filtered first. Only major tournaments are allowed into the calendar:
+A single relevant club now produces **Watch**, not automatically Interesting.
+
+Examples:
+- Dortmund vs Werder → Watch
+- Newcastle vs Burnley → Watch
+- Arsenal vs Liverpool → Interesting
+- Real Madrid vs Barcelona → Hot via exact rivalry trigger
+- Inter vs Shakhtar in UCL → Interesting, not Hot
+
+## National teams
+
+National teams now have their own A/B/C tiers.
+
+Examples:
+- Belgium vs France, Nations League → Interesting
+- France vs a low-priority opponent → Watch
+- Morocco vs Senegal, AFCON → Interesting
+- DR Congo national-team match → **always Hot for now**
+
+African powers get dedicated relevance in the DRC-facing model: Morocco, Senegal, Nigeria, Egypt, Algeria, Côte d'Ivoire, Cameroon, Ghana, Tunisia, South Africa and Mali are explicitly tracked.
+
+## Basketball
+
+Basketball is restored. The v4.2 `canonical_team()` regression is removed.
+
+Basketball now has its own relevant-team list:
+- marquee NBA teams
+- current/recurring NBA contenders
+- major EuroLeague clubs
+
+One relevant team → Watch; a strong two-team matchup can become Interesting; NBA/EuroLeague/FIBA/AfroBasket finals can become Hot.
+
+## Tennis
+
+Coverage remains intentionally strict:
 - Grand Slams
 - ATP/WTA Finals
-- configured Masters 1000 / WTA 1000-level tournaments
+- configured ATP Masters 1000 / WTA 1000-level events
 
-A top player at a small tournament no longer gets into the calendar just because of the player name. Within major tournaments, top-player matchups and late stages drive highlighting.
+Highlighting:
+- one top player → Watch
+- top-player matchup → Interesting
+- QF → Watch
+- SF → Interesting
+- Grand Slam Final → Hot
+- Grand Slam top-player SF → Hot
+- 1000 Final with two top players → Hot
 
-## Added football cups
-- FA Cup
-- EFL / Carabao Cup
-- Copa del Rey
-- DFB-Pokal
-- Coppa Italia
-- Coupe de France
+Small ATP/WTA tournaments are not admitted into the calendar.
 
-Early cup rounds get no automatic importance bonus. QF/SF/Final stage scoring applies.
+## Formula 1
+
+- Practice → Normal
+- Qualifying → Watch
+- Sprint → Watch
+- Regular race → Watch
+- marquee GP (Monaco, Silverstone, Monza, etc.) → Interesting
+- no automatic F1 Hot without standings/context; manual HOT remains possible
+
+## UFC / Boxing
+
+- one priority fighter → Watch
+- two priority fighters / strong main event → Interesting
+- title fight / world title / unification / undisputed → Hot
+
+Not every boxing event is Hot.
 
 ## Filters
+
+Existing filters stay, including:
 - Sport
-- Competition type: League / Cup / Continental / National teams / Tour-Event
+- Competition type
 - Region
 - Competition
 - Stage
 - Priority reason
 - DRC only
 - Top participants only
-- All / Interesting / Hot
-
-## Data health
-`NO UPCOMING` replaces the misleading `EMPTY` status.
+- Score minimum
+- All / Watch+ / Interesting / Hot
 
 ## No AI/context layer
-V4 intentionally does not implement news, standings, milestones, title-race context, or OpenAI API calls.
+
+V5 intentionally does **not** implement news, milestones, standings, title-race or relegation context.
 
 ## Deploy
+
 Replace:
 - `index.html`
 - `styles.css`
@@ -73,29 +113,4 @@ Replace:
 - `scripts/fetch_events.py`
 - `README.md`
 
-Keep the existing `.github/workflows/update.yml`.
-
-Then run:
-Actions → Update sports calendar → Run workflow.
-
-
-## v4.2 — broader football relevance
-
-Football club relevance is now split into three tiers:
-
-- **Tier A / Marquee (15 pts)** — enduring global/high-attention clubs. Bad recent league form does not remove a club from this tier; e.g. Tottenham and Manchester United remain relevant.
-- **Tier B / Major (10 pts)** — established challengers and recurrent European clubs, including Newcastle, Aston Villa, Dortmund-level peers outside the very biggest brands, Leverkusen, Atalanta, Lens, Benfica, Ajax, etc.
-- **Tier C / Momentum (6 pts)** — recent overperformers / strong recent story clubs such as Nottingham Forest, Bournemouth, Crystal Palace, Sunderland, Stuttgart, Freiburg, Mainz, Bologna, Brest and Strasbourg.
-
-Any Tier A/B/C football club is enough to make the fixture `Interesting`; the score still distinguishes how strong the signal is.
-
-### Matchup scoring
-- Normal club match: sum the two participants' club scores.
-- Exact rivalry: **40 pts instead of participant points** — no double counting.
-- Competition and stage scores remain separate.
-- HOT still requires a strong explicit trigger.
-
-### Score filter
-The UI now has `All scores / 5+ / 10+ / 15+ / 20+ / 30+ / 40+ / 50+`.
-
-Club relevance list timestamp: 2026-09-23.
+Keep `.github/workflows/update.yml`, then run the existing GitHub Action.

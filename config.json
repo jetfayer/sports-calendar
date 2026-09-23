@@ -1,7 +1,7 @@
 {
   "days_ahead": 120,
   "default_view_days": 30,
-  "interesting_threshold": 20,
+  "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "league_sources": [
     {
@@ -794,14 +794,24 @@
     "Alex Pereira",
     "Ilia Topuria",
     "Khamzat Chimaev",
-    "Tom Aspinall"
+    "Tom Aspinall",
+    "Conor McGregor",
+    "Sean O'Malley",
+    "Dricus du Plessis",
+    "Alexander Volkanovski",
+    "Charles Oliveira"
   ],
   "priority_boxers": [
     "Oleksandr Usyk",
     "Canelo Alvarez",
     "Naoya Inoue",
     "Terence Crawford",
-    "Anthony Joshua"
+    "Anthony Joshua",
+    "Tyson Fury",
+    "Dmitry Bivol",
+    "Artur Beterbiev",
+    "Gervonta Davis",
+    "Jesse Rodriguez"
   ],
   "tennis_top_players": [
     "Jannik Sinner",
@@ -1624,6 +1634,647 @@
       "tier": "C",
       "score": 6,
       "auto_interesting": true
+    }
+  ],
+  "version": "5.0",
+  "watch_threshold": 8,
+  "national_team_relevance_updated": "2026-09-23",
+  "national_teams": [
+    {
+      "name": "Spain",
+      "aliases": [
+        "Spain"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Europe"
+    },
+    {
+      "name": "Argentina",
+      "aliases": [
+        "Argentina"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "South America"
+    },
+    {
+      "name": "France",
+      "aliases": [
+        "France"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Europe"
+    },
+    {
+      "name": "England",
+      "aliases": [
+        "England"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Europe"
+    },
+    {
+      "name": "Brazil",
+      "aliases": [
+        "Brazil"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "South America"
+    },
+    {
+      "name": "Portugal",
+      "aliases": [
+        "Portugal"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Europe"
+    },
+    {
+      "name": "Belgium",
+      "aliases": [
+        "Belgium"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Europe"
+    },
+    {
+      "name": "Netherlands",
+      "aliases": [
+        "Netherlands",
+        "Holland"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Europe"
+    },
+    {
+      "name": "Germany",
+      "aliases": [
+        "Germany"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Europe"
+    },
+    {
+      "name": "Italy",
+      "aliases": [
+        "Italy"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Europe"
+    },
+    {
+      "name": "Morocco",
+      "aliases": [
+        "Morocco"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Senegal",
+      "aliases": [
+        "Senegal"
+      ],
+      "tier": "A",
+      "score": 15,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Croatia",
+      "aliases": [
+        "Croatia"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Europe"
+    },
+    {
+      "name": "Switzerland",
+      "aliases": [
+        "Switzerland"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Europe"
+    },
+    {
+      "name": "Norway",
+      "aliases": [
+        "Norway"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Europe"
+    },
+    {
+      "name": "Denmark",
+      "aliases": [
+        "Denmark"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Europe"
+    },
+    {
+      "name": "Türkiye",
+      "aliases": [
+        "Türkiye",
+        "Turkey"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Europe"
+    },
+    {
+      "name": "Austria",
+      "aliases": [
+        "Austria"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Europe"
+    },
+    {
+      "name": "Mexico",
+      "aliases": [
+        "Mexico"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "North America"
+    },
+    {
+      "name": "United States",
+      "aliases": [
+        "United States",
+        "USA",
+        "United States of America"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "North America"
+    },
+    {
+      "name": "Canada",
+      "aliases": [
+        "Canada"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "North America"
+    },
+    {
+      "name": "Colombia",
+      "aliases": [
+        "Colombia"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "South America"
+    },
+    {
+      "name": "Uruguay",
+      "aliases": [
+        "Uruguay"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "South America"
+    },
+    {
+      "name": "Ecuador",
+      "aliases": [
+        "Ecuador"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "South America"
+    },
+    {
+      "name": "Japan",
+      "aliases": [
+        "Japan"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Asia"
+    },
+    {
+      "name": "South Korea",
+      "aliases": [
+        "South Korea",
+        "Korea Republic"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Asia"
+    },
+    {
+      "name": "Australia",
+      "aliases": [
+        "Australia"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Asia"
+    },
+    {
+      "name": "Nigeria",
+      "aliases": [
+        "Nigeria"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Egypt",
+      "aliases": [
+        "Egypt"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Algeria",
+      "aliases": [
+        "Algeria"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "aliases": [
+        "Côte d'Ivoire",
+        "Cote d'Ivoire",
+        "Ivory Coast"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Cameroon",
+      "aliases": [
+        "Cameroon"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Ghana",
+      "aliases": [
+        "Ghana"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Tunisia",
+      "aliases": [
+        "Tunisia"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "South Africa",
+      "aliases": [
+        "South Africa"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Mali",
+      "aliases": [
+        "Mali"
+      ],
+      "tier": "B",
+      "score": 10,
+      "region": "Africa",
+      "africa_marquee": true
+    },
+    {
+      "name": "Iran",
+      "aliases": [
+        "Iran",
+        "IR Iran"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Asia"
+    },
+    {
+      "name": "Saudi Arabia",
+      "aliases": [
+        "Saudi Arabia"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Asia"
+    },
+    {
+      "name": "Qatar",
+      "aliases": [
+        "Qatar"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Asia"
+    },
+    {
+      "name": "Paraguay",
+      "aliases": [
+        "Paraguay"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "South America"
+    },
+    {
+      "name": "Chile",
+      "aliases": [
+        "Chile"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "South America"
+    },
+    {
+      "name": "Serbia",
+      "aliases": [
+        "Serbia"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Europe"
+    },
+    {
+      "name": "Poland",
+      "aliases": [
+        "Poland"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Europe"
+    },
+    {
+      "name": "Ukraine",
+      "aliases": [
+        "Ukraine"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Europe"
+    },
+    {
+      "name": "Angola",
+      "aliases": [
+        "Angola"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Africa",
+      "africa_marquee": false
+    },
+    {
+      "name": "Zambia",
+      "aliases": [
+        "Zambia"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Africa",
+      "africa_marquee": false
+    },
+    {
+      "name": "Burkina Faso",
+      "aliases": [
+        "Burkina Faso"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Africa",
+      "africa_marquee": false
+    },
+    {
+      "name": "Cape Verde",
+      "aliases": [
+        "Cape Verde",
+        "Cabo Verde"
+      ],
+      "tier": "C",
+      "score": 6,
+      "region": "Africa",
+      "africa_marquee": false
+    }
+  ],
+  "drc_national_aliases": [
+    "DR Congo",
+    "Congo DR",
+    "Congo-Kinshasa",
+    "Democratic Republic of the Congo"
+  ],
+  "basketball_teams": [
+    {
+      "name": "Los Angeles Lakers",
+      "aliases": [
+        "Los Angeles Lakers",
+        "LA Lakers"
+      ],
+      "tier": "A",
+      "score": 15
+    },
+    {
+      "name": "Boston Celtics",
+      "aliases": [
+        "Boston Celtics"
+      ],
+      "tier": "A",
+      "score": 15
+    },
+    {
+      "name": "Golden State Warriors",
+      "aliases": [
+        "Golden State Warriors"
+      ],
+      "tier": "A",
+      "score": 15
+    },
+    {
+      "name": "New York Knicks",
+      "aliases": [
+        "New York Knicks"
+      ],
+      "tier": "A",
+      "score": 15
+    },
+    {
+      "name": "Oklahoma City Thunder",
+      "aliases": [
+        "Oklahoma City Thunder",
+        "OKC Thunder"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Denver Nuggets",
+      "aliases": [
+        "Denver Nuggets"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Dallas Mavericks",
+      "aliases": [
+        "Dallas Mavericks"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Milwaukee Bucks",
+      "aliases": [
+        "Milwaukee Bucks"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Cleveland Cavaliers",
+      "aliases": [
+        "Cleveland Cavaliers"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Minnesota Timberwolves",
+      "aliases": [
+        "Minnesota Timberwolves"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Miami Heat",
+      "aliases": [
+        "Miami Heat"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Phoenix Suns",
+      "aliases": [
+        "Phoenix Suns"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Los Angeles Clippers",
+      "aliases": [
+        "Los Angeles Clippers",
+        "LA Clippers"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Real Madrid Basketball",
+      "aliases": [
+        "Real Madrid Basketball",
+        "Real Madrid Baloncesto",
+        "Real Madrid"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Barcelona Basketball",
+      "aliases": [
+        "FC Barcelona Basketball",
+        "Barcelona Basketball",
+        "Barcelona"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Olympiacos Basketball",
+      "aliases": [
+        "Olympiacos BC",
+        "Olympiacos"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Panathinaikos Basketball",
+      "aliases": [
+        "Panathinaikos BC",
+        "Panathinaikos"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Fenerbahçe Basketball",
+      "aliases": [
+        "Fenerbahçe Basketball",
+        "Fenerbahce Basketball",
+        "Fenerbahçe"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Anadolu Efes",
+      "aliases": [
+        "Anadolu Efes"
+      ],
+      "tier": "B",
+      "score": 10
+    },
+    {
+      "name": "Monaco Basketball",
+      "aliases": [
+        "AS Monaco Basket",
+        "Monaco Basketball"
+      ],
+      "tier": "B",
+      "score": 10
     }
   ]
 }
