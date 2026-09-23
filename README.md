@@ -1,18 +1,61 @@
-# Sports Calendar
+# Sports Calendar v3
 
-A small personal sports-event calendar powered by TheSportsDB V2 and GitHub Actions.
+Personal sports-event calendar for CRM / promo planning.
 
-## Setup
+## Included coverage
 
-1. Add repository secret `THESPORTSDB_API_KEY`.
-2. Open **Actions → Update sports calendar → Run workflow** once.
-3. Enable **Settings → Pages → Deploy from a branch → main / (root)**.
-4. Edit `config.json` to add/remove tracked leagues.
+### Football — clubs
+- Premier League, La Liga, Serie A, Bundesliga, Ligue 1
+- UEFA Champions League, Europa League, Conference League
+- CAF Champions League, CAF Confederation Cup
+- DRC Ligue 1 / Linafoot lookup
+- Direct tracking: TP Mazembe, AS Vita Club
 
-The API key is never stored in the repository. GitHub Actions uses it only while fetching data.
+### Football — national teams
+- DR Congo direct tracking
+- UEFA Nations League
+- AFCON + AFCON Qualifying
+- FIFA World Cup
+- World Cup qualifying: CAF, UEFA, CONMEBOL, CONCACAF, AFC, OFC
+- Copa América, Gold Cup, Asian Cup
+- UEFA European Championship + qualifying
 
-### Current starter leagues
-- NBA — league ID `4387`, season `2026-2027`
-- English Premier League — league ID `4328`, season `2026-2027`
+### Other sports
+- NBA, EuroLeague, Basketball Africa League
+- FIBA Basketball World Cup, AfroBasket
+- UFC, Boxing
+- Formula 1
+- ATP, WTA
 
-The website displays event times in the visitor's browser timezone.
+## UI
+- Date From / To
+- 7 / 30 / 60 / 120 day shortcuts
+- Sport / Club-National-Individual / Region / Competition filters
+- Search
+- All / Interesting / Hot
+- Separate DRC Focus block
+- Data Health table showing exactly which configured sources resolve and return upcoming events
+
+## Important
+TheSportsDB coverage is not equally complete for every competition. V3 intentionally exposes this in **Data health** instead of silently pretending every configured source works.
+
+The script resolves league IDs from TheSportsDB dynamically and selects the most plausible current season. It then tries a second season only when the first has no upcoming events.
+
+## Deploy over the existing repo
+
+Upload/replace:
+- `index.html`
+- `styles.css`
+- `app.js`
+- `config.json`
+- `scripts/fetch_events.py`
+- `README.md`
+
+Do not change your existing `.github/workflows/update.yml`.
+
+Then:
+1. Commit changes
+2. Actions → Update sports calendar → Run workflow
+3. Wait for success
+4. Open GitHub Pages
+5. Expand **Data health** and review any EMPTY / UNRESOLVED / ERROR sources

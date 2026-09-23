@@ -1,19 +1,706 @@
 {
-  "days_ahead": 60,
-  "leagues": [
+  "days_ahead": 120,
+  "default_view_days": 30,
+  "interesting_threshold": 35,
+  "hot_threshold": 70,
+  "league_sources": [
     {
-      "name": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "sport": "Basketball",
+      "name": "English Premier League",
+      "search_names": [
+        "English Premier League",
+        "Premier League"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Europe",
+      "base_importance": 25,
       "enabled": true
     },
     {
-      "name": "English Premier League",
-      "league_id": "4328",
-      "season": "2026-2027",
+      "name": "La Liga",
+      "search_names": [
+        "Spanish La Liga",
+        "La Liga"
+      ],
       "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Europe",
+      "base_importance": 25,
+      "enabled": true
+    },
+    {
+      "name": "Serie A",
+      "search_names": [
+        "Italian Serie A",
+        "Serie A"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Europe",
+      "base_importance": 25,
+      "enabled": true
+    },
+    {
+      "name": "Bundesliga",
+      "search_names": [
+        "German Bundesliga",
+        "Bundesliga"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Europe",
+      "base_importance": 25,
+      "enabled": true
+    },
+    {
+      "name": "Ligue 1",
+      "search_names": [
+        "French Ligue 1",
+        "Ligue 1"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Europe",
+      "base_importance": 25,
+      "enabled": true
+    },
+    {
+      "name": "UEFA Champions League",
+      "search_names": [
+        "UEFA Champions League"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Europe",
+      "base_importance": 45,
+      "enabled": true
+    },
+    {
+      "name": "UEFA Europa League",
+      "search_names": [
+        "UEFA Europa League"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Europe",
+      "base_importance": 35,
+      "enabled": true
+    },
+    {
+      "name": "UEFA Conference League",
+      "search_names": [
+        "UEFA Conference League"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Europe",
+      "base_importance": 25,
+      "enabled": true
+    },
+    {
+      "name": "CAF Champions League",
+      "search_names": [
+        "CAF Champions League",
+        "African Champions League"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Africa",
+      "base_importance": 45,
+      "enabled": true
+    },
+    {
+      "name": "CAF Confederation Cup",
+      "search_names": [
+        "CAF Confederation Cup"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "Africa",
+      "base_importance": 35,
+      "enabled": true
+    },
+    {
+      "name": "DR Congo Ligue 1",
+      "search_names": [
+        "Linafoot",
+        "DR Congo Linafoot",
+        "DR Congo Ligue 1",
+        "Vodacom Ligue 1"
+      ],
+      "sport": "Soccer",
+      "competition_type": "Club",
+      "region": "DRC",
+      "base_importance": 55,
+      "drc_focus": true,
+      "enabled": true
+    },
+    {
+      "name": "UEFA Nations League",
+      "search_names": [
+        "UEFA Nations League"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Europe",
+      "base_importance": 35,
+      "enabled": true
+    },
+    {
+      "name": "Africa Cup of Nations",
+      "search_names": [
+        "African Cup of Nations",
+        "Africa Cup of Nations"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Africa",
+      "base_importance": 60,
+      "enabled": true
+    },
+    {
+      "name": "AFCON Qualifying",
+      "search_names": [
+        "African Cup of Nations Qualifying",
+        "Africa Cup of Nations Qualifying",
+        "AFCON Qualifying"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Africa",
+      "base_importance": 50,
+      "enabled": true
+    },
+    {
+      "name": "FIFA World Cup",
+      "search_names": [
+        "FIFA World Cup",
+        "World Cup"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Global",
+      "base_importance": 75,
+      "enabled": true
+    },
+    {
+      "name": "World Cup Qualifying — CAF",
+      "search_names": [
+        "World Cup Qualifying CAF",
+        "FIFA World Cup Qualifying CAF"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Africa",
+      "base_importance": 45,
+      "enabled": true
+    },
+    {
+      "name": "World Cup Qualifying — UEFA",
+      "search_names": [
+        "World Cup Qualifying UEFA",
+        "FIFA World Cup Qualifying UEFA"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Europe",
+      "base_importance": 45,
+      "enabled": true
+    },
+    {
+      "name": "World Cup Qualifying — CONMEBOL",
+      "search_names": [
+        "World Cup Qualifying CONMEBOL",
+        "FIFA World Cup Qualifying CONMEBOL"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "South America",
+      "base_importance": 45,
+      "enabled": true
+    },
+    {
+      "name": "World Cup Qualifying — CONCACAF",
+      "search_names": [
+        "World Cup Qualifying CONCACAF",
+        "FIFA World Cup Qualifying CONCACAF"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "North America",
+      "base_importance": 40,
+      "enabled": true
+    },
+    {
+      "name": "World Cup Qualifying — AFC",
+      "search_names": [
+        "World Cup Qualifying AFC",
+        "FIFA World Cup Qualifying AFC"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Asia",
+      "base_importance": 40,
+      "enabled": true
+    },
+    {
+      "name": "World Cup Qualifying — OFC",
+      "search_names": [
+        "World Cup Qualifying OFC",
+        "FIFA World Cup Qualifying OFC"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Oceania",
+      "base_importance": 35,
+      "enabled": true
+    },
+    {
+      "name": "Copa América",
+      "search_names": [
+        "Copa America",
+        "Copa América"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "South America",
+      "base_importance": 60,
+      "enabled": true
+    },
+    {
+      "name": "CONCACAF Gold Cup",
+      "search_names": [
+        "CONCACAF Gold Cup",
+        "Gold Cup"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "North America",
+      "base_importance": 45,
+      "enabled": true
+    },
+    {
+      "name": "AFC Asian Cup",
+      "search_names": [
+        "AFC Asian Cup",
+        "Asian Cup"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Asia",
+      "base_importance": 45,
+      "enabled": true
+    },
+    {
+      "name": "UEFA European Championship",
+      "search_names": [
+        "UEFA European Championship",
+        "UEFA Euro"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Europe",
+      "base_importance": 65,
+      "enabled": true
+    },
+    {
+      "name": "UEFA Euro Qualifying",
+      "search_names": [
+        "UEFA Euro Qualifying",
+        "European Championship Qualifying"
+      ],
+      "sport": "Soccer",
+      "competition_type": "National",
+      "region": "Europe",
+      "base_importance": 40,
+      "enabled": true
+    },
+    {
+      "name": "NBA",
+      "search_names": [
+        "NBA"
+      ],
+      "sport": "Basketball",
+      "competition_type": "Club",
+      "region": "North America",
+      "base_importance": 20,
+      "enabled": true
+    },
+    {
+      "name": "EuroLeague Basketball",
+      "search_names": [
+        "EuroLeague Basketball",
+        "EuroLeague"
+      ],
+      "sport": "Basketball",
+      "competition_type": "Club",
+      "region": "Europe",
+      "base_importance": 25,
+      "enabled": true
+    },
+    {
+      "name": "Basketball Africa League",
+      "search_names": [
+        "Basketball Africa League"
+      ],
+      "sport": "Basketball",
+      "competition_type": "Club",
+      "region": "Africa",
+      "base_importance": 35,
+      "enabled": true
+    },
+    {
+      "name": "FIBA Basketball World Cup",
+      "search_names": [
+        "FIBA Basketball World Cup",
+        "Basketball World Cup"
+      ],
+      "sport": "Basketball",
+      "competition_type": "National",
+      "region": "Global",
+      "base_importance": 50,
+      "enabled": true
+    },
+    {
+      "name": "FIBA AfroBasket",
+      "search_names": [
+        "FIBA AfroBasket",
+        "AfroBasket"
+      ],
+      "sport": "Basketball",
+      "competition_type": "National",
+      "region": "Africa",
+      "base_importance": 45,
+      "enabled": true
+    },
+    {
+      "name": "UFC",
+      "search_names": [
+        "UFC",
+        "Ultimate Fighting Championship"
+      ],
+      "sport": "Fighting",
+      "competition_type": "Individual",
+      "region": "Global",
+      "base_importance": 40,
+      "enabled": true
+    },
+    {
+      "name": "Boxing",
+      "search_names": [
+        "Boxing"
+      ],
+      "sport": "Fighting",
+      "competition_type": "Individual",
+      "region": "Global",
+      "base_importance": 35,
+      "enabled": true
+    },
+    {
+      "name": "Formula 1",
+      "search_names": [
+        "Formula 1",
+        "F1"
+      ],
+      "sport": "Motorsport",
+      "competition_type": "Individual",
+      "region": "Global",
+      "base_importance": 40,
+      "enabled": true
+    },
+    {
+      "name": "ATP Tour",
+      "search_names": [
+        "ATP World Tour",
+        "ATP Tour"
+      ],
+      "sport": "Tennis",
+      "competition_type": "Individual",
+      "region": "Global",
+      "base_importance": 10,
+      "enabled": true
+    },
+    {
+      "name": "WTA Tour",
+      "search_names": [
+        "WTA World Tour",
+        "WTA Tour"
+      ],
+      "sport": "Tennis",
+      "competition_type": "Individual",
+      "region": "Global",
+      "base_importance": 10,
       "enabled": true
     }
-  ]
+  ],
+  "team_sources": [
+    {
+      "name": "DR Congo",
+      "search_names": [
+        "DR Congo",
+        "Congo DR"
+      ],
+      "sport": "Soccer",
+      "country": "DR Congo",
+      "competition_type": "National",
+      "region": "DRC",
+      "base_importance": 100,
+      "drc_focus": true,
+      "enabled": true
+    },
+    {
+      "name": "TP Mazembe",
+      "search_names": [
+        "TP Mazembe"
+      ],
+      "sport": "Soccer",
+      "country": "DR Congo",
+      "competition_type": "Club",
+      "region": "DRC",
+      "base_importance": 80,
+      "drc_focus": true,
+      "enabled": true
+    },
+    {
+      "name": "AS Vita Club",
+      "search_names": [
+        "AS Vita Club",
+        "Vita Club"
+      ],
+      "sport": "Soccer",
+      "country": "DR Congo",
+      "competition_type": "Club",
+      "region": "DRC",
+      "base_importance": 75,
+      "drc_focus": true,
+      "enabled": true
+    }
+  ],
+  "focus_terms": [
+    "DR Congo",
+    "Congo DR",
+    "TP Mazembe",
+    "AS Vita Club",
+    "Vita Club"
+  ],
+  "keyword_rules": [
+    {
+      "term": "final",
+      "points": 25,
+      "reason": "Final"
+    },
+    {
+      "term": "semi-final",
+      "points": 15,
+      "reason": "Semi-final"
+    },
+    {
+      "term": "semifinal",
+      "points": 15,
+      "reason": "Semi-final"
+    },
+    {
+      "term": "quarter-final",
+      "points": 10,
+      "reason": "Quarter-final"
+    },
+    {
+      "term": "quarterfinal",
+      "points": 10,
+      "reason": "Quarter-final"
+    },
+    {
+      "term": "Arsenal",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Liverpool",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Manchester United",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Manchester City",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Chelsea",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Tottenham",
+      "points": 12,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Real Madrid",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Barcelona",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Paris Saint-Germain",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "PSG",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Bayern",
+      "points": 15,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Inter Milan",
+      "points": 12,
+      "reason": "Priority club"
+    },
+    {
+      "term": "Juventus",
+      "points": 12,
+      "reason": "Priority club"
+    },
+    {
+      "term": "TP Mazembe",
+      "points": 40,
+      "reason": "DRC club"
+    },
+    {
+      "term": "AS Vita Club",
+      "points": 40,
+      "reason": "DRC club"
+    },
+    {
+      "term": "Vita Club",
+      "points": 40,
+      "reason": "DRC club"
+    },
+    {
+      "term": "DR Congo",
+      "points": 60,
+      "reason": "DR Congo"
+    },
+    {
+      "term": "Congo DR",
+      "points": 60,
+      "reason": "DR Congo"
+    },
+    {
+      "term": "Los Angeles Lakers",
+      "points": 15,
+      "reason": "Priority NBA team"
+    },
+    {
+      "term": "Golden State Warriors",
+      "points": 15,
+      "reason": "Priority NBA team"
+    },
+    {
+      "term": "Boston Celtics",
+      "points": 15,
+      "reason": "Priority NBA team"
+    },
+    {
+      "term": "New York Knicks",
+      "points": 12,
+      "reason": "Priority NBA team"
+    },
+    {
+      "term": "Dallas Mavericks",
+      "points": 12,
+      "reason": "Priority NBA team"
+    },
+    {
+      "term": "Milwaukee Bucks",
+      "points": 12,
+      "reason": "Priority NBA team"
+    },
+    {
+      "term": "Alcaraz",
+      "points": 25,
+      "reason": "Priority tennis player"
+    },
+    {
+      "term": "Sinner",
+      "points": 25,
+      "reason": "Priority tennis player"
+    },
+    {
+      "term": "Djokovic",
+      "points": 25,
+      "reason": "Priority tennis player"
+    },
+    {
+      "term": "Sabalenka",
+      "points": 25,
+      "reason": "Priority tennis player"
+    },
+    {
+      "term": "Swiatek",
+      "points": 25,
+      "reason": "Priority tennis player"
+    },
+    {
+      "term": "Gauff",
+      "points": 20,
+      "reason": "Priority tennis player"
+    }
+  ],
+  "pair_rules": [
+    {
+      "terms": [
+        "Real Madrid",
+        "Barcelona"
+      ],
+      "points": 25,
+      "reason": "El Clásico"
+    },
+    {
+      "terms": [
+        "Arsenal",
+        "Tottenham"
+      ],
+      "points": 20,
+      "reason": "North London derby"
+    },
+    {
+      "terms": [
+        "Liverpool",
+        "Manchester United"
+      ],
+      "points": 20,
+      "reason": "Major rivalry"
+    },
+    {
+      "terms": [
+        "Manchester City",
+        "Manchester United"
+      ],
+      "points": 20,
+      "reason": "Manchester derby"
+    },
+    {
+      "terms": [
+        "Inter",
+        "Milan"
+      ],
+      "points": 20,
+      "reason": "Milan derby"
+    }
+  ],
+  "manual_featured_event_ids": []
 }

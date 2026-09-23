@@ -1,42 +1,88 @@
 <!doctype html>
 <html lang="uk">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Sports Calendar</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Sports Planner</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <main class="shell">
-    <header class="topbar">
+<main class="shell">
+  <header class="hero">
+    <div>
+      <div class="kicker">SPORTS PLANNER · V3</div>
+      <h1>Upcoming sports events</h1>
+      <p class="sub">Календар для CRM, промо та sportsbook-планування.</p>
+    </div>
+    <div class="sync"><span class="dot"></span><span id="updated">Loading…</span></div>
+  </header>
+
+  <section id="drcSection" class="focus-section" hidden>
+    <div class="section-head">
       <div>
-        <p class="eyebrow">SPORTS PLANNER</p>
-        <h1>Upcoming sports events</h1>
-        <p id="updated" class="muted">Loading…</p>
+        <div class="eyebrow">🇨🇩 DRC FOCUS</div>
+        <h2>Important for DR Congo</h2>
       </div>
-      <div class="controls">
-        <input id="search" type="search" placeholder="Search team, league, event…" />
-        <select id="sportFilter">
-          <option value="">All sports</option>
-        </select>
-        <select id="leagueFilter">
-          <option value="">All leagues</option>
-        </select>
-      </div>
-    </header>
+      <span id="drcCount" class="count-pill">0</span>
+    </div>
+    <div id="drcGrid" class="focus-grid"></div>
+  </section>
 
-    <section class="summary">
-      <div><strong id="eventCount">0</strong><span>events</span></div>
-      <div><strong id="dateRange">—</strong><span>date range</span></div>
-    </section>
+  <section class="toolbar">
+    <div class="date-block">
+      <label>From<input id="dateFrom" type="date"></label>
+      <label>To<input id="dateTo" type="date"></label>
+    </div>
 
-    <section id="calendar" class="calendar"></section>
-    <div id="empty" class="empty" hidden>No matching upcoming events.</div>
+    <div class="quick-ranges">
+      <button data-days="7">7 days</button>
+      <button class="active" data-days="30">30 days</button>
+      <button data-days="60">60 days</button>
+      <button data-days="120">120 days</button>
+    </div>
 
-    <footer>
-      Data source: TheSportsDB. Times are displayed in your browser timezone.
-    </footer>
-  </main>
-  <script src="./app.js"></script>
+    <div class="filters">
+      <select id="sportFilter"><option value="">All sports</option></select>
+      <select id="typeFilter"><option value="">Club + National + Individual</option></select>
+      <select id="regionFilter"><option value="">All regions</option></select>
+      <select id="leagueFilter"><option value="">All competitions</option></select>
+      <input id="search" type="search" placeholder="Search team, event, competition…">
+    </div>
+
+    <div class="view-toggle">
+      <button data-mode="all">All</button>
+      <button class="active" data-mode="interesting">⭐ Interesting</button>
+      <button data-mode="hot">🔥 Hot</button>
+    </div>
+  </section>
+
+  <section class="summary">
+    <article><span>Visible events</span><strong id="eventCount">0</strong></article>
+    <article><span>Interesting</span><strong id="interestingCount">0</strong></article>
+    <article><span>Hot</span><strong id="hotCount">0</strong></article>
+    <article><span>DRC focus</span><strong id="summaryDrcCount">0</strong></article>
+  </section>
+
+  <section id="calendar" class="calendar"></section>
+  <div id="empty" class="empty" hidden>
+    <strong>No events in this view.</strong>
+    <span>Try All, another filter, or a wider date range.</span>
+  </div>
+
+  <details class="health">
+    <summary>Data health <span id="healthSummary"></span></summary>
+    <div class="health-note">EMPTY does not necessarily mean an error — TheSportsDB may simply have no future schedule loaded for that competition yet.</div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Source</th><th>Type</th><th>Region</th><th>Resolved</th><th>Season</th><th>Received</th><th>Upcoming</th><th>Status</th></tr></thead>
+        <tbody id="healthRows"></tbody>
+      </table>
+    </div>
+  </details>
+
+  <footer>Data: TheSportsDB · strTimestamp is treated as UTC and displayed in your browser timezone.</footer>
+</main>
+<script src="./app.js"></script>
 </body>
 </html>
