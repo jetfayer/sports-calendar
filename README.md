@@ -1,49 +1,71 @@
-# Sports Calendar v3
+# Sports Calendar v4
 
-Personal sports-event calendar for CRM / promo planning.
+V4 finalizes the importance logic and adds the requested filters.
 
-## Included coverage
+## Importance model
 
-### Football — clubs
-- Premier League, La Liga, Serie A, Bundesliga, Ligue 1
-- UEFA Champions League, Europa League, Conference League
-- CAF Champions League, CAF Confederation Cup
-- DRC Ligue 1 / Linafoot lookup
-- Direct tracking: TP Mazembe, AS Vita Club
+### Football matchup layer
+Only one matchup rule is applied:
+- one priority club: +10
+- two priority clubs: +25 total
+- exact marquee rivalry: +40 instead of +25
 
-### Football — national teams
-- DR Congo direct tracking
-- UEFA Nations League
-- AFCON + AFCON Qualifying
-- FIFA World Cup
-- World Cup qualifying: CAF, UEFA, CONMEBOL, CONCACAF, AFC, OFC
-- Copa América, Gold Cup, Asian Cup
-- UEFA European Championship + qualifying
+This prevents double-counting. For example, `Inter Milan vs Shakhtar Donetsk` is not a Milan derby because rivalries are checked by the exact home/away pair.
 
-### Other sports
-- NBA, EuroLeague, Basketball Africa League
-- FIBA Basketball World Cup, AfroBasket
-- UFC, Boxing
-- Formula 1
-- ATP, WTA
+### Stage layer
+- QF: +10
+- SF: +20
+- Final: +30
+- Playoffs: +10
 
-## UI
-- Date From / To
-- 7 / 30 / 60 / 120 day shortcuts
-- Sport / Club-National-Individual / Region / Competition filters
-- Search
+### HOT
+HOT is not produced by accumulating many small bonuses. It requires an explicit strong trigger:
+- selected exact marquee rivalry
+- DRC competitive national-team match
+- major football final
+- top-vs-top SF/Final
+- NBA Finals / selected major basketball final
+- UFC/boxing title fight
+- Grand Slam final, selected top tennis late-stage match
+- manual feature
+
+### Tennis
+The ATP/WTA source is filtered first. Only major tournaments are allowed into the calendar:
+- Grand Slams
+- ATP/WTA Finals
+- configured Masters 1000 / WTA 1000-level tournaments
+
+A top player at a small tournament no longer gets into the calendar just because of the player name. Within major tournaments, top-player matchups and late stages drive highlighting.
+
+## Added football cups
+- FA Cup
+- EFL / Carabao Cup
+- Copa del Rey
+- DFB-Pokal
+- Coppa Italia
+- Coupe de France
+
+Early cup rounds get no automatic importance bonus. QF/SF/Final stage scoring applies.
+
+## Filters
+- Sport
+- Competition type: League / Cup / Continental / National teams / Tour-Event
+- Region
+- Competition
+- Stage
+- Priority reason
+- DRC only
+- Top participants only
 - All / Interesting / Hot
-- Separate DRC Focus block
-- Data Health table showing exactly which configured sources resolve and return upcoming events
 
-## Important
-TheSportsDB coverage is not equally complete for every competition. V3 intentionally exposes this in **Data health** instead of silently pretending every configured source works.
+## Data health
+`NO UPCOMING` replaces the misleading `EMPTY` status.
 
-The script resolves league IDs from TheSportsDB dynamically and selects the most plausible current season. It then tries a second season only when the first has no upcoming events.
+## No AI/context layer
+V4 intentionally does not implement news, standings, milestones, title-race context, or OpenAI API calls.
 
-## Deploy over the existing repo
-
-Upload/replace:
+## Deploy
+Replace:
 - `index.html`
 - `styles.css`
 - `app.js`
@@ -51,11 +73,7 @@ Upload/replace:
 - `scripts/fetch_events.py`
 - `README.md`
 
-Do not change your existing `.github/workflows/update.yml`.
+Keep the existing `.github/workflows/update.yml`.
 
-Then:
-1. Commit changes
-2. Actions → Update sports calendar → Run workflow
-3. Wait for success
-4. Open GitHub Pages
-5. Expand **Data health** and review any EMPTY / UNRESOLVED / ERROR sources
+Then run:
+Actions → Update sports calendar → Run workflow.

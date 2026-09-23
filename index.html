@@ -11,19 +11,16 @@
 <main class="shell">
   <header class="hero">
     <div>
-      <div class="kicker">SPORTS PLANNER · V3</div>
+      <div class="kicker">SPORTS PLANNER · V4</div>
       <h1>Upcoming sports events</h1>
-      <p class="sub">Календар для CRM, промо та sportsbook-планування.</p>
+      <p class="sub">Curated calendar for CRM, promo and sportsbook planning.</p>
     </div>
     <div class="sync"><span class="dot"></span><span id="updated">Loading…</span></div>
   </header>
 
   <section id="drcSection" class="focus-section" hidden>
     <div class="section-head">
-      <div>
-        <div class="eyebrow">🇨🇩 DRC FOCUS</div>
-        <h2>Important for DR Congo</h2>
-      </div>
+      <div><div class="eyebrow">🇨🇩 DRC FOCUS</div><h2>Important for DR Congo</h2></div>
       <span id="drcCount" class="count-pill">0</span>
     </div>
     <div id="drcGrid" class="focus-grid"></div>
@@ -44,10 +41,17 @@
 
     <div class="filters">
       <select id="sportFilter"><option value="">All sports</option></select>
-      <select id="typeFilter"><option value="">Club + National + Individual</option></select>
+      <select id="groupFilter"><option value="">All competition types</option></select>
       <select id="regionFilter"><option value="">All regions</option></select>
       <select id="leagueFilter"><option value="">All competitions</option></select>
-      <input id="search" type="search" placeholder="Search team, event, competition…">
+      <select id="stageFilter"><option value="">All stages</option></select>
+      <select id="reasonFilter"><option value="">All priority reasons</option></select>
+      <input id="search" type="search" placeholder="Search team, athlete, event…">
+    </div>
+
+    <div class="switch-row">
+      <label class="check"><input id="drcOnly" type="checkbox"><span>🇨🇩 DRC only</span></label>
+      <label class="check"><input id="topOnly" type="checkbox"><span>Top participants only</span></label>
     </div>
 
     <div class="view-toggle">
@@ -58,7 +62,7 @@
   </section>
 
   <section class="summary">
-    <article><span>Visible events</span><strong id="eventCount">0</strong></article>
+    <article><span>Events in range</span><strong id="eventCount">0</strong></article>
     <article><span>Interesting</span><strong id="interestingCount">0</strong></article>
     <article><span>Hot</span><strong id="hotCount">0</strong></article>
     <article><span>DRC focus</span><strong id="summaryDrcCount">0</strong></article>
@@ -72,7 +76,7 @@
 
   <details class="health">
     <summary>Data health <span id="healthSummary"></span></summary>
-    <div class="health-note">EMPTY does not necessarily mean an error — TheSportsDB may simply have no future schedule loaded for that competition yet.</div>
+    <div class="health-note">NO UPCOMING means the source resolved correctly, but TheSportsDB has no future events in the current window.</div>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Source</th><th>Type</th><th>Region</th><th>Resolved</th><th>Season</th><th>Received</th><th>Upcoming</th><th>Status</th></tr></thead>
@@ -81,7 +85,7 @@
     </div>
   </details>
 
-  <footer>Data: TheSportsDB · strTimestamp is treated as UTC and displayed in your browser timezone.</footer>
+  <footer>Data: TheSportsDB · No AI/context layer · Times shown in your browser timezone.</footer>
 </main>
 <script src="./app.js"></script>
 </body>

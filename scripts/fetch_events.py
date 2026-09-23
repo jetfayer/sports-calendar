@@ -10,8 +10,8 @@ if not API_KEY:
     raise SystemExit("Missing THESPORTSDB_API_KEY")
 
 BASE="https://www.thesportsdb.com/api/v2/json"
-HEADERS={"X-API-KEY":API_KEY,"Accept":"application/json","User-Agent":"sports-calendar/3.0"}
-MIN_REQUEST_GAP=2.05  # stays under roughly 30 requests/minute
+HEADERS={"X-API-KEY":API_KEY,"Accept":"application/json","User-Agent":"sports-calendar/4.0"}
+MIN_REQUEST_GAP=2.05
 _last_request=0.0
 
 def api(path):
@@ -91,40 +91,247 @@ def season_key(s):
     return (score,tie,str(s))
 
 def event_text(e):
-    return " | ".join(str(first(e,k,default="")) for k in
-        ("strEvent","strEventAlternate","strLeague","strHomeTeam","strAwayTeam","strDescriptionEN"))
+    return " | ".join(str(first(e,k,default="")) for k in (
+        "strEvent","strEventAlternate","strLeague","strHomeTeam","strAwayTeam",
+        "strDescriptionEN","strVenue","strRound","intRound","strGroup","strStatus"
+    ))
+
+def detect_stage(e,source):
+    low=event_text(e).lower()
+    if "quarter-final" in low or "quarter final" in low or "quarterfinal" in low: return "QF"
+    if "conference final" in low: return "SF"
+    if "semi-final" in low or "semi final" in low or "semifinal" in low: return "SF"
+    if re.search(r"\bfinals?\b",low): return "Final"
+    if "round of 16" in low or "last 16" in low: return "R16"
+    if "playoff" in low or "play-off" in low: return "Playoffs"
+    if "qualif" in low: return "Qualifier"
+    if "group" in low: return "Group"
+    if source.get("sport")=="Motorsport":
+        if "sprint" in low: return "Sprint"
+        if "qualifying" in low or "qualification" in low: return "Qualifying"
+        return "Race"
+    if source.get("sport")=="Fighting" and "main event" in low: return "Main Event"
+    return "Regular"
+
+def aliases_match(value,aliases):
+    n=norm(value)
+    return any(n==norm(a) for a in aliases)
+
+def canonical_team(value,definitions):
+    for row in definitions:
+        if aliases_match(value,row.get("aliases",[row["name"]])):
+            return row["name"]
+    return None
+
+def exact_pair(home,away,pair):
+    return {home,away}==set(pair)
+
+def tennis_context(e):
+    low=event_text(e).lower()
+    tournament=None
+    for row in CONFIG.get("tennis_tournaments",[]):
+        if any(alias.lower() in low for alias in row.get("aliases",[])):
+            tournament=row
+            break
+    top_players=[p for p in CONFIG.get("tennis_top_players",[]) if p.lower() in low]
+    return tournament,list(dict.fromkeys(top_players))
+
+def is_tennis_relevant(e):
+    tournament,_=tennis_context(e)
+    return tournament is not None
+
+def infer_team_source_group(source,e):
+    if source.get("name")=="DR Congo":
+        return "National teams"
+    league=str(first(e,"strLeague","league")).lower()
+    if "caf " in league or "champions league" in league or "confederation cup" in league:
+        return "Continental"
+    if "cup" in league or "coupe" in league or "pokal" in league or "coppa" in league:
+        return "Cup"
+    return source.get("competition_group","League")
+
+def infer_team_source_region(source,e):
+    if source.get("name")=="DR Congo":
+        league=str(first(e,"strLeague","league")).lower()
+        if "world cup" in league: return "Global"
+        if "afric" in league or "afcon" in league: return "Africa"
+        return "DRC"
+    if infer_team_source_group(source,e)=="Continental": return "Africa"
+    return "DRC"
+
+def competition_score_for(source,e):
+    if source.get("_kind")!="team":
+        return int(source.get("competition_score",0))
+    league=str(first(e,"strLeague","league")).lower()
+    if any(x in league for x in ("world cup","african cup","africa cup","afcon")): return 10
+    if "champions league" in league: return 10
+    if "confederation cup" in league: return 5
+    return 0
+
+def stage_score(stage):
+    return {"QF":10,"SF":20,"Final":30,"Playoffs":10}.get(stage,0)
+
+def add_reason(reasons,tags,text,tag):
+    if text and text not in reasons: reasons.append(text)
+    if tag and tag not in tags: tags.append(tag)
 
 def score_event(e,source):
-    score=int(source.get("base_importance",0))
-    reasons=[source["name"]] if score else []
-    hay=event_text(e)
-    low=hay.lower()
+    sport=source.get("sport","")
+    low=event_text(e).lower()
+    stage=detect_stage(e,source)
+    score=competition_score_for(source,e)+stage_score(stage)
+    reasons=[];tags=[];hot_triggers=[]
+    has_top=False
 
-    for rule in CONFIG.get("keyword_rules",[]):
-        if rule["term"].lower() in low:
-            score+=int(rule.get("points",0));reasons.append(rule.get("reason") or rule["term"])
+    if competition_score_for(source,e)>0:
+        add_reason(reasons,tags,first(e,"strLeague","league",default=source["name"]),"Major competition")
+    if stage=="QF": add_reason(reasons,tags,"Quarter-final","Quarter-final")
+    if stage=="SF": add_reason(reasons,tags,"Semi-final","Semi-final")
+    if stage=="Final": add_reason(reasons,tags,"Final","Final")
+    if stage=="Playoffs": add_reason(reasons,tags,"Playoffs","Playoffs")
 
-    for rule in CONFIG.get("pair_rules",[]):
-        if all(term.lower() in low for term in rule.get("terms",[])):
-            score+=int(rule.get("points",0));reasons.append(rule.get("reason","Rivalry"))
+    home=first(e,"strHomeTeam","home")
+    away=first(e,"strAwayTeam","away")
+
+    # Football: exactly one matchup layer — 1 top club / 2 top clubs / rivalry.
+    if sport=="Soccer":
+        defs=CONFIG.get("top_football_clubs",[])
+        ch=canonical_team(home,defs)
+        ca=canonical_team(away,defs)
+        top_count=sum(bool(x) for x in (ch,ca))
+        has_top=top_count>0
+
+        rivalry=None
+        if ch and ca:
+            for row in CONFIG.get("football_rivalries",[]):
+                if exact_pair(ch,ca,row.get("teams",[])):
+                    rivalry=row;break
+
+        if rivalry:
+            score+=40
+            add_reason(reasons,tags,rivalry.get("label","Marquee rivalry"),"Rivalry")
+            if rivalry.get("hot"): hot_triggers.append("Marquee rivalry")
+        elif top_count>=2:
+            score+=25
+            add_reason(reasons,tags,"Two priority clubs","Top matchup")
+        elif top_count==1:
+            score+=10
+            add_reason(reasons,tags,"Priority club","Top participant")
+
+        # DRC national team: competitive fixtures are always strong local events.
+        source_name=source.get("name","")
+        is_drc_national=(source_name=="DR Congo" or "dr congo" in low or "congo dr" in low) and source.get("participant_type")=="National"
+        if is_drc_national:
+            competitive=not any(x in low for x in ("friendly","friendlies"))
+            score+=60 if competitive else 35
+            add_reason(reasons,tags,"DR Congo competitive match" if competitive else "DR Congo friendly","DRC")
+            if competitive: hot_triggers.append("DRC competitive match")
+
+        # DRC clubs: continental matches are more relevant than normal domestic fixtures.
+        is_drc_club=source_name in ("TP Mazembe","AS Vita Club") or "tp mazembe" in low or "vita club" in low
+        if is_drc_club:
+            group=infer_team_source_group(source,e) if source.get("_kind")=="team" else source.get("competition_group")
+            bonus=30 if group=="Continental" else 20
+            score+=bonus
+            add_reason(reasons,tags,"DRC club — continental" if group=="Continental" else "DRC club","DRC")
+            has_top=True
+
+        league_name=first(e,"strLeague","league",default=source["name"])
+        major_final=stage=="Final" and any(norm(x)==norm(league_name) for x in CONFIG.get("major_football_finals",[]))
+        if major_final:
+            hot_triggers.append("Major football final")
+            add_reason(reasons,tags,"Major football final","Final")
+
+        if stage in ("SF","Final") and top_count>=2:
+            hot_triggers.append("Top-vs-top late stage")
+
+    elif sport=="Basketball":
+        defs=CONFIG.get("top_nba_teams",[])
+        ch=canonical_team(home,defs);ca=canonical_team(away,defs)
+        top_count=sum(bool(x) for x in (ch,ca))
+        has_top=top_count>0
+        if top_count>=2:
+            score+=25;add_reason(reasons,tags,"Two priority basketball teams","Top matchup")
+        elif top_count==1:
+            score+=10;add_reason(reasons,tags,"Priority basketball team","Top participant")
+
+        league=first(e,"strLeague","league",default=source["name"]).lower()
+        if stage=="Final" and "nba" in league:
+            hot_triggers.append("NBA Finals")
+        elif stage=="Final" and ("euroleague" in league or "basketball world cup" in league or "afrobasket" in league):
+            hot_triggers.append("Major basketball final")
+        elif stage=="SF" and top_count>=2:
+            hot_triggers.append("Top-vs-top late stage")
+
+    elif sport=="Tennis":
+        tournament,players=tennis_context(e)
+        has_top=bool(players)
+        if tournament:
+            kind=tournament.get("kind")
+            add_reason(reasons,tags,tournament["name"],"Major tournament")
+            if len(players)>=2:
+                score+=25;add_reason(reasons,tags,"Top-player matchup","Top matchup")
+            elif len(players)==1:
+                score+=5;add_reason(reasons,tags,"Top player","Top participant")
+
+            if kind=="Grand Slam":
+                if stage=="Final":
+                    hot_triggers.append("Grand Slam final")
+                elif stage=="SF" and len(players)>=2:
+                    hot_triggers.append("Grand Slam top semi-final")
+            elif kind=="Tour Finals" and stage=="Final":
+                hot_triggers.append("Tour Finals final")
+            elif kind=="1000" and stage=="Final" and len(players)>=2:
+                hot_triggers.append("1000 final — top matchup")
+
+    elif sport=="Fighting":
+        names=CONFIG.get("priority_fighters",[]) if source.get("name")=="UFC" else CONFIG.get("priority_boxers",[])
+        hits=[x for x in names if x.lower() in low]
+        has_top=bool(hits)
+        if len(hits)>=2:
+            score+=25;add_reason(reasons,tags,"Two priority fighters","Top matchup")
+        elif len(hits)==1:
+            score+=10;add_reason(reasons,tags,"Priority fighter","Top participant")
+
+        title_terms=("title fight","world title","championship","unification","undisputed","title bout")
+        if any(t in low for t in title_terms):
+            score+=40;add_reason(reasons,tags,"Title fight","Title fight");hot_triggers.append("Title fight")
+        elif stage=="Main Event":
+            score+=20;add_reason(reasons,tags,"Main event","Main event")
+
+    elif sport=="Motorsport":
+        race_name=first(e,"strEvent","event","name")
+        if stage=="Race":
+            score+=20
+            add_reason(reasons,tags,"Formula 1 race","Race")
+        if any(x.lower() in low for x in CONFIG.get("marquee_f1_races",[])):
+            score+=20
+            add_reason(reasons,tags,"Marquee Grand Prix","Marquee race")
+        # No automatic F1 HOT without context; manual feature remains available.
 
     eid=str(first(e,"idEvent","id",default=""))
     if eid and eid in {str(x) for x in CONFIG.get("manual_featured_event_ids",[])}:
-        score+=100;reasons.append("Manual featured")
+        hot_triggers.append("Manual featured")
+        score=max(score,40)
+        add_reason(reasons,tags,"Manual featured","Manual featured")
 
-    focus=bool(source.get("drc_focus"))
-    if not focus:
-        focus=any(t.lower() in low for t in CONFIG.get("focus_terms",[]))
-
+    drc_focus=bool(source.get("drc_focus")) or "DRC" in tags
     score=min(score,100)
-    hot=int(CONFIG.get("hot_threshold",70))
-    interesting=int(CONFIG.get("interesting_threshold",35))
-    level="hot" if score>=hot else "interesting" if score>=interesting else "normal"
-    return score,level,list(dict.fromkeys(reasons)),focus
+    level="hot" if hot_triggers else "interesting" if score>=int(CONFIG.get("interesting_threshold",40)) else "normal"
+    return {
+        "score":score,"level":level,"reasons":reasons,"tags":tags,"hot_triggers":list(dict.fromkeys(hot_triggers)),
+        "drc_focus":drc_focus,"has_top_participant":has_top,"stage":stage
+    }
 
 def normalize_event(e,source,season=""):
     dt=parse_ts(e)
-    score,level,reasons,focus=score_event(e,source)
+    scored=score_event(e,source)
+    if source.get("_kind")=="team":
+        group=infer_team_source_group(source,e)
+        region=infer_team_source_region(source,e)
+    else:
+        group=source.get("competition_group","")
+        region=source.get("region","")
     return {
         "id":str(first(e,"idEvent","id",default="")),
         "name":first(e,"strEvent","event","name"),
@@ -139,12 +346,18 @@ def normalize_event(e,source,season=""):
         "country":first(e,"strCountry","country"),
         "status":first(e,"strStatus","status"),
         "postponed":first(e,"strPostponed","postponed"),
-        "competition_type":source.get("competition_type",""),
-        "region":source.get("region",""),
-        "importance":score,
-        "importance_level":level,
-        "importance_reasons":reasons,
-        "drc_focus":focus,
+        "participant_type":source.get("participant_type",""),
+        "competition_group":group,
+        "region":region,
+        "tier":source.get("tier",2),
+        "stage":scored["stage"],
+        "importance":scored["score"],
+        "importance_level":scored["level"],
+        "importance_reasons":scored["reasons"],
+        "priority_tags":scored["tags"],
+        "hot_triggers":scored["hot_triggers"],
+        "drc_focus":scored["drc_focus"],
+        "has_top_participant":scored["has_top_participant"],
         "source":source["name"]
     }
 
@@ -161,40 +374,32 @@ def choose_league(source,all_leagues):
         row_sport=norm(first(row,"strSport","sport"))
         if sport and row_sport and row_sport!=sport: continue
         n=norm(first(row,"strLeague","league","name"))
-        if n in aliases:
-            return row
+        if n in aliases: return row
         ratio=max((SequenceMatcher(None,a,n).ratio() for a in aliases),default=0)
-        if ratio>=0.93:
-            candidates.append((ratio,row))
-    if candidates:
-        return max(candidates,key=lambda x:x[0])[1]
+        if ratio>=0.93: candidates.append((ratio,row))
+    if candidates: return max(candidates,key=lambda x:x[0])[1]
 
-    # Fallback to V2 search for only unresolved names.
     for term in source.get("search_names",[source["name"]]):
         try:
             rows=list_from(api(f"/search/league/{slug(term)}"),("leagues","league","results"))
             for row in rows:
                 if sport and norm(first(row,"strSport","sport")) not in ("",sport): continue
-                if norm(first(row,"strLeague","league","name")) in aliases:
-                    return row
-            if rows:
-                same=[r for r in rows if not sport or norm(first(r,"strSport","sport")) in ("",sport)]
-                if same: return same[0]
+                if norm(first(row,"strLeague","league","name")) in aliases: return row
+            same=[r for r in rows if not sport or norm(first(r,"strSport","sport")) in ("",sport)]
+            if same: return same[0]
         except Exception:
             pass
     return None
 
 def choose_team(source):
     aliases=[norm(x) for x in source.get("search_names",[source["name"]])]
-    sport=norm(source.get("sport",""))
-    country=norm(source.get("country",""))
+    sport=norm(source.get("sport",""));country=norm(source.get("country",""))
     for term in source.get("search_names",[source["name"]]):
         rows=list_from(api(f"/search/team/{slug(term)}"),("teams","team","results"))
         ranked=[]
         for row in rows:
             name=norm(first(row,"strTeam","team","name"))
-            rsport=norm(first(row,"strSport","sport"))
-            rcountry=norm(first(row,"strCountry","country"))
+            rsport=norm(first(row,"strSport","sport"));rcountry=norm(first(row,"strCountry","country"))
             if sport and rsport and rsport!=sport: continue
             exact=name in aliases
             country_ok=(not country or not rcountry or country in rcountry or rcountry in country)
@@ -205,86 +410,74 @@ def choose_team(source):
             return ranked[0][3]
     return None
 
-all_events=[]
-stats=[]
-errors=[]
+all_events=[];stats=[];errors=[]
 
 print("Loading league directory…")
 try:
     ALL_LEAGUES=list_from(api("/all/leagues"),("leagues","league","results"))
     print(f"League directory: {len(ALL_LEAGUES)}")
 except Exception as exc:
-    ALL_LEAGUES=[]
-    errors.append({"source":"league directory","error":str(exc)})
+    ALL_LEAGUES=[];errors.append({"source":"league directory","error":str(exc)})
     print("League directory ERROR:",exc)
 
 for src0 in CONFIG.get("league_sources",[]):
     if not src0.get("enabled",True): continue
-    source=dict(src0)
-    stat={"name":source["name"],"kind":"league","competition_type":source.get("competition_type",""),
+    source=dict(src0);source["_kind"]="league"
+    stat={"name":source["name"],"kind":"league","competition_group":source.get("competition_group",""),
           "region":source.get("region",""),"resolved_id":"","resolved_name":"","seasons_tried":[],
           "received":0,"upcoming":0,"status":"UNRESOLVED","error":""}
     try:
         row=choose_league(source,ALL_LEAGUES)
         if not row:
-            stat["error"]="League not found in TheSportsDB"
-            stats.append(stat);print(source["name"],": UNRESOLVED");continue
-        lid=str(first(row,"idLeague","id"))
-        rname=first(row,"strLeague","league","name",default=source["name"])
-        source["_resolved_id"]=lid
-        stat["resolved_id"]=lid;stat["resolved_name"]=rname
+            stat["error"]="League not found in TheSportsDB";stats.append(stat);print(source["name"],": UNRESOLVED");continue
+        lid=str(first(row,"idLeague","id"));rname=first(row,"strLeague","league","name",default=source["name"])
+        source["_resolved_id"]=lid;stat["resolved_id"]=lid;stat["resolved_name"]=rname
 
         seasons_payload=api(f"/list/seasons/{urllib.parse.quote(lid)}")
         seasons_rows=list_from(seasons_payload,("seasons","season","results"))
         seasons=sorted({str(first(x,"strSeason","season","name")) for x in seasons_rows if first(x,"strSeason","season","name")},key=season_key)
-
-        # Try best-ranked season first. Only try the second if the first has no upcoming events.
-        candidates=seasons[:2] if seasons else []
-        if not candidates:
-            # Fallback: next events endpoint needs no season.
-            candidates=[None]
+        candidates=seasons[:2] if seasons else [None]
 
         source_upcoming=[]
         for season in candidates:
             if season is None:
-                payload=api(f"/schedule/next/league/{urllib.parse.quote(lid)}")
-                label="next"
+                payload=api(f"/schedule/next/league/{urllib.parse.quote(lid)}");label="next"
             else:
-                payload=api(f"/schedule/league/{urllib.parse.quote(lid)}/{urllib.parse.quote(season,safe='')}")
-                label=season
+                payload=api(f"/schedule/league/{urllib.parse.quote(lid)}/{urllib.parse.quote(season,safe='')}");label=season
             stat["seasons_tried"].append(label)
             rows=list_from(payload,("events","event","schedule","data","results"))
             stat["received"]+=len(rows)
+
+            # Tennis: keep only major tournaments; top players alone do not admit a small tournament.
+            if source.get("sport")=="Tennis":
+                rows=[e for e in rows if is_tennis_relevant(e)]
+
             normalized=[normalize_event(e,source,season or "") for e in rows]
             upcoming=[n for n in normalized if in_window(n)]
             source_upcoming.extend(upcoming)
             if upcoming: break
 
         stat["upcoming"]=len(source_upcoming)
-        stat["status"]="OK" if source_upcoming else "EMPTY"
+        stat["status"]="OK" if source_upcoming else "NO UPCOMING"
         all_events.extend(source_upcoming)
         print(f'{source["name"]}: {stat["status"]}, {stat["received"]} received, {stat["upcoming"]} upcoming')
     except Exception as exc:
-        stat["status"]="ERROR";stat["error"]=str(exc)
-        errors.append({"source":source["name"],"error":str(exc)})
+        stat["status"]="ERROR";stat["error"]=str(exc);errors.append({"source":source["name"],"error":str(exc)})
         print(source["name"],": ERROR",exc)
     stats.append(stat)
 
 for src0 in CONFIG.get("team_sources",[]):
     if not src0.get("enabled",True): continue
-    source=dict(src0)
-    stat={"name":source["name"],"kind":"team","competition_type":source.get("competition_type",""),
+    source=dict(src0);source["_kind"]="team"
+    stat={"name":source["name"],"kind":"team","competition_group":source.get("competition_group",""),
           "region":source.get("region",""),"resolved_id":"","resolved_name":"","seasons_tried":["full current"],
           "received":0,"upcoming":0,"status":"UNRESOLVED","error":""}
     try:
         row=choose_team(source)
         if not row:
-            stat["error"]="Team not found in TheSportsDB"
-            stats.append(stat);print(source["name"],": UNRESOLVED");continue
-        tid=str(first(row,"idTeam","id"))
-        tname=first(row,"strTeam","team","name",default=source["name"])
-        source["_resolved_id"]=tid
-        stat["resolved_id"]=tid;stat["resolved_name"]=tname
+            stat["error"]="Team not found in TheSportsDB";stats.append(stat);print(source["name"],": UNRESOLVED");continue
+        tid=str(first(row,"idTeam","id"));tname=first(row,"strTeam","team","name",default=source["name"])
+        source["_resolved_id"]=tid;stat["resolved_id"]=tid;stat["resolved_name"]=tname
 
         payload=api(f"/schedule/full/team/{urllib.parse.quote(tid)}")
         rows=list_from(payload,("events","event","schedule","data","results"))
@@ -292,32 +485,36 @@ for src0 in CONFIG.get("team_sources",[]):
         upcoming=[normalize_event(e,source,first(e,"strSeason","season")) for e in rows]
         upcoming=[n for n in upcoming if in_window(n)]
         stat["upcoming"]=len(upcoming)
-        stat["status"]="OK" if upcoming else "EMPTY"
+        stat["status"]="OK" if upcoming else "NO UPCOMING"
         all_events.extend(upcoming)
         print(f'{source["name"]}: {stat["status"]}, {stat["received"]} received, {stat["upcoming"]} upcoming')
     except Exception as exc:
-        stat["status"]="ERROR";stat["error"]=str(exc)
-        errors.append({"source":source["name"],"error":str(exc)})
+        stat["status"]="ERROR";stat["error"]=str(exc);errors.append({"source":source["name"],"error":str(exc)})
         print(source["name"],": ERROR",exc)
     stats.append(stat)
 
-# Deduplicate events seen through both league and team sources; keep the higher-priority copy.
+# Deduplicate league/team-source copies, keeping the richer/more important one.
 dedup={}
 for e in all_events:
     key=e["id"] or f'{e["timestamp"]}|{e["name"]}|{e["league_id"]}'
-    if key not in dedup or e["importance"]>dedup[key]["importance"] or (e["drc_focus"] and not dedup[key]["drc_focus"]):
+    current=dedup.get(key)
+    rank=(2 if e["importance_level"]=="hot" else 1 if e["importance_level"]=="interesting" else 0,
+          1 if e["drc_focus"] else 0,e["importance"])
+    if current is None:
         dedup[key]=e
+    else:
+        crank=(2 if current["importance_level"]=="hot" else 1 if current["importance_level"]=="interesting" else 0,
+               1 if current["drc_focus"] else 0,current["importance"])
+        if rank>crank: dedup[key]=e
 
 events=sorted(dedup.values(),key=lambda x:(x["timestamp"],-x["importance"],x["name"]))
 out={
     "updated_at":datetime.now(timezone.utc).isoformat().replace("+00:00","Z"),
     "window_days":CONFIG.get("days_ahead",120),
     "default_view_days":CONFIG.get("default_view_days",30),
-    "interesting_threshold":CONFIG.get("interesting_threshold",35),
-    "hot_threshold":CONFIG.get("hot_threshold",70),
-    "events":events,
-    "source_stats":stats,
-    "errors":errors
+    "interesting_threshold":CONFIG.get("interesting_threshold",40),
+    "hot_requires_trigger":True,
+    "events":events,"source_stats":stats,"errors":errors
 }
 (ROOT/"data").mkdir(exist_ok=True)
 (ROOT/"data"/"events.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
