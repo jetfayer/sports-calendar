@@ -1,6 +1,6 @@
 const state={
   data:[],meta:{},search:"",sport:"",group:"",region:"",league:"",stage:"",reason:"",minScore:0,
-  drcOnly:false,topOnly:false,mode:"watchplus",from:null,to:null
+  drcOnly:false,topOnly:false,mode:"watchplus",sortMode:"priority",from:null,to:null
 };
 
 const $=s=>document.querySelector(s);
@@ -52,7 +52,7 @@ function dateRows(){
     .filter(e=>!state.from||e._date>=state.from)
     .filter(e=>!state.to||e._date<=state.to);
 }
-function baseRows(){return dateRows().filter(inBaseFilters).sort((a,b)=>a._date-b._date||(b.importance||0)-(a.importance||0))}
+function baseRows(){return dateRows().filter(inBaseFilters).sort((a,b)=>a._date-b._date)}
 function filteredRows(){
   return baseRows().filter(e=>
     state.mode==="all" ||
@@ -60,6 +60,18 @@ function filteredRows(){
     state.mode==="interesting" && ["interesting","hot"].includes(e.importance_level) ||
     state.mode==="hot" && e.importance_level==="hot"
   );
+}
+
+function sortDayEvents(events){
+  const rank={hot:3,interesting:2,watch:1,normal:0};
+  return [...events].sort((a,b)=>{
+    if(state.sortMode==="time") return a._date-b._date;
+    const levelDiff=(rank[b.importance_level]||0)-(rank[a.importance_level]||0);
+    if(levelDiff) return levelDiff;
+    const scoreDiff=Number(b.importance||0)-Number(a.importance||0);
+    if(scoreDiff) return scoreDiff;
+    return a._date-b._date;
+  });
 }
 
 function eventCard(e){
@@ -131,8 +143,9 @@ function render(){
   }
   $("#calendar").innerHTML=[...groups.values()].map(events=>{
     const d=events[0]._date;
+    const sorted=sortDayEvents(events);
     return `<section class="day"><div class="day-title"><h2>${esc(fmtDay(d))}</h2><span>${events.length} events</span></div>
-      <div class="grid">${events.map(eventCard).join("")}</div></section>`;
+      <div class="grid">${sorted.map(eventCard).join("")}</div></section>`;
   }).join("");
   renderHealth();
 }
@@ -167,6 +180,7 @@ $("#leagueFilter").addEventListener("change",e=>{state.league=e.target.value;ren
 $("#stageFilter").addEventListener("change",e=>{state.stage=e.target.value;render()});
 $("#reasonFilter").addEventListener("change",e=>{state.reason=e.target.value;render()});
 $("#scoreFilter").addEventListener("change",e=>{state.minScore=Number(e.target.value||0);render()});
+$("#sortFilter").addEventListener("change",e=>{state.sortMode=e.target.value;render()});
 $("#drcOnly").addEventListener("change",e=>{state.drcOnly=e.target.checked;render()});
 $("#topOnly").addEventListener("change",e=>{state.topOnly=e.target.checked;render()});
 $("#dateFrom").addEventListener("change",e=>{state.from=startOfDay(e.target.value);$$("[data-days]").forEach(b=>b.classList.remove("active"));render()});

@@ -11,7 +11,7 @@
 <main class="shell">
   <header class="hero">
     <div>
-      <div class="kicker">SPORTS PLANNER · V5</div>
+      <div class="kicker">SPORTS PLANNER · V6</div>
       <h1>Upcoming sports events</h1>
       <p class="sub">Curated calendar for CRM, promo and sportsbook planning.</p>
     </div>
@@ -56,6 +56,10 @@
         <option value="40">Score 40+</option>
         <option value="50">Score 50+</option>
       </select>
+      <select id="sortFilter">
+        <option value="priority">Sort: Priority</option>
+        <option value="time">Sort: Time</option>
+      </select>
       <input id="search" type="search" placeholder="Search team, athlete, event…">
     </div>
 
@@ -97,7 +101,7 @@
     </div>
   </details>
 
-  <footer>Data: TheSportsDB · Normal → Watch → Interesting → Hot · No AI/context layer · Times shown in your browser timezone.</footer>
+  <footer>Data: TheSportsDB · Normal → Watch → Interesting → Hot · Priority sort by default · No AI/context layer.</footer>
 </main>
 <script src="./app.js"></script>
 </body>

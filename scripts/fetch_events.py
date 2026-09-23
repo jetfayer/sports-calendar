@@ -159,7 +159,7 @@ def detect_stage(e,source):
     return "Regular"
 
 def stage_score(stage):
-    return {"QF":10,"SF":20,"Final":30,"Playoffs":10}.get(stage,0)
+    return {"R16":4,"QF":8,"SF":14,"Final":22,"Playoffs":8}.get(stage,0)
 
 def add_reason(reasons,tags,text,tag):
     if text and text not in reasons:
@@ -182,11 +182,12 @@ def tennis_context(e):
         if any(alias.lower() in low for alias in row.get("aliases",[])):
             tournament=row
             break
-    players=[p for p in CONFIG.get("tennis_top_players",[]) if p.lower() in low]
-    return tournament,list(dict.fromkeys(players))
+    top5=[p for p in CONFIG.get("tennis_top5_players",[]) if p.lower() in low]
+    top10=[p for p in CONFIG.get("tennis_top10_players",[]) if p.lower() in low]
+    return tournament,list(dict.fromkeys(top5)),list(dict.fromkeys(top10))
 
 def is_tennis_relevant(e):
-    tournament,_=tennis_context(e)
+    tournament,_,_=tennis_context(e)
     return tournament is not None
 
 def infer_team_source_group(source,e):
@@ -232,11 +233,29 @@ def resolve_level(score,auto_watch,hot_triggers):
         return "watch"
     return "normal"
 
+
+def matchup_bonus(t1,t2):
+    tiers={t1,t2}
+    if t1=="A+" and t2=="A+":
+        return 6
+    if "A+" in tiers and "A" in tiers:
+        return 4
+    if t1=="A" and t2=="A":
+        return 3
+    return 0
+
+def tennis_tournament_score(kind):
+    return {"Grand Slam":12,"Tour Finals":10,"1000":7}.get(kind,0)
+
+
 def score_event(e,source):
     sport=source.get("sport","")
     low=event_text(e).lower()
     stage=detect_stage(e,source)
+
+    # Competition prestige + stage are separate layers.
     score=competition_score_for(source,e)+stage_score(stage)
+
     reasons=[]
     tags=[]
     hot_triggers=[]
@@ -244,7 +263,9 @@ def score_event(e,source):
     auto_watch=False
 
     if competition_score_for(source,e)>0:
-        add_reason(reasons,tags,first(e,"strLeague","league",default=source["name"]),"Major competition")
+        add_reason(reasons,tags,first(e,"strLeague","league",default=source["name"]),"Competition")
+    if stage=="R16":
+        add_reason(reasons,tags,"Round of 16","R16")
     if stage=="QF":
         add_reason(reasons,tags,"Quarter-final","Quarter-final")
     if stage=="SF":
@@ -257,9 +278,9 @@ def score_event(e,source):
     home=first(e,"strHomeTeam","home")
     away=first(e,"strAwayTeam","away")
 
-    # DRC national team is HOT in any supported sport for the current DRC-facing use case.
+    # DRC national team: HOT regardless of opponent/competition for now.
     if drc_national_event(e,source):
-        score=max(score,50)
+        score=max(score,25)
         hot_triggers.append("DR Congo national team")
         add_reason(reasons,tags,"DR Congo national team","DRC")
         has_top=True
@@ -276,16 +297,21 @@ def score_event(e,source):
                 if team:
                     score+=int(team.get("score",0))
                     tier=team.get("tier","")
-                    add_reason(reasons,tags,f'{team["name"]} · National Tier {tier}',f'National Tier {tier}')
+                    add_reason(reasons,tags,f'{team["name"]} · National {tier}',f'National {tier}')
 
-            # Extra African marquee signal when both teams are recognized African powers.
-            if hd and ad and hd.get("region")=="Africa" and ad.get("region")=="Africa" and hd.get("africa_marquee") and ad.get("africa_marquee"):
-                score+=5
-                add_reason(reasons,tags,"African marquee matchup","African marquee")
+            if hd and ad:
+                bonus=matchup_bonus(hd.get("tier"),ad.get("tier"))
+                if bonus:
+                    score+=bonus
+                    add_reason(reasons,tags,"Strong national-team matchup","Top matchup")
 
-            # A high-profile national SF/Final becomes HOT; DRC already handled above.
-            if stage in ("SF","Final") and hd and ad and hd.get("tier") in ("A","B") and ad.get("tier") in ("A","B"):
-                hot_triggers.append("High-profile national late stage")
+                # Small extra local relevance when both are recognised African powers.
+                if hd.get("region")=="Africa" and ad.get("region")=="Africa" and hd.get("africa_marquee") and ad.get("africa_marquee"):
+                    score+=3
+                    add_reason(reasons,tags,"African marquee matchup","African marquee")
+
+                if stage in ("SF","Final") and hd.get("tier") in ("A+","A","B") and ad.get("tier") in ("A+","A","B"):
+                    hot_triggers.append("High-profile national late stage")
 
         else:
             hd=definition_for(home,"football_clubs")
@@ -303,7 +329,7 @@ def score_event(e,source):
                         break
 
             if rivalry:
-                # Rivalry replaces participant points; no double counting.
+                # Exact rivalry replaces participant points; no double counting.
                 score+=40
                 add_reason(reasons,tags,rivalry.get("label","Marquee rivalry"),"Rivalry")
                 if rivalry.get("hot"):
@@ -313,8 +339,20 @@ def score_event(e,source):
                     if club:
                         score+=int(club.get("score",0))
                         tier=club.get("tier","")
-                        label={"A":"Marquee club","B":"Major club","C":"Momentum club"}.get(tier,"Relevant club")
-                        add_reason(reasons,tags,f'{club["name"]} · Tier {tier}',label)
+                        label={"A+":"Global marquee","A":"Major club","B":"Strong club","C":"Momentum club"}.get(tier,"Relevant club")
+                        add_reason(reasons,tags,f'{club["name"]} · {tier}',label)
+
+                if hd and ad:
+                    bonus=matchup_bonus(hd.get("tier"),ad.get("tier"))
+                    if bonus:
+                        score+=bonus
+                        add_reason(reasons,tags,"Strong club matchup","Top matchup")
+
+            # A+ vs A+ in Champions League is HOT even in league phase.
+            league_name=first(e,"strLeague","league",default=source["name"])
+            if hd and ad and hd.get("tier")=="A+" and ad.get("tier")=="A+" and norm(league_name)==norm("UEFA Champions League"):
+                hot_triggers.append("UCL global marquee matchup")
+                add_reason(reasons,tags,"A+ vs A+ in Champions League","UCL marquee")
 
             source_name=source.get("name","")
             is_drc_club=source_name in ("TP Mazembe","AS Vita Club") or "tp mazembe" in low or "vita club" in low
@@ -326,13 +364,12 @@ def score_event(e,source):
                 has_top=True
                 auto_watch=True
 
-            league_name=first(e,"strLeague","league",default=source["name"])
             major_final=stage=="Final" and any(norm(x)==norm(league_name) for x in CONFIG.get("major_football_finals",[]))
             if major_final:
                 hot_triggers.append("Major football final")
                 add_reason(reasons,tags,"Major football final","Final")
 
-            if stage in ("SF","Final") and hd and ad and hd.get("tier") in ("A","B") and ad.get("tier") in ("A","B"):
+            if stage in ("SF","Final") and hd and ad and hd.get("tier") in ("A+","A","B") and ad.get("tier") in ("A+","A","B"):
                 hot_triggers.append("High-profile club late stage")
 
     elif sport=="Basketball":
@@ -345,50 +382,58 @@ def score_event(e,source):
             if team:
                 score+=int(team.get("score",0))
                 tier=team.get("tier","")
-                add_reason(reasons,tags,f'{team["name"]} · Basketball Tier {tier}',f'Basketball Tier {tier}')
+                add_reason(reasons,tags,f'{team["name"]} · Basketball {tier}',f'Basketball {tier}')
+
+        if hd and ad:
+            bonus=matchup_bonus(hd.get("tier"),ad.get("tier"))
+            if bonus:
+                score+=bonus
+                add_reason(reasons,tags,"Strong basketball matchup","Top matchup")
 
         league=first(e,"strLeague","league",default=source["name"]).lower()
         if stage=="Final" and "nba" in league:
             hot_triggers.append("NBA Finals")
         elif stage=="Final" and any(x in league for x in ("euroleague","basketball world cup","afrobasket","basketball africa league")):
             hot_triggers.append("Major basketball final")
-        elif stage in ("SF","Final") and hd and ad:
+        elif stage in ("SF","Final") and hd and ad and hd.get("tier") in ("A+","A","B") and ad.get("tier") in ("A+","A","B"):
             hot_triggers.append("High-profile basketball late stage")
 
     elif sport=="Tennis":
-        tournament,players=tennis_context(e)
+        tournament,top5,top10=tennis_context(e)
         if tournament:
-            add_reason(reasons,tags,tournament["name"],"Major tournament")
             kind=tournament.get("kind","")
-            if len(players)>=2:
-                score+=25
-                has_top=True
-                auto_watch=True
-                add_reason(reasons,tags,"Top-player matchup","Top matchup")
-            elif len(players)==1:
-                score+=8
-                has_top=True
-                auto_watch=True
-                add_reason(reasons,tags,"Top player","Top participant")
+            score+=tennis_tournament_score(kind)
+            add_reason(reasons,tags,tournament["name"],kind or "Major tournament")
 
-            # A late round is meaningful even without a top-10 player.
-            if stage=="SF":
-                score+=5  # generic stage score is 20 -> 25 = Interesting
+            top5_count=len(top5)
+            top10_count=len(top10)
+            total_top=top5_count+top10_count
+
+            # Participant importance: Top 5 = 10, positions 6-10 = 7.
+            score+=10*top5_count + 7*top10_count
+            if total_top:
+                has_top=True
+                auto_watch=True
+                add_reason(reasons,tags,"Top tennis player","Top participant")
+            if total_top>=2:
+                score+=6
+                add_reason(reasons,tags,"Top-player matchup","Top matchup")
+
+            # HOT triggers are stage-specific, not raw-score based.
             if kind=="Grand Slam" and stage=="Final":
                 hot_triggers.append("Grand Slam final")
-            elif kind=="Grand Slam" and stage=="SF" and len(players)>=2:
+            elif kind=="Grand Slam" and stage=="SF" and total_top>=2:
                 hot_triggers.append("Grand Slam top semi-final")
             elif kind=="Tour Finals" and stage=="Final":
                 hot_triggers.append("Tour Finals final")
-            elif kind=="1000" and stage=="Final" and len(players)>=2:
+            elif kind=="1000" and stage=="Final" and total_top>=2:
                 hot_triggers.append("1000 final — top matchup")
 
     elif sport=="Fighting":
         names=CONFIG.get("priority_fighters",[]) if source.get("name")=="UFC" else CONFIG.get("priority_boxers",[])
-        hits=[x for x in names if x.lower() in low]
-        hits=list(dict.fromkeys(hits))
+        hits=list(dict.fromkeys([x for x in names if x.lower() in low]))
         if len(hits)>=2:
-            score+=25
+            score+=25  # 10 + 10 participants + 5 matchup
             has_top=True
             auto_watch=True
             add_reason(reasons,tags,"Two priority fighters","Top matchup")
@@ -398,34 +443,34 @@ def score_event(e,source):
             auto_watch=True
             add_reason(reasons,tags,hits[0],"Top participant")
 
-        title_terms=("title fight","world title","championship","unification","undisputed","title bout")
-        if any(t in low for t in title_terms):
-            score+=40
-            add_reason(reasons,tags,"Title fight","Title fight")
-            hot_triggers.append("Title fight")
-        elif stage=="Main Event":
-            score+=15
+        if stage=="Main Event":
+            score+=8
             auto_watch=True
             add_reason(reasons,tags,"Main event","Main event")
 
+        title_terms=("title fight","world title","championship","unification","undisputed","title bout")
+        if any(t in low for t in title_terms):
+            score+=25
+            add_reason(reasons,tags,"Title fight","Title fight")
+            hot_triggers.append("Title fight")
+
     elif sport=="Motorsport":
-        if stage=="Practice":
-            pass
-        elif stage=="Qualifying":
-            score+=6
+        # Practice is filtered out before normalization.
+        if stage=="Qualifying":
+            score+=7
             auto_watch=True
             add_reason(reasons,tags,"Formula 1 qualifying","Qualifying")
         elif stage=="Sprint":
-            score+=8
+            score+=10
             auto_watch=True
             add_reason(reasons,tags,"Formula 1 sprint","Sprint")
         else:
-            score+=10
+            score+=14
             auto_watch=True
             add_reason(reasons,tags,"Formula 1 race","Race")
 
         if any(x.lower() in low for x in CONFIG.get("marquee_f1_races",[])):
-            score+=15
+            score+=11
             add_reason(reasons,tags,"Marquee Grand Prix","Marquee race")
         # No automatic F1 HOT without standings/context.
 
@@ -608,6 +653,8 @@ def main():
                 # Tennis coverage is intentionally curated: only major tournaments enter the calendar.
                 if source.get("sport")=="Tennis":
                     rows=[e for e in rows if is_tennis_relevant(e)]
+                if source.get("sport")=="Motorsport":
+                    rows=[e for e in rows if detect_stage(e,source)!="Practice"]
 
                 normalized=[normalize_event(e,source,season or "") for e in rows]
                 upcoming=[n for n in normalized if in_window(n)]

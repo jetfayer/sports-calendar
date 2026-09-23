@@ -1,116 +1,146 @@
-# Sports Calendar v5
+# Sports Calendar v6
 
-V5 introduces a four-level importance ladder and fixes the basketball regression from v4.2.
+V6 finalizes the point model across sports and sorts each day by priority by default.
 
-## Importance ladder
+## Universal levels
 
-- **Normal** — curated coverage, but no special signal.
-- **👀 Watch** — worth noticing; one relevant participant or a moderately relevant event.
-- **⭐ Interesting** — stronger promo candidate: strong matchup, stronger stage, or score >= 25.
-- **🔥 Hot** — requires an explicit strong trigger. Small bonuses cannot accidentally create HOT.
+- Normal: 0–9
+- Watch: 10–24
+- Interesting: 25–44
+- Hot: explicit trigger only
 
-Default site view is **Watch+**, which shows Watch + Interesting + Hot.
+A high raw score alone never creates HOT.
 
-## Football clubs
+## Daily sorting
 
-The broader v4.2 club list remains:
-- Tier A / marquee: 15 pts
-- Tier B / major: 10 pts
-- Tier C / momentum: 6 pts
+Default:
+1. Hot
+2. Interesting
+3. Watch
+4. Normal
+5. within the same level: higher score first
+6. equal score: earlier kickoff first
 
-A single relevant club now produces **Watch**, not automatically Interesting.
+UI also includes `Sort: Time`.
+
+## Football — participant points
+
+- A+ Global marquee: 14
+- A Major: 10
+- B Strong/relevant: 7
+- C Momentum: 4
+
+Matchup bonus:
+- A+ vs A+: +6
+- A+ vs A: +4
+- A vs A: +3
+
+Exact marquee rivalries remain HOT and replace normal participant scoring.
 
 Examples:
-- Dortmund vs Werder → Watch
-- Newcastle vs Burnley → Watch
-- Arsenal vs Liverpool → Interesting
-- Real Madrid vs Barcelona → Hot via exact rivalry trigger
-- Inter vs Shakhtar in UCL → Interesting, not Hot
+- Dortmund vs Werder, Bundesliga -> Watch
+- Newcastle vs Burnley, EPL -> Watch
+- Newcastle vs Arsenal, EPL -> Interesting
+- Arsenal vs Liverpool, EPL -> Interesting
+- Chelsea vs Manchester United -> Hot (exact marquee rivalry)
+- Bayern vs Dortmund -> Hot
+- Inter vs Milan -> Hot
+- Manchester City vs PSG, Champions League -> Hot (A+ vs A+ UCL trigger)
+- Roma vs Real Madrid, Champions League -> Interesting
+
+## Football — competition points
+
+- Domestic Cup: +2
+- Top domestic league: +5
+- Conference League: +7
+- Europa League: +9
+- CAF Confederation Cup: +6
+- CAF Champions League: +9
+- Champions League: +12
+- Nations League: +4
+- AFCON / World Cup qualifier: +8
+- AFCON / EURO / Copa América: +13
+- World Cup: +16
+
+Stage:
+- R16: +4
+- QF: +8
+- SF: +14
+- Final: +22
 
 ## National teams
 
-National teams now have their own A/B/C tiers.
+Same participant tier scale: 14 / 10 / 7 / 4.
 
-Examples:
-- Belgium vs France, Nations League → Interesting
-- France vs a low-priority opponent → Watch
-- Morocco vs Senegal, AFCON → Interesting
-- DR Congo national-team match → **always Hot for now**
-
-African powers get dedicated relevance in the DRC-facing model: Morocco, Senegal, Nigeria, Egypt, Algeria, Côte d'Ivoire, Cameroon, Ghana, Tunisia, South Africa and Mali are explicitly tracked.
+African marquee pair gets a small +3 local-interest bonus.
+DR Congo national-team match is Hot regardless of opponent/competition for now.
 
 ## Basketball
 
-Basketball is restored. The v4.2 `canonical_team()` regression is removed.
+Competition:
+- NBA regular season: +6
+- EuroLeague: +5
+- Basketball Africa League: +5
+- AfroBasket: +10
+- FIBA Basketball World Cup: +13
 
-Basketball now has its own relevant-team list:
-- marquee NBA teams
-- current/recurring NBA contenders
-- major EuroLeague clubs
+Participant tiers:
+- A+: 14
+- A: 10
+- B: 7
 
-One relevant team → Watch; a strong two-team matchup can become Interesting; NBA/EuroLeague/FIBA/AfroBasket finals can become Hot.
+Same small matchup bonus model applies.
+NBA Finals / selected major basketball finals are Hot.
 
 ## Tennis
 
-Coverage remains intentionally strict:
-- Grand Slams
-- ATP/WTA Finals
-- configured ATP Masters 1000 / WTA 1000-level events
+Only major tournaments enter the calendar:
+- Grand Slam: +12
+- ATP/WTA Finals: +10
+- Masters 1000 / WTA 1000: +7
 
-Highlighting:
-- one top player → Watch
-- top-player matchup → Interesting
-- QF → Watch
-- SF → Interesting
-- Grand Slam Final → Hot
-- Grand Slam top-player SF → Hot
-- 1000 Final with two top players → Hot
+Players:
+- Top 5: +10
+- No. 6–10: +7
+- two top players: +6 matchup
 
-Small ATP/WTA tournaments are not admitted into the calendar.
-
-## Formula 1
-
-- Practice → Normal
-- Qualifying → Watch
-- Sprint → Watch
-- Regular race → Watch
-- marquee GP (Monaco, Silverstone, Monza, etc.) → Interesting
-- no automatic F1 Hot without standings/context; manual HOT remains possible
+Stage uses the same R16/QF/SF/Final points.
+Grand Slam Final is Hot.
+Top-player Grand Slam SF can be Hot.
+Small ATP/WTA events stay out.
 
 ## UFC / Boxing
 
-- one priority fighter → Watch
-- two priority fighters / strong main event → Interesting
-- title fight / world title / unification / undisputed → Hot
+- one priority fighter: +10
+- two priority fighters: +25 total (10 + 10 + 5 matchup)
+- Main Event: +8
+- title/world title/unification/undisputed: +25 + Hot trigger
 
-Not every boxing event is Hot.
+## Formula 1
 
-## Filters
+Practice is excluded.
+- Qualifying: +7
+- Sprint: +10
+- Race: +14
+- marquee GP: +11
 
-Existing filters stay, including:
-- Sport
-- Competition type
-- Region
-- Competition
-- Stage
-- Priority reason
-- DRC only
-- Top participants only
-- Score minimum
-- All / Watch+ / Interesting / Hot
+Therefore:
+- normal race -> Watch
+- Monaco / Silverstone / Monza type race -> Interesting
+- no automatic Hot without standings/context; manual Hot remains possible
 
 ## No AI/context layer
 
-V5 intentionally does **not** implement news, milestones, standings, title-race or relegation context.
+No news, milestones, standings, title-race or relegation logic is included.
 
 ## Deploy
 
 Replace:
-- `index.html`
-- `styles.css`
-- `app.js`
-- `config.json`
-- `scripts/fetch_events.py`
-- `README.md`
+- index.html
+- styles.css
+- app.js
+- config.json
+- scripts/fetch_events.py
+- README.md
 
 Keep `.github/workflows/update.yml`, then run the existing GitHub Action.

@@ -15,7 +15,7 @@
       "competition_group": "League",
       "region": "Europe",
       "tier": 1,
-      "competition_score": 0,
+      "competition_score": 5,
       "enabled": true
     },
     {
@@ -29,7 +29,7 @@
       "competition_group": "League",
       "region": "Europe",
       "tier": 1,
-      "competition_score": 0,
+      "competition_score": 5,
       "enabled": true
     },
     {
@@ -43,7 +43,7 @@
       "competition_group": "League",
       "region": "Europe",
       "tier": 1,
-      "competition_score": 0,
+      "competition_score": 5,
       "enabled": true
     },
     {
@@ -57,7 +57,7 @@
       "competition_group": "League",
       "region": "Europe",
       "tier": 1,
-      "competition_score": 0,
+      "competition_score": 5,
       "enabled": true
     },
     {
@@ -71,7 +71,7 @@
       "competition_group": "League",
       "region": "Europe",
       "tier": 1,
-      "competition_score": 0,
+      "competition_score": 5,
       "enabled": true
     },
     {
@@ -85,7 +85,7 @@
       "competition_group": "Cup",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 0,
+      "competition_score": 2,
       "enabled": true
     },
     {
@@ -101,7 +101,7 @@
       "competition_group": "Cup",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 0,
+      "competition_score": 2,
       "enabled": true
     },
     {
@@ -115,7 +115,7 @@
       "competition_group": "Cup",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 0,
+      "competition_score": 2,
       "enabled": true
     },
     {
@@ -130,7 +130,7 @@
       "competition_group": "Cup",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 0,
+      "competition_score": 2,
       "enabled": true
     },
     {
@@ -144,7 +144,7 @@
       "competition_group": "Cup",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 0,
+      "competition_score": 2,
       "enabled": true
     },
     {
@@ -158,7 +158,7 @@
       "competition_group": "Cup",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 0,
+      "competition_score": 2,
       "enabled": true
     },
     {
@@ -171,7 +171,7 @@
       "competition_group": "Continental",
       "region": "Europe",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 12,
       "enabled": true
     },
     {
@@ -184,7 +184,7 @@
       "competition_group": "Continental",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 5,
+      "competition_score": 9,
       "enabled": true
     },
     {
@@ -197,7 +197,7 @@
       "competition_group": "Continental",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 0,
+      "competition_score": 7,
       "enabled": true
     },
     {
@@ -211,7 +211,7 @@
       "competition_group": "Continental",
       "region": "Africa",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 9,
       "enabled": true
     },
     {
@@ -224,7 +224,7 @@
       "competition_group": "Continental",
       "region": "Africa",
       "tier": 2,
-      "competition_score": 5,
+      "competition_score": 6,
       "enabled": true
     },
     {
@@ -240,7 +240,7 @@
       "competition_group": "League",
       "region": "DRC",
       "tier": 2,
-      "competition_score": 0,
+      "competition_score": 5,
       "drc_focus": true,
       "enabled": true
     },
@@ -254,7 +254,7 @@
       "competition_group": "National teams",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 5,
+      "competition_score": 4,
       "enabled": true
     },
     {
@@ -268,7 +268,7 @@
       "competition_group": "National teams",
       "region": "Africa",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 13,
       "enabled": true
     },
     {
@@ -283,7 +283,7 @@
       "competition_group": "National teams",
       "region": "Africa",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 8,
       "enabled": true
     },
     {
@@ -297,7 +297,7 @@
       "competition_group": "National teams",
       "region": "Global",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 16,
       "enabled": true
     },
     {
@@ -311,7 +311,7 @@
       "competition_group": "National teams",
       "region": "Africa",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 8,
       "enabled": true
     },
     {
@@ -325,7 +325,7 @@
       "competition_group": "National teams",
       "region": "Europe",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 8,
       "enabled": true
     },
     {
@@ -339,7 +339,7 @@
       "competition_group": "National teams",
       "region": "South America",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 8,
       "enabled": true
     },
     {
@@ -353,7 +353,7 @@
       "competition_group": "National teams",
       "region": "North America",
       "tier": 2,
-      "competition_score": 5,
+      "competition_score": 8,
       "enabled": true
     },
     {
@@ -367,7 +367,7 @@
       "competition_group": "National teams",
       "region": "Asia",
       "tier": 2,
-      "competition_score": 5,
+      "competition_score": 8,
       "enabled": true
     },
     {
@@ -381,7 +381,7 @@
       "competition_group": "National teams",
       "region": "Oceania",
       "tier": 2,
-      "competition_score": 5,
+      "competition_score": 8,
       "enabled": true
     },
     {
@@ -395,7 +395,7 @@
       "competition_group": "National teams",
       "region": "South America",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 13,
       "enabled": true
     },
     {
@@ -409,7 +409,7 @@
       "competition_group": "National teams",
       "region": "North America",
       "tier": 2,
-      "competition_score": 5,
+      "competition_score": 9,
       "enabled": true
     },
     {
@@ -423,7 +423,7 @@
       "competition_group": "National teams",
       "region": "Asia",
       "tier": 2,
-      "competition_score": 5,
+      "competition_score": 9,
       "enabled": true
     },
     {
@@ -438,7 +438,7 @@
       "competition_group": "National teams",
       "region": "Europe",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 13,
       "enabled": true
     },
     {
@@ -453,7 +453,7 @@
       "competition_group": "National teams",
       "region": "Europe",
       "tier": 2,
-      "competition_score": 5,
+      "competition_score": 8,
       "enabled": true
     },
     {
@@ -466,7 +466,7 @@
       "competition_group": "League",
       "region": "North America",
       "tier": 1,
-      "competition_score": 0,
+      "competition_score": 6,
       "enabled": true
     },
     {
@@ -507,7 +507,7 @@
       "competition_group": "National teams",
       "region": "Global",
       "tier": 1,
-      "competition_score": 10,
+      "competition_score": 13,
       "enabled": true
     },
     {
@@ -662,6 +662,62 @@
     },
     {
       "teams": [
+        "Manchester United",
+        "Manchester City"
+      ],
+      "label": "Manchester derby",
+      "hot": true
+    },
+    {
+      "teams": [
+        "Liverpool",
+        "Manchester United"
+      ],
+      "label": "Major rivalry",
+      "hot": true
+    },
+    {
+      "teams": [
+        "Arsenal",
+        "Tottenham Hotspur"
+      ],
+      "label": "North London derby",
+      "hot": true
+    },
+    {
+      "teams": [
+        "Arsenal",
+        "Chelsea"
+      ],
+      "label": "London rivalry",
+      "hot": true
+    },
+    {
+      "teams": [
+        "Chelsea",
+        "Tottenham Hotspur"
+      ],
+      "label": "London rivalry",
+      "hot": true
+    },
+    {
+      "teams": [
+        "Chelsea",
+        "Manchester United"
+      ],
+      "label": "Marquee English rivalry",
+      "hot": true
+    },
+    {
+      "teams": [
+        "Bayern Munich",
+        "Borussia Dortmund"
+      ],
+      "label": "Der Klassiker",
+      "hot": true
+    },
+    {
+      "teams": [
         "Inter Milan",
         "AC Milan"
       ],
@@ -678,34 +734,10 @@
     },
     {
       "teams": [
-        "Liverpool",
-        "Manchester United"
+        "Roma",
+        "Lazio"
       ],
-      "label": "Major rivalry",
-      "hot": true
-    },
-    {
-      "teams": [
-        "Manchester City",
-        "Manchester United"
-      ],
-      "label": "Manchester derby",
-      "hot": true
-    },
-    {
-      "teams": [
-        "Arsenal",
-        "Tottenham Hotspur"
-      ],
-      "label": "North London derby",
-      "hot": true
-    },
-    {
-      "teams": [
-        "Bayern Munich",
-        "Borussia Dortmund"
-      ],
-      "label": "Der Klassiker",
+      "label": "Derby della Capitale",
       "hot": true
     },
     {
@@ -714,14 +746,6 @@
         "Marseille"
       ],
       "label": "Le Classique",
-      "hot": true
-    },
-    {
-      "teams": [
-        "Roma",
-        "Lazio"
-      ],
-      "label": "Derby della Capitale",
       "hot": true
     },
     {
@@ -1006,9 +1030,8 @@
       "aliases": [
         "Real Madrid"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Barcelona",
@@ -1016,9 +1039,8 @@
         "Barcelona",
         "FC Barcelona"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Atlético Madrid",
@@ -1028,26 +1050,23 @@
         "Atleti"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Arsenal",
       "aliases": [
         "Arsenal"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Liverpool",
       "aliases": [
         "Liverpool"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Manchester United",
@@ -1056,9 +1075,8 @@
         "Man United",
         "Man Utd"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Manchester City",
@@ -1066,18 +1084,16 @@
         "Manchester City",
         "Man City"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Chelsea",
       "aliases": [
         "Chelsea"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Tottenham Hotspur",
@@ -1087,8 +1103,7 @@
         "Spurs"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Bayern Munich",
@@ -1097,9 +1112,8 @@
         "Bayern München",
         "Bayern"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Borussia Dortmund",
@@ -1109,8 +1123,7 @@
         "B. Dortmund"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Inter Milan",
@@ -1119,9 +1132,8 @@
         "Internazionale",
         "Inter"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "AC Milan",
@@ -1130,8 +1142,7 @@
         "Milan"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Juventus",
@@ -1139,8 +1150,7 @@
         "Juventus"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Napoli",
@@ -1149,8 +1159,7 @@
         "SSC Napoli"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Roma",
@@ -1159,8 +1168,7 @@
         "AS Roma"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Paris Saint-Germain",
@@ -1169,9 +1177,8 @@
         "Paris SG",
         "PSG"
       ],
-      "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Marseille",
@@ -1181,8 +1188,7 @@
         "Olympique de Marseille"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Lyon",
@@ -1191,8 +1197,7 @@
         "Olympique Lyonnais"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Monaco",
@@ -1201,8 +1206,7 @@
         "AS Monaco"
       ],
       "tier": "A",
-      "score": 15,
-      "auto_interesting": true
+      "score": 10
     },
     {
       "name": "Newcastle United",
@@ -1211,8 +1215,7 @@
         "Newcastle"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Aston Villa",
@@ -1220,8 +1223,7 @@
         "Aston Villa"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Brighton & Hove Albion",
@@ -1230,8 +1232,7 @@
         "Brighton"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Athletic Club",
@@ -1240,8 +1241,7 @@
         "Athletic Bilbao"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Real Betis",
@@ -1250,8 +1250,7 @@
         "Betis"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Villarreal",
@@ -1260,8 +1259,7 @@
         "Villarreal CF"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Sevilla",
@@ -1270,8 +1268,7 @@
         "Sevilla FC"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Real Sociedad",
@@ -1279,8 +1276,7 @@
         "Real Sociedad"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Bayer Leverkusen",
@@ -1289,8 +1285,7 @@
         "Leverkusen"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "RB Leipzig",
@@ -1299,8 +1294,7 @@
         "Leipzig"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Eintracht Frankfurt",
@@ -1309,8 +1303,7 @@
         "Frankfurt"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Atalanta",
@@ -1318,8 +1311,7 @@
         "Atalanta"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Lazio",
@@ -1328,8 +1320,7 @@
         "SS Lazio"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Fiorentina",
@@ -1338,8 +1329,7 @@
         "ACF Fiorentina"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Lille",
@@ -1349,8 +1339,7 @@
         "LOSC"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Lens",
@@ -1359,8 +1348,7 @@
         "RC Lens"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Nice",
@@ -1369,8 +1357,7 @@
         "OGC Nice"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Benfica",
@@ -1379,8 +1366,7 @@
         "SL Benfica"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Porto",
@@ -1389,8 +1375,7 @@
         "FC Porto"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Sporting CP",
@@ -1400,8 +1385,7 @@
         "Sporting"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Ajax",
@@ -1410,8 +1394,7 @@
         "AFC Ajax"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "PSV",
@@ -1420,8 +1403,7 @@
         "PSV Eindhoven"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Feyenoord",
@@ -1429,8 +1411,7 @@
         "Feyenoord"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Galatasaray",
@@ -1438,8 +1419,7 @@
         "Galatasaray"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Fenerbahçe",
@@ -1448,8 +1428,7 @@
         "Fenerbahce"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Celtic",
@@ -1458,8 +1437,7 @@
         "Celtic FC"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Rangers",
@@ -1468,8 +1446,7 @@
         "Rangers FC"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Shakhtar Donetsk",
@@ -1478,8 +1455,7 @@
         "Shakhtar"
       ],
       "tier": "B",
-      "score": 10,
-      "auto_interesting": true
+      "score": 7
     },
     {
       "name": "Nottingham Forest",
@@ -1489,8 +1465,7 @@
         "Nottm Forest"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "AFC Bournemouth",
@@ -1499,8 +1474,7 @@
         "Bournemouth"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Crystal Palace",
@@ -1508,8 +1482,7 @@
         "Crystal Palace"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Sunderland",
@@ -1517,8 +1490,7 @@
         "Sunderland"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Girona",
@@ -1527,8 +1499,7 @@
         "Girona FC"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "VfB Stuttgart",
@@ -1537,8 +1508,7 @@
         "Stuttgart"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "SC Freiburg",
@@ -1547,8 +1517,7 @@
         "Freiburg"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Mainz 05",
@@ -1558,8 +1527,7 @@
         "1. FSV Mainz 05"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Bologna",
@@ -1568,8 +1536,7 @@
         "Bologna FC"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Brest",
@@ -1579,8 +1546,7 @@
         "Stade Brestois 29"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Strasbourg",
@@ -1590,8 +1556,7 @@
         "RC Strasbourg Alsace"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Club Brugge",
@@ -1600,8 +1565,7 @@
         "Club Brugge KV"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Bodø/Glimt",
@@ -1612,8 +1576,7 @@
         "Bodo Glimt"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Olympiacos",
@@ -1622,8 +1585,7 @@
         "Olympiacos FC"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     },
     {
       "name": "Braga",
@@ -1632,12 +1594,11 @@
         "SC Braga"
       ],
       "tier": "C",
-      "score": 6,
-      "auto_interesting": true
+      "score": 4
     }
   ],
-  "version": "5.0",
-  "watch_threshold": 8,
+  "version": "6.0",
+  "watch_threshold": 10,
   "national_team_relevance_updated": "2026-09-23",
   "national_teams": [
     {
@@ -1645,8 +1606,8 @@
       "aliases": [
         "Spain"
       ],
-      "tier": "A",
-      "score": 15,
+      "tier": "A+",
+      "score": 14,
       "region": "Europe"
     },
     {
@@ -1654,8 +1615,8 @@
       "aliases": [
         "Argentina"
       ],
-      "tier": "A",
-      "score": 15,
+      "tier": "A+",
+      "score": 14,
       "region": "South America"
     },
     {
@@ -1663,8 +1624,8 @@
       "aliases": [
         "France"
       ],
-      "tier": "A",
-      "score": 15,
+      "tier": "A+",
+      "score": 14,
       "region": "Europe"
     },
     {
@@ -1672,8 +1633,8 @@
       "aliases": [
         "England"
       ],
-      "tier": "A",
-      "score": 15,
+      "tier": "A+",
+      "score": 14,
       "region": "Europe"
     },
     {
@@ -1681,8 +1642,8 @@
       "aliases": [
         "Brazil"
       ],
-      "tier": "A",
-      "score": 15,
+      "tier": "A+",
+      "score": 14,
       "region": "South America"
     },
     {
@@ -1690,8 +1651,8 @@
       "aliases": [
         "Portugal"
       ],
-      "tier": "A",
-      "score": 15,
+      "tier": "A+",
+      "score": 14,
       "region": "Europe"
     },
     {
@@ -1700,7 +1661,7 @@
         "Belgium"
       ],
       "tier": "A",
-      "score": 15,
+      "score": 10,
       "region": "Europe"
     },
     {
@@ -1710,7 +1671,7 @@
         "Holland"
       ],
       "tier": "A",
-      "score": 15,
+      "score": 10,
       "region": "Europe"
     },
     {
@@ -1719,7 +1680,7 @@
         "Germany"
       ],
       "tier": "A",
-      "score": 15,
+      "score": 10,
       "region": "Europe"
     },
     {
@@ -1728,7 +1689,7 @@
         "Italy"
       ],
       "tier": "A",
-      "score": 15,
+      "score": 10,
       "region": "Europe"
     },
     {
@@ -1737,7 +1698,7 @@
         "Morocco"
       ],
       "tier": "A",
-      "score": 15,
+      "score": 10,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1747,7 +1708,7 @@
         "Senegal"
       ],
       "tier": "A",
-      "score": 15,
+      "score": 10,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1757,7 +1718,7 @@
         "Croatia"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Europe"
     },
     {
@@ -1766,7 +1727,7 @@
         "Switzerland"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Europe"
     },
     {
@@ -1775,7 +1736,7 @@
         "Norway"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Europe"
     },
     {
@@ -1784,7 +1745,7 @@
         "Denmark"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Europe"
     },
     {
@@ -1794,7 +1755,7 @@
         "Turkey"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Europe"
     },
     {
@@ -1803,7 +1764,7 @@
         "Austria"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Europe"
     },
     {
@@ -1812,7 +1773,7 @@
         "Mexico"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "North America"
     },
     {
@@ -1823,7 +1784,7 @@
         "United States of America"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "North America"
     },
     {
@@ -1832,7 +1793,7 @@
         "Canada"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "North America"
     },
     {
@@ -1841,7 +1802,7 @@
         "Colombia"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "South America"
     },
     {
@@ -1850,7 +1811,7 @@
         "Uruguay"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "South America"
     },
     {
@@ -1859,7 +1820,7 @@
         "Ecuador"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "South America"
     },
     {
@@ -1868,7 +1829,7 @@
         "Japan"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Asia"
     },
     {
@@ -1878,7 +1839,7 @@
         "Korea Republic"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Asia"
     },
     {
@@ -1887,7 +1848,7 @@
         "Australia"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Asia"
     },
     {
@@ -1896,7 +1857,7 @@
         "Nigeria"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1906,7 +1867,7 @@
         "Egypt"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1916,7 +1877,7 @@
         "Algeria"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1928,7 +1889,7 @@
         "Ivory Coast"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1938,7 +1899,7 @@
         "Cameroon"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1948,7 +1909,7 @@
         "Ghana"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1958,7 +1919,7 @@
         "Tunisia"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1968,7 +1929,7 @@
         "South Africa"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1978,7 +1939,7 @@
         "Mali"
       ],
       "tier": "B",
-      "score": 10,
+      "score": 7,
       "region": "Africa",
       "africa_marquee": true
     },
@@ -1989,7 +1950,7 @@
         "IR Iran"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Asia"
     },
     {
@@ -1998,7 +1959,7 @@
         "Saudi Arabia"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Asia"
     },
     {
@@ -2007,7 +1968,7 @@
         "Qatar"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Asia"
     },
     {
@@ -2016,7 +1977,7 @@
         "Paraguay"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "South America"
     },
     {
@@ -2025,7 +1986,7 @@
         "Chile"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "South America"
     },
     {
@@ -2034,7 +1995,7 @@
         "Serbia"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Europe"
     },
     {
@@ -2043,7 +2004,7 @@
         "Poland"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Europe"
     },
     {
@@ -2052,7 +2013,7 @@
         "Ukraine"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Europe"
     },
     {
@@ -2061,7 +2022,7 @@
         "Angola"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Africa",
       "africa_marquee": false
     },
@@ -2071,7 +2032,7 @@
         "Zambia"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Africa",
       "africa_marquee": false
     },
@@ -2081,7 +2042,7 @@
         "Burkina Faso"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Africa",
       "africa_marquee": false
     },
@@ -2092,7 +2053,7 @@
         "Cabo Verde"
       ],
       "tier": "C",
-      "score": 6,
+      "score": 4,
       "region": "Africa",
       "africa_marquee": false
     }
@@ -2110,32 +2071,32 @@
         "Los Angeles Lakers",
         "LA Lakers"
       ],
-      "tier": "A",
-      "score": 15
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Boston Celtics",
       "aliases": [
         "Boston Celtics"
       ],
-      "tier": "A",
-      "score": 15
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Golden State Warriors",
       "aliases": [
         "Golden State Warriors"
       ],
-      "tier": "A",
-      "score": 15
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "New York Knicks",
       "aliases": [
         "New York Knicks"
       ],
-      "tier": "A",
-      "score": 15
+      "tier": "A+",
+      "score": 14
     },
     {
       "name": "Oklahoma City Thunder",
@@ -2143,7 +2104,7 @@
         "Oklahoma City Thunder",
         "OKC Thunder"
       ],
-      "tier": "B",
+      "tier": "A",
       "score": 10
     },
     {
@@ -2151,7 +2112,7 @@
       "aliases": [
         "Denver Nuggets"
       ],
-      "tier": "B",
+      "tier": "A",
       "score": 10
     },
     {
@@ -2159,7 +2120,7 @@
       "aliases": [
         "Dallas Mavericks"
       ],
-      "tier": "B",
+      "tier": "A",
       "score": 10
     },
     {
@@ -2167,7 +2128,7 @@
       "aliases": [
         "Milwaukee Bucks"
       ],
-      "tier": "B",
+      "tier": "A",
       "score": 10
     },
     {
@@ -2175,7 +2136,7 @@
       "aliases": [
         "Cleveland Cavaliers"
       ],
-      "tier": "B",
+      "tier": "A",
       "score": 10
     },
     {
@@ -2184,7 +2145,7 @@
         "Minnesota Timberwolves"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Miami Heat",
@@ -2192,7 +2153,7 @@
         "Miami Heat"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Phoenix Suns",
@@ -2200,7 +2161,7 @@
         "Phoenix Suns"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Los Angeles Clippers",
@@ -2209,7 +2170,7 @@
         "LA Clippers"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Real Madrid Basketball",
@@ -2219,7 +2180,7 @@
         "Real Madrid"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Barcelona Basketball",
@@ -2229,7 +2190,7 @@
         "Barcelona"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Olympiacos Basketball",
@@ -2238,7 +2199,7 @@
         "Olympiacos"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Panathinaikos Basketball",
@@ -2247,7 +2208,7 @@
         "Panathinaikos"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Fenerbahçe Basketball",
@@ -2257,7 +2218,7 @@
         "Fenerbahçe"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Anadolu Efes",
@@ -2265,7 +2226,7 @@
         "Anadolu Efes"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     },
     {
       "name": "Monaco Basketball",
@@ -2274,7 +2235,31 @@
         "Monaco Basketball"
       ],
       "tier": "B",
-      "score": 10
+      "score": 7
     }
+  ],
+  "tennis_top5_players": [
+    "Jannik Sinner",
+    "Alexander Zverev",
+    "Carlos Alcaraz",
+    "Ben Shelton",
+    "Felix Auger-Aliassime",
+    "Elena Rybakina",
+    "Aryna Sabalenka",
+    "Jessica Pegula",
+    "Coco Gauff",
+    "Mirra Andreeva"
+  ],
+  "tennis_top10_players": [
+    "Daniil Medvedev",
+    "Flavio Cobolli",
+    "Frances Tiafoe",
+    "Alex de Minaur",
+    "Taylor Fritz",
+    "Linda Noskova",
+    "Elina Svitolina",
+    "Karolina Muchova",
+    "Iga Swiatek",
+    "Marta Kostyuk"
   ]
 }
