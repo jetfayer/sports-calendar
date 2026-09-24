@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T12:40:11.701130Z",
+  "updated_at": "2026-09-24T18:37:04.239697Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -18,7 +18,7 @@
       "away": "Congo",
       "venue": "Independence Stadium Windhoek",
       "country": "Namibia",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -39,6 +39,70 @@
       "source": "AFCON Qualifying"
     },
     {
+      "id": "2610068",
+      "name": "Oman Club vs Sur",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-09-24T14:30:00Z",
+      "home": "Oman Club",
+      "away": "Sur",
+      "venue": "",
+      "country": "",
+      "status": "2H",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
+      "id": "2610069",
+      "name": "Sohar vs Al-Seeb",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-09-24T14:40:00Z",
+      "home": "Sohar",
+      "away": "Al-Seeb",
+      "venue": "",
+      "country": "",
+      "status": "FT",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
       "id": "2475927",
       "name": "DR Congo vs Equatorial Guinea",
       "sport": "Soccer",
@@ -50,7 +114,7 @@
       "away": "Equatorial Guinea",
       "venue": "Stade des Martyrs",
       "country": "DR Congo",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -86,7 +150,7 @@
       "away": "Real Madrid Baloncesto",
       "venue": "Coca-Cola Arena",
       "country": "United Arab Emirates",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -120,7 +184,7 @@
       "away": "Botswana",
       "venue": "Benghazi International Stadium",
       "country": "Libya",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -152,7 +216,7 @@
       "away": "Central African Republic",
       "venue": "Stade Olympique",
       "country": "Mauritania",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -184,7 +248,7 @@
       "away": "Bayern München Basketball",
       "venue": "Arena 8888 Sofia",
       "country": "Bulgaria",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -216,7 +280,7 @@
       "away": "Malta",
       "venue": "Estadi Nacional d'Andorra",
       "country": "Andorra",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -6641,7 +6705,7 @@
       "away": "Eastbourne Borough",
       "venue": "The ASM Stadium",
       "country": "England",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -57609,6 +57673,38 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2610091",
+      "name": "Tyson Fury vs Anthony Joshua",
+      "sport": "Fighting",
+      "league": "Boxing",
+      "league_id": "4445",
+      "season": "2026",
+      "timestamp": "2026-12-11T20:00:00Z",
+      "home": "",
+      "away": "",
+      "venue": "Principality Stadium",
+      "country": "United Kingdom",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Individual",
+      "competition_group": "Tour/Event",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 25,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "Two priority fighters"
+      ],
+      "priority_tags": [
+        "Top matchup"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Boxing"
+    },
+    {
       "id": "2601530",
       "name": "UFC 335",
       "sport": "Fighting",
@@ -80938,6 +81034,70 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2565682",
+      "name": "Anadolu Efes SK vs Dubai Basketball",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-01-22T17:30:00Z",
+      "home": "Anadolu Efes SK",
+      "away": "Dubai Basketball",
+      "venue": "Basketbol Gelişim Merkezi",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565683",
+      "name": "BC Žalgiris vs Virtus Pallacanestro Bologna",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-01-22T18:00:00Z",
+      "home": "BC Žalgiris",
+      "away": "Virtus Pallacanestro Bologna",
+      "venue": "Žalgiris Arena",
+      "country": "Lithuania",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -81026,8 +81186,8 @@
       "seasons_tried": [
         "2026-2027"
       ],
-      "received": 278,
-      "upcoming": 39,
+      "received": 280,
+      "upcoming": 41,
       "status": "OK",
       "error": ""
     },
@@ -81461,7 +81621,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 236,
+      "upcoming": 238,
       "status": "OK",
       "error": ""
     },
@@ -81537,8 +81697,8 @@
       "seasons_tried": [
         "2026"
       ],
-      "received": 114,
-      "upcoming": 15,
+      "received": 115,
+      "upcoming": 16,
       "status": "OK",
       "error": ""
     },
