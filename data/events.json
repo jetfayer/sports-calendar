@@ -1,43 +1,11 @@
 {
-  "updated_at": "2026-09-24T00:40:30.221960Z",
+  "updated_at": "2026-09-24T06:39:42.403618Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2608093",
-      "name": "Exmouth Town vs Thame United",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-09-23T18:45:00Z",
-      "home": "Exmouth Town",
-      "away": "Thame United",
-      "venue": "King George V Ground",
-      "country": "England",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
     {
       "id": "2475937",
       "name": "Namibia vs Congo",
@@ -80839,6 +80807,77 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2602296",
+      "name": "Denver Nuggets vs Washington Wizards",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-22T02:00:00Z",
+      "home": "Denver Nuggets",
+      "away": "Washington Wizards",
+      "venue": "Ball Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Denver Nuggets · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602297",
+      "name": "Golden State Warriors vs Los Angeles Lakers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-22T03:00:00Z",
+      "home": "Golden State Warriors",
+      "away": "Los Angeles Lakers",
+      "venue": "Chase Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 40,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "NBA",
+        "Golden State Warriors · Basketball A+",
+        "Los Angeles Lakers · Basketball A+",
+        "Strong basketball matchup"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A+",
+        "Top matchup"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -80927,8 +80966,8 @@
       "seasons_tried": [
         "2026-2027"
       ],
-      "received": 278,
-      "upcoming": 39,
+      "received": 277,
+      "upcoming": 38,
       "status": "OK",
       "error": ""
     },
@@ -81347,7 +81386,7 @@
         "2026-2027"
       ],
       "received": 1208,
-      "upcoming": 697,
+      "upcoming": 699,
       "status": "OK",
       "error": ""
     },
