@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T06:40:24.810370Z",
+  "updated_at": "2026-09-25T12:39:45.264921Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -70,6 +70,38 @@
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
+      "source": "AFCON Qualifying"
+    },
+    {
+      "id": "2475944",
+      "name": "Sudan vs Ethiopia",
+      "sport": "Soccer",
+      "league": "African Cup of Nations Qualifying",
+      "league_id": "5520",
+      "season": "2027",
+      "timestamp": "2026-09-25T13:00:00Z",
+      "home": "Sudan",
+      "away": "Ethiopia",
+      "venue": "Khartoum Stadium",
+      "country": "Sudan",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Qualifier",
+      "importance": 8,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "African Cup of Nations Qualifying"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
       "source": "AFCON Qualifying"
     },
     {
@@ -246,38 +278,6 @@
       "away": "Liberia",
       "venue": "Stade Amahoro",
       "country": "Rwanda",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Qualifier",
-      "importance": 8,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "African Cup of Nations Qualifying"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "AFCON Qualifying"
-    },
-    {
-      "id": "2475944",
-      "name": "Sudan vs Ethiopia",
-      "sport": "Soccer",
-      "league": "African Cup of Nations Qualifying",
-      "league_id": "5520",
-      "season": "2027",
-      "timestamp": "2026-09-25T16:00:00Z",
-      "home": "Sudan",
-      "away": "Ethiopia",
-      "venue": "Khartoum Stadium",
-      "country": "Sudan",
       "status": "NS",
       "postponed": "no",
       "participant_type": "National",
@@ -80789,7 +80789,7 @@
       "seasons_tried": [
         "2026-2027"
       ],
-      "received": 280,
+      "received": 274,
       "upcoming": 39,
       "status": "OK",
       "error": ""
