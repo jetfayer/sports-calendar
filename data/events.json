@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T06:38:58.973668Z",
+  "updated_at": "2026-09-27T12:38:24.560411Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -78,7 +78,7 @@
       "away": "Atlético Unión Güímar",
       "venue": "",
       "country": "Spain",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -3209,6 +3209,38 @@
       "source": "Formula 1"
     },
     {
+      "id": "2609851",
+      "name": "Brentwood Town vs Dagenham and Redbridge",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-10-03T11:30:00Z",
+      "home": "Brentwood Town",
+      "away": "Dagenham and Redbridge",
+      "venue": "The Brentwood Centre Arena",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
       "id": "2568543",
       "name": "Fomboni vs 15 de Agosto",
       "sport": "Soccer",
@@ -3347,38 +3379,6 @@
       "home": "Brackley Town",
       "away": "Chelmsford City",
       "venue": "St James Park Brackley",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
-    {
-      "id": "2609851",
-      "name": "Brentwood Town vs Dagenham and Redbridge",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-10-03T14:00:00Z",
-      "home": "Brentwood Town",
-      "away": "Dagenham and Redbridge",
-      "venue": "The Brentwood Centre Arena",
       "country": "England",
       "status": "NS",
       "postponed": "no",
