@@ -1,113 +1,11 @@
 {
-  "updated_at": "2026-09-28T00:43:30.915633Z",
+  "updated_at": "2026-09-28T06:43:47.420747Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2442764",
-      "name": "Norway vs Portugal",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-09-27T18:45:00Z",
-      "home": "Norway",
-      "away": "Portugal",
-      "venue": "Ullevaal Stadion",
-      "country": "Norway",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 25,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Norway · National B",
-        "Portugal · National A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National B",
-        "National A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442763",
-      "name": "Germany vs Greece",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-09-27T18:45:00Z",
-      "home": "Germany",
-      "away": "Greece",
-      "venue": "WWK Arena",
-      "country": "Germany",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 14,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Germany · National A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442765",
-      "name": "Israel vs Ireland",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-09-27T18:45:00Z",
-      "home": "Israel",
-      "away": "Ireland",
-      "venue": "Nagyerdei Stadion",
-      "country": "Hungary",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 4,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "UEFA Nations League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "UEFA Nations League"
-    },
     {
       "id": "2475971",
       "name": "Zimbabwe vs DR Congo",
@@ -80988,6 +80886,142 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2602327",
+      "name": "Chicago Bulls vs Dallas Mavericks",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-26T01:00:00Z",
+      "home": "Chicago Bulls",
+      "away": "Dallas Mavericks",
+      "venue": "United Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Dallas Mavericks · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602326",
+      "name": "New Orleans Pelicans vs Cleveland Cavaliers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-26T01:00:00Z",
+      "home": "New Orleans Pelicans",
+      "away": "Cleveland Cavaliers",
+      "venue": "Smoothie King Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Cleveland Cavaliers · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602328",
+      "name": "Memphis Grizzlies vs Minnesota Timberwolves",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-26T01:00:00Z",
+      "home": "Memphis Grizzlies",
+      "away": "Minnesota Timberwolves",
+      "venue": "FedExForum",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Minnesota Timberwolves · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602329",
+      "name": "Denver Nuggets vs Sacramento Kings",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-26T02:30:00Z",
+      "home": "Denver Nuggets",
+      "away": "Sacramento Kings",
+      "venue": "Ball Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Denver Nuggets · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -81259,7 +81293,7 @@
         "2026-2027"
       ],
       "received": 156,
-      "upcoming": 125,
+      "upcoming": 122,
       "status": "OK",
       "error": ""
     },
@@ -81496,7 +81530,7 @@
         "2026-2027"
       ],
       "received": 1208,
-      "upcoming": 727,
+      "upcoming": 731,
       "status": "OK",
       "error": ""
     },
