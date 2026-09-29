@@ -1,211 +1,11 @@
 {
-  "updated_at": "2026-09-28T18:39:26.092768Z",
+  "updated_at": "2026-09-29T00:42:13.857578Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2475971",
-      "name": "Zimbabwe vs DR Congo",
-      "sport": "Soccer",
-      "league": "African Cup of Nations Qualifying",
-      "league_id": "5520",
-      "season": "2027",
-      "timestamp": "2026-09-28T16:00:00Z",
-      "home": "Zimbabwe",
-      "away": "DR Congo",
-      "venue": "National Sports Stadium Harare",
-      "country": "Zimbabwe",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Qualifier",
-      "importance": 25,
-      "importance_level": "hot",
-      "importance_reasons": [
-        "African Cup of Nations Qualifying",
-        "DR Congo national team"
-      ],
-      "priority_tags": [
-        "Competition",
-        "DRC"
-      ],
-      "hot_triggers": [
-        "DR Congo national team"
-      ],
-      "drc_focus": true,
-      "has_top_participant": true,
-      "source": "AFCON Qualifying"
-    },
-    {
-      "id": "2475953",
-      "name": "Central African Republic vs Burkina Faso",
-      "sport": "Soccer",
-      "league": "African Cup of Nations Qualifying",
-      "league_id": "5520",
-      "season": "2027",
-      "timestamp": "2026-09-28T16:00:00Z",
-      "home": "Central African Republic",
-      "away": "Burkina Faso",
-      "venue": "Stade Barthélemy Boganda",
-      "country": "Central African Republic",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Qualifier",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "African Cup of Nations Qualifying",
-        "Burkina Faso · National C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National C"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "AFCON Qualifying"
-    },
-    {
-      "id": "2475956",
-      "name": "Equatorial Guinea vs Sierra Leone",
-      "sport": "Soccer",
-      "league": "African Cup of Nations Qualifying",
-      "league_id": "5520",
-      "season": "2027",
-      "timestamp": "2026-09-28T16:00:00Z",
-      "home": "Equatorial Guinea",
-      "away": "Sierra Leone",
-      "venue": "Nuevo Estadio de Malabo",
-      "country": "Equatorial Guinea",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Qualifier",
-      "importance": 8,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "African Cup of Nations Qualifying"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "AFCON Qualifying"
-    },
-    {
-      "id": "2442766",
-      "name": "Georgia vs Ukraine",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-09-28T16:00:00Z",
-      "home": "Georgia",
-      "away": "Ukraine",
-      "venue": "Boris Paichadze Dinamo Arena",
-      "country": "Georgia",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 8,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Ukraine · National C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National C"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442767",
-      "name": "Armenia vs Montenegro",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-09-28T16:00:00Z",
-      "home": "Armenia",
-      "away": "Montenegro",
-      "venue": "Vazgen Sargsyan Republican Stadium",
-      "country": "Armenia",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 4,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "UEFA Nations League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2475291",
-      "name": "Latvia vs Cyprus",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-09-28T16:00:00Z",
-      "home": "Latvia",
-      "away": "Cyprus",
-      "venue": "Daugava Stadium",
-      "country": "Latvia",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 4,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "UEFA Nations League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "UEFA Nations League"
-    },
     {
       "id": "2442768",
       "name": "Belgium vs France",
@@ -218,7 +18,7 @@
       "away": "France",
       "venue": "Stade Roi Baudouin",
       "country": "Belgium",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -256,7 +56,7 @@
       "away": "Italy",
       "venue": "",
       "country": "Turkey",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -292,7 +92,7 @@
       "away": "Poland",
       "venue": "Strawberry Arena",
       "country": "Sweden",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -326,7 +126,7 @@
       "away": "Hungary",
       "venue": "Windsor Park Belfast",
       "country": "Northern Ireland",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -358,7 +158,7 @@
       "away": "Bosnia-Herzegovina",
       "venue": "Arena Națională",
       "country": "Romania",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -81022,6 +80822,106 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2602330",
+      "name": "Detroit Pistons vs Atlanta Hawks",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-27T00:00:00Z",
+      "home": "Detroit Pistons",
+      "away": "Atlanta Hawks",
+      "venue": "Little Caesars Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602331",
+      "name": "Indiana Pacers vs Chicago Bulls",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-27T00:00:00Z",
+      "home": "Indiana Pacers",
+      "away": "Chicago Bulls",
+      "venue": "Gainbridge Fieldhouse",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602332",
+      "name": "New York Knicks vs Phoenix Suns",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-27T00:30:00Z",
+      "home": "New York Knicks",
+      "away": "Phoenix Suns",
+      "venue": "Madison Square Garden",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 27,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "NBA",
+        "New York Knicks · Basketball A+",
+        "Phoenix Suns · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A+",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -81293,7 +81193,7 @@
         "2026-2027"
       ],
       "received": 156,
-      "upcoming": 122,
+      "upcoming": 119,
       "status": "OK",
       "error": ""
     },
@@ -81324,7 +81224,7 @@
         "2027"
       ],
       "received": 156,
-      "upcoming": 72,
+      "upcoming": 69,
       "status": "OK",
       "error": ""
     },
@@ -81530,7 +81430,7 @@
         "2026-2027"
       ],
       "received": 1208,
-      "upcoming": 731,
+      "upcoming": 734,
       "status": "OK",
       "error": ""
     },
