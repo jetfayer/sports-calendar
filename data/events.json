@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T06:41:58.338780Z",
+  "updated_at": "2026-09-30T12:46:04.014225Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -21089,6 +21089,72 @@
       "source": "Serie A"
     },
     {
+      "id": "2606326",
+      "name": "Bradford City vs Peterborough United",
+      "sport": "Soccer",
+      "league": "EFL Cup",
+      "league_id": "4570",
+      "season": "2026-2027",
+      "timestamp": "2026-10-27T19:45:00Z",
+      "home": "Bradford City",
+      "away": "Peterborough United",
+      "venue": "University of Bradford Stadium",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EFL Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EFL Cup"
+    },
+    {
+      "id": "2606325",
+      "name": "Fleetwood Town vs Arsenal",
+      "sport": "Soccer",
+      "league": "EFL Cup",
+      "league_id": "4570",
+      "season": "2026-2027",
+      "timestamp": "2026-10-27T20:00:00Z",
+      "home": "Fleetwood Town",
+      "away": "Arsenal",
+      "venue": "Highbury Stadium",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "EFL Cup",
+        "Arsenal · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "EFL Cup"
+    },
+    {
       "id": "2565521",
       "name": "Baskonia vs Real Madrid Baloncesto",
       "sport": "Basketball",
@@ -21457,6 +21523,40 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2607177",
+      "name": "Manchester City vs Brighton and Hove Albion",
+      "sport": "Soccer",
+      "league": "EFL Cup",
+      "league_id": "4570",
+      "season": "2026-2027",
+      "timestamp": "2026-10-28T19:30:00Z",
+      "home": "Manchester City",
+      "away": "Brighton and Hove Albion",
+      "venue": "Etihad Stadium",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "EFL Cup",
+        "Manchester City · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "EFL Cup"
+    },
+    {
       "id": "2565525",
       "name": "Virtus Pallacanestro Bologna vs BC Žalgiris",
       "sport": "Basketball",
@@ -21487,111 +21587,6 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2606322",
-      "name": "Liverpool vs Chelsea",
-      "sport": "Soccer",
-      "league": "EFL Cup",
-      "league_id": "4570",
-      "season": "2026-2027",
-      "timestamp": "2026-10-28T19:45:00Z",
-      "home": "Liverpool",
-      "away": "Chelsea",
-      "venue": "Anfield",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 36,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "EFL Cup",
-        "Liverpool · A+",
-        "Chelsea · A+",
-        "Strong club matchup"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee",
-        "Top matchup"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "EFL Cup"
-    },
-    {
-      "id": "2606325",
-      "name": "Fleetwood Town vs Arsenal",
-      "sport": "Soccer",
-      "league": "EFL Cup",
-      "league_id": "4570",
-      "season": "2026-2027",
-      "timestamp": "2026-10-28T19:45:00Z",
-      "home": "Fleetwood Town",
-      "away": "Arsenal",
-      "venue": "Highbury Stadium",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "EFL Cup",
-        "Arsenal · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "EFL Cup"
-    },
-    {
-      "id": "2607177",
-      "name": "Manchester City vs Brighton and Hove Albion",
-      "sport": "Soccer",
-      "league": "EFL Cup",
-      "league_id": "4570",
-      "season": "2026-2027",
-      "timestamp": "2026-10-28T19:45:00Z",
-      "home": "Manchester City",
-      "away": "Brighton and Hove Albion",
-      "venue": "Etihad Stadium",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "EFL Cup",
-        "Manchester City · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "EFL Cup"
     },
     {
       "id": "2482220",
@@ -21698,40 +21693,6 @@
       "source": "EFL Cup"
     },
     {
-      "id": "2606323",
-      "name": "Everton vs Newcastle United",
-      "sport": "Soccer",
-      "league": "EFL Cup",
-      "league_id": "4570",
-      "season": "2026-2027",
-      "timestamp": "2026-10-28T19:45:00Z",
-      "home": "Everton",
-      "away": "Newcastle United",
-      "venue": "Hill Dickinson Stadium",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "EFL Cup",
-        "Newcastle United · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "EFL Cup"
-    },
-    {
       "id": "2606321",
       "name": "Fulham vs Crystal Palace",
       "sport": "Soccer",
@@ -21800,16 +21761,16 @@
       "source": "EFL Cup"
     },
     {
-      "id": "2606326",
-      "name": "Bradford City vs Peterborough United",
+      "id": "2606322",
+      "name": "Liverpool vs Chelsea",
       "sport": "Soccer",
       "league": "EFL Cup",
       "league_id": "4570",
       "season": "2026-2027",
-      "timestamp": "2026-10-28T19:45:00Z",
-      "home": "Bradford City",
-      "away": "Peterborough United",
-      "venue": "University of Bradford Stadium",
+      "timestamp": "2026-10-28T20:00:00Z",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "venue": "Anfield",
       "country": "England",
       "status": "NS",
       "postponed": "no",
@@ -21818,17 +21779,22 @@
       "region": "Europe",
       "tier": 2,
       "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
+      "importance": 36,
+      "importance_level": "interesting",
       "importance_reasons": [
-        "EFL Cup"
+        "EFL Cup",
+        "Liverpool · A+",
+        "Chelsea · A+",
+        "Strong club matchup"
       ],
       "priority_tags": [
-        "Competition"
+        "Competition",
+        "Global marquee",
+        "Top matchup"
       ],
       "hot_triggers": [],
       "drc_focus": false,
-      "has_top_participant": false,
+      "has_top_participant": true,
       "source": "EFL Cup"
     },
     {
@@ -22402,6 +22368,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2606323",
+      "name": "Everton vs Newcastle United",
+      "sport": "Soccer",
+      "league": "EFL Cup",
+      "league_id": "4570",
+      "season": "2026-2027",
+      "timestamp": "2026-10-29T19:45:00Z",
+      "home": "Everton",
+      "away": "Newcastle United",
+      "venue": "Hill Dickinson Stadium",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "EFL Cup",
+        "Newcastle United · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "EFL Cup"
     },
     {
       "id": "2601733",
