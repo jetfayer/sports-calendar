@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T00:45:51.554469Z",
+  "updated_at": "2026-10-01T06:44:09.864447Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -81400,6 +81400,142 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "NBA"
+    },
+    {
+      "id": "2602351",
+      "name": "Oklahoma City Thunder vs Memphis Grizzlies",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-29T01:00:00Z",
+      "home": "Oklahoma City Thunder",
+      "away": "Memphis Grizzlies",
+      "venue": "Paycom Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Oklahoma City Thunder · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602350",
+      "name": "New Orleans Pelicans vs Philadelphia 76ers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-29T01:00:00Z",
+      "home": "New Orleans Pelicans",
+      "away": "Philadelphia 76ers",
+      "venue": "Smoothie King Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602352",
+      "name": "Utah Jazz vs Golden State Warriors",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-29T02:00:00Z",
+      "home": "Utah Jazz",
+      "away": "Golden State Warriors",
+      "venue": "Delta Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 20,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Golden State Warriors · Basketball A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A+"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602353",
+      "name": "Milwaukee Bucks vs Miami Heat",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-29T02:30:00Z",
+      "home": "Milwaukee Bucks",
+      "away": "Miami Heat",
+      "venue": "Fiserv Forum",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 23,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Milwaukee Bucks · Basketball A",
+        "Miami Heat · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -81908,7 +82044,7 @@
         "2026-2027"
       ],
       "received": 1208,
-      "upcoming": 751,
+      "upcoming": 755,
       "status": "OK",
       "error": ""
     },
