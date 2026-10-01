@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T12:44:02.610592Z",
+  "updated_at": "2026-10-01T18:41:35.502999Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -18,7 +18,7 @@
       "away": "Real Madrid Baloncesto",
       "venue": "Arena 8888 Sofia",
       "country": "Bulgaria",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -52,7 +52,7 @@
       "away": "Kenya",
       "venue": "Stade du 28 Septembre",
       "country": "Guinea",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -84,7 +84,7 @@
       "away": "Liechtenstein",
       "venue": "Baku Olympic Stadium",
       "country": "Azerbaijan",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -116,7 +116,7 @@
       "away": "Anadolu Efes SK",
       "venue": "Belgrade Arena",
       "country": "Serbia",
-      "status": "NS",
+      "status": "Q1",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -16377,6 +16377,38 @@
       "source": "English Premier League"
     },
     {
+      "id": "2506265",
+      "name": "Deportivo Alavés vs Málaga",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-10-23T19:00:00Z",
+      "home": "Deportivo Alavés",
+      "away": "Málaga",
+      "venue": "Estadio de Mendizorroza",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
+    },
+    {
       "id": "2601685",
       "name": "Boston Celtics vs New York Knicks",
       "sport": "Basketball",
@@ -19180,38 +19212,6 @@
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506265",
-      "name": "Deportivo Alavés vs Málaga",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-10-25T16:00:00Z",
-      "home": "Deportivo Alavés",
-      "away": "Málaga",
-      "venue": "Estadio de Mendizorroza",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
       "source": "La Liga"
     },
     {
@@ -81536,6 +81536,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2565691",
+      "name": "Fenerbahçe Basketbol vs Real Madrid Baloncesto",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-01-29T17:45:00Z",
+      "home": "Fenerbahçe Basketbol",
+      "away": "Real Madrid Baloncesto",
+      "venue": "Ülker Sports Arena",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "EuroLeague Basketball",
+        "Real Madrid Basketball · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -82059,7 +82093,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 225,
+      "upcoming": 226,
       "status": "OK",
       "error": ""
     },
