@@ -1,281 +1,11 @@
 {
-  "updated_at": "2026-10-02T00:43:46.380838Z",
+  "updated_at": "2026-10-02T06:42:32.507676Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2442783",
-      "name": "Denmark vs Portugal",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-01T18:45:00Z",
-      "home": "Denmark",
-      "away": "Portugal",
-      "venue": "Parken",
-      "country": "Denmark",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 25,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Denmark · National B",
-        "Portugal · National A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National B",
-        "National A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442781",
-      "name": "Germany vs Serbia",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-01T18:45:00Z",
-      "home": "Germany",
-      "away": "Serbia",
-      "venue": "Allianz Arena",
-      "country": "Germany",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 18,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Germany · National A",
-        "Serbia · National C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National A",
-        "National C"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442782",
-      "name": "Greece vs Netherlands",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-01T18:45:00Z",
-      "home": "Greece",
-      "away": "Netherlands",
-      "venue": "Toumba Stadium",
-      "country": "Greece",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 14,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Netherlands · National A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442785",
-      "name": "Ireland vs Austria",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-01T18:45:00Z",
-      "home": "Ireland",
-      "away": "Austria",
-      "venue": "Aviva Stadium",
-      "country": "Ireland",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 11,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Austria · National B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442784",
-      "name": "Wales vs Norway",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-01T18:45:00Z",
-      "home": "Wales",
-      "away": "Norway",
-      "venue": "Cardiff City Stadium",
-      "country": "Wales",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 11,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Norway · National B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2565470",
-      "name": "Paris Basketball vs BC Žalgiris",
-      "sport": "Basketball",
-      "league": "EuroLeague Basketball",
-      "league_id": "4546",
-      "season": "2026-2027",
-      "timestamp": "2026-10-01T18:45:00Z",
-      "home": "Paris Basketball",
-      "away": "BC Žalgiris",
-      "venue": "Adidas Arena",
-      "country": "France",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "EuroLeague Basketball"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2442786",
-      "name": "Israel vs Kosovo",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-01T18:45:00Z",
-      "home": "Israel",
-      "away": "Kosovo",
-      "venue": "Nagyerdei Stadion",
-      "country": "Hungary",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 4,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "UEFA Nations League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2475295",
-      "name": "Malta vs Gibraltar",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-01T18:45:00Z",
-      "home": "Malta",
-      "away": "Gibraltar",
-      "venue": "National Stadium Ta' Qali",
-      "country": "Malta",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 4,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "UEFA Nations League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "UEFA Nations League"
-    },
     {
       "id": "2606345",
       "name": "DR Congo vs Uganda",
@@ -81640,6 +81370,106 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2602357",
+      "name": "Dallas Mavericks vs Detroit Pistons",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-30T01:00:00Z",
+      "home": "Dallas Mavericks",
+      "away": "Detroit Pistons",
+      "venue": "American Airlines Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Dallas Mavericks · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602358",
+      "name": "Houston Rockets vs Orlando Magic",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-30T01:30:00Z",
+      "home": "Houston Rockets",
+      "away": "Orlando Magic",
+      "venue": "Toyota Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602359",
+      "name": "Minnesota Timberwolves vs Charlotte Hornets",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-01-30T02:30:00Z",
+      "home": "Minnesota Timberwolves",
+      "away": "Charlotte Hornets",
+      "venue": "Target Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Minnesota Timberwolves · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -81911,7 +81741,7 @@
         "2026-2027"
       ],
       "received": 156,
-      "upcoming": 103,
+      "upcoming": 96,
       "status": "OK",
       "error": ""
     },
@@ -82148,7 +81978,7 @@
         "2026-2027"
       ],
       "received": 1208,
-      "upcoming": 758,
+      "upcoming": 761,
       "status": "OK",
       "error": ""
     },
@@ -82163,7 +81993,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 227,
+      "upcoming": 226,
       "status": "OK",
       "error": ""
     },
