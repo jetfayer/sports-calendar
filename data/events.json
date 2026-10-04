@@ -1,171 +1,11 @@
 {
-  "updated_at": "2026-10-03T23:15:12.938147Z",
+  "updated_at": "2026-10-04T03:56:57.325196Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2603769",
-      "name": "Atlético Melilla vs Pinatar",
-      "sport": "Soccer",
-      "league": "Copa del Rey",
-      "league_id": "4483",
-      "season": "2026-2027",
-      "timestamp": "2026-10-03T18:00:00Z",
-      "home": "Atlético Melilla",
-      "away": "Pinatar",
-      "venue": "",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Copa del Rey"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Copa del Rey"
-    },
-    {
-      "id": "2442800",
-      "name": "Spain vs Czech Republic",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-03T18:45:00Z",
-      "home": "Spain",
-      "away": "Czech Republic",
-      "venue": "Estadio Carlos Tartiere",
-      "country": "Spain",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 18,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Spain · National A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2475298",
-      "name": "Switzerland vs Slovenia",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-03T18:45:00Z",
-      "home": "Switzerland",
-      "away": "Slovenia",
-      "venue": "Thermoplan Arena",
-      "country": "Switzerland",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 11,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Switzerland · National B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2475299",
-      "name": "North Macedonia vs Scotland",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-03T18:45:00Z",
-      "home": "North Macedonia",
-      "away": "Scotland",
-      "venue": "Toše Proeski Arena",
-      "country": "Macedonia",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 4,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "UEFA Nations League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2558807",
-      "name": "UFC 332 Silva vs Wang",
-      "sport": "Fighting",
-      "league": "UFC",
-      "league_id": "4443",
-      "season": "2026",
-      "timestamp": "2026-10-03T21:00:00Z",
-      "home": "",
-      "away": "",
-      "venue": "Delta Center",
-      "country": "United States",
-      "status": "",
-      "postponed": "no",
-      "participant_type": "Individual",
-      "competition_group": "Tour/Event",
-      "region": "Global",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 0,
-      "importance_level": "normal",
-      "importance_reasons": [],
-      "priority_tags": [],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "UFC"
-    },
     {
       "id": "2601616",
       "name": "Toronto Raptors vs Miami Heat",
@@ -178,7 +18,7 @@
       "away": "Miami Heat",
       "venue": "Scotiabank Arena",
       "country": "Canada",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -199,6 +39,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2612928",
+      "name": "Bahrain in Malaysia Grand Prix",
+      "sport": "Motorsport",
+      "league": "Formula 1",
+      "league_id": "4370",
+      "season": "2026",
+      "timestamp": "2026-10-04T00:00:00Z",
+      "home": "",
+      "away": "",
+      "venue": "Sepang International Circuit",
+      "country": "Bahrain",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Individual",
+      "competition_group": "Tour/Event",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Race",
+      "importance": 14,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Formula 1 race"
+      ],
+      "priority_tags": [
+        "Race"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Formula 1"
     },
     {
       "id": "2581150",
@@ -81380,6 +81252,108 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "NBA"
+    },
+    {
+      "id": "2602373",
+      "name": "Charlotte Hornets vs Los Angeles Lakers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-01T00:00:00Z",
+      "home": "Charlotte Hornets",
+      "away": "Los Angeles Lakers",
+      "venue": "Spectrum Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 20,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Los Angeles Lakers · Basketball A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A+"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602374",
+      "name": "Denver Nuggets vs Portland Trail Blazers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-01T01:00:00Z",
+      "home": "Denver Nuggets",
+      "away": "Portland Trail Blazers",
+      "venue": "Ball Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Denver Nuggets · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602375",
+      "name": "Dallas Mavericks vs Houston Rockets",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-01T01:30:00Z",
+      "home": "Dallas Mavericks",
+      "away": "Houston Rockets",
+      "venue": "American Airlines Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Dallas Mavericks · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -81500,7 +81474,7 @@
         "2026-2027"
       ],
       "received": 20,
-      "upcoming": 7,
+      "upcoming": 6,
       "status": "OK",
       "error": ""
     },
@@ -81652,7 +81626,7 @@
         "2026-2027"
       ],
       "received": 156,
-      "upcoming": 81,
+      "upcoming": 78,
       "status": "OK",
       "error": ""
     },
@@ -81889,7 +81863,7 @@
         "2026-2027"
       ],
       "received": 1208,
-      "upcoming": 774,
+      "upcoming": 777,
       "status": "OK",
       "error": ""
     },
@@ -81966,7 +81940,7 @@
         "2026"
       ],
       "received": 56,
-      "upcoming": 10,
+      "upcoming": 9,
       "status": "OK",
       "error": ""
     },
@@ -81995,8 +81969,8 @@
       "seasons_tried": [
         "2026"
       ],
-      "received": 121,
-      "upcoming": 17,
+      "received": 122,
+      "upcoming": 18,
       "status": "OK",
       "error": ""
     },
