@@ -1,253 +1,11 @@
 {
-  "updated_at": "2026-10-05T00:47:28.150804Z",
+  "updated_at": "2026-10-05T06:48:51.122915Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2442805",
-      "name": "Portugal vs Norway",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T18:45:00Z",
-      "home": "Portugal",
-      "away": "Norway",
-      "venue": "Estádio do Dragão",
-      "country": "Portugal",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 25,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Portugal · National A+",
-        "Norway · National B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National A+",
-        "National B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442804",
-      "name": "Netherlands vs Serbia",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T18:45:00Z",
-      "home": "Netherlands",
-      "away": "Serbia",
-      "venue": "Philips Stadion",
-      "country": "The Netherlands",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 18,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Netherlands · National A",
-        "Serbia · National C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National A",
-        "National C"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442803",
-      "name": "Greece vs Germany",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T18:45:00Z",
-      "home": "Greece",
-      "away": "Germany",
-      "venue": "Toumba Stadium",
-      "country": "Greece",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 14,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Germany · National A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442806",
-      "name": "Wales vs Denmark",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T18:45:00Z",
-      "home": "Wales",
-      "away": "Denmark",
-      "venue": "Cardiff City Stadium",
-      "country": "Wales",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 11,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Denmark · National B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2442807",
-      "name": "Ireland vs Israel",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T18:45:00Z",
-      "home": "Ireland",
-      "away": "Israel",
-      "venue": "TSC Arena",
-      "country": "Serbia",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 4,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "UEFA Nations League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2601618",
-      "name": "Los Angeles Clippers vs Golden State Warriors",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T23:00:00Z",
-      "home": "Los Angeles Clippers",
-      "away": "Golden State Warriors",
-      "venue": "Intuit Dome",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 27,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "NBA",
-        "Los Angeles Clippers · Basketball B",
-        "Golden State Warriors · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601617",
-      "name": "Denver Nuggets vs Utah Jazz",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T23:00:00Z",
-      "home": "Denver Nuggets",
-      "away": "Utah Jazz",
-      "venue": "Ball Arena",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Denver Nuggets · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
     {
       "id": "2606348",
       "name": "Uganda vs DR Congo",
@@ -81322,6 +81080,108 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2602380",
+      "name": "Milwaukee Bucks vs Memphis Grizzlies",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-02T01:00:00Z",
+      "home": "Milwaukee Bucks",
+      "away": "Memphis Grizzlies",
+      "venue": "Fiserv Forum",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Milwaukee Bucks · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602381",
+      "name": "Utah Jazz vs Cleveland Cavaliers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-02T02:00:00Z",
+      "home": "Utah Jazz",
+      "away": "Cleveland Cavaliers",
+      "venue": "Delta Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Cleveland Cavaliers · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602382",
+      "name": "Golden State Warriors vs San Antonio Spurs",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-02T03:00:00Z",
+      "home": "Golden State Warriors",
+      "away": "San Antonio Spurs",
+      "venue": "Chase Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 20,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Golden State Warriors · Basketball A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A+"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -81594,7 +81454,7 @@
         "2026-2027"
       ],
       "received": 156,
-      "upcoming": 75,
+      "upcoming": 70,
       "status": "OK",
       "error": ""
     },
@@ -81831,7 +81691,7 @@
         "2026-2027"
       ],
       "received": 1208,
-      "upcoming": 780,
+      "upcoming": 781,
       "status": "OK",
       "error": ""
     },
@@ -81937,7 +81797,7 @@
       "seasons_tried": [
         "2026"
       ],
-      "received": 122,
+      "received": 121,
       "upcoming": 16,
       "status": "OK",
       "error": ""
