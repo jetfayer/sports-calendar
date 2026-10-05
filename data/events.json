@@ -1,173 +1,11 @@
 {
-  "updated_at": "2026-10-04T21:19:49.556529Z",
+  "updated_at": "2026-10-05T00:47:28.150804Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2603770",
-      "name": "Sporting de Alcázar vs Talayuela",
-      "sport": "Soccer",
-      "league": "Copa del Rey",
-      "league_id": "4483",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T15:30:00Z",
-      "home": "Sporting de Alcázar",
-      "away": "Talayuela",
-      "venue": "",
-      "country": "Spain",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Copa del Rey"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Copa del Rey"
-    },
-    {
-      "id": "2442802",
-      "name": "Kosovo vs Austria",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T16:00:00Z",
-      "home": "Kosovo",
-      "away": "Austria",
-      "venue": "Stadiumi Fadil Vokrri",
-      "country": "Kosovo",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 11,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Nations League",
-        "Austria · National B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "National B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2475300",
-      "name": "Malta vs Andorra",
-      "sport": "Soccer",
-      "league": "UEFA Nations League",
-      "league_id": "4490",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T16:00:00Z",
-      "home": "Malta",
-      "away": "Andorra",
-      "venue": "National Stadium Ta' Qali",
-      "country": "Malta",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "National",
-      "competition_group": "National teams",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 4,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "UEFA Nations League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "UEFA Nations League"
-    },
-    {
-      "id": "2603769",
-      "name": "Atlético Melilla vs Pinatar",
-      "sport": "Soccer",
-      "league": "Copa del Rey",
-      "league_id": "4483",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T16:00:00Z",
-      "home": "Atlético Melilla",
-      "away": "Pinatar",
-      "venue": "",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Copa del Rey"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Copa del Rey"
-    },
-    {
-      "id": "2603771",
-      "name": "Tavernes de la Valldigna vs Maracena",
-      "sport": "Soccer",
-      "league": "Copa del Rey",
-      "league_id": "4483",
-      "season": "2026-2027",
-      "timestamp": "2026-10-04T16:00:00Z",
-      "home": "Tavernes de la Valldigna",
-      "away": "Maracena",
-      "venue": "",
-      "country": "Spain",
-      "status": "P",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Copa del Rey"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Copa del Rey"
-    },
     {
       "id": "2442805",
       "name": "Portugal vs Norway",
@@ -81352,6 +81190,138 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2602376",
+      "name": "Atlanta Hawks vs Washington Wizards",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-02T00:00:00Z",
+      "home": "Atlanta Hawks",
+      "away": "Washington Wizards",
+      "venue": "State Farm Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602377",
+      "name": "Philadelphia 76ers vs New Orleans Pelicans",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-02T00:00:00Z",
+      "home": "Philadelphia 76ers",
+      "away": "New Orleans Pelicans",
+      "venue": "Xfinity Mobile Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602378",
+      "name": "Brooklyn Nets vs New York Knicks",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-02T00:30:00Z",
+      "home": "Brooklyn Nets",
+      "away": "New York Knicks",
+      "venue": "Barclays Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 20,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "New York Knicks · Basketball A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A+"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602379",
+      "name": "Indiana Pacers vs Miami Heat",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-02T00:30:00Z",
+      "home": "Indiana Pacers",
+      "away": "Miami Heat",
+      "venue": "Gainbridge Fieldhouse",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Miami Heat · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -81468,11 +81438,12 @@
       "resolved_id": "4483",
       "resolved_name": "Copa del Rey",
       "seasons_tried": [
-        "2026-2027"
+        "2026-2027",
+        "2025-2026"
       ],
-      "received": 20,
-      "upcoming": 3,
-      "status": "OK",
+      "received": 158,
+      "upcoming": 0,
+      "status": "NO UPCOMING",
       "error": ""
     },
     {
@@ -81623,7 +81594,7 @@
         "2026-2027"
       ],
       "received": 156,
-      "upcoming": 77,
+      "upcoming": 75,
       "status": "OK",
       "error": ""
     },
@@ -81860,7 +81831,7 @@
         "2026-2027"
       ],
       "received": 1208,
-      "upcoming": 776,
+      "upcoming": 780,
       "status": "OK",
       "error": ""
     },
