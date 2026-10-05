@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T12:45:06.574985Z",
+  "updated_at": "2026-10-05T18:43:16.833453Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -18,7 +18,7 @@
       "away": "DR Congo",
       "venue": "Mandela National Stadium",
       "country": "Uganda",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -52,7 +52,7 @@
       "away": "Latvia",
       "venue": "AEK Arena",
       "country": "Cyprus",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -81182,6 +81182,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2565696",
+      "name": "Anadolu Efes SK vs BC Žalgiris",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-02-02T17:30:00Z",
+      "home": "Anadolu Efes SK",
+      "away": "BC Žalgiris",
+      "venue": "Basketbol Gelişim Merkezi",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -81706,7 +81738,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 220,
+      "upcoming": 221,
       "status": "OK",
       "error": ""
     },
