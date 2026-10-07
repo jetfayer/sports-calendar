@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T12:45:48.120444Z",
+  "updated_at": "2026-10-07T18:42:28.295326Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -6870,7 +6870,7 @@
       "sport": "Soccer",
       "league": "CAF Champions League",
       "league_id": "4720",
-      "season": "2026-2027",
+      "season": "",
       "timestamp": "2026-10-17T13:00:00Z",
       "home": "TP Mazembe",
       "away": "Club Africain",
@@ -6883,7 +6883,7 @@
       "region": "Africa",
       "tier": 1,
       "stage": "Regular",
-      "importance": 39,
+      "importance": 40,
       "importance_level": "interesting",
       "importance_reasons": [
         "CAF Champions League",
@@ -6896,7 +6896,7 @@
       "hot_triggers": [],
       "drc_focus": true,
       "has_top_participant": true,
-      "source": "CAF Champions League"
+      "source": "TP Mazembe"
     },
     {
       "id": "2482205",
@@ -15961,7 +15961,7 @@
       "sport": "Soccer",
       "league": "CAF Champions League",
       "league_id": "4720",
-      "season": "2026-2027",
+      "season": "",
       "timestamp": "2026-10-25T17:00:00Z",
       "home": "Club Africain",
       "away": "TP Mazembe",
@@ -15974,7 +15974,7 @@
       "region": "Africa",
       "tier": 1,
       "stage": "Regular",
-      "importance": 39,
+      "importance": 40,
       "importance_level": "interesting",
       "importance_reasons": [
         "CAF Champions League",
@@ -15987,7 +15987,7 @@
       "hot_triggers": [],
       "drc_focus": true,
       "has_top_participant": true,
-      "source": "CAF Champions League"
+      "source": "TP Mazembe"
     },
     {
       "id": "2482216",
@@ -83389,6 +83389,102 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2565706",
+      "name": "Dubai Basketball vs Virtus Pallacanestro Bologna",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-02-04T16:00:00Z",
+      "home": "Dubai Basketball",
+      "away": "Virtus Pallacanestro Bologna",
+      "venue": "Coca-Cola Arena",
+      "country": "United Arab Emirates",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565707",
+      "name": "Anadolu Efes SK vs Maccabi Tel Aviv BC",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-02-04T17:30:00Z",
+      "home": "Anadolu Efes SK",
+      "away": "Maccabi Tel Aviv BC",
+      "venue": "Basketbol Gelişim Merkezi",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565708",
+      "name": "BC Žalgiris vs Besiktas Basketbol",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-02-04T18:00:00Z",
+      "home": "BC Žalgiris",
+      "away": "Besiktas Basketbol",
+      "venue": "Žalgiris Arena",
+      "country": "Lithuania",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -83912,7 +84008,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 230,
+      "upcoming": 233,
       "status": "OK",
       "error": ""
     },
@@ -84065,9 +84161,9 @@
       "seasons_tried": [
         "full current"
       ],
-      "received": 47,
-      "upcoming": 0,
-      "status": "NO UPCOMING",
+      "received": 4,
+      "upcoming": 2,
+      "status": "OK",
       "error": ""
     },
     {
@@ -84080,7 +84176,7 @@
       "seasons_tried": [
         "full current"
       ],
-      "received": 42,
+      "received": 0,
       "upcoming": 0,
       "status": "NO UPCOMING",
       "error": ""
