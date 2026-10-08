@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T12:46:01.890606Z",
+  "updated_at": "2026-10-08T18:42:24.237524Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -18,7 +18,7 @@
       "away": "KK Crvena zvezda",
       "venue": "Coca-Cola Arena",
       "country": "United Arab Emirates",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -50,7 +50,7 @@
       "away": "Olimpia Milano",
       "venue": "Aleksandar Nikolic Hall",
       "country": "Serbia",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -89837,6 +89837,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2565711",
+      "name": "Olympiacos BC vs Bayern München Basketball",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-02-05T18:30:00Z",
+      "home": "Olympiacos BC",
+      "away": "Bayern München Basketball",
+      "venue": "Peace and Friendship Stadium",
+      "country": "Greece",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "EuroLeague Basketball",
+        "Olympiacos Basketball · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -90091,7 +90125,7 @@
       "seasons_tried": [
         "2026-2027"
       ],
-      "received": 255,
+      "received": 256,
       "upcoming": 183,
       "status": "OK",
       "error": ""
@@ -90359,7 +90393,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 233,
+      "upcoming": 234,
       "status": "OK",
       "error": ""
     },
