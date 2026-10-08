@@ -1,45 +1,11 @@
 {
-  "updated_at": "2026-10-08T06:45:11.101085Z",
+  "updated_at": "2026-10-08T12:46:01.890606Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601630",
-      "name": "Portland Trail Blazers vs Golden State Warriors",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-08T02:00:00Z",
-      "home": "Portland Trail Blazers",
-      "away": "Golden State Warriors",
-      "venue": "Moda Center",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Golden State Warriors · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
     {
       "id": "2565482",
       "name": "Dubai Basketball vs KK Crvena zvezda",
@@ -2989,6 +2955,34 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2616631",
+      "name": "Dana Whites Contender Series season 10 Week 10",
+      "sport": "Fighting",
+      "league": "UFC",
+      "league_id": "4443",
+      "season": "2026",
+      "timestamp": "2026-10-13T00:00:00Z",
+      "home": "",
+      "away": "",
+      "venue": "Meta Apex",
+      "country": "United States",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Individual",
+      "competition_group": "Tour/Event",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 0,
+      "importance_level": "normal",
+      "importance_reasons": [],
+      "priority_tags": [],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "UFC"
     },
     {
       "id": "2601643",
@@ -22363,7 +22357,7 @@
     },
     {
       "id": "2601526",
-      "name": "UFC Fight Night 292",
+      "name": "UFC Fight Night 292 Moicano vs Nolan",
       "sport": "Fighting",
       "league": "UFC",
       "league_id": "4443",
@@ -33702,7 +33696,7 @@
     },
     {
       "id": "2601528",
-      "name": "UFC 334",
+      "name": "UFC 334 Gane vs Hokit",
       "sport": "Fighting",
       "league": "UFC",
       "league_id": "4443",
@@ -38534,7 +38528,7 @@
     },
     {
       "id": "2601529",
-      "name": "UFC Fight Night 294",
+      "name": "UFC Fight Night 294 Procházka vs Stirling",
       "sport": "Fighting",
       "league": "UFC",
       "league_id": "4443",
@@ -55151,7 +55145,7 @@
     },
     {
       "id": "2601530",
-      "name": "UFC 335",
+      "name": "UFC 335 Oliveira vs Lopes",
       "sport": "Fighting",
       "league": "UFC",
       "league_id": "4443",
@@ -90349,8 +90343,8 @@
       "seasons_tried": [
         "2026-2027"
       ],
-      "received": 1211,
-      "upcoming": 792,
+      "received": 1214,
+      "upcoming": 791,
       "status": "OK",
       "error": ""
     },
@@ -90426,8 +90420,8 @@
       "seasons_tried": [
         "2026"
       ],
-      "received": 56,
-      "upcoming": 8,
+      "received": 57,
+      "upcoming": 9,
       "status": "OK",
       "error": ""
     },
