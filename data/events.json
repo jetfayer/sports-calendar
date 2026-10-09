@@ -1,45 +1,11 @@
 {
-  "updated_at": "2026-10-09T06:45:38.035492Z",
+  "updated_at": "2026-10-09T12:43:19.388357Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601633",
-      "name": "Los Angeles Lakers vs Sacramento Kings",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-09T02:30:00Z",
-      "home": "Los Angeles Lakers",
-      "away": "Sacramento Kings",
-      "venue": "Crypto.com Arena",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Los Angeles Lakers · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
     {
       "id": "2548854",
       "name": "Dallas Mavericks vs Houston Rockets",
@@ -90377,8 +90343,8 @@
       "seasons_tried": [
         "2026-2027"
       ],
-      "received": 1214,
-      "upcoming": 792,
+      "received": 1227,
+      "upcoming": 791,
       "status": "OK",
       "error": ""
     },
