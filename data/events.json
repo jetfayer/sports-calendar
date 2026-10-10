@@ -1,111 +1,11 @@
 {
-  "updated_at": "2026-10-10T00:48:45.465710Z",
+  "updated_at": "2026-10-10T06:42:27.118789Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2489515",
-      "name": "Lens vs Lyon",
-      "sport": "Soccer",
-      "league": "French Ligue 1",
-      "league_id": "4334",
-      "season": "2026-2027",
-      "timestamp": "2026-10-09T18:45:00Z",
-      "home": "Lens",
-      "away": "Lyon",
-      "venue": "Stade Bollaert-Delelis",
-      "country": "France",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 22,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "French Ligue 1",
-        "Lens · B",
-        "Lyon · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Ligue 1"
-    },
-    {
-      "id": "2506240",
-      "name": "Málaga vs Espanyol",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-10-09T19:00:00Z",
-      "home": "Málaga",
-      "away": "Espanyol",
-      "venue": "Estadio La Rosaleda",
-      "country": "Spain",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2601634",
-      "name": "Chicago Bulls vs Memphis Grizzlies",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-10T00:00:00Z",
-      "home": "Chicago Bulls",
-      "away": "Memphis Grizzlies",
-      "venue": "United Center",
-      "country": "United States",
-      "status": "Q1",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
     {
       "id": "2408194",
       "name": "Singapore Grand Prix Sprint",
@@ -90757,6 +90657,106 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2602419",
+      "name": "Chicago Bulls vs New Orleans Pelicans",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-07T01:00:00Z",
+      "home": "Chicago Bulls",
+      "away": "New Orleans Pelicans",
+      "venue": "United Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602420",
+      "name": "San Antonio Spurs vs Los Angeles Lakers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-07T01:30:00Z",
+      "home": "San Antonio Spurs",
+      "away": "Los Angeles Lakers",
+      "venue": "Frost Bank Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 20,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Los Angeles Lakers · Basketball A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A+"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602421",
+      "name": "Sacramento Kings vs Phoenix Suns",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-07T03:00:00Z",
+      "home": "Sacramento Kings",
+      "away": "Phoenix Suns",
+      "venue": "Golden 1 Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Phoenix Suns · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -90786,7 +90786,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 151,
+      "upcoming": 150,
       "status": "OK",
       "error": ""
     },
@@ -90831,7 +90831,7 @@
         "2026-2027"
       ],
       "received": 306,
-      "upcoming": 125,
+      "upcoming": 124,
       "status": "OK",
       "error": ""
     },
@@ -91264,7 +91264,7 @@
         "2026-2027"
       ],
       "received": 1227,
-      "upcoming": 796,
+      "upcoming": 798,
       "status": "OK",
       "error": ""
     },
