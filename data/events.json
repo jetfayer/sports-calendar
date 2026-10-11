@@ -1,45 +1,11 @@
 {
-  "updated_at": "2026-10-11T06:43:19.146406Z",
+  "updated_at": "2026-10-11T12:42:53.090452Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601637",
-      "name": "Phoenix Suns vs San Antonio Spurs",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-11T02:30:00Z",
-      "home": "Phoenix Suns",
-      "away": "San Antonio Spurs",
-      "venue": "PHX Arena",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Phoenix Suns · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
     {
       "id": "2548859",
       "name": "Houston Rockets vs Dallas Mavericks",
@@ -86,7 +52,7 @@
       "away": "Roma",
       "venue": "Stadio Giuseppe Sinigaglia",
       "country": "Italy",
-      "status": "NS",
+      "status": "2H",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -186,7 +152,7 @@
       "away": "Celta Vigo",
       "venue": "Estadio Martínez Valero",
       "country": "Spain",
-      "status": "NS",
+      "status": "1H",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -4656,34 +4622,6 @@
       "source": "NBA"
     },
     {
-      "id": "2607371",
-      "name": "Daniel Dubois vs Fabio Wardley II",
-      "sport": "Fighting",
-      "league": "Boxing",
-      "league_id": "4445",
-      "season": "2026",
-      "timestamp": "2026-10-17T00:00:00Z",
-      "home": "",
-      "away": "",
-      "venue": "The O2 Arena",
-      "country": "United Kingdom",
-      "status": "",
-      "postponed": "no",
-      "participant_type": "Individual",
-      "competition_group": "Tour/Event",
-      "region": "Global",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 0,
-      "importance_level": "normal",
-      "importance_reasons": [],
-      "priority_tags": [],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Boxing"
-    },
-    {
       "id": "2607374",
       "name": "Sebastian Fundora vs Ermal Hadribeaj",
       "sport": "Fighting",
@@ -6803,6 +6741,34 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "CAF Confederation Cup"
+    },
+    {
+      "id": "2607371",
+      "name": "Daniel Dubois vs Fabio Wardley II",
+      "sport": "Fighting",
+      "league": "Boxing",
+      "league_id": "4445",
+      "season": "2026",
+      "timestamp": "2026-10-17T17:00:00Z",
+      "home": "",
+      "away": "",
+      "venue": "The O2 Arena",
+      "country": "United Kingdom",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Individual",
+      "competition_group": "Tour/Event",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 0,
+      "importance_level": "normal",
+      "importance_reasons": [],
+      "priority_tags": [],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Boxing"
     },
     {
       "id": "2489517",
@@ -90795,6 +90761,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "NBA"
+    },
+    {
+      "id": "2616524",
+      "name": "Blessing Lualaba vs Malole",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-08T11:00:00Z",
+      "home": "Blessing Lualaba",
+      "away": "Malole",
+      "venue": "Stade Dominique Diur",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
     }
   ],
   "source_stats": [
@@ -91050,7 +91048,7 @@
         "2026-2027"
       ],
       "received": 256,
-      "upcoming": 190,
+      "upcoming": 191,
       "status": "OK",
       "error": ""
     },
@@ -91302,7 +91300,7 @@
         "2026-2027"
       ],
       "received": 1227,
-      "upcoming": 800,
+      "upcoming": 799,
       "status": "OK",
       "error": ""
     },
