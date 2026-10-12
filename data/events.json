@@ -1,111 +1,11 @@
 {
-  "updated_at": "2026-10-12T00:50:29.578493Z",
+  "updated_at": "2026-10-12T06:51:14.267841Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2506248",
-      "name": "Racing de Santander vs Valencia",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-10-11T19:00:00Z",
-      "home": "Racing de Santander",
-      "away": "Valencia",
-      "venue": "Campos de Sport de El Sardinero",
-      "country": "Spain",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2601638",
-      "name": "Cleveland Cavaliers vs Orlando Magic",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-11T22:30:00Z",
-      "home": "Cleveland Cavaliers",
-      "away": "Orlando Magic",
-      "venue": "Rocket Arena",
-      "country": "United States",
-      "status": "Q2",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Cleveland Cavaliers · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601639",
-      "name": "Charlotte Hornets vs Milwaukee Bucks",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-11T23:00:00Z",
-      "home": "Charlotte Hornets",
-      "away": "Milwaukee Bucks",
-      "venue": "Spectrum Center",
-      "country": "United States",
-      "status": "Q2",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Milwaukee Bucks · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
     {
       "id": "2601640",
       "name": "Denver Nuggets vs Chicago Bulls",
@@ -118,7 +18,7 @@
       "away": "Chicago Bulls",
       "venue": "Ball Arena",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -90283,6 +90183,108 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "NBA"
+    },
+    {
+      "id": "2602435",
+      "name": "Milwaukee Bucks vs Orlando Magic",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-09T01:00:00Z",
+      "home": "Milwaukee Bucks",
+      "away": "Orlando Magic",
+      "venue": "Fiserv Forum",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Milwaukee Bucks · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602434",
+      "name": "Memphis Grizzlies vs Portland Trail Blazers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-09T01:00:00Z",
+      "home": "Memphis Grizzlies",
+      "away": "Portland Trail Blazers",
+      "venue": "FedExForum",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602436",
+      "name": "Phoenix Suns vs Los Angeles Lakers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-09T02:30:00Z",
+      "home": "Phoenix Suns",
+      "away": "Los Angeles Lakers",
+      "venue": "PHX Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 27,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "NBA",
+        "Phoenix Suns · Basketball B",
+        "Los Angeles Lakers · Basketball A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B",
+        "Basketball A+"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -90312,7 +90314,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 153,
+      "upcoming": 152,
       "status": "OK",
       "error": ""
     },
@@ -90790,7 +90792,7 @@
         "2026-2027"
       ],
       "received": 1233,
-      "upcoming": 802,
+      "upcoming": 803,
       "status": "OK",
       "error": ""
     },
