@@ -1,45 +1,11 @@
 {
-  "updated_at": "2026-10-12T06:51:14.267841Z",
+  "updated_at": "2026-10-12T13:03:14.035480Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601640",
-      "name": "Denver Nuggets vs Chicago Bulls",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-12T01:00:00Z",
-      "home": "Denver Nuggets",
-      "away": "Chicago Bulls",
-      "venue": "Ball Arena",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Denver Nuggets · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
     {
       "id": "2482193",
       "name": "Atalanta vs Venezia",
@@ -90792,7 +90758,7 @@
         "2026-2027"
       ],
       "received": 1233,
-      "upcoming": 803,
+      "upcoming": 802,
       "status": "OK",
       "error": ""
     },
