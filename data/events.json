@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T13:03:14.035480Z",
+  "updated_at": "2026-10-12T18:43:25.949552Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -18,7 +18,7 @@
       "away": "Venezia",
       "venue": "New Balance Arena",
       "country": "Italy",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -90757,7 +90757,7 @@
       "seasons_tried": [
         "2026-2027"
       ],
-      "received": 1233,
+      "received": 1242,
       "upcoming": 802,
       "status": "OK",
       "error": ""
