@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T12:50:12.488744Z",
+  "updated_at": "2026-10-13T18:47:30.115482Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -18,7 +18,7 @@
       "away": "Sporting CP",
       "venue": "Stade Bollaert-Delelis",
       "country": "France",
-      "status": "NS",
+      "status": "2H",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -53,7 +53,7 @@
       "away": "Slavia Prague",
       "venue": "Bank Respublika Arena",
       "country": "Azerbaijan",
-      "status": "NS",
+      "status": "2H",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -18307,7 +18307,7 @@
       "away": "Athletic Bilbao",
       "venue": "",
       "country": "Spain",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -18341,7 +18341,7 @@
       "away": "Sevilla",
       "venue": "",
       "country": "Spain",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -90429,6 +90429,104 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616528",
+      "name": "Don Bosco vs Simba Kolwezi",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-10T13:00:00Z",
+      "home": "Don Bosco",
+      "away": "Simba Kolwezi",
+      "venue": "Stade du TP Mazembe",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 25,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "DR Congo Ligue 1",
+        "DRC club"
+      ],
+      "priority_tags": [
+        "Competition",
+        "DRC"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": true,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616529",
+      "name": "AC Rangers vs Etoile de Kivu",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-10T14:00:00Z",
+      "home": "AC Rangers",
+      "away": "Etoile de Kivu",
+      "venue": "Stade des Martyrs",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2565716",
+      "name": "Hapoel Tel Aviv BC vs Baskonia",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-02-10T18:00:00Z",
+      "home": "Hapoel Tel Aviv BC",
+      "away": "Baskonia",
+      "venue": "Arena 8888 Sofia",
+      "country": "Bulgaria",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -90684,7 +90782,7 @@
         "2026-2027"
       ],
       "received": 256,
-      "upcoming": 194,
+      "upcoming": 196,
       "status": "OK",
       "error": ""
     },
@@ -90951,7 +91049,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 230,
+      "upcoming": 231,
       "status": "OK",
       "error": ""
     },
