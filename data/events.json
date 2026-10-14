@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T13:02:55.274433Z",
+  "updated_at": "2026-10-14T19:01:41.826854Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -18,7 +18,7 @@
       "away": "Besiktas Basketbol",
       "venue": "Arena 8888 Sofia",
       "country": "Bulgaria",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -50,7 +50,7 @@
       "away": "Liverpool",
       "venue": "Raiffeisen Arena Linz",
       "country": "Austria",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -84,7 +84,7 @@
       "away": "Como",
       "venue": "Stadion Feyenoord",
       "country": "The Netherlands",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -10831,38 +10831,6 @@
       "source": "La Liga"
     },
     {
-      "id": "2605410",
-      "name": "Maniema Union vs Kabuscorp",
-      "sport": "Soccer",
-      "league": "CAF Confederation Cup",
-      "league_id": "5057",
-      "season": "2026-2027",
-      "timestamp": "2026-10-24T15:00:00Z",
-      "home": "Maniema Union",
-      "away": "Kabuscorp",
-      "venue": "Stade des Martyrs",
-      "country": "DR Congo",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Confederation Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Confederation Cup"
-    },
-    {
       "id": "2489529",
       "name": "Toulouse vs Troyes",
       "sport": "Soccer",
@@ -11875,6 +11843,38 @@
       "away": "Durban City",
       "venue": "",
       "country": "Mauritius",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Confederation Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Confederation Cup"
+    },
+    {
+      "id": "2605410",
+      "name": "Maniema Union vs Kabuscorp",
+      "sport": "Soccer",
+      "league": "CAF Confederation Cup",
+      "league_id": "5057",
+      "season": "2026-2027",
+      "timestamp": "2026-10-25T13:00:00Z",
+      "home": "Maniema Union",
+      "away": "Kabuscorp",
+      "venue": "Stade des Martyrs",
+      "country": "DR Congo",
       "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
@@ -90457,6 +90457,232 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616531",
+      "name": "TP Mazembe vs Tanganyika",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-11T13:00:00Z",
+      "home": "TP Mazembe",
+      "away": "Tanganyika",
+      "venue": "Stade du TP Mazembe",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 25,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "DR Congo Ligue 1",
+        "DRC club"
+      ],
+      "priority_tags": [
+        "Competition",
+        "DRC"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": true,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616532",
+      "name": "Dauphins Noirs vs Maniema Union",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-11T13:00:00Z",
+      "home": "Dauphins Noirs",
+      "away": "Maniema Union",
+      "venue": "Stade de l'Unité",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616534",
+      "name": "Malole vs Sanga Balende",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-11T13:00:00Z",
+      "home": "Malole",
+      "away": "Sanga Balende",
+      "venue": "Stade des Jeunes",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616535",
+      "name": "New Soger vs Blessing Lualaba",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-11T13:00:00Z",
+      "home": "New Soger",
+      "away": "Blessing Lualaba",
+      "venue": "Stade Frédéric-Kibassa-Maliba",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616533",
+      "name": "Saint-Éloi Lupopo vs Manika",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-11T13:00:00Z",
+      "home": "Saint-Éloi Lupopo",
+      "away": "Manika",
+      "venue": "Stade Frédéric-Kibassa-Maliba",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616536",
+      "name": "Céleste vs Les Aigles du Congo",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-11T14:00:00Z",
+      "home": "Céleste",
+      "away": "Les Aigles du Congo",
+      "venue": "Stade des Martyrs",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2565718",
+      "name": "Besiktas Basketbol vs Dubai Basketball",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-02-11T17:00:00Z",
+      "home": "Besiktas Basketbol",
+      "away": "Dubai Basketball",
+      "venue": "Besiktas Akatlar Arena",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -90712,7 +90938,7 @@
         "2026-2027"
       ],
       "received": 266,
-      "upcoming": 197,
+      "upcoming": 203,
       "status": "OK",
       "error": ""
     },
@@ -90979,7 +91205,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 225,
+      "upcoming": 226,
       "status": "OK",
       "error": ""
     },
@@ -91133,7 +91359,7 @@
         "full current"
       ],
       "received": 28,
-      "upcoming": 19,
+      "upcoming": 20,
       "status": "OK",
       "error": ""
     },
