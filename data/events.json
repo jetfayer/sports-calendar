@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T07:05:47.189759Z",
+  "updated_at": "2026-10-20T13:04:58.903755Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -90698,6 +90698,234 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2616545",
+      "name": "Don Bosco vs Tanganyika",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T11:00:00Z",
+      "home": "Don Bosco",
+      "away": "Tanganyika",
+      "venue": "Stade du TP Mazembe",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 25,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "DR Congo Ligue 1",
+        "DRC club"
+      ],
+      "priority_tags": [
+        "Competition",
+        "DRC"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": true,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2618786",
+      "name": "Anges Verts vs Novakin",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T12:00:00Z",
+      "home": "Anges Verts",
+      "away": "Novakin",
+      "venue": "Stade des Martyrs",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616546",
+      "name": "TP Mazembe vs Blessing Lualaba",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T13:00:00Z",
+      "home": "TP Mazembe",
+      "away": "Blessing Lualaba",
+      "venue": "Stade du TP Mazembe",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 25,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "DR Congo Ligue 1",
+        "DRC club"
+      ],
+      "priority_tags": [
+        "Competition",
+        "DRC"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": true,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616550",
+      "name": "Butras vs Sanga Balende",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T13:00:00Z",
+      "home": "Butras",
+      "away": "Sanga Balende",
+      "venue": "Stade Frédéric-Kibassa-Maliba",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616547",
+      "name": "Maniema Union vs Anges Verts",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T13:00:00Z",
+      "home": "Maniema Union",
+      "away": "Anges Verts",
+      "venue": "Stade des Martyrs",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616549",
+      "name": "Simba Kolwezi vs Manika",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T13:00:00Z",
+      "home": "Simba Kolwezi",
+      "away": "Manika",
+      "venue": "Stade Frédéric-Kibassa-Maliba",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616548",
+      "name": "Étoile du Congo vs Etoile de Kivu",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T13:00:00Z",
+      "home": "Étoile du Congo",
+      "away": "Etoile de Kivu",
+      "venue": "Stade Alphonse Massamba-Débat",
+      "country": "Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
     }
   ],
   "source_stats": [
@@ -90953,7 +91181,7 @@
         "2026-2027"
       ],
       "received": 385,
-      "upcoming": 290,
+      "upcoming": 297,
       "status": "OK",
       "error": ""
     },
@@ -91374,7 +91602,7 @@
         "full current"
       ],
       "received": 28,
-      "upcoming": 20,
+      "upcoming": 21,
       "status": "OK",
       "error": ""
     },
