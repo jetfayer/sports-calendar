@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T01:05:18.888420Z",
+  "updated_at": "2026-10-20T07:05:47.189759Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -90598,6 +90598,106 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "NBA"
+    },
+    {
+      "id": "2602493",
+      "name": "Los Angeles Lakers vs Chicago Bulls",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T03:00:00Z",
+      "home": "Los Angeles Lakers",
+      "away": "Chicago Bulls",
+      "venue": "Crypto.com Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 20,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Los Angeles Lakers · Basketball A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A+"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602494",
+      "name": "Portland Trail Blazers vs New Orleans Pelicans",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T03:00:00Z",
+      "home": "Portland Trail Blazers",
+      "away": "New Orleans Pelicans",
+      "venue": "Moda Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602495",
+      "name": "Los Angeles Clippers vs Houston Rockets",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-02-17T04:00:00Z",
+      "home": "Los Angeles Clippers",
+      "away": "Houston Rockets",
+      "venue": "Intuit Dome",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Los Angeles Clippers · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -91105,7 +91205,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 828,
+      "upcoming": 831,
       "status": "OK",
       "error": ""
     },
