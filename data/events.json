@@ -1,535 +1,11 @@
 {
-  "updated_at": "2026-10-23T18:59:55.751955Z",
+  "updated_at": "2026-10-24T04:46:31.970272Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2604845",
-      "name": "Atlético Petróleos vs Scottland",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T14:30:00Z",
-      "home": "Atlético Petróleos",
-      "away": "Scottland",
-      "venue": "Estádio 11 de Novembro",
-      "country": "Angola",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2605408",
-      "name": "Kaizer Chiefs vs Red Arrows",
-      "sport": "Soccer",
-      "league": "CAF Confederation Cup",
-      "league_id": "5057",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T16:00:00Z",
-      "home": "Kaizer Chiefs",
-      "away": "Red Arrows",
-      "venue": "FNB Stadium",
-      "country": "South Africa",
-      "status": "P",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Confederation Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Confederation Cup"
-    },
-    {
-      "id": "2565513",
-      "name": "BC Žalgiris vs Lyon-Villeurbanne",
-      "sport": "Basketball",
-      "league": "EuroLeague Basketball",
-      "league_id": "4546",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T17:00:00Z",
-      "home": "BC Žalgiris",
-      "away": "Lyon-Villeurbanne",
-      "venue": "Žalgirio arena",
-      "country": "Lithuania",
-      "status": "Q2",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "EuroLeague Basketball"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2603821",
-      "name": "Mamelodi Sundowns vs Wiliete",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T18:00:00Z",
-      "home": "Mamelodi Sundowns",
-      "away": "Wiliete",
-      "venue": "Loftus Versfeld Stadium",
-      "country": "South Africa",
-      "status": "HT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2604844",
-      "name": "Orlando Pirates vs African Stars",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T18:00:00Z",
-      "home": "Orlando Pirates",
-      "away": "African Stars",
-      "venue": "Orlando Amstel Arena",
-      "country": "South Africa",
-      "status": "HT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2565514",
-      "name": "Olympiacos BC vs Fenerbahçe Basketbol",
-      "sport": "Basketball",
-      "league": "EuroLeague Basketball",
-      "league_id": "4546",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T18:15:00Z",
-      "home": "Olympiacos BC",
-      "away": "Fenerbahçe Basketbol",
-      "venue": "Peace and Friendship Stadium",
-      "country": "Greece",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "EuroLeague Basketball",
-        "Olympiacos Basketball · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2508392",
-      "name": "Stuttgart vs Borussia Mönchengladbach",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T18:30:00Z",
-      "home": "Stuttgart",
-      "away": "Borussia Mönchengladbach",
-      "venue": "MHP Arena",
-      "country": "Germany",
-      "status": "1H",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "VfB Stuttgart · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2489530",
-      "name": "Brest vs Nice",
-      "sport": "Soccer",
-      "league": "French Ligue 1",
-      "league_id": "4334",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T18:45:00Z",
-      "home": "Brest",
-      "away": "Nice",
-      "venue": "Stade Francis-Le Blé",
-      "country": "France",
-      "status": "1H",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "French Ligue 1",
-        "Brest · C",
-        "Nice · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Ligue 1"
-    },
-    {
-      "id": "2565515",
-      "name": "Paris Basketball vs Valencia Basket",
-      "sport": "Basketball",
-      "league": "EuroLeague Basketball",
-      "league_id": "4546",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T18:45:00Z",
-      "home": "Paris Basketball",
-      "away": "Valencia Basket",
-      "venue": "Adidas Arena",
-      "country": "France",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "EuroLeague Basketball"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2482214",
-      "name": "Torino vs Monza",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T18:45:00Z",
-      "home": "Torino",
-      "away": "Monza",
-      "venue": "Stadio Olimpico Grande Torino",
-      "country": "Italy",
-      "status": "1H",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2494075",
-      "name": "Ipswich Town vs Nottingham Forest",
-      "sport": "Soccer",
-      "league": "English Premier League",
-      "league_id": "4328",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T19:00:00Z",
-      "home": "Ipswich Town",
-      "away": "Nottingham Forest",
-      "venue": "Portman Road",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "English Premier League",
-        "Nottingham Forest · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "English Premier League"
-    },
-    {
-      "id": "2604840",
-      "name": "MC Alger vs Rangers International",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T19:00:00Z",
-      "home": "MC Alger",
-      "away": "Rangers International",
-      "venue": "Stade Ali-Ammar",
-      "country": "Algeria",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2605537",
-      "name": "Primeiro de Agosto vs Virunga",
-      "sport": "Soccer",
-      "league": "CAF Confederation Cup",
-      "league_id": "5057",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T19:00:00Z",
-      "home": "Primeiro de Agosto",
-      "away": "Virunga",
-      "venue": "Estádio 11 de Novembro",
-      "country": "Angola",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Confederation Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Confederation Cup"
-    },
-    {
-      "id": "2506265",
-      "name": "Deportivo Alavés vs Málaga",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T19:00:00Z",
-      "home": "Deportivo Alavés",
-      "away": "Málaga",
-      "venue": "Estadio de Mendizorroza",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2601687",
-      "name": "Milwaukee Bucks vs Chicago Bulls",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T20:00:00Z",
-      "home": "Milwaukee Bucks",
-      "away": "Chicago Bulls",
-      "venue": "Fiserv Forum",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Milwaukee Bucks · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2605406",
-      "name": "Raja Casablanca vs El-Kanemi Warriors",
-      "sport": "Soccer",
-      "league": "CAF Confederation Cup",
-      "league_id": "5057",
-      "season": "2026-2027",
-      "timestamp": "2026-10-23T20:00:00Z",
-      "home": "Raja Casablanca",
-      "away": "El-Kanemi Warriors",
-      "venue": "Stade Mohammed V",
-      "country": "Morocco",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Confederation Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Confederation Cup"
-    },
     {
       "id": "2601685",
       "name": "Boston Celtics vs New York Knicks",
@@ -542,7 +18,7 @@
       "away": "New York Knicks",
       "venue": "TD Garden",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -579,7 +55,7 @@
       "away": "Dallas Mavericks",
       "venue": "Gainbridge Fieldhouse",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -613,7 +89,7 @@
       "away": "Minnesota Timberwolves",
       "venue": "Kia Center",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -647,7 +123,7 @@
       "away": "Atlanta Hawks",
       "venue": "Spectrum Center",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -679,7 +155,7 @@
       "away": "Toronto Raptors",
       "venue": "Capital One Arena",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -711,7 +187,7 @@
       "away": "Detroit Pistons",
       "venue": "Kaseya Center",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -773,7 +249,7 @@
       "away": "Houston Rockets",
       "venue": "Frost Bank Center",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -805,7 +281,7 @@
       "away": "New Orleans Pelicans",
       "venue": "Delta Center",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -837,7 +313,7 @@
       "away": "Los Angeles Clippers",
       "venue": "Crypto.com Arena",
       "country": "United States",
-      "status": "NS",
+      "status": "Q3",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -873,7 +349,7 @@
       "away": "Memphis Grizzlies",
       "venue": "Chase Center",
       "country": "United States",
-      "status": "NS",
+      "status": "Q3",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -907,7 +383,7 @@
       "away": "Portland Trail Blazers",
       "venue": "Golden 1 Center",
       "country": "United States",
-      "status": "NS",
+      "status": "Q3",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -15438,6 +14914,38 @@
       "source": "Serie A"
     },
     {
+      "id": "2619583",
+      "name": "Oxford City vs Leicester City",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-11-06T19:45:00Z",
+      "home": "Oxford City",
+      "away": "Leicester City",
+      "venue": "RAW Charging Stadium",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
       "id": "2506283",
       "name": "Sevilla vs Deportivo Alavés",
       "sport": "Soccer",
@@ -15922,6 +15430,38 @@
       "source": "DR Congo Ligue 1"
     },
     {
+      "id": "2620136",
+      "name": "Stafford Rangers vs Grimsby Town",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-11-07T12:00:00Z",
+      "home": "Stafford Rangers",
+      "away": "Grimsby Town",
+      "venue": "Marston Road",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
       "id": "2494097",
       "name": "Leeds United vs Tottenham Hotspur",
       "sport": "Soccer",
@@ -16388,38 +15928,6 @@
       "source": "FA Cup"
     },
     {
-      "id": "2620134",
-      "name": "Altrincham vs Notts County",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T15:00:00Z",
-      "home": "Altrincham",
-      "away": "Notts County",
-      "venue": "J Davidson Stadium",
-      "country": "England",
-      "status": "",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
-    {
       "id": "2619573",
       "name": "Barnet vs Tranmere Rovers",
       "sport": "Soccer",
@@ -16463,7 +15971,7 @@
       "away": "Aldershot Town",
       "venue": "Oakwell",
       "country": "England",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -16687,7 +16195,7 @@
       "away": "Yeovil Town",
       "venue": "SMH Group Stadium",
       "country": "England",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -16719,39 +16227,7 @@
       "away": "Worcester City",
       "venue": "JobServe Community Stadium",
       "country": "England",
-      "status": "",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
-    {
-      "id": "2620135",
-      "name": "Cray Wanderers vs Stockport County",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T15:00:00Z",
-      "home": "Cray Wanderers",
-      "away": "Stockport County",
-      "venue": "Flamingo Park Chislehurst",
-      "country": "England",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -16911,7 +16387,7 @@
       "away": "Barrow",
       "venue": "Priestfield Stadium",
       "country": "England",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -16975,7 +16451,7 @@
       "away": "AFC Fylde",
       "venue": "Exercise Stadium",
       "country": "England",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -17135,7 +16611,7 @@
       "away": "Forest Green Rovers",
       "venue": "Kenilworth Road",
       "country": "England",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -17167,7 +16643,7 @@
       "away": "Macclesfield",
       "venue": "One Call Stadium",
       "country": "England",
-      "status": "",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -17252,70 +16728,6 @@
       "source": "FA Cup"
     },
     {
-      "id": "2619567",
-      "name": "Oldham Athletic vs Sheffield Wednesday",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T15:00:00Z",
-      "home": "Oldham Athletic",
-      "away": "Sheffield Wednesday",
-      "venue": "Boundary Park",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
-    {
-      "id": "2619583",
-      "name": "Oxford City vs Leicester City",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T15:00:00Z",
-      "home": "Oxford City",
-      "away": "Leicester City",
-      "venue": "RAW Charging Stadium",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
-    {
       "id": "2619564",
       "name": "Oxford United vs Stevenage",
       "sport": "Soccer",
@@ -17348,38 +16760,6 @@
       "source": "FA Cup"
     },
     {
-      "id": "2619568",
-      "name": "Peterborough United vs Reading",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T15:00:00Z",
-      "home": "Peterborough United",
-      "away": "Reading",
-      "venue": "Weston Homes Stadium",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
-    {
       "id": "2620129",
       "name": "Plymouth Argyle vs Alvechurch",
       "sport": "Soccer",
@@ -17390,38 +16770,6 @@
       "home": "Plymouth Argyle",
       "away": "Alvechurch",
       "venue": "Home Park",
-      "country": "England",
-      "status": "",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
-    {
-      "id": "2619588",
-      "name": "Plymouth Parkway vs Berkhamsted",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T15:00:00Z",
-      "home": "Plymouth Parkway",
-      "away": "Berkhamsted",
-      "venue": "Bolitho Park",
       "country": "England",
       "status": "NS",
       "postponed": "no",
@@ -17486,70 +16834,6 @@
       "home": "Salisbury",
       "away": "Sholing",
       "venue": "The Raymond McEnhill Stadium",
-      "country": "England",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
-    {
-      "id": "2620136",
-      "name": "Stafford Rangers vs Grimsby Town",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T15:00:00Z",
-      "home": "Stafford Rangers",
-      "away": "Grimsby Town",
-      "venue": "Marston Road",
-      "country": "England",
-      "status": "",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "FA Cup"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "FA Cup"
-    },
-    {
-      "id": "2619587",
-      "name": "Wimborne Town vs Crawley Town",
-      "sport": "Soccer",
-      "league": "FA Cup",
-      "league_id": "4482",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T15:00:00Z",
-      "home": "Wimborne Town",
-      "away": "Crawley Town",
-      "venue": "New Cuthbury",
       "country": "England",
       "status": "NS",
       "postponed": "no",
@@ -17806,6 +17090,38 @@
       "source": "Bundesliga"
     },
     {
+      "id": "2620134",
+      "name": "Altrincham vs Notts County",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-11-07T17:30:00Z",
+      "home": "Altrincham",
+      "away": "Notts County",
+      "venue": "J Davidson Stadium",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
       "id": "2408210",
       "name": "São Paulo Grand Prix Qualifying",
       "sport": "Motorsport",
@@ -17938,6 +17254,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "La Liga"
+    },
+    {
+      "id": "2619568",
+      "name": "Peterborough United vs Reading",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-11-07T20:00:00Z",
+      "home": "Peterborough United",
+      "away": "Reading",
+      "venue": "Weston Homes Stadium",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
     },
     {
       "id": "2601797",
@@ -18548,6 +17896,38 @@
       "source": "DR Congo Ligue 1"
     },
     {
+      "id": "2620135",
+      "name": "Cray Wanderers vs Stockport County",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-11-08T14:15:00Z",
+      "home": "Cray Wanderers",
+      "away": "Stockport County",
+      "venue": "Flamingo Park Chislehurst",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
+    },
+    {
       "id": "2508413",
       "name": "Köln vs Bayer Leverkusen",
       "sport": "Soccer",
@@ -18580,6 +17960,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Bundesliga"
+    },
+    {
+      "id": "2619587",
+      "name": "Wimborne Town vs Crawley Town",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-11-08T15:00:00Z",
+      "home": "Wimborne Town",
+      "away": "Crawley Town",
+      "venue": "New Cuthbury",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
     },
     {
       "id": "2506286",
@@ -18886,6 +18298,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Formula 1"
+    },
+    {
+      "id": "2619567",
+      "name": "Oldham Athletic vs Sheffield Wednesday",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-11-08T17:15:00Z",
+      "home": "Oldham Athletic",
+      "away": "Sheffield Wednesday",
+      "venue": "Boundary Park",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
     },
     {
       "id": "2506281",
@@ -19334,6 +18778,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2619588",
+      "name": "Plymouth Parkway vs Berkhamsted",
+      "sport": "Soccer",
+      "league": "FA Cup",
+      "league_id": "4482",
+      "season": "2026-2027",
+      "timestamp": "2026-11-09T19:30:00Z",
+      "home": "Plymouth Parkway",
+      "away": "Berkhamsted",
+      "venue": "Bolitho Park",
+      "country": "England",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "FA Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FA Cup"
     },
     {
       "id": "2601811",
@@ -90442,7 +89918,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 190,
+      "upcoming": 189,
       "status": "OK",
       "error": ""
     },
@@ -90457,7 +89933,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 150,
+      "upcoming": 149,
       "status": "OK",
       "error": ""
     },
@@ -90472,7 +89948,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 170,
+      "upcoming": 169,
       "status": "OK",
       "error": ""
     },
@@ -90487,7 +89963,7 @@
         "2026-2027"
       ],
       "received": 306,
-      "upcoming": 144,
+      "upcoming": 143,
       "status": "OK",
       "error": ""
     },
@@ -90502,7 +89978,7 @@
         "2026-2027"
       ],
       "received": 306,
-      "upcoming": 126,
+      "upcoming": 125,
       "status": "OK",
       "error": ""
     },
@@ -90653,7 +90129,7 @@
         "2026-2027"
       ],
       "received": 86,
-      "upcoming": 14,
+      "upcoming": 10,
       "status": "OK",
       "error": ""
     },
@@ -90668,7 +90144,7 @@
         "2026-2027"
       ],
       "received": 80,
-      "upcoming": 16,
+      "upcoming": 13,
       "status": "OK",
       "error": ""
     },
@@ -90935,7 +90411,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 832,
+      "upcoming": 831,
       "status": "OK",
       "error": ""
     },
@@ -90950,7 +90426,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 213,
+      "upcoming": 210,
       "status": "OK",
       "error": ""
     },
