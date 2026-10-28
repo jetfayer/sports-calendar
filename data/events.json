@@ -1,111 +1,11 @@
 {
-  "updated_at": "2026-10-28T05:52:06.016345Z",
+  "updated_at": "2026-10-28T13:05:37.852988Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601718",
-      "name": "New York Knicks vs Detroit Pistons",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-28T00:00:00Z",
-      "home": "New York Knicks",
-      "away": "Detroit Pistons",
-      "venue": "Madison Square Garden",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "New York Knicks · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601719",
-      "name": "San Antonio Spurs vs Sacramento Kings",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-28T00:00:00Z",
-      "home": "San Antonio Spurs",
-      "away": "Sacramento Kings",
-      "venue": "Frost Bank Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
-    {
-      "id": "2601720",
-      "name": "Los Angeles Lakers vs Portland Trail Blazers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-10-28T03:00:00Z",
-      "home": "Los Angeles Lakers",
-      "away": "Portland Trail Blazers",
-      "venue": "Crypto.com Arena",
-      "country": "United States",
-      "status": "Q4",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Los Angeles Lakers · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
     {
       "id": "2600203",
       "name": "Freiburg vs Wolfsburg",
@@ -85904,6 +85804,234 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616568",
+      "name": "Don Bosco vs Blessing Lualaba",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-25T11:00:00Z",
+      "home": "Don Bosco",
+      "away": "Blessing Lualaba",
+      "venue": "Stade du TP Mazembe",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 25,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "DR Congo Ligue 1",
+        "DRC club"
+      ],
+      "priority_tags": [
+        "Competition",
+        "DRC"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": true,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2519442",
+      "name": "Australia Basketball vs Syria Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T11:00:00Z",
+      "home": "Australia Basketball",
+      "away": "Syria Basketball",
+      "venue": "",
+      "country": "Australia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519443",
+      "name": "New Zealand Basketball vs Iran Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T11:00:00Z",
+      "home": "New Zealand Basketball",
+      "away": "Iran Basketball",
+      "venue": "",
+      "country": "New Zealand",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519444",
+      "name": "Philippines Basketball vs Jordan Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T11:00:00Z",
+      "home": "Philippines Basketball",
+      "away": "Jordan Basketball",
+      "venue": "",
+      "country": "Philippines",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2616569",
+      "name": "Simba Kolwezi vs Lubumbashi Sport",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-25T11:00:00Z",
+      "home": "Simba Kolwezi",
+      "away": "Lubumbashi Sport",
+      "venue": "Stade Frédéric-Kibassa-Maliba",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616570",
+      "name": "TP Mazembe vs Saint-Luc",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-25T13:00:00Z",
+      "home": "TP Mazembe",
+      "away": "Saint-Luc",
+      "venue": "Stade du TP Mazembe",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 25,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "DR Congo Ligue 1",
+        "DRC club"
+      ],
+      "priority_tags": [
+        "Competition",
+        "DRC"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": true,
+      "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2616571",
+      "name": "Manika vs Tanganyika",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-02-25T13:00:00Z",
+      "home": "Manika",
+      "away": "Tanganyika",
+      "venue": "Stade Dominique Diur",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
     }
   ],
   "source_stats": [
@@ -86161,7 +86289,7 @@
         "2026-2027"
       ],
       "received": 385,
-      "upcoming": 293,
+      "upcoming": 297,
       "status": "OK",
       "error": ""
     },
@@ -86413,7 +86541,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 795,
+      "upcoming": 792,
       "status": "OK",
       "error": ""
     },
@@ -86459,7 +86587,7 @@
         "2027"
       ],
       "received": 421,
-      "upcoming": 48,
+      "upcoming": 51,
       "status": "OK",
       "error": ""
     },
@@ -86582,7 +86710,7 @@
         "full current"
       ],
       "received": 28,
-      "upcoming": 20,
+      "upcoming": 21,
       "status": "OK",
       "error": ""
     },
