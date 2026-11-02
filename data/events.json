@@ -1,418 +1,11 @@
 {
-  "updated_at": "2026-11-01T22:10:00.210671Z",
+  "updated_at": "2026-11-02T06:19:20.789483Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2489535",
-      "name": "Lyon vs Angers",
-      "sport": "Soccer",
-      "league": "French Ligue 1",
-      "league_id": "4334",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T16:15:00Z",
-      "home": "Lyon",
-      "away": "Angers",
-      "venue": "Groupama Stadium",
-      "country": "France",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Group",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "French Ligue 1",
-        "Lyon · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Ligue 1"
-    },
-    {
-      "id": "2489542",
-      "name": "Paris FC vs Monaco",
-      "sport": "Soccer",
-      "league": "French Ligue 1",
-      "league_id": "4334",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T16:15:00Z",
-      "home": "Paris FC",
-      "away": "Monaco",
-      "venue": "Stade Jean-Bouin",
-      "country": "France",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "French Ligue 1",
-        "Monaco · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Ligue 1"
-    },
-    {
-      "id": "2494082",
-      "name": "Liverpool vs Arsenal",
-      "sport": "Soccer",
-      "league": "English Premier League",
-      "league_id": "4328",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T16:30:00Z",
-      "home": "Liverpool",
-      "away": "Arsenal",
-      "venue": "Anfield",
-      "country": "England",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 39,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "English Premier League",
-        "Liverpool · A+",
-        "Arsenal · A+",
-        "Strong club matchup"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee",
-        "Top matchup"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "English Premier League"
-    },
-    {
-      "id": "2508400",
-      "name": "Eintracht Frankfurt vs Hamburg",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T16:30:00Z",
-      "home": "Eintracht Frankfurt",
-      "away": "Hamburg",
-      "venue": "Deutsche Bank Park",
-      "country": "Germany",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Eintracht Frankfurt · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2482236",
-      "name": "Lecce vs Genoa",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T17:00:00Z",
-      "home": "Lecce",
-      "away": "Genoa",
-      "venue": "Stadio Via del mare",
-      "country": "Italy",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2506277",
-      "name": "Elche vs Valencia",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T17:30:00Z",
-      "home": "Elche",
-      "away": "Valencia",
-      "venue": "Estadio Martínez Valero",
-      "country": "Spain",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2482232",
-      "name": "Juventus vs Napoli",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T19:45:00Z",
-      "home": "Juventus",
-      "away": "Napoli",
-      "venue": "Allianz Stadium Turin",
-      "country": "Italy",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 28,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Juventus · A",
-        "Napoli · A",
-        "Strong club matchup"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club",
-        "Top matchup"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2489536",
-      "name": "Marseille vs Toulouse",
-      "sport": "Soccer",
-      "league": "French Ligue 1",
-      "league_id": "4334",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T19:45:00Z",
-      "home": "Marseille",
-      "away": "Toulouse",
-      "venue": "Orange Vélodrome",
-      "country": "France",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "French Ligue 1",
-        "Marseille · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Ligue 1"
-    },
-    {
-      "id": "2506270",
-      "name": "Athletic Bilbao vs Real Sociedad",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T20:00:00Z",
-      "home": "Athletic Bilbao",
-      "away": "Real Sociedad",
-      "venue": "San Mamés Barria",
-      "country": "Spain",
-      "status": "2H",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Athletic Club · B",
-        "Real Sociedad · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2408206",
-      "name": "Mexico City Grand Prix",
-      "sport": "Motorsport",
-      "league": "Formula 1",
-      "league_id": "4370",
-      "season": "2026",
-      "timestamp": "2026-11-01T20:00:00Z",
-      "home": "",
-      "away": "",
-      "venue": "Autódromo Hermanos Rodríguez",
-      "country": "Mexico",
-      "status": "",
-      "postponed": "no",
-      "participant_type": "Individual",
-      "competition_group": "Tour/Event",
-      "region": "Global",
-      "tier": 1,
-      "stage": "Race",
-      "importance": 14,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Formula 1 race"
-      ],
-      "priority_tags": [
-        "Race"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Formula 1"
-    },
-    {
-      "id": "2601753",
-      "name": "Orlando Magic vs Boston Celtics",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T20:30:00Z",
-      "home": "Orlando Magic",
-      "away": "Boston Celtics",
-      "venue": "Kia Center",
-      "country": "United States",
-      "status": "Q1",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Boston Celtics · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601754",
-      "name": "Indiana Pacers vs Brooklyn Nets",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-01T22:00:00Z",
-      "home": "Indiana Pacers",
-      "away": "Brooklyn Nets",
-      "venue": "Gainbridge Fieldhouse",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
     {
       "id": "2601755",
       "name": "Golden State Warriors vs Los Angeles Clippers",
@@ -425,7 +18,7 @@
       "away": "Los Angeles Clippers",
       "venue": "Chase Center",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -461,7 +54,7 @@
       "away": "Toronto Raptors",
       "venue": "Crypto.com Arena",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -1770,6 +1363,40 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2594828",
+      "name": "Rennes vs Olympiacos",
+      "sport": "Soccer",
+      "league": "UEFA Europa League",
+      "league_id": "4481",
+      "season": "2026-2027",
+      "timestamp": "2026-11-04T15:30:00Z",
+      "home": "Rennes",
+      "away": "Olympiacos",
+      "venue": "Roazhon Park",
+      "country": "France",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "UEFA Europa League",
+        "Olympiacos · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "UEFA Europa League"
     },
     {
       "id": "2594651",
@@ -3172,40 +2799,6 @@
       "importance_reasons": [
         "UEFA Europa League",
         "Crystal Palace · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "UEFA Europa League"
-    },
-    {
-      "id": "2594828",
-      "name": "Rennes vs Olympiacos",
-      "sport": "Soccer",
-      "league": "UEFA Europa League",
-      "league_id": "4481",
-      "season": "2026-2027",
-      "timestamp": "2026-11-05T17:45:00Z",
-      "home": "Rennes",
-      "away": "Olympiacos",
-      "venue": "Roazhon Park",
-      "country": "France",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "UEFA Europa League",
-        "Olympiacos · C"
       ],
       "priority_tags": [
         "Competition",
@@ -92215,6 +91808,206 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2602545",
+      "name": "Cleveland Cavaliers vs Philadelphia 76ers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-02T00:00:00Z",
+      "home": "Cleveland Cavaliers",
+      "away": "Philadelphia 76ers",
+      "venue": "Rocket Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Cleveland Cavaliers · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602546",
+      "name": "Detroit Pistons vs Chicago Bulls",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-02T00:00:00Z",
+      "home": "Detroit Pistons",
+      "away": "Chicago Bulls",
+      "venue": "Little Caesars Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602547",
+      "name": "New Orleans Pelicans vs Utah Jazz",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-02T01:00:00Z",
+      "home": "New Orleans Pelicans",
+      "away": "Utah Jazz",
+      "venue": "Smoothie King Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602548",
+      "name": "Houston Rockets vs Golden State Warriors",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-02T01:30:00Z",
+      "home": "Houston Rockets",
+      "away": "Golden State Warriors",
+      "venue": "Toyota Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 20,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Golden State Warriors · Basketball A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A+"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602549",
+      "name": "Denver Nuggets vs Brooklyn Nets",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-02T02:00:00Z",
+      "home": "Denver Nuggets",
+      "away": "Brooklyn Nets",
+      "venue": "Ball Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Denver Nuggets · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602550",
+      "name": "Phoenix Suns vs Washington Wizards",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-02T02:30:00Z",
+      "home": "Phoenix Suns",
+      "away": "Washington Wizards",
+      "venue": "PHX Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Phoenix Suns · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -92229,7 +92022,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 182,
+      "upcoming": 181,
       "status": "OK",
       "error": ""
     },
@@ -92244,7 +92037,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 153,
+      "upcoming": 151,
       "status": "OK",
       "error": ""
     },
@@ -92259,7 +92052,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 164,
+      "upcoming": 162,
       "status": "OK",
       "error": ""
     },
@@ -92274,7 +92067,7 @@
         "2026-2027"
       ],
       "received": 306,
-      "upcoming": 136,
+      "upcoming": 135,
       "status": "OK",
       "error": ""
     },
@@ -92289,7 +92082,7 @@
         "2026-2027"
       ],
       "received": 306,
-      "upcoming": 121,
+      "upcoming": 118,
       "status": "OK",
       "error": ""
     },
@@ -92722,7 +92515,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 792,
+      "upcoming": 796,
       "status": "OK",
       "error": ""
     },
@@ -92829,7 +92622,7 @@
         "2026"
       ],
       "received": 121,
-      "upcoming": 9,
+      "upcoming": 8,
       "status": "OK",
       "error": ""
     },
