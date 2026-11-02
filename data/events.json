@@ -1,81 +1,11 @@
 {
-  "updated_at": "2026-11-02T06:19:20.789483Z",
+  "updated_at": "2026-11-02T16:19:36.071807Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601755",
-      "name": "Golden State Warriors vs Los Angeles Clippers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-02T01:30:00Z",
-      "home": "Golden State Warriors",
-      "away": "Los Angeles Clippers",
-      "venue": "Chase Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 27,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "NBA",
-        "Golden State Warriors · Basketball A+",
-        "Los Angeles Clippers · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601756",
-      "name": "Los Angeles Lakers vs Toronto Raptors",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-02T02:00:00Z",
-      "home": "Los Angeles Lakers",
-      "away": "Toronto Raptors",
-      "venue": "Crypto.com Arena",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Los Angeles Lakers · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
     {
       "id": "2482229",
       "name": "Sassuolo vs Fiorentina",
@@ -12166,38 +12096,6 @@
       "timestamp": "2026-11-14T13:00:00Z",
       "home": "Buxerolles",
       "away": "Sablé",
-      "venue": "",
-      "country": "France",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Cup",
-      "region": "Europe",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 2,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Coupe de France"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Coupe de France"
-    },
-    {
-      "id": "2625541",
-      "name": "CO Briochin vs Rouen",
-      "sport": "Soccer",
-      "league": "Coupe de France",
-      "league_id": "4484",
-      "season": "2026-2027",
-      "timestamp": "2026-11-14T13:00:00Z",
-      "home": "CO Briochin",
-      "away": "Rouen",
       "venue": "",
       "country": "France",
       "status": "NS",
@@ -30380,6 +30278,275 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2625640",
+      "name": "Eintracht Frankfurt vs Borussia Dortmund",
+      "sport": "Soccer",
+      "league": "DFB-Pokal",
+      "league_id": "4485",
+      "season": "2026-2027",
+      "timestamp": "2026-12-01T19:00:00Z",
+      "home": "Eintracht Frankfurt",
+      "away": "Borussia Dortmund",
+      "venue": "Deutsche Bank Park",
+      "country": "Germany",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "DFB-Pokal",
+        "Eintracht Frankfurt · B",
+        "Borussia Dortmund · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "DFB-Pokal"
+    },
+    {
+      "id": "2625639",
+      "name": "Bayer Leverkusen vs RB Leipzig",
+      "sport": "Soccer",
+      "league": "DFB-Pokal",
+      "league_id": "4485",
+      "season": "2026-2027",
+      "timestamp": "2026-12-01T19:00:00Z",
+      "home": "Bayer Leverkusen",
+      "away": "RB Leipzig",
+      "venue": "BayArena",
+      "country": "Germany",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "DFB-Pokal",
+        "Bayer Leverkusen · B",
+        "RB Leipzig · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "DFB-Pokal"
+    },
+    {
+      "id": "2625637",
+      "name": "Bayern Munich vs Hertha",
+      "sport": "Soccer",
+      "league": "DFB-Pokal",
+      "league_id": "4485",
+      "season": "2026-2027",
+      "timestamp": "2026-12-01T19:00:00Z",
+      "home": "Bayern Munich",
+      "away": "Hertha",
+      "venue": "Allianz Arena",
+      "country": "Germany",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "DFB-Pokal",
+        "Bayern Munich · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "DFB-Pokal"
+    },
+    {
+      "id": "2625644",
+      "name": "Kaiserslautern vs Freiburg",
+      "sport": "Soccer",
+      "league": "DFB-Pokal",
+      "league_id": "4485",
+      "season": "2026-2027",
+      "timestamp": "2026-12-01T19:00:00Z",
+      "home": "Kaiserslautern",
+      "away": "Freiburg",
+      "venue": "Fritz-Walter-Stadion",
+      "country": "Germany",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "DFB-Pokal",
+        "SC Freiburg · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "DFB-Pokal"
+    },
+    {
+      "id": "2625641",
+      "name": "Stuttgart vs Dynamo Dresden",
+      "sport": "Soccer",
+      "league": "DFB-Pokal",
+      "league_id": "4485",
+      "season": "2026-2027",
+      "timestamp": "2026-12-01T19:00:00Z",
+      "home": "Stuttgart",
+      "away": "Dynamo Dresden",
+      "venue": "MHP Arena",
+      "country": "Germany",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "DFB-Pokal",
+        "VfB Stuttgart · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "DFB-Pokal"
+    },
+    {
+      "id": "2625642",
+      "name": "Bochum vs Augsburg",
+      "sport": "Soccer",
+      "league": "DFB-Pokal",
+      "league_id": "4485",
+      "season": "2026-2027",
+      "timestamp": "2026-12-01T19:00:00Z",
+      "home": "Bochum",
+      "away": "Augsburg",
+      "venue": "Vonovia Ruhrstadion",
+      "country": "Germany",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DFB-Pokal"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "DFB-Pokal"
+    },
+    {
+      "id": "2625638",
+      "name": "Borussia Mönchengladbach vs Darmstadt",
+      "sport": "Soccer",
+      "league": "DFB-Pokal",
+      "league_id": "4485",
+      "season": "2026-2027",
+      "timestamp": "2026-12-01T19:00:00Z",
+      "home": "Borussia Mönchengladbach",
+      "away": "Darmstadt",
+      "venue": "Stadion im Borussia-Park",
+      "country": "Germany",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DFB-Pokal"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "DFB-Pokal"
+    },
+    {
+      "id": "2625643",
+      "name": "Holstein Kiel vs Köln",
+      "sport": "Soccer",
+      "league": "DFB-Pokal",
+      "league_id": "4485",
+      "season": "2026-2027",
+      "timestamp": "2026-12-01T19:00:00Z",
+      "home": "Holstein Kiel",
+      "away": "Köln",
+      "venue": "Holstein-Stadion",
+      "country": "Germany",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Cup",
+      "region": "Europe",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 2,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DFB-Pokal"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "DFB-Pokal"
     },
     {
       "id": "2601968",
@@ -92139,12 +92306,11 @@
       "resolved_id": "4485",
       "resolved_name": "DFB-Pokal",
       "seasons_tried": [
-        "2026-2027",
-        "2025-2026"
+        "2026-2027"
       ],
-      "received": 111,
-      "upcoming": 0,
-      "status": "NO UPCOMING",
+      "received": 56,
+      "upcoming": 8,
+      "status": "OK",
       "error": ""
     },
     {
@@ -92172,8 +92338,8 @@
       "seasons_tried": [
         "2026-2027"
       ],
-      "received": 86,
-      "upcoming": 85,
+      "received": 85,
+      "upcoming": 84,
       "status": "OK",
       "error": ""
     },
@@ -92515,7 +92681,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 796,
+      "upcoming": 794,
       "status": "OK",
       "error": ""
     },
