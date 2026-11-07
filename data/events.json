@@ -1,247 +1,11 @@
 {
-  "updated_at": "2026-11-07T06:08:46.514217Z",
+  "updated_at": "2026-11-07T13:13:45.898231Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601790",
-      "name": "Cleveland Cavaliers vs Philadelphia 76ers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T00:30:00Z",
-      "home": "Cleveland Cavaliers",
-      "away": "Philadelphia 76ers",
-      "venue": "Rocket Arena",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Cleveland Cavaliers · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601791",
-      "name": "Dallas Mavericks vs Utah Jazz",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T01:00:00Z",
-      "home": "Dallas Mavericks",
-      "away": "Utah Jazz",
-      "venue": "American Airlines Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Dallas Mavericks · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601792",
-      "name": "Memphis Grizzlies vs Oklahoma City Thunder",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T01:00:00Z",
-      "home": "Memphis Grizzlies",
-      "away": "Oklahoma City Thunder",
-      "venue": "FedExForum",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Oklahoma City Thunder · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601793",
-      "name": "Milwaukee Bucks vs Toronto Raptors",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T01:00:00Z",
-      "home": "Milwaukee Bucks",
-      "away": "Toronto Raptors",
-      "venue": "Fiserv Forum",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Milwaukee Bucks · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601794",
-      "name": "New Orleans Pelicans vs Minnesota Timberwolves",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T01:00:00Z",
-      "home": "New Orleans Pelicans",
-      "away": "Minnesota Timberwolves",
-      "venue": "Smoothie King Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Minnesota Timberwolves · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601795",
-      "name": "Los Angeles Lakers vs Portland Trail Blazers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T03:00:00Z",
-      "home": "Los Angeles Lakers",
-      "away": "Portland Trail Blazers",
-      "venue": "Crypto.com Arena",
-      "country": "United States",
-      "status": "Q3",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Los Angeles Lakers · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601796",
-      "name": "Sacramento Kings vs San Antonio Spurs",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-07T03:00:00Z",
-      "home": "Sacramento Kings",
-      "away": "San Antonio Spurs",
-      "venue": "Golden 1 Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
     {
       "id": "2616375",
       "name": "New Jak vs Etoile de Kivu",
@@ -286,7 +50,7 @@
       "away": "Tottenham Hotspur",
       "venue": "Elland Road",
       "country": "England",
-      "status": "NS",
+      "status": "1H",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -2193,6 +1957,34 @@
       "source": "NBA"
     },
     {
+      "id": "2601527",
+      "name": "UFC Fight Night 293 Cortes Acosta vs Walker",
+      "sport": "Fighting",
+      "league": "UFC",
+      "league_id": "4443",
+      "season": "2026",
+      "timestamp": "2026-11-07T22:00:00Z",
+      "home": "",
+      "away": "",
+      "venue": "Meta Apex",
+      "country": "United States",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Individual",
+      "competition_group": "Tour/Event",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 0,
+      "importance_level": "normal",
+      "importance_reasons": [],
+      "priority_tags": [],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "UFC"
+    },
+    {
       "id": "2601798",
       "name": "Atlanta Hawks vs Brooklyn Nets",
       "sport": "Basketball",
@@ -3184,7 +2976,7 @@
       "timestamp": "2026-11-08T17:00:00Z",
       "home": "",
       "away": "",
-      "venue": "",
+      "venue": "Interlagos Circuit",
       "country": "Brazil",
       "status": "",
       "postponed": "no",
@@ -28336,6 +28128,40 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2508828",
+      "name": "Bayern Munich vs Paderborn",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-04T19:30:00Z",
+      "home": "Bayern Munich",
+      "away": "Paderborn",
+      "venue": "Allianz Arena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Bayern Munich · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2565594",
       "name": "Baskonia vs Maccabi Tel Aviv BC",
       "sport": "Basketball",
@@ -28627,40 +28453,6 @@
       "source": "DR Congo Ligue 1"
     },
     {
-      "id": "2508828",
-      "name": "Bayern Munich vs Paderborn",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T14:30:00Z",
-      "home": "Bayern Munich",
-      "away": "Paderborn",
-      "venue": "Allianz Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayern Munich · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
       "id": "2508833",
       "name": "RB Leipzig vs Mainz",
       "sport": "Soccer",
@@ -28697,40 +28489,6 @@
       "source": "Bundesliga"
     },
     {
-      "id": "2508834",
-      "name": "Schalke 04 vs Borussia Dortmund",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T14:30:00Z",
-      "home": "Schalke 04",
-      "away": "Borussia Dortmund",
-      "venue": "VELTINS-Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Borussia Dortmund · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
       "id": "2508830",
       "name": "Bayer Leverkusen vs Borussia Mönchengladbach",
       "sport": "Soccer",
@@ -28758,74 +28516,6 @@
       "priority_tags": [
         "Competition",
         "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508831",
-      "name": "Eintracht Frankfurt vs Werder Bremen",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T14:30:00Z",
-      "home": "Eintracht Frankfurt",
-      "away": "Werder Bremen",
-      "venue": "Deutsche Bank Park",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Eintracht Frankfurt · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508836",
-      "name": "Elversberg vs Stuttgart",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T14:30:00Z",
-      "home": "Elversberg",
-      "away": "Stuttgart",
-      "venue": "Waldstadion Kaiserlinde",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "VfB Stuttgart · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
@@ -29549,6 +29239,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2508831",
+      "name": "Eintracht Frankfurt vs Werder Bremen",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T17:30:00Z",
+      "home": "Eintracht Frankfurt",
+      "away": "Werder Bremen",
+      "venue": "Deutsche Bank Park",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Eintracht Frankfurt · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2494138",
       "name": "Nottingham Forest vs Brighton and Hove Albion",
       "sport": "Soccer",
@@ -29983,6 +29707,40 @@
       "source": "English Premier League"
     },
     {
+      "id": "2508834",
+      "name": "Schalke 04 vs Borussia Dortmund",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T14:30:00Z",
+      "home": "Schalke 04",
+      "away": "Borussia Dortmund",
+      "venue": "VELTINS-Arena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Borussia Dortmund · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2506311",
       "name": "Athletic Bilbao vs Real Madrid",
       "sport": "Soccer",
@@ -30386,6 +30144,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2508836",
+      "name": "Elversberg vs Stuttgart",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T16:30:00Z",
+      "home": "Elversberg",
+      "away": "Stuttgart",
+      "venue": "Waldstadion Kaiserlinde",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "VfB Stuttgart · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
     },
     {
       "id": "2482273",
@@ -33338,6 +33130,38 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2508843",
+      "name": "Hamburg vs Schalke 04",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-11T19:30:00Z",
+      "home": "Hamburg",
+      "away": "Schalke 04",
+      "venue": "Volksparkstadion",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "German Bundesliga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2565604",
       "name": "Virtus Pallacanestro Bologna vs Maccabi Tel Aviv BC",
       "sport": "Basketball",
@@ -33620,40 +33444,6 @@
       "source": "DR Congo Ligue 1"
     },
     {
-      "id": "2508841",
-      "name": "Hoffenheim vs Bayern Munich",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-12T14:30:00Z",
-      "home": "Hoffenheim",
-      "away": "Bayern Munich",
-      "venue": "PreZero Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayern Munich · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
       "id": "2508840",
       "name": "Borussia Dortmund vs Augsburg",
       "sport": "Soccer",
@@ -33688,75 +33478,6 @@
       "source": "Bundesliga"
     },
     {
-      "id": "2508839",
-      "name": "Mainz vs Freiburg",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-12T14:30:00Z",
-      "home": "Mainz",
-      "away": "Freiburg",
-      "venue": "MEWA ARENA",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Mainz 05 · C",
-        "SC Freiburg · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508838",
-      "name": "Borussia Mönchengladbach vs Eintracht Frankfurt",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-12T14:30:00Z",
-      "home": "Borussia Mönchengladbach",
-      "away": "Eintracht Frankfurt",
-      "venue": "Stadion im Borussia-Park",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Eintracht Frankfurt · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
       "id": "2508845",
       "name": "Köln vs RB Leipzig",
       "sport": "Soccer",
@@ -33780,40 +33501,6 @@
       "importance_reasons": [
         "German Bundesliga",
         "RB Leipzig · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508837",
-      "name": "Werder Bremen vs Bayer Leverkusen",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-12T14:30:00Z",
-      "home": "Werder Bremen",
-      "away": "Bayer Leverkusen",
-      "venue": "Weserstadion",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayer Leverkusen · B"
       ],
       "priority_tags": [
         "Competition",
@@ -33856,38 +33543,6 @@
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508843",
-      "name": "Hamburg vs Schalke 04",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-12T14:30:00Z",
-      "home": "Hamburg",
-      "away": "Schalke 04",
-      "venue": "Volksparkstadion",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "German Bundesliga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
       "source": "Bundesliga"
     },
     {
@@ -34092,6 +33747,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2508838",
+      "name": "Borussia Mönchengladbach vs Eintracht Frankfurt",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-12T17:30:00Z",
+      "home": "Borussia Mönchengladbach",
+      "away": "Eintracht Frankfurt",
+      "venue": "Stadion im Borussia-Park",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Eintracht Frankfurt · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
     },
     {
       "id": "2489580",
@@ -34801,6 +34490,41 @@
       "source": "DR Congo Ligue 1"
     },
     {
+      "id": "2508839",
+      "name": "Mainz vs Freiburg",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-13T14:30:00Z",
+      "home": "Mainz",
+      "away": "Freiburg",
+      "venue": "MEWA ARENA",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Mainz 05 · C",
+        "SC Freiburg · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2506321",
       "name": "Málaga vs Barcelona",
       "sport": "Soccer",
@@ -35169,6 +34893,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2508841",
+      "name": "Hoffenheim vs Bayern Munich",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-13T16:30:00Z",
+      "home": "Hoffenheim",
+      "away": "Bayern Munich",
+      "venue": "PreZero Arena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Bayern Munich · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
     },
     {
       "id": "2494149",
@@ -35542,6 +35300,40 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Serie A"
+    },
+    {
+      "id": "2508837",
+      "name": "Werder Bremen vs Bayer Leverkusen",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-13T18:30:00Z",
+      "home": "Werder Bremen",
+      "away": "Bayer Leverkusen",
+      "venue": "Weserstadion",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Bayer Leverkusen · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
     },
     {
       "id": "2494145",
@@ -38537,6 +38329,40 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2508846",
+      "name": "Bayern Munich vs Werder Bremen",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-18T19:30:00Z",
+      "home": "Bayern Munich",
+      "away": "Werder Bremen",
+      "venue": "Allianz Arena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Bayern Munich · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2565622",
       "name": "Baskonia vs Paris Basketball",
       "sport": "Basketball",
@@ -39164,42 +38990,6 @@
       "source": "DR Congo Ligue 1"
     },
     {
-      "id": "2508851",
-      "name": "RB Leipzig vs Borussia Dortmund",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-19T14:30:00Z",
-      "home": "RB Leipzig",
-      "away": "Borussia Dortmund",
-      "venue": "Red Bull Arena Leipzig",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 22,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "RB Leipzig · B",
-        "Borussia Dortmund · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
       "id": "2508849",
       "name": "Bayer Leverkusen vs Eintracht Frankfurt",
       "sport": "Soccer",
@@ -39228,75 +39018,6 @@
       "priority_tags": [
         "Competition",
         "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508846",
-      "name": "Bayern Munich vs Werder Bremen",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-19T14:30:00Z",
-      "home": "Bayern Munich",
-      "away": "Werder Bremen",
-      "venue": "Allianz Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayern Munich · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508847",
-      "name": "Freiburg vs Stuttgart",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-19T14:30:00Z",
-      "home": "Freiburg",
-      "away": "Stuttgart",
-      "venue": "Europa-Park Stadion",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "SC Freiburg · C",
-        "VfB Stuttgart · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
@@ -39380,70 +39101,6 @@
       "home": "Elversberg",
       "away": "Hamburg",
       "venue": "Waldstadion Kaiserlinde",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "German Bundesliga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508852",
-      "name": "Schalke 04 vs Borussia Mönchengladbach",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-19T14:30:00Z",
-      "home": "Schalke 04",
-      "away": "Borussia Mönchengladbach",
-      "venue": "VELTINS-Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "German Bundesliga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508853",
-      "name": "Union Berlin vs Hoffenheim",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-12-19T14:30:00Z",
-      "home": "Union Berlin",
-      "away": "Hoffenheim",
-      "venue": "Stadion An der Alten Försterei",
       "country": "Germany",
       "status": "NS",
       "postponed": "no",
@@ -40084,6 +39741,42 @@
       "source": "English Premier League"
     },
     {
+      "id": "2508851",
+      "name": "RB Leipzig vs Borussia Dortmund",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-19T17:30:00Z",
+      "home": "RB Leipzig",
+      "away": "Borussia Dortmund",
+      "venue": "Red Bull Arena Leipzig",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 22,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "RB Leipzig · B",
+        "Borussia Dortmund · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2602045",
       "name": "Charlotte Hornets vs Portland Trail Blazers",
       "sport": "Basketball",
@@ -40513,6 +40206,41 @@
       "source": "English Premier League"
     },
     {
+      "id": "2508847",
+      "name": "Freiburg vs Stuttgart",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-20T14:30:00Z",
+      "home": "Freiburg",
+      "away": "Stuttgart",
+      "venue": "Europa-Park Stadion",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "SC Freiburg · C",
+        "VfB Stuttgart · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2506329",
       "name": "Barcelona vs Real Sociedad",
       "sport": "Soccer",
@@ -40885,6 +40613,38 @@
       "source": "English Premier League"
     },
     {
+      "id": "2508853",
+      "name": "Union Berlin vs Hoffenheim",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-20T16:30:00Z",
+      "home": "Union Berlin",
+      "away": "Hoffenheim",
+      "venue": "Stadion An der Alten Försterei",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "German Bundesliga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2482291",
       "name": "Roma vs Juventus",
       "sport": "Soccer",
@@ -41222,6 +40982,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Serie A"
+    },
+    {
+      "id": "2508852",
+      "name": "Schalke 04 vs Borussia Mönchengladbach",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2026-12-20T18:30:00Z",
+      "home": "Schalke 04",
+      "away": "Borussia Mönchengladbach",
+      "venue": "VELTINS-Arena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "German Bundesliga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Bundesliga"
     },
     {
       "id": "2602049",
@@ -50202,6 +49994,42 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2508857",
+      "name": "Borussia Dortmund vs Mainz",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-08T19:30:00Z",
+      "home": "Borussia Dortmund",
+      "away": "Mainz",
+      "venue": "Signal Iduna Park",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Borussia Dortmund · A",
+        "Mainz 05 · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2565654",
       "name": "Baskonia vs Virtus Pallacanestro Bologna",
       "sport": "Basketball",
@@ -50502,76 +50330,6 @@
       "source": "NBA"
     },
     {
-      "id": "2508857",
-      "name": "Borussia Dortmund vs Mainz",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-09T14:30:00Z",
-      "home": "Borussia Dortmund",
-      "away": "Mainz",
-      "venue": "Signal Iduna Park",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Borussia Dortmund · A",
-        "Mainz 05 · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508856",
-      "name": "Borussia Mönchengladbach vs Bayern Munich",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-09T14:30:00Z",
-      "home": "Borussia Mönchengladbach",
-      "away": "Bayern Munich",
-      "venue": "Stadion im Borussia-Park",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayern Munich · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
       "id": "2508859",
       "name": "Eintracht Frankfurt vs Schalke 04",
       "sport": "Soccer",
@@ -50595,40 +50353,6 @@
       "importance_reasons": [
         "German Bundesliga",
         "Eintracht Frankfurt · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508861",
-      "name": "Hamburg vs Bayer Leverkusen",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-09T14:30:00Z",
-      "home": "Hamburg",
-      "away": "Bayer Leverkusen",
-      "venue": "Volksparkstadion",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayer Leverkusen · B"
       ],
       "priority_tags": [
         "Competition",
@@ -50752,38 +50476,6 @@
       "home": "Hoffenheim",
       "away": "Elversberg",
       "venue": "PreZero Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "German Bundesliga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508855",
-      "name": "Werder Bremen vs Union Berlin",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-09T14:30:00Z",
-      "home": "Werder Bremen",
-      "away": "Union Berlin",
-      "venue": "Weserstadion",
       "country": "Germany",
       "status": "NS",
       "postponed": "no",
@@ -51286,6 +50978,40 @@
       "source": "CAF Confederation Cup"
     },
     {
+      "id": "2508856",
+      "name": "Borussia Mönchengladbach vs Bayern Munich",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-09T17:30:00Z",
+      "home": "Borussia Mönchengladbach",
+      "away": "Bayern Munich",
+      "venue": "Stadion im Borussia-Park",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Bayern Munich · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2602204",
       "name": "Cleveland Cavaliers vs Denver Nuggets",
       "sport": "Basketball",
@@ -51489,6 +51215,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2508855",
+      "name": "Werder Bremen vs Union Berlin",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-10T14:30:00Z",
+      "home": "Werder Bremen",
+      "away": "Union Berlin",
+      "venue": "Weserstadion",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "German Bundesliga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Bundesliga"
     },
     {
       "id": "2506350",
@@ -51824,6 +51582,40 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "La Liga"
+    },
+    {
+      "id": "2508861",
+      "name": "Hamburg vs Bayer Leverkusen",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-10T16:30:00Z",
+      "home": "Hamburg",
+      "away": "Bayer Leverkusen",
+      "venue": "Volksparkstadion",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Bayer Leverkusen · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
     },
     {
       "id": "2482324",
@@ -52701,6 +52493,42 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2508868",
+      "name": "RB Leipzig vs Stuttgart",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-12T17:30:00Z",
+      "home": "RB Leipzig",
+      "away": "Stuttgart",
+      "venue": "Red Bull Arena Leipzig",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "RB Leipzig · B",
+        "VfB Stuttgart · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2565658",
       "name": "KK Crvena zvezda vs Real Madrid Baloncesto",
       "sport": "Basketball",
@@ -52801,78 +52629,6 @@
       "source": "EuroLeague Basketball"
     },
     {
-      "id": "2508864",
-      "name": "Bayern Munich vs Bayer Leverkusen",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-12T19:30:00Z",
-      "home": "Bayern Munich",
-      "away": "Bayer Leverkusen",
-      "venue": "Allianz Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 26,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayern Munich · A+",
-        "Bayer Leverkusen · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508868",
-      "name": "RB Leipzig vs Stuttgart",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-12T19:30:00Z",
-      "home": "RB Leipzig",
-      "away": "Stuttgart",
-      "venue": "Red Bull Arena Leipzig",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "RB Leipzig · B",
-        "VfB Stuttgart · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
       "id": "2508871",
       "name": "Köln vs Borussia Dortmund",
       "sport": "Soccer",
@@ -52900,74 +52656,6 @@
       "priority_tags": [
         "Competition",
         "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508872",
-      "name": "Elversberg vs Eintracht Frankfurt",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-12T19:30:00Z",
-      "home": "Elversberg",
-      "away": "Eintracht Frankfurt",
-      "venue": "Waldstadion Kaiserlinde",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Eintracht Frankfurt · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508865",
-      "name": "Freiburg vs Hamburg",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-12T19:30:00Z",
-      "home": "Freiburg",
-      "away": "Hamburg",
-      "venue": "Europa-Park Stadion",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "SC Freiburg · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
@@ -53103,70 +52791,6 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2508869",
-      "name": "Schalke 04 vs Werder Bremen",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-12T19:30:00Z",
-      "home": "Schalke 04",
-      "away": "Werder Bremen",
-      "venue": "VELTINS-Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "German Bundesliga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508870",
-      "name": "Union Berlin vs Paderborn",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-12T19:30:00Z",
-      "home": "Union Berlin",
-      "away": "Paderborn",
-      "venue": "Stadion An der Alten Försterei",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "German Bundesliga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Bundesliga"
     },
     {
       "id": "2565663",
@@ -53534,6 +53158,40 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2508872",
+      "name": "Elversberg vs Eintracht Frankfurt",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-13T17:30:00Z",
+      "home": "Elversberg",
+      "away": "Eintracht Frankfurt",
+      "venue": "Waldstadion Kaiserlinde",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Eintracht Frankfurt · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2565665",
       "name": "Olympiacos BC vs Baskonia",
       "sport": "Basketball",
@@ -53566,6 +53224,108 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2508864",
+      "name": "Bayern Munich vs Bayer Leverkusen",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-13T19:30:00Z",
+      "home": "Bayern Munich",
+      "away": "Bayer Leverkusen",
+      "venue": "Allianz Arena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 26,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Bayern Munich · A+",
+        "Bayer Leverkusen · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
+      "id": "2508865",
+      "name": "Freiburg vs Hamburg",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-13T19:30:00Z",
+      "home": "Freiburg",
+      "away": "Hamburg",
+      "venue": "Europa-Park Stadion",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "SC Freiburg · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
+      "id": "2508870",
+      "name": "Union Berlin vs Paderborn",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-13T19:30:00Z",
+      "home": "Union Berlin",
+      "away": "Paderborn",
+      "venue": "Stadion An der Alten Försterei",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "German Bundesliga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Bundesliga"
     },
     {
       "id": "2598685",
@@ -54005,6 +53765,38 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2508869",
+      "name": "Schalke 04 vs Werder Bremen",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-14T19:30:00Z",
+      "home": "Schalke 04",
+      "away": "Werder Bremen",
+      "venue": "VELTINS-Arena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "German Bundesliga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2565670",
       "name": "Real Madrid Baloncesto vs Anadolu Efes SK",
       "sport": "Basketball",
@@ -54407,6 +54199,41 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2508879",
+      "name": "Stuttgart vs Mainz",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-15T19:30:00Z",
+      "home": "Stuttgart",
+      "away": "Mainz",
+      "venue": "MHP Arena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "VfB Stuttgart · C",
+        "Mainz 05 · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2565674",
       "name": "Virtus Pallacanestro Bologna vs FC Barcelona Basquet",
       "sport": "Basketball",
@@ -54778,42 +54605,6 @@
       "source": "NBA"
     },
     {
-      "id": "2508878",
-      "name": "Eintracht Frankfurt vs Bayern Munich",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-16T14:30:00Z",
-      "home": "Eintracht Frankfurt",
-      "away": "Bayern Munich",
-      "venue": "Deutsche Bank Park",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 26,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Eintracht Frankfurt · B",
-        "Bayern Munich · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
       "id": "2508875",
       "name": "Borussia Dortmund vs Freiburg",
       "sport": "Soccer",
@@ -54843,75 +54634,6 @@
         "Competition",
         "Major club",
         "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508879",
-      "name": "Stuttgart vs Mainz",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-16T14:30:00Z",
-      "home": "Stuttgart",
-      "away": "Mainz",
-      "venue": "MHP Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "VfB Stuttgart · C",
-        "Mainz 05 · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508877",
-      "name": "Bayer Leverkusen vs Schalke 04",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-16T14:30:00Z",
-      "home": "Bayer Leverkusen",
-      "away": "Schalke 04",
-      "venue": "BayArena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayer Leverkusen · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
@@ -55027,38 +54749,6 @@
       "home": "Paderborn",
       "away": "Köln",
       "venue": "Home Deluxe Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "German Bundesliga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508873",
-      "name": "Werder Bremen vs Elversberg",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-16T14:30:00Z",
-      "home": "Werder Bremen",
-      "away": "Elversberg",
-      "venue": "Weserstadion",
       "country": "Germany",
       "status": "NS",
       "postponed": "no",
@@ -55939,6 +55629,42 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2508878",
+      "name": "Eintracht Frankfurt vs Bayern Munich",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-16T17:30:00Z",
+      "home": "Eintracht Frankfurt",
+      "away": "Bayern Munich",
+      "venue": "Deutsche Bank Park",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 26,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Eintracht Frankfurt · B",
+        "Bayern Munich · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2602256",
       "name": "Philadelphia 76ers vs Minnesota Timberwolves",
       "sport": "Basketball",
@@ -56309,6 +56035,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2508873",
+      "name": "Werder Bremen vs Elversberg",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-17T14:30:00Z",
+      "home": "Werder Bremen",
+      "away": "Elversberg",
+      "venue": "Weserstadion",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "German Bundesliga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Bundesliga"
     },
     {
       "id": "2602262",
@@ -56713,6 +56471,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2508877",
+      "name": "Bayer Leverkusen vs Schalke 04",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-17T16:30:00Z",
+      "home": "Bayer Leverkusen",
+      "away": "Schalke 04",
+      "venue": "BayArena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Bayer Leverkusen · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
     },
     {
       "id": "2482334",
@@ -60358,6 +60150,40 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2508882",
+      "name": "Werder Bremen vs Freiburg",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-22T19:30:00Z",
+      "home": "Werder Bremen",
+      "away": "Freiburg",
+      "venue": "Weserstadion",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "SC Freiburg · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2489611",
       "name": "Troyes vs Monaco",
       "sport": "Soccer",
@@ -60864,74 +60690,6 @@
       "source": "Bundesliga"
     },
     {
-      "id": "2508889",
-      "name": "Hamburg vs Borussia Dortmund",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-23T14:30:00Z",
-      "home": "Hamburg",
-      "away": "Borussia Dortmund",
-      "venue": "Volksparkstadion",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Borussia Dortmund · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508885",
-      "name": "Bayer Leverkusen vs Elversberg",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-23T14:30:00Z",
-      "home": "Bayer Leverkusen",
-      "away": "Elversberg",
-      "venue": "BayArena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayer Leverkusen · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
       "id": "2508883",
       "name": "Borussia Mönchengladbach vs RB Leipzig",
       "sport": "Soccer",
@@ -60955,40 +60713,6 @@
       "importance_reasons": [
         "German Bundesliga",
         "RB Leipzig · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508886",
-      "name": "Eintracht Frankfurt vs Union Berlin",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-23T14:30:00Z",
-      "home": "Eintracht Frankfurt",
-      "away": "Union Berlin",
-      "venue": "Deutsche Bank Park",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Eintracht Frankfurt · B"
       ],
       "priority_tags": [
         "Competition",
@@ -61031,72 +60755,6 @@
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508882",
-      "name": "Werder Bremen vs Freiburg",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-23T14:30:00Z",
-      "home": "Werder Bremen",
-      "away": "Freiburg",
-      "venue": "Weserstadion",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "SC Freiburg · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2508884",
-      "name": "Hoffenheim vs Köln",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2027-01-23T14:30:00Z",
-      "home": "Hoffenheim",
-      "away": "Köln",
-      "venue": "PreZero Arena",
-      "country": "Germany",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "German Bundesliga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
       "source": "Bundesliga"
     },
     {
@@ -61989,6 +61647,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2508889",
+      "name": "Hamburg vs Borussia Dortmund",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-23T17:30:00Z",
+      "home": "Hamburg",
+      "away": "Borussia Dortmund",
+      "venue": "Volksparkstadion",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Borussia Dortmund · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2489607",
       "name": "Paris Saint-Germain vs Auxerre",
       "sport": "Soccer",
@@ -62621,6 +62313,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2508886",
+      "name": "Eintracht Frankfurt vs Union Berlin",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-24T14:30:00Z",
+      "home": "Eintracht Frankfurt",
+      "away": "Union Berlin",
+      "venue": "Deutsche Bank Park",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Eintracht Frankfurt · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2506372",
       "name": "Real Madrid vs Real Betis",
       "sport": "Soccer",
@@ -62991,6 +62717,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2508885",
+      "name": "Bayer Leverkusen vs Elversberg",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-24T16:30:00Z",
+      "home": "Bayer Leverkusen",
+      "away": "Elversberg",
+      "venue": "BayArena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "German Bundesliga",
+        "Bayer Leverkusen · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Bundesliga"
+    },
+    {
       "id": "2482343",
       "name": "Inter Milan vs Venezia",
       "sport": "Soccer",
@@ -63327,6 +63087,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Serie A"
+    },
+    {
+      "id": "2508884",
+      "name": "Hoffenheim vs Köln",
+      "sport": "Soccer",
+      "league": "German Bundesliga",
+      "league_id": "4331",
+      "season": "2026-2027",
+      "timestamp": "2027-01-24T18:30:00Z",
+      "home": "Hoffenheim",
+      "away": "Köln",
+      "venue": "PreZero Arena",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "German Bundesliga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Bundesliga"
     },
     {
       "id": "2489608",
@@ -91578,6 +91370,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2618447",
+      "name": "Céleste vs Etoile de Kivu",
+      "sport": "Soccer",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
+      "season": "2026-2027",
+      "timestamp": "2027-03-07T12:00:00Z",
+      "home": "Céleste",
+      "away": "Etoile de Kivu",
+      "venue": "Stade des Martyrs",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "DRC",
+      "tier": 2,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "DR Congo Ligue 1"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": true,
+      "has_top_participant": false,
+      "source": "DR Congo Ligue 1"
     }
   ],
   "source_stats": [
@@ -91832,7 +91656,7 @@
         "2026-2027"
       ],
       "received": 385,
-      "upcoming": 299,
+      "upcoming": 300,
       "status": "OK",
       "error": ""
     },
@@ -92084,7 +91908,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 798,
+      "upcoming": 791,
       "status": "OK",
       "error": ""
     },
@@ -92161,7 +91985,7 @@
         "2026"
       ],
       "received": 57,
-      "upcoming": 3,
+      "upcoming": 4,
       "status": "OK",
       "error": ""
     },
