@@ -1,117 +1,11 @@
 {
-  "updated_at": "2026-11-09T06:46:32.365067Z",
+  "updated_at": "2026-11-09T22:29:41.022491Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601808",
-      "name": "Milwaukee Bucks vs Boston Celtics",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-09T01:00:00Z",
-      "home": "Milwaukee Bucks",
-      "away": "Boston Celtics",
-      "venue": "Fiserv Forum",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 34,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "NBA",
-        "Milwaukee Bucks · Basketball A",
-        "Boston Celtics · Basketball A+",
-        "Strong basketball matchup"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A",
-        "Basketball A+",
-        "Top matchup"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601809",
-      "name": "Los Angeles Clippers vs New Orleans Pelicans",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-09T02:00:00Z",
-      "home": "Los Angeles Clippers",
-      "away": "New Orleans Pelicans",
-      "venue": "Intuit Dome",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Los Angeles Clippers · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601810",
-      "name": "Sacramento Kings vs Miami Heat",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-09T02:00:00Z",
-      "home": "Sacramento Kings",
-      "away": "Miami Heat",
-      "venue": "Golden 1 Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Miami Heat · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
     {
       "id": "2619588",
       "name": "Plymouth Parkway vs Berkhamsted",
@@ -124,7 +18,7 @@
       "away": "Berkhamsted",
       "venue": "Bolitho Park",
       "country": "England",
-      "status": "NS",
+      "status": "ET",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -89286,6 +89180,266 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2565736",
+      "name": "Besiktas Basketbol vs Lyon-Villeurbanne",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-09T17:00:00Z",
+      "home": "Besiktas Basketbol",
+      "away": "Lyon-Villeurbanne",
+      "venue": "Besiktas Akatlar Arena",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565737",
+      "name": "BC Žalgiris vs FC Barcelona Basquet",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-09T18:00:00Z",
+      "home": "BC Žalgiris",
+      "away": "FC Barcelona Basquet",
+      "venue": "Žalgiris Arena",
+      "country": "Lithuania",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565740",
+      "name": "Bayern München Basketball vs Anadolu Efes SK",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-09T19:00:00Z",
+      "home": "Bayern München Basketball",
+      "away": "Anadolu Efes SK",
+      "venue": "BMW Park",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565738",
+      "name": "Maccabi Tel Aviv BC vs KK Crvena zvezda",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-09T19:05:00Z",
+      "home": "Maccabi Tel Aviv BC",
+      "away": "KK Crvena zvezda",
+      "venue": "Aleksandar Nikolic Hall",
+      "country": "Serbia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565739",
+      "name": "Baskonia vs Panathinaikos BC",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-09T19:30:00Z",
+      "home": "Baskonia",
+      "away": "Panathinaikos BC",
+      "venue": "Fernando Buesa Arena",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "EuroLeague Basketball",
+        "Panathinaikos Basketball · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565741",
+      "name": "Virtus Pallacanestro Bologna vs Fenerbahçe Basketbol",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-09T19:30:00Z",
+      "home": "Virtus Pallacanestro Bologna",
+      "away": "Fenerbahçe Basketbol",
+      "venue": "Virtus Segafredo Arena",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565742",
+      "name": "Real Madrid Baloncesto vs Hapoel Tel Aviv BC",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-09T19:45:00Z",
+      "home": "Real Madrid Baloncesto",
+      "away": "Hapoel Tel Aviv BC",
+      "venue": "Palacio de Deportes de la Comunidad de Madrid",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "EuroLeague Basketball",
+        "Real Madrid Basketball · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565743",
+      "name": "KK Partizan vs Paris Basketball",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-09T19:45:00Z",
+      "home": "KK Partizan",
+      "away": "Paris Basketball",
+      "venue": "Belgrade Arena",
+      "country": "Serbia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -89792,7 +89946,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 794,
+      "upcoming": 791,
       "status": "OK",
       "error": ""
     },
@@ -89807,7 +89961,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 190,
+      "upcoming": 198,
       "status": "OK",
       "error": ""
     },
@@ -89914,7 +90068,7 @@
         "2026",
         "2025"
       ],
-      "received": 5331,
+      "received": 5386,
       "upcoming": 0,
       "status": "NO UPCOMING",
       "error": ""
