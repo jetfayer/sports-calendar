@@ -1,239 +1,11 @@
 {
-  "updated_at": "2026-11-12T07:21:45.989839Z",
+  "updated_at": "2026-11-12T20:03:05.668253Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601832",
-      "name": "Utah Jazz vs Orlando Magic",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-12T02:00:00Z",
-      "home": "Utah Jazz",
-      "away": "Orlando Magic",
-      "venue": "Delta Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
-    {
-      "id": "2601833",
-      "name": "Houston Rockets vs Golden State Warriors",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-12T02:30:00Z",
-      "home": "Houston Rockets",
-      "away": "Golden State Warriors",
-      "venue": "Toyota Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Golden State Warriors · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601834",
-      "name": "Portland Trail Blazers vs Oklahoma City Thunder",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-12T03:00:00Z",
-      "home": "Portland Trail Blazers",
-      "away": "Oklahoma City Thunder",
-      "venue": "Moda Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Oklahoma City Thunder · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2616384",
-      "name": "Tanganyika vs New Soger",
-      "sport": "Soccer",
-      "league": "DR Congo Ligue 1",
-      "league_id": "4955",
-      "season": "2026-2027",
-      "timestamp": "2026-11-12T11:00:00Z",
-      "home": "Tanganyika",
-      "away": "New Soger",
-      "venue": "Stade Frédéric-Kibassa-Maliba",
-      "country": "DR Congo",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "DRC",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "DR Congo Ligue 1"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": true,
-      "has_top_participant": false,
-      "source": "DR Congo Ligue 1"
-    },
-    {
-      "id": "2618728",
-      "name": "Dauphins Noirs vs Novakin",
-      "sport": "Soccer",
-      "league": "DR Congo Ligue 1",
-      "league_id": "4955",
-      "season": "2026-2027",
-      "timestamp": "2026-11-12T13:00:00Z",
-      "home": "Dauphins Noirs",
-      "away": "Novakin",
-      "venue": "Stade de l'Unité",
-      "country": "DR Congo",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "DRC",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "DR Congo Ligue 1"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": true,
-      "has_top_participant": false,
-      "source": "DR Congo Ligue 1"
-    },
-    {
-      "id": "2616386",
-      "name": "Etoile de Kivu vs AC Rangers",
-      "sport": "Soccer",
-      "league": "DR Congo Ligue 1",
-      "league_id": "4955",
-      "season": "2026-2027",
-      "timestamp": "2026-11-12T13:00:00Z",
-      "home": "Etoile de Kivu",
-      "away": "AC Rangers",
-      "venue": "Stade de la Concorde",
-      "country": "DR Congo",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "DRC",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "DR Congo Ligue 1"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": true,
-      "has_top_participant": false,
-      "source": "DR Congo Ligue 1"
-    },
-    {
-      "id": "2618731",
-      "name": "Etoile de Kivu vs FC Renaissance du Congo",
-      "sport": "Soccer",
-      "league": "DR Congo Ligue 1",
-      "league_id": "4955",
-      "season": "2026-2027",
-      "timestamp": "2026-11-12T13:00:00Z",
-      "home": "Etoile de Kivu",
-      "away": "FC Renaissance du Congo",
-      "venue": "Stade de la Concorde",
-      "country": "DR Congo",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "DRC",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "DR Congo Ligue 1"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": true,
-      "has_top_participant": false,
-      "source": "DR Congo Ligue 1"
-    },
     {
       "id": "2618729",
       "name": "Anges Verts vs Étoile du Congo",
@@ -246,39 +18,7 @@
       "away": "Étoile du Congo",
       "venue": "Stade des Martyrs",
       "country": "DR Congo",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "DRC",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "DR Congo Ligue 1"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": true,
-      "has_top_participant": false,
-      "source": "DR Congo Ligue 1"
-    },
-    {
-      "id": "2618730",
-      "name": "Céleste vs Maniema Union",
-      "sport": "Soccer",
-      "league": "DR Congo Ligue 1",
-      "league_id": "4955",
-      "season": "2026-2027",
-      "timestamp": "2026-11-12T14:00:00Z",
-      "home": "Céleste",
-      "away": "Maniema Union",
-      "venue": "Stade des Martyrs",
-      "country": "DR Congo",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -310,7 +50,7 @@
       "away": "Somalia",
       "venue": "",
       "country": "Ghana",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -344,7 +84,7 @@
       "away": "Sierra Leone",
       "venue": "Stade des Martyrs",
       "country": "DR Congo",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -380,7 +120,7 @@
       "away": "Zimbabwe",
       "venue": "Nuevo Estadio de Malabo",
       "country": "Equatorial Guinea",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -412,7 +152,7 @@
       "away": "Eritrea",
       "venue": "Stade du 28 Septembre",
       "country": "Guinea",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -444,7 +184,7 @@
       "away": "Guinea-Bissau",
       "venue": "",
       "country": "Madagascar",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -476,7 +216,7 @@
       "away": "Belgium",
       "venue": "",
       "country": "Turkey",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -512,7 +252,7 @@
       "away": "Cyprus",
       "venue": "Vazgen Sargsyan Republican Stadium",
       "country": "Armenia",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -544,7 +284,7 @@
       "away": "Albacete",
       "venue": "Estadio Ciudad de Puertollano",
       "country": "Spain",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -576,7 +316,7 @@
       "away": "Real Betis",
       "venue": "Estadio Municipal de Santo Domingo",
       "country": "Spain",
-      "status": "NS",
+      "status": "2H",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -610,7 +350,7 @@
       "away": "Grenoble",
       "venue": "",
       "country": "France",
-      "status": "NS",
+      "status": "2H",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -642,7 +382,7 @@
       "away": "Levante",
       "venue": "Estadio Municipal de Tarancón",
       "country": "Spain",
-      "status": "NS",
+      "status": "2H",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Cup",
@@ -674,7 +414,7 @@
       "away": "Sudan",
       "venue": "Stade Léopold Sédar Senghor",
       "country": "Senegal",
-      "status": "NS",
+      "status": "HT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -708,7 +448,7 @@
       "away": "Namibia",
       "venue": "",
       "country": "Cameroon",
-      "status": "NS",
+      "status": "HT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -742,7 +482,7 @@
       "away": "Gambia",
       "venue": "Stade Olympique Alassane Ouattara",
       "country": "Ivory Coast",
-      "status": "NS",
+      "status": "HT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -776,7 +516,7 @@
       "away": "Central African Republic",
       "venue": "Stade de l'Amitié",
       "country": "Benin",
-      "status": "NS",
+      "status": "HT",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -1110,7 +850,7 @@
       "away": "Belarus",
       "venue": "San Marino Stadium",
       "country": "San Marino",
-      "status": "NS",
+      "status": "1H",
       "postponed": "no",
       "participant_type": "National",
       "competition_group": "National teams",
@@ -10357,6 +10097,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2506290",
+      "name": "Athletic Bilbao vs Espanyol",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-20T20:00:00Z",
+      "home": "Athletic Bilbao",
+      "away": "Espanyol",
+      "venue": "San Mamés Barria",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Athletic Club · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
+    },
+    {
       "id": "2601891",
       "name": "Atlanta Hawks vs Charlotte Hornets",
       "sport": "Basketball",
@@ -10747,6 +10521,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2506294",
+      "name": "Deportivo Alavés vs Deportivo de A Coruña",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-21T13:00:00Z",
+      "home": "Deportivo Alavés",
+      "away": "Deportivo de A Coruña",
+      "venue": "Estadio de Mendizorroza",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
     },
     {
       "id": "2482248",
@@ -11190,6 +10996,38 @@
       "source": "English Premier League"
     },
     {
+      "id": "2506297",
+      "name": "Rayo Vallecano vs Valencia",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-21T15:15:00Z",
+      "home": "Rayo Vallecano",
+      "away": "Valencia",
+      "venue": "Estadio de Vallecas",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
+    },
+    {
       "id": "2489554",
       "name": "Nice vs Paris Saint-Germain",
       "sport": "Soccer",
@@ -11294,6 +11132,41 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2506291",
+      "name": "Sevilla vs Real Betis",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-21T17:30:00Z",
+      "home": "Sevilla",
+      "away": "Real Betis",
+      "venue": "Estadio Ramón Sánchez Pizjuán",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Sevilla · B",
+        "Real Betis · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2508420",
@@ -11537,6 +11410,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2506293",
+      "name": "Real Madrid vs Celta Vigo",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-21T20:00:00Z",
+      "home": "Real Madrid",
+      "away": "Celta Vigo",
+      "venue": "Estadio Santiago Bernabéu",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Real Madrid · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
+    },
+    {
       "id": "2601901",
       "name": "New York Knicks vs Portland Trail Blazers",
       "sport": "Basketball",
@@ -11739,16 +11646,16 @@
       "source": "Formula 1"
     },
     {
-      "id": "2482249",
-      "name": "Sassuolo vs Genoa",
+      "id": "2482252",
+      "name": "Juventus vs Venezia",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
       "timestamp": "2026-11-22T11:30:00Z",
-      "home": "Sassuolo",
-      "away": "Genoa",
-      "venue": "Mapei Stadium – Città del Tricolore",
+      "home": "Juventus",
+      "away": "Venezia",
+      "venue": "Allianz Stadium Turin",
       "country": "Italy",
       "status": "NS",
       "postponed": "no",
@@ -11757,18 +11664,56 @@
       "region": "Europe",
       "tier": 1,
       "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
+      "importance": 15,
+      "importance_level": "watch",
       "importance_reasons": [
-        "Italian Serie A"
+        "Italian Serie A",
+        "Juventus · A"
       ],
       "priority_tags": [
-        "Competition"
+        "Competition",
+        "Major club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
-      "has_top_participant": false,
+      "has_top_participant": true,
       "source": "Serie A"
+    },
+    {
+      "id": "2506289",
+      "name": "Barcelona vs Villarreal",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-22T13:00:00Z",
+      "home": "Barcelona",
+      "away": "Villarreal",
+      "venue": "Spotify Camp Nou",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 26,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Barcelona · A+",
+        "Villarreal · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2616404",
@@ -11803,16 +11748,16 @@
       "source": "DR Congo Ligue 1"
     },
     {
-      "id": "2482250",
-      "name": "AC Milan vs Frosinone",
+      "id": "2482254",
+      "name": "Bologna vs Udinese",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
       "timestamp": "2026-11-22T14:00:00Z",
-      "home": "AC Milan",
-      "away": "Frosinone",
-      "venue": "Stadio Giuseppe Meazza",
+      "home": "Bologna",
+      "away": "Udinese",
+      "venue": "Stadio Renato Dall'Ara",
       "country": "Italy",
       "status": "NS",
       "postponed": "no",
@@ -11821,15 +11766,15 @@
       "region": "Europe",
       "tier": 1,
       "stage": "Regular",
-      "importance": 15,
+      "importance": 9,
       "importance_level": "watch",
       "importance_reasons": [
         "Italian Serie A",
-        "AC Milan · A"
+        "Bologna · C"
       ],
       "priority_tags": [
         "Competition",
-        "Major club"
+        "Momentum club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
@@ -11933,6 +11878,38 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2482249",
+      "name": "Sassuolo vs Genoa",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-22T14:00:00Z",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "venue": "Mapei Stadium – Città del Tricolore",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
       "id": "2508419",
       "name": "Augsburg vs Mainz",
       "sport": "Soccer",
@@ -11967,186 +11944,13 @@
       "source": "Bundesliga"
     },
     {
-      "id": "2506289",
-      "name": "Barcelona vs Villarreal",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
-      "home": "Barcelona",
-      "away": "Villarreal",
-      "venue": "Spotify Camp Nou",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 26,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Barcelona · A+",
-        "Villarreal · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506293",
-      "name": "Real Madrid vs Celta Vigo",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
-      "home": "Real Madrid",
-      "away": "Celta Vigo",
-      "venue": "Estadio Santiago Bernabéu",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Real Madrid · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506291",
-      "name": "Sevilla vs Real Betis",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
-      "home": "Sevilla",
-      "away": "Real Betis",
-      "venue": "Estadio Ramón Sánchez Pizjuán",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Sevilla · B",
-        "Real Betis · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506295",
-      "name": "Getafe vs Atlético Madrid",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
-      "home": "Getafe",
-      "away": "Atlético Madrid",
-      "venue": "Estadio Coliseum",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Atlético Madrid · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506290",
-      "name": "Athletic Bilbao vs Espanyol",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
-      "home": "Athletic Bilbao",
-      "away": "Espanyol",
-      "venue": "San Mamés Barria",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Athletic Club · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
       "id": "2506298",
       "name": "Racing de Santander vs Real Sociedad",
       "sport": "Soccer",
       "league": "Spanish La Liga",
       "league_id": "4335",
       "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
+      "timestamp": "2026-11-22T15:15:00Z",
       "home": "Racing de Santander",
       "away": "Real Sociedad",
       "venue": "Campos de Sport de El Sardinero",
@@ -12171,134 +11975,6 @@
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506294",
-      "name": "Deportivo Alavés vs Deportivo de A Coruña",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
-      "home": "Deportivo Alavés",
-      "away": "Deportivo de A Coruña",
-      "venue": "Estadio de Mendizorroza",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506292",
-      "name": "Levante vs Elche",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
-      "home": "Levante",
-      "away": "Elche",
-      "venue": "Estadio Ciudad de Valencia",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506296",
-      "name": "Osasuna vs Málaga",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
-      "home": "Osasuna",
-      "away": "Málaga",
-      "venue": "Estadio El Sadar",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506297",
-      "name": "Rayo Vallecano vs Valencia",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-22T16:00:00Z",
-      "home": "Rayo Vallecano",
-      "away": "Valencia",
-      "venue": "Estadio de Vallecas",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
       "source": "La Liga"
     },
     {
@@ -12402,16 +12078,16 @@
       "source": "Bundesliga"
     },
     {
-      "id": "2482254",
-      "name": "Bologna vs Udinese",
+      "id": "2482250",
+      "name": "AC Milan vs Frosinone",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
       "timestamp": "2026-11-22T17:00:00Z",
-      "home": "Bologna",
-      "away": "Udinese",
-      "venue": "Stadio Renato Dall'Ara",
+      "home": "AC Milan",
+      "away": "Frosinone",
+      "venue": "Stadio Giuseppe Meazza",
       "country": "Italy",
       "status": "NS",
       "postponed": "no",
@@ -12420,20 +12096,52 @@
       "region": "Europe",
       "tier": 1,
       "stage": "Regular",
-      "importance": 9,
+      "importance": 15,
       "importance_level": "watch",
       "importance_reasons": [
         "Italian Serie A",
-        "Bologna · C"
+        "AC Milan · A"
       ],
       "priority_tags": [
         "Competition",
-        "Momentum club"
+        "Major club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Serie A"
+    },
+    {
+      "id": "2506296",
+      "name": "Osasuna vs Málaga",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-22T17:30:00Z",
+      "home": "Osasuna",
+      "away": "Málaga",
+      "venue": "Estadio El Sadar",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
     },
     {
       "id": "2482253",
@@ -12504,6 +12212,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2506295",
+      "name": "Getafe vs Atlético Madrid",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-22T20:00:00Z",
+      "home": "Getafe",
+      "away": "Atlético Madrid",
+      "venue": "Estadio Coliseum",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Atlético Madrid · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2601906",
@@ -12913,7 +12655,7 @@
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2026-11-23T17:30:00Z",
+      "timestamp": "2026-11-23T19:45:00Z",
       "home": "Monza",
       "away": "Fiorentina",
       "venue": "U-Power Stadium",
@@ -12934,40 +12676,6 @@
       "priority_tags": [
         "Competition",
         "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482252",
-      "name": "Juventus vs Venezia",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-23T19:45:00Z",
-      "home": "Juventus",
-      "away": "Venezia",
-      "venue": "Allianz Stadium Turin",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Juventus · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
@@ -13005,6 +12713,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "English Premier League"
+    },
+    {
+      "id": "2506292",
+      "name": "Levante vs Elche",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-23T20:00:00Z",
+      "home": "Levante",
+      "away": "Elche",
+      "venue": "Estadio Ciudad de Valencia",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
     },
     {
       "id": "2601913",
@@ -17022,6 +16762,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2482265",
+      "name": "Venezia vs Bologna",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-27T19:45:00Z",
+      "home": "Venezia",
+      "away": "Bologna",
+      "venue": "Stadio Pierluigi Penzo",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Bologna · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2494118",
       "name": "Nottingham Forest vs Chelsea",
       "sport": "Soccer",
@@ -17056,6 +16830,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2506302",
+      "name": "Levante vs Racing de Santander",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-27T20:00:00Z",
+      "home": "Levante",
+      "away": "Racing de Santander",
+      "venue": "Estadio Ciudad de Valencia",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
     },
     {
       "id": "2526102",
@@ -17588,6 +17394,40 @@
       "source": "DR Congo Ligue 1"
     },
     {
+      "id": "2506305",
+      "name": "Real Betis vs Rayo Vallecano",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-28T13:00:00Z",
+      "home": "Real Betis",
+      "away": "Rayo Vallecano",
+      "venue": "Estadio de La Cartuja",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Real Betis · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
+    },
+    {
       "id": "2616418",
       "name": "Saint-Éloi Lupopo vs Tanganyika",
       "sport": "Soccer",
@@ -17618,6 +17458,38 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2482264",
+      "name": "Frosinone vs Parma",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-28T14:00:00Z",
+      "home": "Frosinone",
+      "away": "Parma",
+      "venue": "Stadio Benito Stirpe",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
     },
     {
       "id": "2508825",
@@ -17816,6 +17688,40 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "English Premier League"
+    },
+    {
+      "id": "2506300",
+      "name": "Málaga vs Athletic Bilbao",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-28T15:15:00Z",
+      "home": "Málaga",
+      "away": "Athletic Bilbao",
+      "venue": "Estadio La Rosaleda",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Athletic Club · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2624752",
@@ -18332,6 +18238,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2482262",
+      "name": "Torino vs Lazio",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-28T17:00:00Z",
+      "home": "Torino",
+      "away": "Lazio",
+      "venue": "Stadio Olimpico Grande Torino",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Lazio · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2508424",
       "name": "Stuttgart vs Eintracht Frankfurt",
       "sport": "Soccer",
@@ -18366,6 +18306,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Bundesliga"
+    },
+    {
+      "id": "2506308",
+      "name": "Elche vs Atlético Madrid",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-28T17:30:00Z",
+      "home": "Elche",
+      "away": "Atlético Madrid",
+      "venue": "Estadio Martínez Valero",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Atlético Madrid · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2494116",
@@ -18432,6 +18406,40 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Formula 1"
+    },
+    {
+      "id": "2482263",
+      "name": "Inter Milan vs Genoa",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-28T19:45:00Z",
+      "home": "Inter Milan",
+      "away": "Genoa",
+      "venue": "Stadio Giuseppe Meazza",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Inter Milan · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2489564",
@@ -18568,6 +18576,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2506304",
+      "name": "Real Madrid vs Deportivo Alavés",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-28T20:00:00Z",
+      "home": "Real Madrid",
+      "away": "Deportivo Alavés",
+      "venue": "Estadio Santiago Bernabéu",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Real Madrid · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2601946",
@@ -18859,6 +18901,40 @@
       "source": "FIBA Basketball World Cup"
     },
     {
+      "id": "2482260",
+      "name": "Udinese vs Fiorentina",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-29T11:30:00Z",
+      "home": "Udinese",
+      "away": "Fiorentina",
+      "venue": "Bluenergy Stadium",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Fiorentina · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2494113",
       "name": "Everton vs Liverpool",
       "sport": "Soccer",
@@ -18925,6 +19001,38 @@
       "source": "DR Congo Ligue 1"
     },
     {
+      "id": "2506299",
+      "name": "Valencia vs Osasuna",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-29T13:00:00Z",
+      "home": "Valencia",
+      "away": "Osasuna",
+      "venue": "Estadio de Mestalla",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
+    },
+    {
       "id": "2616419",
       "name": "Étoile du Congo vs New Jak",
       "sport": "Soccer",
@@ -18989,6 +19097,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2482258",
+      "name": "Sassuolo vs Napoli",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-29T14:00:00Z",
+      "home": "Sassuolo",
+      "away": "Napoli",
+      "venue": "Mapei Stadium – Città del Tricolore",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Napoli · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2494119",
@@ -19171,7 +19313,7 @@
       "league": "Spanish La Liga",
       "league_id": "4335",
       "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
+      "timestamp": "2026-11-29T15:15:00Z",
       "home": "Deportivo de A Coruña",
       "away": "Barcelona",
       "venue": "Estadio Abanca-Riazor",
@@ -19192,109 +19334,6 @@
       "priority_tags": [
         "Competition",
         "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506304",
-      "name": "Real Madrid vs Deportivo Alavés",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
-      "home": "Real Madrid",
-      "away": "Deportivo Alavés",
-      "venue": "Estadio Santiago Bernabéu",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Real Madrid · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506307",
-      "name": "Real Sociedad vs Sevilla",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
-      "home": "Real Sociedad",
-      "away": "Sevilla",
-      "venue": "Reale Arena",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Real Sociedad · B",
-        "Sevilla · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506308",
-      "name": "Elche vs Atlético Madrid",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
-      "home": "Elche",
-      "away": "Atlético Madrid",
-      "venue": "Estadio Martínez Valero",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Atlético Madrid · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
@@ -19332,204 +19371,6 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Formula 1"
-    },
-    {
-      "id": "2506301",
-      "name": "Celta Vigo vs Villarreal",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
-      "home": "Celta Vigo",
-      "away": "Villarreal",
-      "venue": "Estadio Abanca-Balaídos",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Villarreal · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506300",
-      "name": "Málaga vs Athletic Bilbao",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
-      "home": "Málaga",
-      "away": "Athletic Bilbao",
-      "venue": "Estadio La Rosaleda",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Athletic Club · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506305",
-      "name": "Real Betis vs Rayo Vallecano",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
-      "home": "Real Betis",
-      "away": "Rayo Vallecano",
-      "venue": "Estadio de La Cartuja",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Real Betis · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506303",
-      "name": "Espanyol vs Getafe",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
-      "home": "Espanyol",
-      "away": "Getafe",
-      "venue": "RCDE Stadium",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506302",
-      "name": "Levante vs Racing de Santander",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
-      "home": "Levante",
-      "away": "Racing de Santander",
-      "venue": "Estadio Ciudad de Valencia",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506299",
-      "name": "Valencia vs Osasuna",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T16:00:00Z",
-      "home": "Valencia",
-      "away": "Osasuna",
-      "venue": "Estadio de Mestalla",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
     },
     {
       "id": "2489565",
@@ -19631,6 +19472,40 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Bundesliga"
+    },
+    {
+      "id": "2482261",
+      "name": "Roma vs Monza",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-29T17:00:00Z",
+      "home": "Roma",
+      "away": "Monza",
+      "venue": "Stadio Olimpico",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Roma · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2519648",
@@ -19825,187 +19700,17 @@
       "source": "FIBA Basketball World Cup"
     },
     {
-      "id": "2482263",
-      "name": "Inter Milan vs Genoa",
+      "id": "2506301",
+      "name": "Celta Vigo vs Villarreal",
       "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
       "season": "2026-2027",
       "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Inter Milan",
-      "away": "Genoa",
-      "venue": "Stadio Giuseppe Meazza",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Inter Milan · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482259",
-      "name": "Cagliari vs AC Milan",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Cagliari",
-      "away": "AC Milan",
-      "venue": "Unipol Domus",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "AC Milan · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482267",
-      "name": "Como vs Juventus",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Como",
-      "away": "Juventus",
-      "venue": "Stadio Giuseppe Sinigaglia",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Juventus · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482261",
-      "name": "Roma vs Monza",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Roma",
-      "away": "Monza",
-      "venue": "Stadio Olimpico",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Roma · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482258",
-      "name": "Sassuolo vs Napoli",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Sassuolo",
-      "away": "Napoli",
-      "venue": "Mapei Stadium – Città del Tricolore",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Napoli · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482266",
-      "name": "Lecce vs Atalanta",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Lecce",
-      "away": "Atalanta",
-      "venue": "Stadio Via del mare",
-      "country": "Italy",
+      "home": "Celta Vigo",
+      "away": "Villarreal",
+      "venue": "Estadio Abanca-Balaídos",
+      "country": "Spain",
       "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
@@ -20016,8 +19721,8 @@
       "importance": 12,
       "importance_level": "watch",
       "importance_reasons": [
-        "Italian Serie A",
-        "Atalanta · B"
+        "Spanish La Liga",
+        "Villarreal · B"
       ],
       "priority_tags": [
         "Competition",
@@ -20026,141 +19731,7 @@
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482262",
-      "name": "Torino vs Lazio",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Torino",
-      "away": "Lazio",
-      "venue": "Stadio Olimpico Grande Torino",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Lazio · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482260",
-      "name": "Udinese vs Fiorentina",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Udinese",
-      "away": "Fiorentina",
-      "venue": "Bluenergy Stadium",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Fiorentina · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482265",
-      "name": "Venezia vs Bologna",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Venezia",
-      "away": "Bologna",
-      "venue": "Stadio Pierluigi Penzo",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Bologna · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482264",
-      "name": "Frosinone vs Parma",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-11-29T17:30:00Z",
-      "home": "Frosinone",
-      "away": "Parma",
-      "venue": "Stadio Benito Stirpe",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
+      "source": "La Liga"
     },
     {
       "id": "2508423",
@@ -20234,6 +19805,75 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2482267",
+      "name": "Como vs Juventus",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-29T19:45:00Z",
+      "home": "Como",
+      "away": "Juventus",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Juventus · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
+      "id": "2506307",
+      "name": "Real Sociedad vs Sevilla",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-29T20:00:00Z",
+      "home": "Real Sociedad",
+      "away": "Sevilla",
+      "venue": "Reale Arena",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Real Sociedad · B",
+        "Sevilla · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2601951",
@@ -20990,6 +20630,106 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2482266",
+      "name": "Lecce vs Atalanta",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-30T17:30:00Z",
+      "home": "Lecce",
+      "away": "Atalanta",
+      "venue": "Stadio Via del mare",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Atalanta · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482259",
+      "name": "Cagliari vs AC Milan",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-11-30T19:45:00Z",
+      "home": "Cagliari",
+      "away": "AC Milan",
+      "venue": "Unipol Domus",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "AC Milan · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
+      "id": "2506303",
+      "name": "Espanyol vs Getafe",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-11-30T20:00:00Z",
+      "home": "Espanyol",
+      "away": "Getafe",
+      "venue": "RCDE Stadium",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
     },
     {
       "id": "2526105",
@@ -22024,6 +21764,42 @@
       "source": "DFB-Pokal"
     },
     {
+      "id": "2506397",
+      "name": "Real Sociedad vs Real Madrid",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-02T18:00:00Z",
+      "home": "Real Sociedad",
+      "away": "Real Madrid",
+      "venue": "Reale Arena",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 26,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Real Sociedad · B",
+        "Real Madrid · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
+    },
+    {
       "id": "2494124",
       "name": "Chelsea vs Crystal Palace",
       "sport": "Soccer",
@@ -22400,6 +22176,44 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2506389",
+      "name": "Barcelona vs Atlético Madrid",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-02T20:30:00Z",
+      "home": "Barcelona",
+      "away": "Atlético Madrid",
+      "venue": "Spotify Camp Nou",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 33,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Barcelona · A+",
+        "Atlético Madrid · A",
+        "Strong club matchup"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee",
+        "Major club",
+        "Top matchup"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2601977",
@@ -23463,6 +23277,42 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2482273",
+      "name": "Bologna vs Roma",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-04T19:45:00Z",
+      "home": "Bologna",
+      "away": "Roma",
+      "venue": "Stadio Renato Dall'Ara",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Bologna · C",
+        "Roma · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2489575",
       "name": "Toulouse vs Paris Saint-Germain",
       "sport": "Soccer",
@@ -23688,6 +23538,38 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2482277",
+      "name": "Monza vs Como",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T14:00:00Z",
+      "home": "Monza",
+      "away": "Como",
+      "venue": "U-Power Stadium",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
     },
     {
       "id": "2508833",
@@ -25116,6 +24998,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2482275",
+      "name": "Frosinone vs Inter Milan",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T17:00:00Z",
+      "home": "Frosinone",
+      "away": "Inter Milan",
+      "venue": "Stadio Benito Stirpe",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Inter Milan · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2508831",
       "name": "Eintracht Frankfurt vs Werder Bremen",
       "sport": "Soccer",
@@ -25216,6 +25132,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2482270",
+      "name": "Napoli vs Lecce",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T19:45:00Z",
+      "home": "Napoli",
+      "away": "Lecce",
+      "venue": "Stadio Diego Armando Maradona",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Napoli · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2489578",
@@ -25352,6 +25302,38 @@
       "source": "English Premier League"
     },
     {
+      "id": "2482271",
+      "name": "Genoa vs Torino",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T11:30:00Z",
+      "home": "Genoa",
+      "away": "Torino",
+      "venue": "Stadio Luigi Ferraris",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
       "id": "2616432",
       "name": "Novakin vs Dauphins Noirs",
       "sport": "Soccer",
@@ -25448,6 +25430,41 @@
       "drc_focus": true,
       "has_top_participant": true,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2482268",
+      "name": "Lazio vs Atalanta",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T14:00:00Z",
+      "home": "Lazio",
+      "away": "Atalanta",
+      "venue": "Stadio Olimpico",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Lazio · B",
+        "Atalanta · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2494131",
@@ -26057,152 +26074,13 @@
       "source": "Bundesliga"
     },
     {
-      "id": "2482273",
-      "name": "Bologna vs Roma",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
-      "home": "Bologna",
-      "away": "Roma",
-      "venue": "Stadio Renato Dall'Ara",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Bologna · C",
-        "Roma · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482275",
-      "name": "Frosinone vs Inter Milan",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
-      "home": "Frosinone",
-      "away": "Inter Milan",
-      "venue": "Stadio Benito Stirpe",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Inter Milan · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482268",
-      "name": "Lazio vs Atalanta",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
-      "home": "Lazio",
-      "away": "Atalanta",
-      "venue": "Stadio Olimpico",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Lazio · B",
-        "Atalanta · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482269",
-      "name": "AC Milan vs Parma",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
-      "home": "AC Milan",
-      "away": "Parma",
-      "venue": "Stadio Giuseppe Meazza",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "AC Milan · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
       "id": "2482272",
       "name": "Juventus vs Udinese",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
+      "timestamp": "2026-12-06T17:00:00Z",
       "home": "Juventus",
       "away": "Udinese",
       "venue": "Allianz Stadium Turin",
@@ -26227,170 +26105,6 @@
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482270",
-      "name": "Napoli vs Lecce",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
-      "home": "Napoli",
-      "away": "Lecce",
-      "venue": "Stadio Diego Armando Maradona",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Napoli · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482274",
-      "name": "Fiorentina vs Cagliari",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
-      "home": "Fiorentina",
-      "away": "Cagliari",
-      "venue": "Stadio Artemio Franchi",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Fiorentina · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482271",
-      "name": "Genoa vs Torino",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
-      "home": "Genoa",
-      "away": "Torino",
-      "venue": "Stadio Luigi Ferraris",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482277",
-      "name": "Monza vs Como",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
-      "home": "Monza",
-      "away": "Como",
-      "venue": "U-Power Stadium",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482276",
-      "name": "Venezia vs Sassuolo",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T17:30:00Z",
-      "home": "Venezia",
-      "away": "Sassuolo",
-      "venue": "Stadio Pierluigi Penzo",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
       "source": "Serie A"
     },
     {
@@ -26430,6 +26144,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2482269",
+      "name": "AC Milan vs Parma",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T19:45:00Z",
+      "home": "AC Milan",
+      "away": "Parma",
+      "venue": "Stadio Giuseppe Meazza",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "AC Milan · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2616434",
       "name": "New Soger vs Malole",
       "sport": "Soccer",
@@ -26460,6 +26208,72 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2482276",
+      "name": "Venezia vs Sassuolo",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-07T17:30:00Z",
+      "home": "Venezia",
+      "away": "Sassuolo",
+      "venue": "Stadio Pierluigi Penzo",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482274",
+      "name": "Fiorentina vs Cagliari",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-07T19:45:00Z",
+      "home": "Fiorentina",
+      "away": "Cagliari",
+      "venue": "Stadio Artemio Franchi",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Fiorentina · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2616435",
@@ -29135,6 +28949,38 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2482281",
+      "name": "Udinese vs Frosinone",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-11T19:45:00Z",
+      "home": "Udinese",
+      "away": "Frosinone",
+      "venue": "Bluenergy Stadium",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
       "id": "2610091",
       "name": "Tyson Fury vs Anthony Joshua",
       "sport": "Fighting",
@@ -29319,6 +29165,38 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2482279",
+      "name": "Cagliari vs Venezia",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-12T14:00:00Z",
+      "home": "Cagliari",
+      "away": "Venezia",
+      "venue": "Unipol Domus",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
     },
     {
       "id": "2508840",
@@ -29589,6 +29467,38 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2482286",
+      "name": "Lecce vs Sassuolo",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-12T17:00:00Z",
+      "home": "Lecce",
+      "away": "Sassuolo",
+      "venue": "Stadio Via del mare",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
       "id": "2494143",
       "name": "Manchester City vs Chelsea",
       "sport": "Soccer",
@@ -29761,6 +29671,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2482287",
+      "name": "Como vs Bologna",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-12T19:45:00Z",
+      "home": "Como",
+      "away": "Bologna",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Bologna · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2489586",
@@ -30068,6 +30012,42 @@
       "source": "NBA"
     },
     {
+      "id": "2482278",
+      "name": "Lazio vs Roma",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-13T11:30:00Z",
+      "home": "Lazio",
+      "away": "Roma",
+      "venue": "Stadio Olimpico",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 45,
+      "importance_level": "hot",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Derby della Capitale"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Rivalry"
+      ],
+      "hot_triggers": [
+        "Marquee rivalry"
+      ],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2616450",
       "name": "Saint-Luc vs TP Mazembe",
       "sport": "Soccer",
@@ -30232,6 +30212,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2482284",
+      "name": "Inter Milan vs Torino",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-13T14:00:00Z",
+      "home": "Inter Milan",
+      "away": "Torino",
+      "venue": "Stadio Giuseppe Meazza",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Inter Milan · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2494148",
@@ -30840,188 +30854,13 @@
       "source": "English Premier League"
     },
     {
-      "id": "2482278",
-      "name": "Lazio vs Roma",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
-      "home": "Lazio",
-      "away": "Roma",
-      "venue": "Stadio Olimpico",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 45,
-      "importance_level": "hot",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Derby della Capitale"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Rivalry"
-      ],
-      "hot_triggers": [
-        "Marquee rivalry"
-      ],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482280",
-      "name": "Napoli vs AC Milan",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
-      "home": "Napoli",
-      "away": "AC Milan",
-      "venue": "Stadio Diego Armando Maradona",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 28,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Napoli · A",
-        "AC Milan · A",
-        "Strong club matchup"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club",
-        "Top matchup"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482284",
-      "name": "Inter Milan vs Torino",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
-      "home": "Inter Milan",
-      "away": "Torino",
-      "venue": "Stadio Giuseppe Meazza",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Inter Milan · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482282",
-      "name": "Juventus vs Monza",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
-      "home": "Juventus",
-      "away": "Monza",
-      "venue": "Allianz Stadium Turin",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Juventus · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482283",
-      "name": "Atalanta vs Genoa",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
-      "home": "Atalanta",
-      "away": "Genoa",
-      "venue": "New Balance Arena",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Atalanta · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
       "id": "2482285",
       "name": "Parma vs Fiorentina",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
+      "timestamp": "2026-12-13T17:00:00Z",
       "home": "Parma",
       "away": "Fiorentina",
       "venue": "Stadio Ennio Tardini",
@@ -31046,136 +30885,6 @@
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482287",
-      "name": "Como vs Bologna",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
-      "home": "Como",
-      "away": "Bologna",
-      "venue": "Stadio Giuseppe Sinigaglia",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Bologna · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482279",
-      "name": "Cagliari vs Venezia",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
-      "home": "Cagliari",
-      "away": "Venezia",
-      "venue": "Unipol Domus",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482286",
-      "name": "Lecce vs Sassuolo",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
-      "home": "Lecce",
-      "away": "Sassuolo",
-      "venue": "Stadio Via del mare",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482281",
-      "name": "Udinese vs Frosinone",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-13T17:30:00Z",
-      "home": "Udinese",
-      "away": "Frosinone",
-      "venue": "Bluenergy Stadium",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
       "source": "Serie A"
     },
     {
@@ -31284,6 +30993,43 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2482280",
+      "name": "Napoli vs AC Milan",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-13T19:45:00Z",
+      "home": "Napoli",
+      "away": "AC Milan",
+      "venue": "Stadio Diego Armando Maradona",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 28,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Napoli · A",
+        "AC Milan · A",
+        "Strong club matchup"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club",
+        "Top matchup"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2601998",
@@ -31580,6 +31326,74 @@
       "drc_focus": true,
       "has_top_participant": true,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2482283",
+      "name": "Atalanta vs Genoa",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-14T17:30:00Z",
+      "home": "Atalanta",
+      "away": "Genoa",
+      "venue": "New Balance Arena",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Atalanta · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482282",
+      "name": "Juventus vs Monza",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-14T19:45:00Z",
+      "home": "Juventus",
+      "away": "Monza",
+      "venue": "Allianz Stadium Turin",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Juventus · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2494147",
@@ -34106,6 +33920,40 @@
       "source": "NBA"
     },
     {
+      "id": "2482295",
+      "name": "Frosinone vs Lazio",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-18T17:30:00Z",
+      "home": "Frosinone",
+      "away": "Lazio",
+      "venue": "Stadio Benito Stirpe",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Lazio · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2565620",
       "name": "Anadolu Efes SK vs Olimpia Milano",
       "sport": "Basketball",
@@ -34302,6 +34150,40 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2482297",
+      "name": "Lecce vs Inter Milan",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-18T19:45:00Z",
+      "home": "Lecce",
+      "away": "Inter Milan",
+      "venue": "Stadio Via del mare",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Inter Milan · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2565625",
@@ -34865,6 +34747,38 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2482288",
+      "name": "Sassuolo vs Parma",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-19T14:00:00Z",
+      "home": "Sassuolo",
+      "away": "Parma",
+      "venue": "Mapei Stadium – Città del Tricolore",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
     },
     {
       "id": "2508849",
@@ -35580,6 +35494,40 @@
       "source": "CAF Confederation Cup"
     },
     {
+      "id": "2482289",
+      "name": "AC Milan vs Como",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-19T17:00:00Z",
+      "home": "AC Milan",
+      "away": "Como",
+      "venue": "Stadio Giuseppe Meazza",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "AC Milan · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2494151",
       "name": "Liverpool vs Tottenham Hotspur",
       "sport": "Soccer",
@@ -35652,6 +35600,43 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Bundesliga"
+    },
+    {
+      "id": "2482291",
+      "name": "Roma vs Juventus",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-19T19:45:00Z",
+      "home": "Roma",
+      "away": "Juventus",
+      "venue": "Stadio Olimpico",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 28,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Roma · A",
+        "Juventus · A",
+        "Strong club matchup"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club",
+        "Top matchup"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2602045",
@@ -35820,6 +35805,42 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2482293",
+      "name": "Fiorentina vs Bologna",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-20T11:30:00Z",
+      "home": "Fiorentina",
+      "away": "Bologna",
+      "venue": "Stadio Artemio Franchi",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Fiorentina · B",
+        "Bologna · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2618754",
@@ -36081,6 +36102,70 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "English Premier League"
+    },
+    {
+      "id": "2482294",
+      "name": "Torino vs Cagliari",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-20T14:00:00Z",
+      "home": "Torino",
+      "away": "Cagliari",
+      "venue": "Stadio Olimpico Grande Torino",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482296",
+      "name": "Venezia vs Monza",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-20T14:00:00Z",
+      "home": "Venezia",
+      "away": "Monza",
+      "venue": "Stadio Pierluigi Penzo",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
     },
     {
       "id": "2508847",
@@ -36522,323 +36607,16 @@
       "source": "Bundesliga"
     },
     {
-      "id": "2482291",
-      "name": "Roma vs Juventus",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
-      "home": "Roma",
-      "away": "Juventus",
-      "venue": "Stadio Olimpico",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 28,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Roma · A",
-        "Juventus · A",
-        "Strong club matchup"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club",
-        "Top matchup"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482292",
-      "name": "Atalanta vs Napoli",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
-      "home": "Atalanta",
-      "away": "Napoli",
-      "venue": "New Balance Arena",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 22,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Atalanta · B",
-        "Napoli · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482297",
-      "name": "Lecce vs Inter Milan",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
-      "home": "Lecce",
-      "away": "Inter Milan",
-      "venue": "Stadio Via del mare",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Inter Milan · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482293",
-      "name": "Fiorentina vs Bologna",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
-      "home": "Fiorentina",
-      "away": "Bologna",
-      "venue": "Stadio Artemio Franchi",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Fiorentina · B",
-        "Bologna · C"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club",
-        "Momentum club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482289",
-      "name": "AC Milan vs Como",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
-      "home": "AC Milan",
-      "away": "Como",
-      "venue": "Stadio Giuseppe Meazza",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "AC Milan · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482295",
-      "name": "Frosinone vs Lazio",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
-      "home": "Frosinone",
-      "away": "Lazio",
-      "venue": "Stadio Benito Stirpe",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Lazio · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
       "id": "2482290",
       "name": "Genoa vs Udinese",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
+      "timestamp": "2026-12-20T17:00:00Z",
       "home": "Genoa",
       "away": "Udinese",
       "venue": "Stadio Luigi Ferraris",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482288",
-      "name": "Sassuolo vs Parma",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
-      "home": "Sassuolo",
-      "away": "Parma",
-      "venue": "Mapei Stadium – Città del Tricolore",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482294",
-      "name": "Torino vs Cagliari",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
-      "home": "Torino",
-      "away": "Cagliari",
-      "venue": "Stadio Olimpico Grande Torino",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482296",
-      "name": "Venezia vs Monza",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2026-12-20T17:30:00Z",
-      "home": "Venezia",
-      "away": "Monza",
-      "venue": "Stadio Pierluigi Penzo",
       "country": "Italy",
       "status": "NS",
       "postponed": "no",
@@ -36891,6 +36669,42 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Bundesliga"
+    },
+    {
+      "id": "2482292",
+      "name": "Atalanta vs Napoli",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2026-12-20T19:45:00Z",
+      "home": "Atalanta",
+      "away": "Napoli",
+      "venue": "New Balance Arena",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 22,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Atalanta · B",
+        "Napoli · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2602049",
@@ -41880,6 +41694,38 @@
       "source": "NBA"
     },
     {
+      "id": "2482298",
+      "name": "Cagliari vs Genoa",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-02T11:30:00Z",
+      "home": "Cagliari",
+      "away": "Genoa",
+      "venue": "Unipol Domus",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
       "id": "2494185",
       "name": "Brighton and Hove Albion vs Manchester United",
       "sport": "Soccer",
@@ -41912,6 +41758,73 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2482302",
+      "name": "Fiorentina vs Lazio",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-02T14:00:00Z",
+      "home": "Fiorentina",
+      "away": "Lazio",
+      "venue": "Stadio Artemio Franchi",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Fiorentina · B",
+        "Lazio · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482303",
+      "name": "Torino vs Venezia",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-02T14:00:00Z",
+      "home": "Torino",
+      "away": "Venezia",
+      "venue": "Stadio Olimpico Grande Torino",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
     },
     {
       "id": "2494182",
@@ -42120,6 +42033,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2482300",
+      "name": "Roma vs Frosinone",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-02T17:00:00Z",
+      "home": "Roma",
+      "away": "Frosinone",
+      "venue": "Stadio Olimpico",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Roma · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2494180",
       "name": "Bournemouth vs Aston Villa",
       "sport": "Soccer",
@@ -42188,6 +42135,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2482307",
+      "name": "Monza vs AC Milan",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-02T19:45:00Z",
+      "home": "Monza",
+      "away": "AC Milan",
+      "venue": "U-Power Stadium",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "AC Milan · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2489589",
@@ -42664,6 +42645,40 @@
       "source": "NBA"
     },
     {
+      "id": "2482304",
+      "name": "Inter Milan vs Sassuolo",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-03T11:30:00Z",
+      "home": "Inter Milan",
+      "away": "Sassuolo",
+      "venue": "Stadio Giuseppe Meazza",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Inter Milan · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2494183",
       "name": "Chelsea vs Newcastle United",
       "sport": "Soccer",
@@ -42732,6 +42747,72 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2482299",
+      "name": "Udinese vs Atalanta",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-03T14:00:00Z",
+      "home": "Udinese",
+      "away": "Atalanta",
+      "venue": "Bluenergy Stadium",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Atalanta · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482306",
+      "name": "Como vs Lecce",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-03T14:00:00Z",
+      "home": "Como",
+      "away": "Lecce",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
     },
     {
       "id": "2506343",
@@ -43143,152 +43224,13 @@
       "source": "English Premier League"
     },
     {
-      "id": "2482301",
-      "name": "Bologna vs Juventus",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
-      "home": "Bologna",
-      "away": "Juventus",
-      "venue": "Stadio Renato Dall'Ara",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Bologna · C",
-        "Juventus · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Momentum club",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482302",
-      "name": "Fiorentina vs Lazio",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
-      "home": "Fiorentina",
-      "away": "Lazio",
-      "venue": "Stadio Artemio Franchi",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Fiorentina · B",
-        "Lazio · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482304",
-      "name": "Inter Milan vs Sassuolo",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
-      "home": "Inter Milan",
-      "away": "Sassuolo",
-      "venue": "Stadio Giuseppe Meazza",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Inter Milan · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482307",
-      "name": "Monza vs AC Milan",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
-      "home": "Monza",
-      "away": "AC Milan",
-      "venue": "U-Power Stadium",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "AC Milan · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
       "id": "2482305",
       "name": "Parma vs Napoli",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
+      "timestamp": "2027-01-03T17:00:00Z",
       "home": "Parma",
       "away": "Napoli",
       "venue": "Stadio Ennio Tardini",
@@ -43313,170 +43255,6 @@
       "hot_triggers": [],
       "drc_focus": false,
       "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482300",
-      "name": "Roma vs Frosinone",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
-      "home": "Roma",
-      "away": "Frosinone",
-      "venue": "Stadio Olimpico",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Roma · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482299",
-      "name": "Udinese vs Atalanta",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
-      "home": "Udinese",
-      "away": "Atalanta",
-      "venue": "Bluenergy Stadium",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Atalanta · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482298",
-      "name": "Cagliari vs Genoa",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
-      "home": "Cagliari",
-      "away": "Genoa",
-      "venue": "Unipol Domus",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482306",
-      "name": "Como vs Lecce",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
-      "home": "Como",
-      "away": "Lecce",
-      "venue": "Stadio Giuseppe Sinigaglia",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482303",
-      "name": "Torino vs Venezia",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-03T17:30:00Z",
-      "home": "Torino",
-      "away": "Venezia",
-      "venue": "Stadio Olimpico Grande Torino",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
       "source": "Serie A"
     },
     {
@@ -43514,6 +43292,42 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Ligue 1"
+    },
+    {
+      "id": "2482301",
+      "name": "Bologna vs Juventus",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-03T19:45:00Z",
+      "home": "Bologna",
+      "away": "Juventus",
+      "venue": "Stadio Renato Dall'Ara",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Bologna · C",
+        "Juventus · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2602156",
@@ -44018,6 +43832,72 @@
       "source": "NBA"
     },
     {
+      "id": "2482316",
+      "name": "Venezia vs Roma",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-05T17:30:00Z",
+      "home": "Venezia",
+      "away": "Roma",
+      "venue": "Stadio Pierluigi Penzo",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Roma · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482312",
+      "name": "Genoa vs Monza",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-05T17:30:00Z",
+      "home": "Genoa",
+      "away": "Monza",
+      "venue": "Stadio Luigi Ferraris",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
       "id": "2494192",
       "name": "Arsenal vs Brentford",
       "sport": "Soccer",
@@ -44152,6 +44032,42 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2482310",
+      "name": "AC Milan vs Fiorentina",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-05T19:45:00Z",
+      "home": "AC Milan",
+      "away": "Fiorentina",
+      "venue": "Stadio Giuseppe Meazza",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 22,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "AC Milan · A",
+        "Fiorentina · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2494199",
@@ -44494,85 +44410,13 @@
       "source": "NBA"
     },
     {
-      "id": "2482308",
-      "name": "Lazio vs Inter Milan",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
-      "home": "Lazio",
-      "away": "Inter Milan",
-      "venue": "Stadio Olimpico",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 26,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Lazio · B",
-        "Inter Milan · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482310",
-      "name": "AC Milan vs Fiorentina",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
-      "home": "AC Milan",
-      "away": "Fiorentina",
-      "venue": "Stadio Giuseppe Meazza",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 22,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "AC Milan · A",
-        "Fiorentina · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
       "id": "2482313",
       "name": "Juventus vs Torino",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
+      "timestamp": "2027-01-06T11:30:00Z",
       "home": "Juventus",
       "away": "Torino",
       "venue": "Allianz Stadium Turin",
@@ -44600,115 +44444,13 @@
       "source": "Serie A"
     },
     {
-      "id": "2482311",
-      "name": "Napoli vs Cagliari",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
-      "home": "Napoli",
-      "away": "Cagliari",
-      "venue": "Stadio Diego Armando Maradona",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Napoli · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482316",
-      "name": "Venezia vs Roma",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
-      "home": "Venezia",
-      "away": "Roma",
-      "venue": "Stadio Pierluigi Penzo",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Roma · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482314",
-      "name": "Atalanta vs Como",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
-      "home": "Atalanta",
-      "away": "Como",
-      "venue": "New Balance Arena",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Atalanta · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
       "id": "2482315",
       "name": "Frosinone vs Bologna",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
+      "timestamp": "2027-01-06T14:00:00Z",
       "home": "Frosinone",
       "away": "Bologna",
       "venue": "Stadio Benito Stirpe",
@@ -44736,45 +44478,13 @@
       "source": "Serie A"
     },
     {
-      "id": "2482312",
-      "name": "Genoa vs Monza",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
-      "home": "Genoa",
-      "away": "Monza",
-      "venue": "Stadio Luigi Ferraris",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
       "id": "2482317",
       "name": "Lecce vs Parma",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
+      "timestamp": "2027-01-06T14:00:00Z",
       "home": "Lecce",
       "away": "Parma",
       "venue": "Stadio Via del mare",
@@ -44800,16 +44510,16 @@
       "source": "Serie A"
     },
     {
-      "id": "2482309",
-      "name": "Sassuolo vs Udinese",
+      "id": "2482314",
+      "name": "Atalanta vs Como",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2027-01-06T17:30:00Z",
-      "home": "Sassuolo",
-      "away": "Udinese",
-      "venue": "Mapei Stadium – Città del Tricolore",
+      "timestamp": "2027-01-06T17:00:00Z",
+      "home": "Atalanta",
+      "away": "Como",
+      "venue": "New Balance Arena",
       "country": "Italy",
       "status": "NS",
       "postponed": "no",
@@ -44818,17 +44528,19 @@
       "region": "Europe",
       "tier": 1,
       "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
+      "importance": 12,
+      "importance_level": "watch",
       "importance_reasons": [
-        "Italian Serie A"
+        "Italian Serie A",
+        "Atalanta · B"
       ],
       "priority_tags": [
-        "Competition"
+        "Competition",
+        "Strong club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
-      "has_top_participant": false,
+      "has_top_participant": true,
       "source": "Serie A"
     },
     {
@@ -44964,6 +44676,42 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "English Premier League"
+    },
+    {
+      "id": "2482308",
+      "name": "Lazio vs Inter Milan",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-06T19:45:00Z",
+      "home": "Lazio",
+      "away": "Inter Milan",
+      "venue": "Stadio Olimpico",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 26,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Lazio · B",
+        "Inter Milan · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2494197",
@@ -45233,6 +44981,38 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2482309",
+      "name": "Sassuolo vs Udinese",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-07T17:30:00Z",
+      "home": "Sassuolo",
+      "away": "Udinese",
+      "venue": "Mapei Stadium – Città del Tricolore",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
       "id": "2565648",
       "name": "BC Žalgiris vs Paris Basketball",
       "sport": "Basketball",
@@ -45362,6 +45142,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2482311",
+      "name": "Napoli vs Cagliari",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-07T19:45:00Z",
+      "home": "Napoli",
+      "away": "Cagliari",
+      "venue": "Stadio Diego Armando Maradona",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Napoli · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2494190",
@@ -46207,6 +46021,38 @@
       "source": "NBA"
     },
     {
+      "id": "2482327",
+      "name": "Monza vs Frosinone",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-09T14:00:00Z",
+      "home": "Monza",
+      "away": "Frosinone",
+      "venue": "U-Power Stadium",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
       "id": "2508859",
       "name": "Eintracht Frankfurt vs Schalke 04",
       "sport": "Soccer",
@@ -46855,6 +46701,43 @@
       "source": "CAF Confederation Cup"
     },
     {
+      "id": "2482320",
+      "name": "Roma vs AC Milan",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-09T17:00:00Z",
+      "home": "Roma",
+      "away": "AC Milan",
+      "venue": "Stadio Olimpico",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 28,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Roma · A",
+        "AC Milan · A",
+        "Strong club matchup"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club",
+        "Top matchup"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
       "id": "2508856",
       "name": "Borussia Mönchengladbach vs Bayern Munich",
       "sport": "Soccer",
@@ -46887,6 +46770,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Bundesliga"
+    },
+    {
+      "id": "2482321",
+      "name": "Bologna vs Genoa",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-09T19:45:00Z",
+      "home": "Bologna",
+      "away": "Genoa",
+      "venue": "Stadio Renato Dall'Ara",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Bologna · C"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Momentum club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2602204",
@@ -47092,6 +47009,106 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2482326",
+      "name": "Como vs Lazio",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-10T11:30:00Z",
+      "home": "Como",
+      "away": "Lazio",
+      "venue": "Stadio Giuseppe Sinigaglia",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Lazio · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482322",
+      "name": "Fiorentina vs Lecce",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-10T14:00:00Z",
+      "home": "Fiorentina",
+      "away": "Lecce",
+      "venue": "Stadio Artemio Franchi",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Fiorentina · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482325",
+      "name": "Parma vs Venezia",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-10T14:00:00Z",
+      "home": "Parma",
+      "away": "Venezia",
+      "venue": "Stadio Ennio Tardini",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
     },
     {
       "id": "2508855",
@@ -47495,188 +47512,13 @@
       "source": "Bundesliga"
     },
     {
-      "id": "2482324",
-      "name": "Inter Milan vs Juventus",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
-      "home": "Inter Milan",
-      "away": "Juventus",
-      "venue": "Stadio Giuseppe Meazza",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 45,
-      "importance_level": "hot",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Derby d'Italia"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Rivalry"
-      ],
-      "hot_triggers": [
-        "Marquee rivalry"
-      ],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482320",
-      "name": "Roma vs AC Milan",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
-      "home": "Roma",
-      "away": "AC Milan",
-      "venue": "Stadio Olimpico",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 28,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Roma · A",
-        "AC Milan · A",
-        "Strong club matchup"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club",
-        "Top matchup"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482319",
-      "name": "Udinese vs Napoli",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
-      "home": "Udinese",
-      "away": "Napoli",
-      "venue": "Bluenergy Stadium",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 15,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Napoli · A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482326",
-      "name": "Como vs Lazio",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
-      "home": "Como",
-      "away": "Lazio",
-      "venue": "Stadio Giuseppe Sinigaglia",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Lazio · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482322",
-      "name": "Fiorentina vs Lecce",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
-      "home": "Fiorentina",
-      "away": "Lecce",
-      "venue": "Stadio Artemio Franchi",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Fiorentina · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
       "id": "2482323",
       "name": "Torino vs Atalanta",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
+      "timestamp": "2027-01-10T17:00:00Z",
       "home": "Torino",
       "away": "Atalanta",
       "venue": "Stadio Olimpico Grande Torino",
@@ -47704,16 +47546,16 @@
       "source": "Serie A"
     },
     {
-      "id": "2482321",
-      "name": "Bologna vs Genoa",
+      "id": "2482324",
+      "name": "Inter Milan vs Juventus",
       "sport": "Soccer",
       "league": "Italian Serie A",
       "league_id": "4332",
       "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
-      "home": "Bologna",
-      "away": "Genoa",
-      "venue": "Stadio Renato Dall'Ara",
+      "timestamp": "2027-01-10T19:45:00Z",
+      "home": "Inter Milan",
+      "away": "Juventus",
+      "venue": "Stadio Giuseppe Meazza",
       "country": "Italy",
       "status": "NS",
       "postponed": "no",
@@ -47722,115 +47564,21 @@
       "region": "Europe",
       "tier": 1,
       "stage": "Regular",
-      "importance": 9,
-      "importance_level": "watch",
+      "importance": 45,
+      "importance_level": "hot",
       "importance_reasons": [
         "Italian Serie A",
-        "Bologna · C"
+        "Derby d'Italia"
       ],
       "priority_tags": [
         "Competition",
-        "Momentum club"
+        "Rivalry"
       ],
-      "hot_triggers": [],
+      "hot_triggers": [
+        "Marquee rivalry"
+      ],
       "drc_focus": false,
       "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482318",
-      "name": "Cagliari vs Sassuolo",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
-      "home": "Cagliari",
-      "away": "Sassuolo",
-      "venue": "Unipol Domus",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482327",
-      "name": "Monza vs Frosinone",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
-      "home": "Monza",
-      "away": "Frosinone",
-      "venue": "U-Power Stadium",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Serie A"
-    },
-    {
-      "id": "2482325",
-      "name": "Parma vs Venezia",
-      "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
-      "season": "2026-2027",
-      "timestamp": "2027-01-10T17:30:00Z",
-      "home": "Parma",
-      "away": "Venezia",
-      "venue": "Stadio Ennio Tardini",
-      "country": "Italy",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Italian Serie A"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
       "source": "Serie A"
     },
     {
@@ -48096,6 +47844,72 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "NBA"
+    },
+    {
+      "id": "2482318",
+      "name": "Cagliari vs Sassuolo",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-11T17:30:00Z",
+      "home": "Cagliari",
+      "away": "Sassuolo",
+      "venue": "Unipol Domus",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Italian Serie A"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Serie A"
+    },
+    {
+      "id": "2482319",
+      "name": "Udinese vs Napoli",
+      "sport": "Soccer",
+      "league": "Italian Serie A",
+      "league_id": "4332",
+      "season": "2026-2027",
+      "timestamp": "2027-01-11T19:45:00Z",
+      "home": "Udinese",
+      "away": "Napoli",
+      "venue": "Bluenergy Stadium",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 15,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Italian Serie A",
+        "Napoli · A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "Serie A"
     },
     {
       "id": "2602220",
@@ -68999,80 +68813,6 @@
       "drc_focus": true,
       "has_top_participant": true,
       "source": "DR Congo Ligue 1"
-    },
-    {
-      "id": "2506389",
-      "name": "Barcelona vs Atlético Madrid",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2027-02-07T16:00:00Z",
-      "home": "Barcelona",
-      "away": "Atlético Madrid",
-      "venue": "Spotify Camp Nou",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 33,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Barcelona · A+",
-        "Atlético Madrid · A",
-        "Strong club matchup"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee",
-        "Major club",
-        "Top matchup"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506397",
-      "name": "Real Sociedad vs Real Madrid",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2027-02-07T16:00:00Z",
-      "home": "Real Sociedad",
-      "away": "Real Madrid",
-      "venue": "Reale Arena",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 26,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Real Sociedad · B",
-        "Real Madrid · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
     },
     {
       "id": "2506394",
@@ -90118,6 +89858,168 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2565751",
+      "name": "Fenerbahçe Basketbol vs Valencia Basket",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-12T17:45:00Z",
+      "home": "Fenerbahçe Basketbol",
+      "away": "Valencia Basket",
+      "venue": "Ülker Sports Arena",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565752",
+      "name": "BC Žalgiris vs Olimpia Milano",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-12T18:00:00Z",
+      "home": "BC Žalgiris",
+      "away": "Olimpia Milano",
+      "venue": "Žalgiris Arena",
+      "country": "Lithuania",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565753",
+      "name": "KK Crvena zvezda vs Dubai Basketball",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-12T19:00:00Z",
+      "home": "KK Crvena zvezda",
+      "away": "Dubai Basketball",
+      "venue": "Belgrade Arena",
+      "country": "Serbia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565754",
+      "name": "Olympiacos BC vs Besiktas Basketbol",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-12T19:15:00Z",
+      "home": "Olympiacos BC",
+      "away": "Besiktas Basketbol",
+      "venue": "Peace and Friendship Stadium",
+      "country": "Greece",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "EuroLeague Basketball",
+        "Olympiacos Basketball · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565755",
+      "name": "FC Barcelona Basquet vs Baskonia",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-12T19:30:00Z",
+      "home": "FC Barcelona Basquet",
+      "away": "Baskonia",
+      "venue": "Palau Blaugrana",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -90372,7 +90274,7 @@
         "2026-2027"
       ],
       "received": 385,
-      "upcoming": 297,
+      "upcoming": 292,
       "status": "OK",
       "error": ""
     },
@@ -90624,7 +90526,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 794,
+      "upcoming": 791,
       "status": "OK",
       "error": ""
     },
@@ -90639,7 +90541,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 203,
+      "upcoming": 208,
       "status": "OK",
       "error": ""
     },
