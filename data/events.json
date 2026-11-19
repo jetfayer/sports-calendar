@@ -1,181 +1,11 @@
 {
-  "updated_at": "2026-11-19T07:35:37.323552Z",
+  "updated_at": "2026-11-19T20:46:40.927456Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2601883",
-      "name": "Denver Nuggets vs Boston Celtics",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-19T02:30:00Z",
-      "home": "Denver Nuggets",
-      "away": "Boston Celtics",
-      "venue": "Ball Arena",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 34,
-      "importance_level": "interesting",
-      "importance_reasons": [
-        "NBA",
-        "Denver Nuggets · Basketball A",
-        "Boston Celtics · Basketball A+",
-        "Strong basketball matchup"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A",
-        "Basketball A+",
-        "Top matchup"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601885",
-      "name": "Los Angeles Lakers vs Utah Jazz",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-19T03:00:00Z",
-      "home": "Los Angeles Lakers",
-      "away": "Utah Jazz",
-      "venue": "Crypto.com Arena",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Los Angeles Lakers · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601886",
-      "name": "Sacramento Kings vs Phoenix Suns",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-19T03:00:00Z",
-      "home": "Sacramento Kings",
-      "away": "Phoenix Suns",
-      "venue": "Golden 1 Center",
-      "country": "United States",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Phoenix Suns · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2616402",
-      "name": "Dauphins Noirs vs Les Aigles du Congo",
-      "sport": "Soccer",
-      "league": "DR Congo Ligue 1",
-      "league_id": "4955",
-      "season": "2026-2027",
-      "timestamp": "2026-11-19T13:00:00Z",
-      "home": "Dauphins Noirs",
-      "away": "Les Aigles du Congo",
-      "venue": "Stade de l'Unité",
-      "country": "DR Congo",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "DRC",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "DR Congo Ligue 1"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": true,
-      "has_top_participant": false,
-      "source": "DR Congo Ligue 1"
-    },
-    {
-      "id": "2618735",
-      "name": "Novakin vs Anges Verts",
-      "sport": "Soccer",
-      "league": "DR Congo Ligue 1",
-      "league_id": "4955",
-      "season": "2026-2027",
-      "timestamp": "2026-11-19T14:00:00Z",
-      "home": "Novakin",
-      "away": "Anges Verts",
-      "venue": "Stade Tata Raphaël",
-      "country": "DR Congo",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "DRC",
-      "tier": 2,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "DR Congo Ligue 1"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": true,
-      "has_top_participant": false,
-      "source": "DR Congo Ligue 1"
-    },
     {
       "id": "2565567",
       "name": "Maccabi Tel Aviv BC vs Dubai Basketball",
@@ -188,7 +18,7 @@
       "away": "Dubai Basketball",
       "venue": "Aleksandar Nikolic Hall",
       "country": "Serbia",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -220,7 +50,7 @@
       "away": "Panathinaikos BC",
       "venue": "Žalgiris Arena",
       "country": "Lithuania",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "Continental",
@@ -15552,6 +15382,38 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2506314",
+      "name": "Deportivo Alavés vs Espanyol",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-04T20:00:00Z",
+      "home": "Deportivo Alavés",
+      "away": "Espanyol",
+      "venue": "Estadio de Mendizorroza",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
+    },
+    {
       "id": "2619166",
       "name": "Conah Walker vs Alexis Rocha",
       "sport": "Fighting",
@@ -15679,6 +15541,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "CAF Confederation Cup"
+    },
+    {
+      "id": "2506318",
+      "name": "Racing de Santander vs Deportivo de A Coruña",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T13:00:00Z",
+      "home": "Racing de Santander",
+      "away": "Deportivo de A Coruña",
+      "venue": "Campos de Sport de El Sardinero",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
     },
     {
       "id": "2408225",
@@ -16753,6 +16647,38 @@
       "source": "FA Cup"
     },
     {
+      "id": "2506317",
+      "name": "Rayo Vallecano vs Levante",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T15:15:00Z",
+      "home": "Rayo Vallecano",
+      "away": "Levante",
+      "venue": "Estadio de Vallecas",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
+    },
+    {
       "id": "2624756",
       "name": "Club Africain vs Young Africans",
       "sport": "Soccer",
@@ -17077,6 +17003,41 @@
       "source": "Serie A"
     },
     {
+      "id": "2506312",
+      "name": "Villarreal vs Real Sociedad",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T17:30:00Z",
+      "home": "Villarreal",
+      "away": "Real Sociedad",
+      "venue": "Estadio de la Cerámica",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Villarreal · B",
+        "Real Sociedad · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
+    },
+    {
       "id": "2508831",
       "name": "Eintracht Frankfurt vs Werder Bremen",
       "sport": "Soccer",
@@ -17345,6 +17306,40 @@
       "source": "Ligue 1"
     },
     {
+      "id": "2506309",
+      "name": "Barcelona vs Celta Vigo",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T20:00:00Z",
+      "home": "Barcelona",
+      "away": "Celta Vigo",
+      "venue": "Spotify Camp Nou",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 19,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Barcelona · A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Global marquee"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
+    },
+    {
       "id": "2494136",
       "name": "Brentford vs Manchester City",
       "sport": "Soccer",
@@ -17505,6 +17500,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "CAF Confederation Cup"
+    },
+    {
+      "id": "2506316",
+      "name": "Osasuna vs Elche",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T13:00:00Z",
+      "home": "Osasuna",
+      "away": "Elche",
+      "venue": "Estadio El Sadar",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
     },
     {
       "id": "2616433",
@@ -17750,7 +17777,7 @@
       "league": "Spanish La Liga",
       "league_id": "4335",
       "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
+      "timestamp": "2026-12-06T15:15:00Z",
       "home": "Athletic Bilbao",
       "away": "Real Madrid",
       "venue": "San Mamés Barria",
@@ -17773,145 +17800,6 @@
         "Competition",
         "Strong club",
         "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506310",
-      "name": "Atlético Madrid vs Real Betis",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
-      "home": "Atlético Madrid",
-      "away": "Real Betis",
-      "venue": "Riyadh Air Metropolitano",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 22,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Atlético Madrid · A",
-        "Real Betis · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Major club",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506309",
-      "name": "Barcelona vs Celta Vigo",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
-      "home": "Barcelona",
-      "away": "Celta Vigo",
-      "venue": "Spotify Camp Nou",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Barcelona · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506312",
-      "name": "Villarreal vs Real Sociedad",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
-      "home": "Villarreal",
-      "away": "Real Sociedad",
-      "venue": "Estadio de la Cerámica",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Villarreal · B",
-        "Real Sociedad · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506313",
-      "name": "Sevilla vs Málaga",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
-      "home": "Sevilla",
-      "away": "Málaga",
-      "venue": "Estadio Ramón Sánchez Pizjuán",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Sevilla · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
       ],
       "hot_triggers": [],
       "drc_focus": false,
@@ -17981,166 +17869,6 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "CAF Confederation Cup"
-    },
-    {
-      "id": "2506314",
-      "name": "Deportivo Alavés vs Espanyol",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
-      "home": "Deportivo Alavés",
-      "away": "Espanyol",
-      "venue": "Estadio de Mendizorroza",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506315",
-      "name": "Getafe vs Valencia",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
-      "home": "Getafe",
-      "away": "Valencia",
-      "venue": "Estadio Coliseum",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506316",
-      "name": "Osasuna vs Elche",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
-      "home": "Osasuna",
-      "away": "Elche",
-      "venue": "Estadio El Sadar",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506318",
-      "name": "Racing de Santander vs Deportivo de A Coruña",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
-      "home": "Racing de Santander",
-      "away": "Deportivo de A Coruña",
-      "venue": "Campos de Sport de El Sardinero",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2506317",
-      "name": "Rayo Vallecano vs Levante",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-12-06T16:00:00Z",
-      "home": "Rayo Vallecano",
-      "away": "Levante",
-      "venue": "Estadio de Vallecas",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
     },
     {
       "id": "2489573",
@@ -18281,6 +18009,38 @@
       "source": "Serie A"
     },
     {
+      "id": "2506315",
+      "name": "Getafe vs Valencia",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T17:30:00Z",
+      "home": "Getafe",
+      "away": "Valencia",
+      "venue": "Estadio Coliseum",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "Spanish La Liga"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "La Liga"
+    },
+    {
       "id": "2489571",
       "name": "Marseille vs Nice",
       "sport": "Soccer",
@@ -18349,6 +18109,42 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Serie A"
+    },
+    {
+      "id": "2506310",
+      "name": "Atlético Madrid vs Real Betis",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T20:00:00Z",
+      "home": "Atlético Madrid",
+      "away": "Real Betis",
+      "venue": "Riyadh Air Metropolitano",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 22,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Atlético Madrid · A",
+        "Real Betis · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Major club",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2616434",
@@ -18447,6 +18243,40 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Serie A"
+    },
+    {
+      "id": "2506313",
+      "name": "Sevilla vs Málaga",
+      "sport": "Soccer",
+      "league": "Spanish La Liga",
+      "league_id": "4335",
+      "season": "2026-2027",
+      "timestamp": "2026-12-07T20:00:00Z",
+      "home": "Sevilla",
+      "away": "Málaga",
+      "venue": "Estadio Ramón Sánchez Pizjuán",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "Spanish La Liga",
+        "Sevilla · B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Strong club"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "La Liga"
     },
     {
       "id": "2616435",
@@ -86046,6 +85876,168 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2565761",
+      "name": "Dubai Basketball vs Olimpia Milano",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-19T16:00:00Z",
+      "home": "Dubai Basketball",
+      "away": "Olimpia Milano",
+      "venue": "Coca-Cola Arena",
+      "country": "United Arab Emirates",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565762",
+      "name": "Besiktas Basketbol vs Anadolu Efes SK",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-19T17:00:00Z",
+      "home": "Besiktas Basketbol",
+      "away": "Anadolu Efes SK",
+      "venue": "Besiktas Akatlar Arena",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565763",
+      "name": "KK Crvena zvezda vs Olympiacos BC",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-19T19:00:00Z",
+      "home": "KK Crvena zvezda",
+      "away": "Olympiacos BC",
+      "venue": "Belgrade Arena",
+      "country": "Serbia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 12,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "EuroLeague Basketball",
+        "Olympiacos Basketball · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565764",
+      "name": "Lyon-Villeurbanne vs Virtus Pallacanestro Bologna",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-19T19:00:00Z",
+      "home": "Lyon-Villeurbanne",
+      "away": "Virtus Pallacanestro Bologna",
+      "venue": "LDLC Arena",
+      "country": "France",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
+    },
+    {
+      "id": "2565765",
+      "name": "FC Barcelona Basquet vs Hapoel Tel Aviv BC",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "league_id": "4546",
+      "season": "2026-2027",
+      "timestamp": "2027-03-19T19:30:00Z",
+      "home": "FC Barcelona Basquet",
+      "away": "Hapoel Tel Aviv BC",
+      "venue": "Palau Blaugrana",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Europe",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 5,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "EuroLeague Basketball"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "EuroLeague Basketball"
     }
   ],
   "source_stats": [
@@ -86301,7 +86293,7 @@
         "2026-2027"
       ],
       "received": 385,
-      "upcoming": 282,
+      "upcoming": 280,
       "status": "OK",
       "error": ""
     },
@@ -86555,7 +86547,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 795,
+      "upcoming": 792,
       "status": "OK",
       "error": ""
     },
@@ -86570,7 +86562,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 195,
+      "upcoming": 200,
       "status": "OK",
       "error": ""
     },
