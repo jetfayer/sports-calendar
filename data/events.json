@@ -1,466 +1,11 @@
 {
-  "updated_at": "2026-11-20T20:30:53.031925Z",
+  "updated_at": "2026-11-21T07:20:40.752209Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
   "interesting_threshold": 25,
   "hot_requires_trigger": true,
   "events": [
-    {
-      "id": "2565572",
-      "name": "Anadolu Efes SK vs Lyon-Villeurbanne",
-      "sport": "Basketball",
-      "league": "EuroLeague Basketball",
-      "league_id": "4546",
-      "season": "2026-2027",
-      "timestamp": "2026-11-20T17:30:00Z",
-      "home": "Anadolu Efes SK",
-      "away": "Lyon-Villeurbanne",
-      "venue": "Basketbol Gelişim Merkezi",
-      "country": "Turkey",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "EuroLeague Basketball"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2565573",
-      "name": "Olympiacos BC vs Real Madrid Baloncesto",
-      "sport": "Basketball",
-      "league": "EuroLeague Basketball",
-      "league_id": "4546",
-      "season": "2026-2027",
-      "timestamp": "2026-11-20T19:15:00Z",
-      "home": "Olympiacos BC",
-      "away": "Real Madrid Baloncesto",
-      "venue": "Peace and Friendship Stadium",
-      "country": "Greece",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "EuroLeague Basketball",
-        "Olympiacos Basketball · Basketball B",
-        "Real Madrid Basketball · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2508414",
-      "name": "Bayern Munich vs Köln",
-      "sport": "Soccer",
-      "league": "German Bundesliga",
-      "league_id": "4331",
-      "season": "2026-2027",
-      "timestamp": "2026-11-20T19:30:00Z",
-      "home": "Bayern Munich",
-      "away": "Köln",
-      "venue": "Allianz Arena",
-      "country": "Germany",
-      "status": "1H",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 19,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "German Bundesliga",
-        "Bayern Munich · A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Global marquee"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Bundesliga"
-    },
-    {
-      "id": "2565574",
-      "name": "FC Barcelona Basquet vs KK Crvena zvezda",
-      "sport": "Basketball",
-      "league": "EuroLeague Basketball",
-      "league_id": "4546",
-      "season": "2026-2027",
-      "timestamp": "2026-11-20T19:30:00Z",
-      "home": "FC Barcelona Basquet",
-      "away": "KK Crvena zvezda",
-      "venue": "Palau Blaugrana",
-      "country": "Spain",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "EuroLeague Basketball"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2565575",
-      "name": "KK Partizan vs Besiktas Basketbol",
-      "sport": "Basketball",
-      "league": "EuroLeague Basketball",
-      "league_id": "4546",
-      "season": "2026-2027",
-      "timestamp": "2026-11-20T19:45:00Z",
-      "home": "KK Partizan",
-      "away": "Besiktas Basketbol",
-      "venue": "Belgrade Arena",
-      "country": "Serbia",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "EuroLeague Basketball"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "EuroLeague Basketball"
-    },
-    {
-      "id": "2489558",
-      "name": "Troyes vs Le Havre",
-      "sport": "Soccer",
-      "league": "French Ligue 1",
-      "league_id": "4334",
-      "season": "2026-2027",
-      "timestamp": "2026-11-20T19:45:00Z",
-      "home": "Troyes",
-      "away": "Le Havre",
-      "venue": "Stade de l'Aube",
-      "country": "France",
-      "status": "1H",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "French Ligue 1"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Ligue 1"
-    },
-    {
-      "id": "2506290",
-      "name": "Athletic Bilbao vs Espanyol",
-      "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
-      "season": "2026-2027",
-      "timestamp": "2026-11-20T20:00:00Z",
-      "home": "Athletic Bilbao",
-      "away": "Espanyol",
-      "venue": "San Mamés Barria",
-      "country": "Spain",
-      "status": "1H",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Spanish La Liga",
-        "Athletic Club · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "La Liga"
-    },
-    {
-      "id": "2629133",
-      "name": "Amari Jones vs DeAundre Pettus",
-      "sport": "Fighting",
-      "league": "Boxing",
-      "league_id": "4445",
-      "season": "2026",
-      "timestamp": "2026-11-20T22:00:00Z",
-      "home": "",
-      "away": "",
-      "venue": "",
-      "country": "United States",
-      "status": "",
-      "postponed": "no",
-      "participant_type": "Individual",
-      "competition_group": "Tour/Event",
-      "region": "Global",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 0,
-      "importance_level": "normal",
-      "importance_reasons": [],
-      "priority_tags": [],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Boxing"
-    },
-    {
-      "id": "2601891",
-      "name": "Atlanta Hawks vs Charlotte Hornets",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-21T00:00:00Z",
-      "home": "Atlanta Hawks",
-      "away": "Charlotte Hornets",
-      "venue": "State Farm Arena",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
-    {
-      "id": "2601893",
-      "name": "Cleveland Cavaliers vs Indiana Pacers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-21T00:30:00Z",
-      "home": "Cleveland Cavaliers",
-      "away": "Indiana Pacers",
-      "venue": "Rocket Arena",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Cleveland Cavaliers · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601892",
-      "name": "Brooklyn Nets vs Orlando Magic",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-21T00:30:00Z",
-      "home": "Brooklyn Nets",
-      "away": "Orlando Magic",
-      "venue": "Barclays Center",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
-    {
-      "id": "2601894",
-      "name": "Detroit Pistons vs Toronto Raptors",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-21T00:30:00Z",
-      "home": "Detroit Pistons",
-      "away": "Toronto Raptors",
-      "venue": "Little Caesars Arena",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
-    {
-      "id": "2601896",
-      "name": "Oklahoma City Thunder vs New Orleans Pelicans",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-21T01:00:00Z",
-      "home": "Oklahoma City Thunder",
-      "away": "New Orleans Pelicans",
-      "venue": "Paycom Center",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Oklahoma City Thunder · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601895",
-      "name": "Chicago Bulls vs Washington Wizards",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-21T01:00:00Z",
-      "home": "Chicago Bulls",
-      "away": "Washington Wizards",
-      "venue": "United Center",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
     {
       "id": "2601897",
       "name": "Utah Jazz vs Phoenix Suns",
@@ -473,7 +18,7 @@
       "away": "Phoenix Suns",
       "venue": "Delta Center",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -507,7 +52,7 @@
       "away": "Sacramento Kings",
       "venue": "Crypto.com Arena",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -541,7 +86,7 @@
       "away": "Houston Rockets",
       "venue": "Ball Arena",
       "country": "United States",
-      "status": "NS",
+      "status": "FT",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
@@ -8395,6 +7940,38 @@
       "source": "La Liga"
     },
     {
+      "id": "2624753",
+      "name": "Young Africans vs MC Alger",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-11-28T13:00:00Z",
+      "home": "Young Africans",
+      "away": "MC Alger",
+      "venue": "",
+      "country": "Tanzania",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
+    },
+    {
       "id": "2616418",
       "name": "Saint-Éloi Lupopo vs Tanganyika",
       "sport": "Soccer",
@@ -8787,70 +8364,6 @@
       "source": "La Liga"
     },
     {
-      "id": "2624752",
-      "name": "Al-Hilal Omdurman vs Horoya",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-11-28T16:00:00Z",
-      "home": "Al-Hilal Omdurman",
-      "away": "Horoya",
-      "venue": "Al-Hilal Stadium",
-      "country": "Sudan",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2624751",
-      "name": "Atlético Petróleos vs Nouadhibou",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-11-28T16:00:00Z",
-      "home": "Atlético Petróleos",
-      "away": "Nouadhibou",
-      "venue": "Estádio 11 de Novembro",
-      "country": "Angola",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
       "id": "2624748",
       "name": "Espérance de Tunis vs Wiliete",
       "sport": "Soccer",
@@ -8894,102 +8407,6 @@
       "away": "Maghreb Fez",
       "venue": "30 June Stadium",
       "country": "Egypt",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2624747",
-      "name": "RS Berkane vs Colombe Sportive",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-11-28T16:00:00Z",
-      "home": "RS Berkane",
-      "away": "Colombe Sportive",
-      "venue": "Stade Municipal de Berkane",
-      "country": "Morocco",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2624754",
-      "name": "Simba vs Orlando Pirates",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-11-28T16:00:00Z",
-      "home": "Simba",
-      "away": "Orlando Pirates",
-      "venue": "",
-      "country": "Tanzania",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2624753",
-      "name": "Young Africans vs MC Alger",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-11-28T16:00:00Z",
-      "home": "Young Africans",
-      "away": "MC Alger",
-      "venue": "",
-      "country": "Tanzania",
       "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
@@ -9373,6 +8790,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Formula 1"
+    },
+    {
+      "id": "2624747",
+      "name": "RS Berkane vs Colombe Sportive",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-11-28T19:00:00Z",
+      "home": "RS Berkane",
+      "away": "Colombe Sportive",
+      "venue": "Stade Municipal de Berkane",
+      "country": "Morocco",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
     },
     {
       "id": "2624984",
@@ -10512,6 +9961,38 @@
       "source": "FIBA Basketball World Cup"
     },
     {
+      "id": "2624754",
+      "name": "Simba vs Orlando Pirates",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-11-29T13:00:00Z",
+      "home": "Simba",
+      "away": "Orlando Pirates",
+      "venue": "",
+      "country": "Tanzania",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
+    },
+    {
       "id": "2624989",
       "name": "Maniema Union vs Singida Black Stars",
       "sport": "Soccer",
@@ -11044,6 +10525,38 @@
       "source": "FIBA Basketball World Cup"
     },
     {
+      "id": "2624751",
+      "name": "Atlético Petróleos vs Nouadhibou",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-11-29T16:00:00Z",
+      "home": "Atlético Petróleos",
+      "away": "Nouadhibou",
+      "venue": "Estádio 11 de Novembro",
+      "country": "Angola",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
+    },
+    {
       "id": "2624987",
       "name": "Al Ahly vs Primeiro de Agosto",
       "sport": "Soccer",
@@ -11471,6 +10984,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2624752",
+      "name": "Al-Hilal Omdurman vs Horoya",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-11-29T19:00:00Z",
+      "home": "Al-Hilal Omdurman",
+      "away": "Horoya",
+      "venue": "Al-Hilal Stadium",
+      "country": "Sudan",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
     },
     {
       "id": "2624983",
@@ -14816,6 +14361,38 @@
       "source": "EuroLeague Basketball"
     },
     {
+      "id": "2624755",
+      "name": "MC Alger vs Zamalek",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-12-04T19:00:00Z",
+      "home": "MC Alger",
+      "away": "Zamalek",
+      "venue": "Stade Ali-Ammar",
+      "country": "Algeria",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
+    },
+    {
       "id": "2565593",
       "name": "Olympiacos BC vs Lyon-Villeurbanne",
       "sport": "Basketball",
@@ -15145,6 +14722,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2624757",
+      "name": "Orlando Pirates vs RS Berkane",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T13:00:00Z",
+      "home": "Orlando Pirates",
+      "away": "RS Berkane",
+      "venue": "Orlando Amstel Arena",
+      "country": "South Africa",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
     },
     {
       "id": "2624991",
@@ -16347,198 +15956,6 @@
       "source": "CAF Champions League"
     },
     {
-      "id": "2624760",
-      "name": "Colombe Sportive vs Simba",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T16:00:00Z",
-      "home": "Colombe Sportive",
-      "away": "Simba",
-      "venue": "Stade Municipal de Sangmélima",
-      "country": "Cameroon",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2624759",
-      "name": "Horoya vs Pyramids",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T16:00:00Z",
-      "home": "Horoya",
-      "away": "Pyramids",
-      "venue": "Centre Sportif de Yorokoguia",
-      "country": "Guinea",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2624755",
-      "name": "MC Alger vs Zamalek",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T16:00:00Z",
-      "home": "MC Alger",
-      "away": "Zamalek",
-      "venue": "Stade Ali-Ammar",
-      "country": "Algeria",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2624758",
-      "name": "Maghreb Fez vs Al-Hilal Omdurman",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T16:00:00Z",
-      "home": "Maghreb Fez",
-      "away": "Al-Hilal Omdurman",
-      "venue": "Complexe Sportif de Fès",
-      "country": "Morocco",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2624761",
-      "name": "Nouadhibou vs Espérance de Tunis",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T16:00:00Z",
-      "home": "Nouadhibou",
-      "away": "Espérance de Tunis",
-      "venue": "Stade Municipal de Nouadhibou",
-      "country": "Mauritania",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
-      "id": "2624757",
-      "name": "Orlando Pirates vs RS Berkane",
-      "sport": "Soccer",
-      "league": "CAF Champions League",
-      "league_id": "4720",
-      "season": "2026-2027",
-      "timestamp": "2026-12-05T16:00:00Z",
-      "home": "Orlando Pirates",
-      "away": "RS Berkane",
-      "venue": "Orlando Amstel Arena",
-      "country": "South Africa",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "Continental",
-      "region": "Africa",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 9,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "CAF Champions League"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "CAF Champions League"
-    },
-    {
       "id": "2624990",
       "name": "Primeiro de Agosto vs Raja Casablanca",
       "sport": "Soccer",
@@ -16740,6 +16157,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2624758",
+      "name": "Maghreb Fez vs Al-Hilal Omdurman",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-12-05T19:00:00Z",
+      "home": "Maghreb Fez",
+      "away": "Al-Hilal Omdurman",
+      "venue": "Complexe Sportif de Fès",
+      "country": "Morocco",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
     },
     {
       "id": "2624993",
@@ -17443,6 +16892,70 @@
       "source": "La Liga"
     },
     {
+      "id": "2624760",
+      "name": "Colombe Sportive vs Simba",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T16:00:00Z",
+      "home": "Colombe Sportive",
+      "away": "Simba",
+      "venue": "Stade Municipal de Sangmélima",
+      "country": "Cameroon",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
+    },
+    {
+      "id": "2624759",
+      "name": "Horoya vs Pyramids",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T16:00:00Z",
+      "home": "Horoya",
+      "away": "Pyramids",
+      "venue": "Centre Sportif de Yorokoguia",
+      "country": "Guinea",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
+    },
+    {
       "id": "2624992",
       "name": "ASC Kara vs Al Ahly",
       "sport": "Soccer",
@@ -17675,6 +17188,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "La Liga"
+    },
+    {
+      "id": "2624761",
+      "name": "Nouadhibou vs Espérance de Tunis",
+      "sport": "Soccer",
+      "league": "CAF Champions League",
+      "league_id": "4720",
+      "season": "2026-2027",
+      "timestamp": "2026-12-06T19:00:00Z",
+      "home": "Nouadhibou",
+      "away": "Espérance de Tunis",
+      "venue": "Stade Municipal de Nouadhibou",
+      "country": "Mauritania",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "Continental",
+      "region": "Africa",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 9,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "CAF Champions League"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "CAF Champions League"
     },
     {
       "id": "2489571",
@@ -86858,6 +86403,208 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2602686",
+      "name": "Orlando Magic vs Denver Nuggets",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-20T23:00:00Z",
+      "home": "Orlando Magic",
+      "away": "Denver Nuggets",
+      "venue": "Kia Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Denver Nuggets · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602687",
+      "name": "Cleveland Cavaliers vs Chicago Bulls",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-20T23:30:00Z",
+      "home": "Cleveland Cavaliers",
+      "away": "Chicago Bulls",
+      "venue": "Rocket Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Cleveland Cavaliers · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602689",
+      "name": "Memphis Grizzlies vs Oklahoma City Thunder",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-21T00:00:00Z",
+      "home": "Memphis Grizzlies",
+      "away": "Oklahoma City Thunder",
+      "venue": "FedExForum",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Oklahoma City Thunder · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602690",
+      "name": "Milwaukee Bucks vs Indiana Pacers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-21T00:00:00Z",
+      "home": "Milwaukee Bucks",
+      "away": "Indiana Pacers",
+      "venue": "Fiserv Forum",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 16,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Milwaukee Bucks · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602688",
+      "name": "Detroit Pistons vs Charlotte Hornets",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-21T00:00:00Z",
+      "home": "Detroit Pistons",
+      "away": "Charlotte Hornets",
+      "venue": "Little Caesars Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602691",
+      "name": "Los Angeles Clippers vs Atlanta Hawks",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-21T02:30:00Z",
+      "home": "Los Angeles Clippers",
+      "away": "Atlanta Hawks",
+      "venue": "Intuit Dome",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Los Angeles Clippers · Basketball B"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -86887,7 +86634,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 160,
+      "upcoming": 159,
       "status": "OK",
       "error": ""
     },
@@ -86917,7 +86664,7 @@
         "2026-2027"
       ],
       "received": 306,
-      "upcoming": 162,
+      "upcoming": 161,
       "status": "OK",
       "error": ""
     },
@@ -86932,7 +86679,7 @@
         "2026-2027"
       ],
       "received": 306,
-      "upcoming": 134,
+      "upcoming": 133,
       "status": "OK",
       "error": ""
     },
@@ -87382,7 +87129,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 194,
+      "upcoming": 190,
       "status": "OK",
       "error": ""
     },
@@ -87459,7 +87206,7 @@
         "2026"
       ],
       "received": 127,
-      "upcoming": 9,
+      "upcoming": 8,
       "status": "OK",
       "error": ""
     },
