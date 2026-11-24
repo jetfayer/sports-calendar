@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T00:01:41.483506Z",
+  "updated_at": "2026-11-24T10:02:57.607109Z",
   "window_days": 120,
   "default_view_days": 30,
   "watch_threshold": 10,
@@ -7,436 +7,70 @@
   "hot_requires_trigger": true,
   "events": [
     {
-      "id": "2482257",
-      "name": "Monza vs Fiorentina",
+      "id": "2616405",
+      "name": "Simba Kolwezi vs Don Bosco",
       "sport": "Soccer",
-      "league": "Italian Serie A",
-      "league_id": "4332",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
       "season": "2026-2027",
-      "timestamp": "2026-11-23T19:45:00Z",
-      "home": "Monza",
-      "away": "Fiorentina",
-      "venue": "U-Power Stadium",
-      "country": "Italy",
-      "status": "FT",
+      "timestamp": "2026-11-24T11:00:00Z",
+      "home": "Simba Kolwezi",
+      "away": "Don Bosco",
+      "venue": "Stade Frédéric-Kibassa-Maliba",
+      "country": "DR Congo",
+      "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 12,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "Italian Serie A",
-        "Fiorentina · B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Strong club"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "Serie A"
-    },
-    {
-      "id": "2494106",
-      "name": "Brentford vs Everton",
-      "sport": "Soccer",
-      "league": "English Premier League",
-      "league_id": "4328",
-      "season": "2026-2027",
-      "timestamp": "2026-11-23T20:00:00Z",
-      "home": "Brentford",
-      "away": "Everton",
-      "venue": "Brentford Community Stadium",
-      "country": "England",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
+      "region": "DRC",
+      "tier": 2,
       "stage": "Regular",
       "importance": 5,
       "importance_level": "normal",
       "importance_reasons": [
-        "English Premier League"
+        "DR Congo Ligue 1"
       ],
       "priority_tags": [
         "Competition"
       ],
       "hot_triggers": [],
-      "drc_focus": false,
+      "drc_focus": true,
       "has_top_participant": false,
-      "source": "English Premier League"
+      "source": "DR Congo Ligue 1"
     },
     {
-      "id": "2506292",
-      "name": "Levante vs Elche",
+      "id": "2616408",
+      "name": "Tanganyika vs TP Mazembe",
       "sport": "Soccer",
-      "league": "Spanish La Liga",
-      "league_id": "4335",
+      "league": "DR Congo Ligue 1",
+      "league_id": "4955",
       "season": "2026-2027",
-      "timestamp": "2026-11-23T20:00:00Z",
-      "home": "Levante",
-      "away": "Elche",
-      "venue": "Estadio Ciudad de Valencia",
-      "country": "Spain",
-      "status": "FT",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "Europe",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 5,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "Spanish La Liga"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "La Liga"
-    },
-    {
-      "id": "2601913",
-      "name": "Charlotte Hornets vs Memphis Grizzlies",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T00:00:00Z",
-      "home": "Charlotte Hornets",
-      "away": "Memphis Grizzlies",
-      "venue": "Spectrum Center",
-      "country": "United States",
+      "timestamp": "2026-11-24T13:00:00Z",
+      "home": "Tanganyika",
+      "away": "TP Mazembe",
+      "venue": "Stade Frédéric-Kibassa-Maliba",
+      "country": "DR Congo",
       "status": "NS",
       "postponed": "no",
       "participant_type": "Club",
       "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
+      "region": "DRC",
+      "tier": 2,
       "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
+      "importance": 25,
+      "importance_level": "interesting",
       "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
-    {
-      "id": "2601914",
-      "name": "Philadelphia 76ers vs Portland Trail Blazers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T00:00:00Z",
-      "home": "Philadelphia 76ers",
-      "away": "Portland Trail Blazers",
-      "venue": "Xfinity Mobile Arena",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
-    },
-    {
-      "id": "2601915",
-      "name": "Indiana Pacers vs Oklahoma City Thunder",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T00:30:00Z",
-      "home": "Indiana Pacers",
-      "away": "Oklahoma City Thunder",
-      "venue": "Gainbridge Fieldhouse",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Oklahoma City Thunder · Basketball A"
+        "DR Congo Ligue 1",
+        "DRC club"
       ],
       "priority_tags": [
         "Competition",
-        "Basketball A"
+        "DRC"
       ],
       "hot_triggers": [],
-      "drc_focus": false,
+      "drc_focus": true,
       "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601917",
-      "name": "Toronto Raptors vs Milwaukee Bucks",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T00:30:00Z",
-      "home": "Toronto Raptors",
-      "away": "Milwaukee Bucks",
-      "venue": "Scotiabank Arena",
-      "country": "Canada",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Milwaukee Bucks · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601916",
-      "name": "Minnesota Timberwolves vs Brooklyn Nets",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T00:30:00Z",
-      "home": "Minnesota Timberwolves",
-      "away": "Brooklyn Nets",
-      "venue": "Target Center",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Minnesota Timberwolves · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601918",
-      "name": "Chicago Bulls vs Cleveland Cavaliers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T01:00:00Z",
-      "home": "Chicago Bulls",
-      "away": "Cleveland Cavaliers",
-      "venue": "United Center",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 16,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Cleveland Cavaliers · Basketball A"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601919",
-      "name": "New Orleans Pelicans vs Phoenix Suns",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T01:00:00Z",
-      "home": "New Orleans Pelicans",
-      "away": "Phoenix Suns",
-      "venue": "Smoothie King Center",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Phoenix Suns · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601920",
-      "name": "Houston Rockets vs Los Angeles Clippers",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T01:30:00Z",
-      "home": "Houston Rockets",
-      "away": "Los Angeles Clippers",
-      "venue": "Toyota Center",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 13,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Los Angeles Clippers · Basketball B"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball B"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601921",
-      "name": "Los Angeles Lakers vs Utah Jazz",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T03:00:00Z",
-      "home": "Los Angeles Lakers",
-      "away": "Utah Jazz",
-      "venue": "Crypto.com Arena",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 20,
-      "importance_level": "watch",
-      "importance_reasons": [
-        "NBA",
-        "Los Angeles Lakers · Basketball A+"
-      ],
-      "priority_tags": [
-        "Competition",
-        "Basketball A+"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": true,
-      "source": "NBA"
-    },
-    {
-      "id": "2601922",
-      "name": "Sacramento Kings vs San Antonio Spurs",
-      "sport": "Basketball",
-      "league": "NBA",
-      "league_id": "4387",
-      "season": "2026-2027",
-      "timestamp": "2026-11-24T03:00:00Z",
-      "home": "Sacramento Kings",
-      "away": "San Antonio Spurs",
-      "venue": "Golden 1 Center",
-      "country": "United States",
-      "status": "NS",
-      "postponed": "no",
-      "participant_type": "Club",
-      "competition_group": "League",
-      "region": "North America",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 6,
-      "importance_level": "normal",
-      "importance_reasons": [
-        "NBA"
-      ],
-      "priority_tags": [
-        "Competition"
-      ],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "NBA"
+      "source": "DR Congo Ligue 1"
     },
     {
       "id": "2616410",
@@ -1732,34 +1366,6 @@
       "source": "NBA"
     },
     {
-      "id": "2619163",
-      "name": "Masamichi Yabuki vs Miel Fajardo",
-      "sport": "Fighting",
-      "league": "Boxing",
-      "league_id": "4445",
-      "season": "2026",
-      "timestamp": "2026-11-26T00:00:00Z",
-      "home": "",
-      "away": "",
-      "venue": "Ebara Wave Arena",
-      "country": "Japan",
-      "status": "",
-      "postponed": "no",
-      "participant_type": "Individual",
-      "competition_group": "Tour/Event",
-      "region": "Global",
-      "tier": 1,
-      "stage": "Regular",
-      "importance": 0,
-      "importance_level": "normal",
-      "importance_reasons": [],
-      "priority_tags": [],
-      "hot_triggers": [],
-      "drc_focus": false,
-      "has_top_participant": false,
-      "source": "Boxing"
-    },
-    {
       "id": "2601928",
       "name": "New York Knicks vs Cleveland Cavaliers",
       "sport": "Basketball",
@@ -2002,6 +1608,34 @@
       "source": "NBA"
     },
     {
+      "id": "2619163",
+      "name": "Masamichi Yabuki vs Miel Fajardo",
+      "sport": "Fighting",
+      "league": "Boxing",
+      "league_id": "4445",
+      "season": "2026",
+      "timestamp": "2026-11-26T06:30:00Z",
+      "home": "",
+      "away": "",
+      "venue": "",
+      "country": "Japan",
+      "status": "",
+      "postponed": "no",
+      "participant_type": "Individual",
+      "competition_group": "Tour/Event",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 0,
+      "importance_level": "normal",
+      "importance_reasons": [],
+      "priority_tags": [],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "Boxing"
+    },
+    {
       "id": "2616415",
       "name": "Les Aigles du Congo vs Anges Verts",
       "sport": "Soccer",
@@ -2064,6 +1698,38 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2519424",
+      "name": "Saudi Arabia Basketball vs China Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T13:00:00Z",
+      "home": "Saudi Arabia Basketball",
+      "away": "China Basketball",
+      "venue": "",
+      "country": "Saudi Arabia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2616414",
@@ -2160,6 +1826,70 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "UEFA Conference League"
+    },
+    {
+      "id": "2519425",
+      "name": "Qatar Basketball vs South Korea Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T16:00:00Z",
+      "home": "Qatar Basketball",
+      "away": "South Korea Basketball",
+      "venue": "",
+      "country": "Qatar",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519636",
+      "name": "Lithuania Basketball vs Serbia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T16:30:00Z",
+      "home": "Lithuania Basketball",
+      "away": "Serbia Basketball",
+      "venue": "",
+      "country": "Lithuania",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2594890",
@@ -2720,6 +2450,198 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "UEFA Conference League"
+    },
+    {
+      "id": "2519429",
+      "name": "Greece Basketball vs Georgia",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T18:00:00Z",
+      "home": "Greece Basketball",
+      "away": "Georgia",
+      "venue": "",
+      "country": "Greece",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519427",
+      "name": "Montenegro Basketball vs Spain Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T18:00:00Z",
+      "home": "Montenegro Basketball",
+      "away": "Spain Basketball",
+      "venue": "",
+      "country": "Montenegro",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519637",
+      "name": "Italy Basketball vs Turkey Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T19:00:00Z",
+      "home": "Italy Basketball",
+      "away": "Turkey Basketball",
+      "venue": "",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519426",
+      "name": "Lebanon Basketball vs Japan Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T19:00:00Z",
+      "home": "Lebanon Basketball",
+      "away": "Japan Basketball",
+      "venue": "",
+      "country": "Lebanon",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519428",
+      "name": "Portugal Basketball vs Ukraine Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T19:00:00Z",
+      "home": "Portugal Basketball",
+      "away": "Ukraine Basketball",
+      "venue": "",
+      "country": "Portugal",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519638",
+      "name": "Iceland Basketball vs Bosnia-Herzegovina Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T19:30:00Z",
+      "home": "Iceland Basketball",
+      "away": "Bosnia-Herzegovina Basketball",
+      "venue": "",
+      "country": "Iceland",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2594818",
@@ -3316,6 +3238,166 @@
       "source": "UEFA Conference League"
     },
     {
+      "id": "2519641",
+      "name": "Uruguay Basketball vs Canada Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-26T22:10:00Z",
+      "home": "Uruguay Basketball",
+      "away": "Canada Basketball",
+      "venue": "",
+      "country": "Uruguay",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519639",
+      "name": "Argentina Basketball vs Bahamas Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T00:40:00Z",
+      "home": "Argentina Basketball",
+      "away": "Bahamas Basketball",
+      "venue": "",
+      "country": "Argentina",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519640",
+      "name": "Panama Basketball vs Puerto Rico Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T01:40:00Z",
+      "home": "Panama Basketball",
+      "away": "Puerto Rico Basketball",
+      "venue": "",
+      "country": "Panama",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519431",
+      "name": "Jordan Basketball vs New Zealand Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T06:00:00Z",
+      "home": "Jordan Basketball",
+      "away": "New Zealand Basketball",
+      "venue": "",
+      "country": "Jordan",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519430",
+      "name": "Iran Basketball vs Australia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T09:00:00Z",
+      "home": "Iran Basketball",
+      "away": "Australia Basketball",
+      "venue": "",
+      "country": "Iran",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2616416",
       "name": "Don Bosco vs Manika",
       "sport": "Soccer",
@@ -3348,6 +3430,38 @@
       "drc_focus": true,
       "has_top_participant": true,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2519432",
+      "name": "Syria Basketball vs Philippines Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T12:00:00Z",
+      "home": "Syria Basketball",
+      "away": "Philippines Basketball",
+      "venue": "",
+      "country": "Syria",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2624988",
@@ -3414,6 +3528,102 @@
       "source": "DR Congo Ligue 1"
     },
     {
+      "id": "2519642",
+      "name": "Estonia Basketball vs France Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T17:00:00Z",
+      "home": "Estonia Basketball",
+      "away": "France Basketball",
+      "venue": "",
+      "country": "Estonia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519643",
+      "name": "Latvia Basketball vs Germany Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T17:30:00Z",
+      "home": "Latvia Basketball",
+      "away": "Germany Basketball",
+      "venue": "Xiaomi Arena",
+      "country": "Latvia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519647",
+      "name": "Sweden Basketball vs Hungary Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T18:00:00Z",
+      "home": "Sweden Basketball",
+      "away": "Hungary Basketball",
+      "venue": "",
+      "country": "Sweden",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2629835",
       "name": "Cannes vs Le Puy-en-Velay",
       "sport": "Soccer",
@@ -3444,6 +3654,70 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Coupe de France"
+    },
+    {
+      "id": "2519644",
+      "name": "Netherlands Basketball vs Israel Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T19:00:00Z",
+      "home": "Netherlands Basketball",
+      "away": "Israel Basketball",
+      "venue": "",
+      "country": "The Netherlands",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519646",
+      "name": "Slovenia Basketball vs Finland Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T19:00:00Z",
+      "home": "Slovenia Basketball",
+      "away": "Finland Basketball",
+      "venue": "",
+      "country": "Slovenia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2608127",
@@ -3572,6 +3846,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Bundesliga"
+    },
+    {
+      "id": "2519645",
+      "name": "Poland Basketball vs Croatia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T19:45:00Z",
+      "home": "Poland Basketball",
+      "away": "Croatia Basketball",
+      "venue": "",
+      "country": "Poland",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2489566",
@@ -3708,6 +4014,70 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "La Liga"
+    },
+    {
+      "id": "2526103",
+      "name": "Chile Basketball vs Mexico Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T22:40:00Z",
+      "home": "Chile Basketball",
+      "away": "Mexico Basketball",
+      "venue": "",
+      "country": "Chile",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2526102",
+      "name": "Brazil Basketball vs United States Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-27T23:10:00Z",
+      "home": "Brazil Basketball",
+      "away": "United States Basketball",
+      "venue": "",
+      "country": "Brazil",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2601935",
@@ -3876,6 +4246,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2526104",
+      "name": "Colombia Basketball vs Dominican Republic Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-28T01:10:00Z",
+      "home": "Colombia Basketball",
+      "away": "Dominican Republic Basketball",
+      "venue": "",
+      "country": "Colombia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2601940",
@@ -6295,6 +6697,38 @@
       "source": "NBA"
     },
     {
+      "id": "2519439",
+      "name": "Syria Basketball vs New Zealand Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T06:00:00Z",
+      "home": "Syria Basketball",
+      "away": "New Zealand Basketball",
+      "venue": "",
+      "country": "Syria",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2619165",
       "name": "U-Next Boxing 7",
       "sport": "Fighting",
@@ -6321,6 +6755,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Boxing"
+    },
+    {
+      "id": "2519440",
+      "name": "Iran Basketball vs Philippines Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T09:00:00Z",
+      "home": "Iran Basketball",
+      "away": "Philippines Basketball",
+      "venue": "",
+      "country": "Iran",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2482260",
@@ -6389,6 +6855,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "English Premier League"
+    },
+    {
+      "id": "2519441",
+      "name": "Jordan Basketball vs Australia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T12:00:00Z",
+      "home": "Jordan Basketball",
+      "away": "Australia Basketball",
+      "venue": "",
+      "country": "Jordan",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2618741",
@@ -6581,6 +7079,38 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Coupe de France"
+    },
+    {
+      "id": "2519434",
+      "name": "Qatar Basketball vs Japan Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T13:00:00Z",
+      "home": "Qatar Basketball",
+      "away": "Japan Basketball",
+      "venue": "",
+      "country": "Qatar",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2624754",
@@ -7082,15 +7612,15 @@
     },
     {
       "id": "2629832",
-      "name": "Nueillaubiers vs Nantes",
+      "name": "Nantes vs Nueillaubiers",
       "sport": "Soccer",
       "league": "Coupe de France",
       "league_id": "4484",
       "season": "2026-2027",
       "timestamp": "2026-11-29T15:00:00Z",
-      "home": "Nueillaubiers",
-      "away": "Nantes",
-      "venue": "",
+      "home": "Nantes",
+      "away": "Nueillaubiers",
+      "venue": "Stade de la Beaujoire - Louis Fonteneau",
       "country": "France",
       "status": "NS",
       "postponed": "no",
@@ -7147,6 +7677,38 @@
       "source": "La Liga"
     },
     {
+      "id": "2593299",
+      "name": "Georgia vs Portugal Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T15:30:00Z",
+      "home": "Georgia",
+      "away": "Portugal Basketball",
+      "venue": "",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2408221",
       "name": "Qatar Grand Prix",
       "sport": "Motorsport",
@@ -7177,6 +7739,70 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "Formula 1"
+    },
+    {
+      "id": "2519435",
+      "name": "Saudi Arabia Basketball vs South Korea Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T16:00:00Z",
+      "home": "Saudi Arabia Basketball",
+      "away": "South Korea Basketball",
+      "venue": "",
+      "country": "Saudi Arabia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519650",
+      "name": "Turkey Basketball vs Iceland Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T16:00:00Z",
+      "home": "Turkey Basketball",
+      "away": "Iceland Basketball",
+      "venue": "",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2624751",
@@ -7344,6 +7970,38 @@
       "source": "English Premier League"
     },
     {
+      "id": "2519436",
+      "name": "Ukraine Basketball vs Montenegro Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T16:30:00Z",
+      "home": "Ukraine Basketball",
+      "away": "Montenegro Basketball",
+      "venue": "",
+      "country": "Ukraine",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2508824",
       "name": "Hoffenheim vs Augsburg",
       "sport": "Soccer",
@@ -7410,6 +8068,70 @@
       "source": "Serie A"
     },
     {
+      "id": "2519648",
+      "name": "Bosnia-Herzegovina Basketball vs Lithuania Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T17:00:00Z",
+      "home": "Bosnia-Herzegovina Basketball",
+      "away": "Lithuania Basketball",
+      "venue": "Arena Zenica",
+      "country": "Bosnia and Herzegovina",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519438",
+      "name": "Spain Basketball vs Greece Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T17:00:00Z",
+      "home": "Spain Basketball",
+      "away": "Greece Basketball",
+      "venue": "",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2506301",
       "name": "Celta Vigo vs Villarreal",
       "sport": "Soccer",
@@ -7442,6 +8164,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "La Liga"
+    },
+    {
+      "id": "2519649",
+      "name": "Serbia Basketball vs Italy Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T18:00:00Z",
+      "home": "Serbia Basketball",
+      "away": "Italy Basketball",
+      "venue": "Belgrade Arena",
+      "country": "Serbia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2508423",
@@ -7478,6 +8232,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Bundesliga"
+    },
+    {
+      "id": "2519433",
+      "name": "Lebanon Basketball vs China Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T19:00:00Z",
+      "home": "Lebanon Basketball",
+      "away": "China Basketball",
+      "venue": "",
+      "country": "Lebanon",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2624752",
@@ -7754,6 +8540,38 @@
       "source": "NBA"
     },
     {
+      "id": "2519651",
+      "name": "Argentina Basketball vs Canada Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T21:10:00Z",
+      "home": "Argentina Basketball",
+      "away": "Canada Basketball",
+      "venue": "",
+      "country": "Argentina",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2601953",
       "name": "Utah Jazz vs Phoenix Suns",
       "sport": "Basketball",
@@ -7920,6 +8738,70 @@
       "source": "NBA"
     },
     {
+      "id": "2519652",
+      "name": "Panama Basketball vs Bahamas Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-29T23:10:00Z",
+      "home": "Panama Basketball",
+      "away": "Bahamas Basketball",
+      "venue": "",
+      "country": "Panama",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519653",
+      "name": "Puerto Rico Basketball vs Uruguay Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-30T00:10:00Z",
+      "home": "Uruguay Basketball",
+      "away": "Puerto Rico Basketball",
+      "venue": "",
+      "country": "Uruguay",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2601959",
       "name": "Golden State Warriors vs Los Angeles Clippers",
       "sport": "Basketball",
@@ -8022,6 +8904,102 @@
       "source": "DR Congo Ligue 1"
     },
     {
+      "id": "2519655",
+      "name": "Finland Basketball vs Estonia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-30T16:30:00Z",
+      "home": "Finland Basketball",
+      "away": "Estonia Basketball",
+      "venue": "",
+      "country": "Finland",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519658",
+      "name": "Hungary Basketball vs Slovenia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-30T17:00:00Z",
+      "home": "Hungary Basketball",
+      "away": "Slovenia Basketball",
+      "venue": "",
+      "country": "Hungary",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519659",
+      "name": "Israel Basketball vs Latvia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-30T17:30:00Z",
+      "home": "Israel Basketball",
+      "away": "Latvia Basketball",
+      "venue": "Shlomo Group Arena",
+      "country": "Israel",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Group",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2482266",
       "name": "Lecce vs Atalanta",
       "sport": "Soccer",
@@ -8054,6 +9032,102 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "Serie A"
+    },
+    {
+      "id": "2519657",
+      "name": "Germany Basketball vs Poland Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-30T18:30:00Z",
+      "home": "Germany Basketball",
+      "away": "Poland Basketball",
+      "venue": "",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519654",
+      "name": "Croatia Basketball vs Netherlands Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-30T19:00:00Z",
+      "home": "Croatia Basketball",
+      "away": "Netherlands Basketball",
+      "venue": "",
+      "country": "Croatia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519656",
+      "name": "France Basketball vs Sweden Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-30T19:30:00Z",
+      "home": "France Basketball",
+      "away": "Sweden Basketball",
+      "venue": "",
+      "country": "France",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2482259",
@@ -8120,6 +9194,70 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "La Liga"
+    },
+    {
+      "id": "2526106",
+      "name": "Chile Basketball vs Dominican Republic Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-30T22:40:00Z",
+      "home": "Chile Basketball",
+      "away": "Dominican Republic Basketball",
+      "venue": "",
+      "country": "Chile",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2526105",
+      "name": "Brazil Basketball vs Mexico Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-11-30T23:10:00Z",
+      "home": "Brazil Basketball",
+      "away": "Mexico Basketball",
+      "venue": "",
+      "country": "Brazil",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2601962",
@@ -8326,6 +9464,38 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2526107",
+      "name": "Colombia Basketball vs United States Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2026-12-01T01:10:00Z",
+      "home": "Colombia Basketball",
+      "away": "United States Basketball",
+      "venue": "",
+      "country": "Colombia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2601967",
@@ -65412,6 +66582,102 @@
       "source": "DR Congo Ligue 1"
     },
     {
+      "id": "2519442",
+      "name": "Australia Basketball vs Syria Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T11:00:00Z",
+      "home": "Australia Basketball",
+      "away": "Syria Basketball",
+      "venue": "",
+      "country": "Australia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519443",
+      "name": "New Zealand Basketball vs Iran Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T11:00:00Z",
+      "home": "New Zealand Basketball",
+      "away": "Iran Basketball",
+      "venue": "",
+      "country": "New Zealand",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519444",
+      "name": "Philippines Basketball vs Jordan Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T11:00:00Z",
+      "home": "Philippines Basketball",
+      "away": "Jordan Basketball",
+      "venue": "",
+      "country": "Philippines",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2616569",
       "name": "Simba Kolwezi vs Lubumbashi Sport",
       "sport": "Soccer",
@@ -65508,6 +66774,486 @@
       "drc_focus": true,
       "has_top_participant": false,
       "source": "DR Congo Ligue 1"
+    },
+    {
+      "id": "2517677",
+      "name": "Cameroon Basketball vs Nigeria Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T16:00:00Z",
+      "home": "Cameroon Basketball",
+      "away": "Nigeria Basketball",
+      "venue": "",
+      "country": "Cameroon",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517674",
+      "name": "Cape Verde Basketball vs Tunisia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T16:00:00Z",
+      "home": "Cape Verde Basketball",
+      "away": "Tunisia Basketball",
+      "venue": "",
+      "country": "Cape Verde",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517676",
+      "name": "D.R. Congo Basketball vs Angola Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T16:00:00Z",
+      "home": "D.R. Congo Basketball",
+      "away": "Angola Basketball",
+      "venue": "",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517675",
+      "name": "Ivory Coast Basketball vs Mali Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T16:00:00Z",
+      "home": "Ivory Coast Basketball",
+      "away": "Mali Basketball",
+      "venue": "",
+      "country": "Ivory Coast",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517672",
+      "name": "Senegal Basketball vs Egypt Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T16:00:00Z",
+      "home": "Senegal Basketball",
+      "away": "Egypt Basketball",
+      "venue": "",
+      "country": "Senegal",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517673",
+      "name": "South Sudan Basketball vs Guinea Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T16:00:00Z",
+      "home": "South Sudan Basketball",
+      "away": "Guinea Basketball",
+      "venue": "",
+      "country": "South Sudan",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519660",
+      "name": "Estonia Basketball vs Hungary Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T17:00:00Z",
+      "home": "Estonia Basketball",
+      "away": "Hungary Basketball",
+      "venue": "",
+      "country": "Estonia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519661",
+      "name": "Latvia Basketball vs Croatia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T17:00:00Z",
+      "home": "Latvia Basketball",
+      "away": "Croatia Basketball",
+      "venue": "Xiaomi Arena",
+      "country": "Latvia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519662",
+      "name": "Netherlands Basketball vs Germany Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T17:00:00Z",
+      "home": "Netherlands Basketball",
+      "away": "Germany Basketball",
+      "venue": "",
+      "country": "The Netherlands",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519663",
+      "name": "Poland Basketball vs Israel Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T17:00:00Z",
+      "home": "Poland Basketball",
+      "away": "Israel Basketball",
+      "venue": "",
+      "country": "Poland",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519664",
+      "name": "Slovenia Basketball vs France Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T17:00:00Z",
+      "home": "Slovenia Basketball",
+      "away": "France Basketball",
+      "venue": "",
+      "country": "Slovenia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519665",
+      "name": "Sweden Basketball vs Finland Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T17:00:00Z",
+      "home": "Sweden Basketball",
+      "away": "Finland Basketball",
+      "venue": "",
+      "country": "Sweden",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2594695",
+      "name": "Colombia Basketball vs Mexico Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T21:00:00Z",
+      "home": "Colombia Basketball",
+      "away": "Mexico Basketball",
+      "venue": "",
+      "country": "Colombia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2594696",
+      "name": "Dominican Republic Basketball vs Brazil Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T21:00:00Z",
+      "home": "Dominican Republic Basketball",
+      "away": "Brazil Basketball",
+      "venue": "",
+      "country": "Dominican Republic",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2594697",
+      "name": "United States Basketball vs Chile Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-25T21:00:00Z",
+      "home": "United States Basketball",
+      "away": "Chile Basketball",
+      "venue": "",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2602515",
@@ -65850,6 +67596,582 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2519445",
+      "name": "China Basketball vs Qatar Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T11:00:00Z",
+      "home": "China Basketball",
+      "away": "Qatar Basketball",
+      "venue": "",
+      "country": "China",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519446",
+      "name": "Japan Basketball vs Saudi Arabia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T11:00:00Z",
+      "home": "Japan Basketball",
+      "away": "Saudi Arabia Basketball",
+      "venue": "",
+      "country": "Japan",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519447",
+      "name": "South Korea Basketball vs Lebanon Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T11:00:00Z",
+      "home": "South Korea Basketball",
+      "away": "Lebanon Basketball",
+      "venue": "",
+      "country": "South Korea",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517678",
+      "name": "Angola Basketball vs Senegal Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T16:00:00Z",
+      "home": "Angola Basketball",
+      "away": "Senegal Basketball",
+      "venue": "",
+      "country": "Angola",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517679",
+      "name": "Egypt Basketball vs Ivory Coast Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T16:00:00Z",
+      "home": "Egypt Basketball",
+      "away": "Ivory Coast Basketball",
+      "venue": "",
+      "country": "Egypt",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517680",
+      "name": "Guinea Basketball vs Cape Verde Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T16:00:00Z",
+      "home": "Guinea Basketball",
+      "away": "Cape Verde Basketball",
+      "venue": "",
+      "country": "Guinea",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517681",
+      "name": "Mali Basketball vs D.R. Congo Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T16:00:00Z",
+      "home": "Mali Basketball",
+      "away": "D.R. Congo Basketball",
+      "venue": "",
+      "country": "Mali",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517682",
+      "name": "Nigeria Basketball vs South Sudan Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T16:00:00Z",
+      "home": "Nigeria Basketball",
+      "away": "South Sudan Basketball",
+      "venue": "",
+      "country": "Nigeria",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517683",
+      "name": "Tunisia Basketball vs Cameroon Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T16:00:00Z",
+      "home": "Tunisia Basketball",
+      "away": "Cameroon Basketball",
+      "venue": "",
+      "country": "Tunisia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519448",
+      "name": "Greece Basketball vs Ukraine Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T17:00:00Z",
+      "home": "Greece Basketball",
+      "away": "Ukraine Basketball",
+      "venue": "",
+      "country": "Greece",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2594698",
+      "name": "Iceland Basketball vs Serbia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T17:00:00Z",
+      "home": "Iceland Basketball",
+      "away": "Serbia Basketball",
+      "venue": "",
+      "country": "Iceland",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2594699",
+      "name": "Italy Basketball vs Bosnia-Herzegovina Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T17:00:00Z",
+      "home": "Italy Basketball",
+      "away": "Bosnia-Herzegovina Basketball",
+      "venue": "",
+      "country": "Italy",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2594700",
+      "name": "Lithuania Basketball vs Turkey Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T17:00:00Z",
+      "home": "Lithuania Basketball",
+      "away": "Turkey Basketball",
+      "venue": "",
+      "country": "Lithuania",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519449",
+      "name": "Montenegro Basketball vs Georgia",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T17:00:00Z",
+      "home": "Montenegro Basketball",
+      "away": "Georgia",
+      "venue": "",
+      "country": "Montenegro",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519450",
+      "name": "Portugal Basketball vs Spain Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T17:00:00Z",
+      "home": "Portugal Basketball",
+      "away": "Spain Basketball",
+      "venue": "",
+      "country": "Portugal",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2594701",
+      "name": "Bahamas Basketball vs Uruguay Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T21:00:00Z",
+      "home": "Bahamas Basketball",
+      "away": "Uruguay Basketball",
+      "venue": "",
+      "country": "Bahamas",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2594702",
+      "name": "Canada Basketball vs Panama Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T21:00:00Z",
+      "home": "Canada Basketball",
+      "away": "Panama Basketball",
+      "venue": "",
+      "country": "Canada",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2594703",
+      "name": "Puerto Rico Basketball vs Argentina Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-26T21:00:00Z",
+      "home": "Puerto Rico Basketball",
+      "away": "Argentina Basketball",
+      "venue": "",
+      "country": "Puerto Rico",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2602524",
@@ -67340,6 +69662,102 @@
       "source": "NBA"
     },
     {
+      "id": "2519451",
+      "name": "Australia Basketball vs Iran Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T11:00:00Z",
+      "home": "Australia Basketball",
+      "away": "Iran Basketball",
+      "venue": "",
+      "country": "Australia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519452",
+      "name": "New Zealand Basketball vs Jordan Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T11:00:00Z",
+      "home": "New Zealand Basketball",
+      "away": "Jordan Basketball",
+      "venue": "",
+      "country": "New Zealand",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519453",
+      "name": "Philippines Basketball vs Syria Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T11:00:00Z",
+      "home": "Philippines Basketball",
+      "away": "Syria Basketball",
+      "venue": "",
+      "country": "Philippines",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2616574",
       "name": "Lubumbashi Sport vs Manika",
       "sport": "Soccer",
@@ -67801,6 +70219,198 @@
       "source": "La Liga"
     },
     {
+      "id": "2517684",
+      "name": "Cameroon Basketball vs Guinea Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T16:00:00Z",
+      "home": "Cameroon Basketball",
+      "away": "Guinea Basketball",
+      "venue": "",
+      "country": "Cameroon",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517685",
+      "name": "Cape Verde Basketball vs Nigeria Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T16:00:00Z",
+      "home": "Cape Verde Basketball",
+      "away": "Nigeria Basketball",
+      "venue": "",
+      "country": "Cape Verde",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517686",
+      "name": "D.R. Congo Basketball vs Egypt Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T16:00:00Z",
+      "home": "D.R. Congo Basketball",
+      "away": "Egypt Basketball",
+      "venue": "",
+      "country": "DR Congo",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517687",
+      "name": "Ivory Coast Basketball vs Angola Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T16:00:00Z",
+      "home": "Ivory Coast Basketball",
+      "away": "Angola Basketball",
+      "venue": "",
+      "country": "Ivory Coast",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517688",
+      "name": "Senegal Basketball vs Mali Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T16:00:00Z",
+      "home": "Senegal Basketball",
+      "away": "Mali Basketball",
+      "venue": "",
+      "country": "Senegal",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2517689",
+      "name": "South Sudan Basketball vs Tunisia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T16:00:00Z",
+      "home": "South Sudan Basketball",
+      "away": "Tunisia Basketball",
+      "venue": "",
+      "country": "South Sudan",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2506427",
       "name": "Osasuna vs Sevilla",
       "sport": "Soccer",
@@ -67995,6 +70605,198 @@
       "drc_focus": false,
       "has_top_participant": false,
       "source": "La Liga"
+    },
+    {
+      "id": "2595220",
+      "name": "Croatia Basketball vs Poland Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T17:00:00Z",
+      "home": "Croatia Basketball",
+      "away": "Poland Basketball",
+      "venue": "",
+      "country": "Croatia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2595221",
+      "name": "Finland Basketball vs Slovenia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T17:00:00Z",
+      "home": "Finland Basketball",
+      "away": "Slovenia Basketball",
+      "venue": "",
+      "country": "Finland",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2595222",
+      "name": "France Basketball vs Estonia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T17:00:00Z",
+      "home": "France Basketball",
+      "away": "Estonia Basketball",
+      "venue": "",
+      "country": "France",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2595223",
+      "name": "Germany Basketball vs Latvia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T17:00:00Z",
+      "home": "Germany Basketball",
+      "away": "Latvia Basketball",
+      "venue": "",
+      "country": "Germany",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2595224",
+      "name": "Hungary Basketball vs Sweden Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T17:00:00Z",
+      "home": "Hungary Basketball",
+      "away": "Sweden Basketball",
+      "venue": "",
+      "country": "Hungary",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2595225",
+      "name": "Israel Basketball vs Netherlands Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T17:00:00Z",
+      "home": "Israel Basketball",
+      "away": "Netherlands Basketball",
+      "venue": "Shlomo Group Arena",
+      "country": "Israel",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Group",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2482393",
@@ -68443,6 +71245,102 @@
       "source": "NBA"
     },
     {
+      "id": "2595226",
+      "name": "Dominican Republic Basketball vs Colombia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T21:00:00Z",
+      "home": "Dominican Republic Basketball",
+      "away": "Colombia Basketball",
+      "venue": "",
+      "country": "Dominican Republic",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2595227",
+      "name": "Mexico Basketball vs Chile Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T21:00:00Z",
+      "home": "Mexico Basketball",
+      "away": "Chile Basketball",
+      "venue": "",
+      "country": "Mexico",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2595228",
+      "name": "United States Basketball vs Brazil Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-02-28T21:00:00Z",
+      "home": "United States Basketball",
+      "away": "Brazil Basketball",
+      "venue": "",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
       "id": "2602538",
       "name": "Indiana Pacers vs Toronto Raptors",
       "sport": "Basketball",
@@ -68679,6 +71577,390 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2519454",
+      "name": "China Basketball vs Saudi Arabia Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T11:00:00Z",
+      "home": "China Basketball",
+      "away": "Saudi Arabia Basketball",
+      "venue": "",
+      "country": "China",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519455",
+      "name": "Japan Basketball vs Lebanon Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T11:00:00Z",
+      "home": "Japan Basketball",
+      "away": "Lebanon Basketball",
+      "venue": "",
+      "country": "Japan",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519456",
+      "name": "South Korea Basketball vs Qatar Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T11:00:00Z",
+      "home": "South Korea Basketball",
+      "away": "Qatar Basketball",
+      "venue": "",
+      "country": "South Korea",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2597724",
+      "name": "Bosnia-Herzegovina Basketball vs Iceland Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T17:00:00Z",
+      "home": "Bosnia-Herzegovina Basketball",
+      "away": "Iceland Basketball",
+      "venue": "Arena Zenica",
+      "country": "Bosnia and Herzegovina",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2593300",
+      "name": "Georgia vs Greece Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T17:00:00Z",
+      "home": "Georgia Basketball",
+      "away": "Greece Basketball",
+      "venue": "",
+      "country": "Georgia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2597725",
+      "name": "Serbia Basketball vs Lithuania Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T17:00:00Z",
+      "home": "Serbia Basketball",
+      "away": "Lithuania Basketball",
+      "venue": "Belgrade Arena",
+      "country": "Serbia",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519458",
+      "name": "Spain Basketball vs Montenegro Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T17:00:00Z",
+      "home": "Spain Basketball",
+      "away": "Montenegro Basketball",
+      "venue": "",
+      "country": "Spain",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2597726",
+      "name": "Turkey Basketball vs Italy Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T17:00:00Z",
+      "home": "Turkey Basketball",
+      "away": "Italy Basketball",
+      "venue": "",
+      "country": "Turkey",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2519459",
+      "name": "Ukraine Basketball vs Portugal Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T17:00:00Z",
+      "home": "Ukraine Basketball",
+      "away": "Portugal Basketball",
+      "venue": "",
+      "country": "Ukraine",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2597727",
+      "name": "Bahamas Basketball vs Argentina Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T21:00:00Z",
+      "home": "Bahamas Basketball",
+      "away": "Argentina Basketball",
+      "venue": "",
+      "country": "Bahamas",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2597728",
+      "name": "Canada Basketball vs Uruguay Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T21:00:00Z",
+      "home": "Canada Basketball",
+      "away": "Uruguay Basketball",
+      "venue": "",
+      "country": "Canada",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
+    },
+    {
+      "id": "2597729",
+      "name": "Puerto Rico Basketball vs Panama Basketball",
+      "sport": "Basketball",
+      "league": "FIBA Basketball World Cup",
+      "league_id": "4549",
+      "season": "2027",
+      "timestamp": "2027-03-01T21:00:00Z",
+      "home": "Puerto Rico Basketball",
+      "away": "Panama Basketball",
+      "venue": "",
+      "country": "Puerto Rico",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "National",
+      "competition_group": "National teams",
+      "region": "Global",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 13,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "FIBA Basketball World Cup"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "FIBA Basketball World Cup"
     },
     {
       "id": "2602545",
@@ -82114,6 +85396,142 @@
       "drc_focus": false,
       "has_top_participant": true,
       "source": "NBA"
+    },
+    {
+      "id": "2602709",
+      "name": "Miami Heat vs Los Angeles Lakers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-24T00:00:00Z",
+      "home": "Miami Heat",
+      "away": "Los Angeles Lakers",
+      "venue": "Kaseya Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 27,
+      "importance_level": "interesting",
+      "importance_reasons": [
+        "NBA",
+        "Miami Heat · Basketball B",
+        "Los Angeles Lakers · Basketball A+"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B",
+        "Basketball A+"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
+    },
+    {
+      "id": "2602710",
+      "name": "Utah Jazz vs Philadelphia 76ers",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-24T01:00:00Z",
+      "home": "Utah Jazz",
+      "away": "Philadelphia 76ers",
+      "venue": "Delta Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602711",
+      "name": "Portland Trail Blazers vs Toronto Raptors",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-24T02:00:00Z",
+      "home": "Portland Trail Blazers",
+      "away": "Toronto Raptors",
+      "venue": "Moda Center",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 6,
+      "importance_level": "normal",
+      "importance_reasons": [
+        "NBA"
+      ],
+      "priority_tags": [
+        "Competition"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": false,
+      "source": "NBA"
+    },
+    {
+      "id": "2602712",
+      "name": "Phoenix Suns vs Oklahoma City Thunder",
+      "sport": "Basketball",
+      "league": "NBA",
+      "league_id": "4387",
+      "season": "2026-2027",
+      "timestamp": "2027-03-24T03:00:00Z",
+      "home": "Phoenix Suns",
+      "away": "Oklahoma City Thunder",
+      "venue": "PHX Arena",
+      "country": "United States",
+      "status": "NS",
+      "postponed": "no",
+      "participant_type": "Club",
+      "competition_group": "League",
+      "region": "North America",
+      "tier": 1,
+      "stage": "Regular",
+      "importance": 23,
+      "importance_level": "watch",
+      "importance_reasons": [
+        "NBA",
+        "Phoenix Suns · Basketball B",
+        "Oklahoma City Thunder · Basketball A"
+      ],
+      "priority_tags": [
+        "Competition",
+        "Basketball B",
+        "Basketball A"
+      ],
+      "hot_triggers": [],
+      "drc_focus": false,
+      "has_top_participant": true,
+      "source": "NBA"
     }
   ],
   "source_stats": [
@@ -82128,7 +85546,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 191,
+      "upcoming": 190,
       "status": "OK",
       "error": ""
     },
@@ -82143,7 +85561,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 161,
+      "upcoming": 160,
       "status": "OK",
       "error": ""
     },
@@ -82158,7 +85576,7 @@
         "2026-2027"
       ],
       "received": 380,
-      "upcoming": 171,
+      "upcoming": 170,
       "status": "OK",
       "error": ""
     },
@@ -82369,7 +85787,7 @@
         "2026-2027"
       ],
       "received": 385,
-      "upcoming": 273,
+      "upcoming": 275,
       "status": "OK",
       "error": ""
     },
@@ -82557,12 +85975,13 @@
       "resolved_id": "4873",
       "resolved_name": "CONCACAF Gold Cup",
       "seasons_tried": [
-        "2025"
+        "2025",
+        "2023"
       ],
-      "received": 31,
+      "received": 71,
       "upcoming": 0,
-      "status": "ERROR",
-      "error": "HTTP Error 503: Service Unavailable"
+      "status": "NO UPCOMING",
+      "error": ""
     },
     {
       "name": "AFC Asian Cup",
@@ -82572,12 +85991,13 @@
       "resolved_id": "4866",
       "resolved_name": "AFC Asian Cup",
       "seasons_tried": [
-        "2024"
+        "2024",
+        "2023"
       ],
-      "received": 78,
+      "received": 129,
       "upcoming": 0,
-      "status": "ERROR",
-      "error": "HTTP Error 503: Service Unavailable"
+      "status": "NO UPCOMING",
+      "error": ""
     },
     {
       "name": "UEFA European Championship",
@@ -82602,11 +86022,13 @@
       "region": "Europe",
       "resolved_id": "5519",
       "resolved_name": "UEFA European Championships Qualifying",
-      "seasons_tried": [],
+      "seasons_tried": [
+        "next"
+      ],
       "received": 0,
       "upcoming": 0,
-      "status": "ERROR",
-      "error": "HTTP Error 503: Service Unavailable"
+      "status": "NO UPCOMING",
+      "error": ""
     },
     {
       "name": "NBA",
@@ -82619,7 +86041,7 @@
         "2026-2027"
       ],
       "received": 1266,
-      "upcoming": 796,
+      "upcoming": 790,
       "status": "OK",
       "error": ""
     },
@@ -82646,12 +86068,13 @@
       "resolved_id": "5269",
       "resolved_name": "Basketball Africa League",
       "seasons_tried": [
-        "2026"
+        "2026",
+        "2025"
       ],
-      "received": 47,
+      "received": 95,
       "upcoming": 0,
-      "status": "ERROR",
-      "error": "HTTP Error 503: Service Unavailable"
+      "status": "NO UPCOMING",
+      "error": ""
     },
     {
       "name": "FIBA Basketball World Cup",
@@ -82660,11 +86083,13 @@
       "region": "Global",
       "resolved_id": "4549",
       "resolved_name": "FIBA Basketball World Cup",
-      "seasons_tried": [],
-      "received": 0,
-      "upcoming": 0,
-      "status": "ERROR",
-      "error": "HTTP Error 503: Service Unavailable"
+      "seasons_tried": [
+        "2027"
+      ],
+      "received": 421,
+      "upcoming": 114,
+      "status": "OK",
+      "error": ""
     },
     {
       "name": "FIBA AfroBasket",
@@ -82673,11 +86098,14 @@
       "region": "Africa",
       "resolved_id": "4897",
       "resolved_name": "FIBA AfroBasket",
-      "seasons_tried": [],
-      "received": 0,
+      "seasons_tried": [
+        "2025",
+        "2024"
+      ],
+      "received": 96,
       "upcoming": 0,
-      "status": "ERROR",
-      "error": "HTTP Error 503: Service Unavailable"
+      "status": "NO UPCOMING",
+      "error": ""
     },
     {
       "name": "UFC",
@@ -82735,7 +86163,7 @@
         "2026",
         "2025"
       ],
-      "received": 5413,
+      "received": 5428,
       "upcoming": 0,
       "status": "NO UPCOMING",
       "error": ""
@@ -82782,7 +86210,7 @@
         "full current"
       ],
       "received": 28,
-      "upcoming": 18,
+      "upcoming": 19,
       "status": "OK",
       "error": ""
     },
@@ -82802,30 +86230,5 @@
       "error": ""
     }
   ],
-  "errors": [
-    {
-      "source": "CONCACAF Gold Cup",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "AFC Asian Cup",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "UEFA Euro Qualifying",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "Basketball Africa League",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "FIBA Basketball World Cup",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "FIBA AfroBasket",
-      "error": "HTTP Error 503: Service Unavailable"
-    }
-  ]
+  "errors": []
 }
